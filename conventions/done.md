@@ -18,4 +18,6 @@ Treat warnings as errors. Correct relevant warnings rather than broadly suppress
 
 Work is complete only when the reachable behaviour is implemented through the appropriate architectural boundaries; applicable security, auditing, data and mapping conventions have been followed; no stub or knowingly incomplete implementation has been presented as complete; and all required validation has passed.
 
+For a capability or cross-cutting change, completion evidence MUST show the intended contract, stewarding boundary, participating objects and services, relevant startup or registry participation, access and security decisions, mapping and persistence policy, tests, and any deliberate deferrals. A general statement that the team "already does this" is not evidence for the current capability.
+
 If required validation fails or cannot be performed, report the work as incomplete or blocked, explain why and recommend corrective action.

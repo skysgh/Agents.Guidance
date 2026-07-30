@@ -77,7 +77,7 @@ An example of a system that has a service backend consumed by a front end spa, m
 
 ## Repository Documentation
 
-See `./documentation.md` for expectations and guidelines. 
+See the [documentation conventions](./documentation.md) for expectations and guidelines.
 
 
 ## Maintenance

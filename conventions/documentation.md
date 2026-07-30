@@ -36,8 +36,41 @@ However, there is a general overall sequence to consider.
 `Discovery` leads to `Discussions` (Options Analysis) which lead to `Decisions` (ADRs) which leads to `Definitions` (FRs and QRs_ which lead to `Design` (SDD and TDD), which leads to `Development` then `Deployment` at which point `Support`, `Operations`, and `Maintenance` must be in place.
 
 
+## Registers
+
+See also [Registries](./registries.md) - a special live document set of documentation.
+
+
 ## Ongoing Maintenance
 
 While ARDs and other identifiers are suppossed to stay stable, new decisions can replace older decisions. 
 
-Periodically scan and keep references amongst ADRs, Delivery Plans, and Implementation papers.  
+Periodically scan and keep references amongst ADRs, Delivery Plans, and Implementation papers.
+
+## Navigable File References
+
+When referring to another local Markdown file, source file, configuration file, image, or other repository file, use a full Markdown link with a useful label and a relative navigable target:
+
+```markdown
+[Development Principles](./principles.md)
+```
+
+Do not leave a file path as plain text when a relative link can be provided. Do not put a file reference only inside code backticks, such as `` `./principles.md` ``. Code formatting is appropriate for commands, symbols, keys and literal values, but it is not a substitute for a navigable document link.
+
+The link target must be relative to the document containing it, use the repository's actual path and preserve the correct filename casing. Link labels should describe the destination rather than repeat an opaque filename where a clearer human label is available.
+
+External references should also use labelled Markdown links when they are intended for readers to follow. Keep raw URLs only where a machine-readable value or protocol syntax genuinely requires one.
+
+## Link Maintenance
+
+Documentation maintenance MUST include a link review when files are moved, renamed, retired or added, and periodically during documentation work:
+
+- find local links whose targets no longer exist and update them when the destination is known;
+- find file references written only inside code backticks and convert them to labelled relative links;
+- check links in the changed document and its immediate neighbouring index or loader documents;
+- preserve anchors and update them when headings change; and
+- avoid replacing a broken link with a plausible but unverified path.
+
+When a broken link cannot be resolved immediately, record it in the adopting repository's documentation governance register rather than silently deleting it. The register should include the source file, displayed reference, attempted target, reason it remains unresolved, owner or responsible area, date identified and the next action. A repository may use a dedicated `LINK-REGISTER.md` under its governance or maintenance documentation area, or an existing broken-link register if one already exists.
+
+Link maintenance is complete only when the changed documentation has no newly introduced broken local links, or every unresolved link is recorded in that register.

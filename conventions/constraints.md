@@ -15,6 +15,7 @@ These are the portable consequences of the development principles. They are stro
 ## Resource discipline
 
 - Do not add a cache, queue, broker, replica, background worker or separate service without a stated operational need, measured benefit or required failure boundary.
+- Caching MUST remain optional at the capability level. A cacheable object MAY use in-memory or shared caching according to its consistency, scale, availability and cost requirements; downstream consumers MUST NOT choose or depend on the cache provider.
 - Design for horizontal scaling where credible demand requires it, but keep the smallest adequate deployment as the default.
 - Treat every additional always-on dependency as an operational cost that requires monitoring, security maintenance, upgrades, capacity planning and failure handling.
 - Measure before and after introducing caching or distributed infrastructure.
@@ -41,6 +42,8 @@ These are the portable consequences of the development principles. They are stro
 ## Discovery and startup
 
 - Reflection-based discovery MUST have a defined scope, deterministic ordering, ambiguity handling and startup visibility.
+- Reflection MUST NOT be used to compensate for missing contracts, unclear ownership or unorganised startup responsibilities. Contracts organise the system; reflection only discovers contract-bearing participants.
+- Before coding a substantial capability, the team MUST identify the applicable known boundaries, stewardship responsibilities, contracts, lifecycle, security and operational obligations. This does not require a named stakeholder to be available; the technical boundary and safe default must be defined. Novel domain concepts and presentation needs MAY remain exploratory.
 - Generated schema, registrations, seed data and projections MUST be deterministic between design-time and runtime when they use discovery.
 - Explicit registration is permitted when discovery cannot be made safe, deterministic or observable.
 - Startup participants MUST be assembled and validated before the lifecycle phase that consumes them.

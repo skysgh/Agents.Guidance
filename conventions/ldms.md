@@ -26,8 +26,9 @@ App.Modules.{key}.Domain						# non-tech entitities and repository contracts
 ## Project Traits
 
 Shared:
-- defines LDM specific constants (eg the unique key of the LDM) 
-  used to develop Controller routes, storage locations, etc.
+- defines LDM-specific constants, including the unique key of the LDM, used to compose controller routes, permission names, storage locations and diagnostic categories;
+- consumes lower-level platform constants but does not redefine them;
+- provides the LDM vocabulary to Domain, Infrastructure, Application and AppInterface projects;
 - define LDM specific contracts
 Domain:
 - references Shared for access to LDM specific constants and contracts.
@@ -49,6 +50,21 @@ Application:
 - develops the Conceptual Models that the Logical models are mapped to for use by Controllers
 AppInterface:
 - references Shared for access to LDM specific constants and contracts.
+
+## Constant dependency direction
+
+Constants should form a dependency tree, not a collection of unrelated string bags:
+
+```text
+platform constants
+  -> LDM constants
+      -> domain or capability constants
+          -> composed route, permission, storage and diagnostic values
+```
+
+Platform constants define genuinely shared building blocks. Each LDM's Shared project defines its own key and vocabulary. A domain or capability adds only values within its boundary. Controllers, policies, storage configuration and tests consume the composed constants rather than repeating literals.
+
+This direction makes the LDM boundary visible and prevents higher layers from creating a second spelling for an existing value. Constants remain for immutable shared meaning. Runtime configuration, settings, secrets, persisted reference data and environment-specific locations belong in their appropriate typed contracts or data models.
 
 
 ## Code Organisation Conventions

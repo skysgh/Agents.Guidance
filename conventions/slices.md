@@ -16,6 +16,8 @@ A slice normally includes:
 
 ## Queryable slices
 
+Apply the full [IQueryable and governed queryability](./iqueryable.md) guidance to every .NET server-side read surface.
+
 A read path should remain queryable from its public contract to the persistence policy where the platform supports it. Repositories expose the governed `IQueryable` source to application services, which compose the use-case query before the controller returns the boundary result. Each layer may restrict what can be queried, selected, expanded, ordered or paged. No layer may bypass the repository policy or expose unrestricted `DbContext` access merely to preserve queryability.
 
 A write or transition path may share the same resource model as a read path, but it must make its command, validation, authorisation, transaction and state-transition rules explicit. Not every operation is CRUD. Create, read, update, submit, recommend, escalate, approve and reject are different behaviours even when they touch one record.
@@ -26,12 +28,12 @@ The question is not whether one feature can be called a slice. The question is w
 
 - one primary capability or resource purpose;
 - a contract that an actor, another module or a scheduled process can invoke;
-- rules that belong to one owner rather than to a coordinating journey;
+- rules that belong to one stewarding boundary rather than to a coordinating journey;
 - state, records or an external effect that the capability owns;
 - a distinct authorisation, audit or data-protection decision; and
 - a coherent test boundary from contract to owned effect.
 
-It is probably a flow pattern when it mainly coordinates already-owned capabilities, passes information between them, decides what happens next, or spans several owners. A flow may call slices; a slice should not own a flow's entire journey merely because it is the first step.
+It is probably a flow pattern when it mainly coordinates already-stewarded capabilities, passes information between them, decides what happens next, or spans several boundaries. A flow may call slices; a slice should not steward a flow's entire journey merely because it is the first step.
 
 ### Recurrence before abstraction
 
@@ -103,7 +105,7 @@ Implementation: define the decision authority, evidence snapshot, separation of 
 
 Use this sequence for a new slice:
 
-1. Write the slice record: purpose, owner, out-of-scope concerns, actors, data classification and external effects.
+1. Write the slice record: purpose, stewarding boundary, out-of-scope concerns, actors, data classification and external effects.
 2. Define the boundary contract and error model before choosing tables, endpoints or UI components.
 3. Define the resource and state model. Name valid transitions and reject invalid transitions explicitly.
 4. Define the governed read surface: filters, projection, expansion, ordering, paging, visibility and maximum cost.

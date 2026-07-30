@@ -4,6 +4,11 @@ This repository contains guidance intended to travel between products and teams.
 
 ## Start here
 
+- Human introduction: [HUMAN-START-HERE.md](./HUMAN-START-HERE.md)
+- Current state and recurring problems: [HUMAN-CURRENT-STATE.md](./HUMAN-CURRENT-STATE.md)
+- Stakeholder outcomes: [HUMAN-WHAT-GUIDANCE-GIVES.md](./HUMAN-WHAT-GUIDANCE-GIVES.md)
+- YAGNI and WGF: [HUMAN-YAGNI-VERSUS-WGF.md](./HUMAN-YAGNI-VERSUS-WGF.md)
+- Example gallery: [examples/README.md](./examples/README.md)
 - Agents: [AGENTS.md](./AGENTS.md)
 - Human work instructions: [conventions/.md](./conventions/.md)
 - Principles and rationale: [conventions/principles.md](./conventions/principles.md)
@@ -16,6 +21,7 @@ This repository contains guidance intended to travel between products and teams.
 - Python conventions: [conventions/code-python.md](./conventions/code-python.md)
 - Operations: [conventions/operations.md](./conventions/operations.md)
 - Startup and discovery: [conventions/startup.md](./conventions/startup.md)
+- IQueryable and governed queryability: [conventions/iqueryable.md](./conventions/iqueryable.md)
 - Data protection: [conventions/data-protection.md](./conventions/data-protection.md)
 - API lifecycle: [conventions/api-lifecycle.md](./conventions/api-lifecycle.md)
 - Performance: [conventions/performance.md](./conventions/performance.md)

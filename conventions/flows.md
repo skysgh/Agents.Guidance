@@ -6,7 +6,7 @@ A horizontal flow is an outcome-oriented path that coordinates multiple vertical
 
 ## How to recognise a flow pattern
 
-A candidate is a flow pattern when that coordination shape recurs: it coordinates two or more independently meaningful capabilities, or its outcome depends on ordering, decisions, hand-offs, compensation, waiting or multiple actors. The flow owns orchestration policy and outcome criteria. The participating slices retain their own validation, state transitions, permissions and data ownership.
+A candidate is a flow pattern when that coordination shape recurs: it coordinates two or more independently meaningful capabilities, or its outcome depends on ordering, decisions, hand-offs, compensation, waiting or multiple actors. The flow stewards orchestration policy and outcome criteria. The participating slices retain their own validation, state transitions, permissions and data stewardship.
 
 Do not create a flow for a single resource CRUD operation. Do not make a slice responsible for a journey merely because it starts or ends there.
 
@@ -109,7 +109,7 @@ Implementation: define authority to contain, evidence preservation, safe-mode be
 Use this sequence for a new flow:
 
 1. State the outcome, trigger, completion condition and non-goals.
-2. Draw the participating slices and name the owner of every decision, record and external effect.
+2. Draw the participating slices and name the stewarding boundary for every decision, record and external effect. Do not block the design on identifying a particular person.
 3. Define the flow state: current step, correlation identity, retry count, deadlines, cancellation and compensation state.
 4. Define commands and events between slices. Pass stable identifiers and versioned facts rather than shared mutable objects.
 5. Define transaction boundaries. Use one transaction only where ownership and infrastructure make it valid; otherwise use durable orchestration, idempotency and reconciliation.

@@ -131,11 +131,17 @@ Enumerations belong to compiled code and do not provide the identity, lifecycle,
 
 Use stable reference-data identifiers for values that are persisted, administered, shared between systems or expected to change independently of a deployment.
 
+An enum may still be useful as developer shorthand for a finite set of platform-defined defaults. A deterministic, tested mapping may turn those built-in members into stable reference-data identifiers during idempotent startup seeding. The enum is then a declaration of the built-in seed set, not the persisted vocabulary. The database MUST store reference-data identity and records, not the enum's underlying integer or language-specific member name. **No enums in databases.**
+
 ### Constants
 
 Never use magic strings or unexplained magic values.
 
 Replace repeated values or values with shared semantic meaning with clearly named constants, configuration or reference data, as appropriate.
+
+Organise shared constants by dependency direction: platform constants form the base, each LDM's Shared project adds its LDM vocabulary, and domain or capability constants add only values within that boundary. Higher layers compose the lower-level values rather than introducing another spelling. This is a cohesive constant tree, not a collection of unrelated bags of strings.
+
+Use constants for immutable shared meaning such as route segments, permission names, LDM keys and stable infrastructure categories. Use typed configuration, settings, secrets, reference data or environment-specific contracts for values that can change at runtime, be administered, vary by deployment or require their own lifecycle.
 
 Do not create a constant for a value used once where its meaning is already explicit from its immediate context.
 
