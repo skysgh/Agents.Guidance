@@ -1,0 +1,110 @@
+## Work Instructions
+
+Before changing this repository, identify which conventions apply and read them before planning, then implement them as you work.
+
+## Convention groups
+
+- [Foundations](./foundations/readme.md): principles, constraints, startup, data protection and queryability.
+- [Capabilities](./capabilities/readme.md): slices, flows and API lifecycle.
+- [Development](./development/readme.md): code, projects, testing, operations, dependencies and implementation discipline.
+- [Documentation and workflow](./documentation/readme.md): documentation, agent workflow and bindings.
+
+## Mandatory Conventions
+
+For any work, read first and adhere to:
+
+- [Development Principles](./foundations/principles.md)
+- [Development Constraints](./foundations/constraints.md)
+
+For onboarding, cross-cutting architectural decisions, module boundaries, model boundaries, slice design or flow design, read and follow:
+
+- [Developers Need to Know](./development/developers-need-to-know.md)
+
+For any repository creation, restructuring or Git-related work, read and follow:
+
+- [Repositories](./development/repositories.md)
+
+For the development or management of a Logical Deployment Module (LDM) within a repository, read and follow:
+
+- [Logical Deployment Modules or Units (LDMs)](./development/ldms.md)
+
+For any .NET project creation or maintenance, read and follow:
+
+- [.NET Projects](./development/projects.md)
+
+For any design work, read and incorporate:
+
+- [Design Standards](./development/design-standards.md)
+- [Design - Security](./development/design-security.md)
+
+For any code creation, modification, refactoring or review, read and follow:
+
+- [Code](./development/code.md)
+
+For any task that creates or changes an end-to-end capability, read and follow:
+
+- [Vertical slices](./capabilities/slices.md)
+
+For any task that coordinates multiple capabilities or stateful steps, read and follow:
+
+- [Horizontal flows](./capabilities/flows.md)
+
+For any documentation:
+
+- [Documentation](./documentation/documentation.md)
+
+For any delivery registries:
+
+- [Registries](./development/registries.md)
+
+
+For any test creation, modification, movement or review, read and follow:
+
+- [Testing](./development/testing.md)
+
+For any agent planning, editing, review or validation workflow, read and follow:
+
+- [Agent workflow](./documentation/agent-workflow.md)
+
+For any deployable service, worker, scheduled job or external-system integration, read and follow:
+
+- [Operations](./development/operations.md)
+
+For any startup, bootstrap, module discovery, configuration binding, service registration, registry, schema/model discovery, middleware setup, runtime seeding or lifecycle-initialisation work, read and follow:
+
+- [Startup and discovery](./foundations/startup.md)
+
+For any .NET server-side query contract, repository query, projection, filtering, paging, sorting or expansion work, read and follow:
+
+- [IQueryable and governed queryability](./foundations/iqueryable.md)
+
+For any work that collects, stores, transmits, displays, logs or deletes personal, confidential or security-sensitive data, read and follow:
+
+- [Data protection](./foundations/data-protection.md)
+
+For any published HTTP, event, RPC or other consumer-facing contract, read and follow:
+
+- [API lifecycle](./capabilities/api-lifecycle.md)
+
+For any production performance, capacity, scaling or resource-efficiency work, read and follow:
+
+- [Performance](./development/performance.md)
+
+For any dependency, package, build action, runtime or tool addition or update, read and follow:
+
+- [Dependencies](./development/dependencies.md)
+
+For any user-interface or client feature, read and follow:
+
+- [Accessibility](./development/accessibility.md)
+- [Frontend security](./development/frontend-security.md)
+
+
+Apply all relevant conventions together. A task involving production code and its tests requires both the code and testing conventions. Use the applicability rules above instead of loading unrelated documents.
+
+Treat these conventions as repository MUST requirements, not SHOULD suggestions.
+
+The definition of how to correctly do work is as per:
+
+- [Done](./development/done.md)
+

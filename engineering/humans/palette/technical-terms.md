@@ -57,5 +57,5 @@ The precise names are implementation bindings. The durable idea is the separatio
 
 - [The Palette: First Look](./first-look.md)
 - [Palette Relationships](./relationships.md)
-- [Common Flows](../flows.md)
-- [Portable horizontal flow rules](../../agents/conventions/flows.md)
+- [Common Flows](../orientation/flows.md)
+- [Portable horizontal flow rules](../../agents/conventions/capabilities/flows.md)

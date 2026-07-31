@@ -77,5 +77,5 @@ No single role sees the whole relationship map alone:
 ## Continue when ready
 
 - [Palette Technical Terms](./technical-terms.md)
-- [Common Flows](../flows.md)
+- [Common Flows](../orientation/flows.md)
 - [Request, assessment, approval and payment example](../examples/11-request-offer-approval/after.md)

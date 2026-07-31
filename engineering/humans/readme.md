@@ -4,24 +4,22 @@ Welcome. This is the human-facing entrance to the engineering guidance.
 
 The purpose is to explain the ideas before asking anyone to use technical vocabulary. You do not need to know the implementation terms to understand the design. The terms are introduced when they add useful precision.
 
-## Start here
+## A gentle route through the guidance
 
-- [Why this guidance exists](./orientation/current-state.md)
-- [What the guidance gives each role](./orientation/what-this-guidance-gives.md)
-- [Design Before Build and What Goes First](./orientation/design-before-build-and-wgf.md)
-- [Configuration and Settings](./configuration-and-settings.md)
-- [Common Flows](./flows.md)
-- [The Palette: First Look](./palette/first-look.md)
-- [Palette Elements](./palette/elements.md)
-- [Palette Relationships](./palette/relationships.md)
-- [Palette Technical Terms](./palette/technical-terms.md)
-- [Responsible Boundaries and Deferred Design](./responsible-boundaries-and-deferred-design.md)
-- [API Lifecycle](./api-lifecycle.md)
-- [Example gallery](./examples/readme.md)
-- [Human writing style](./writing-style.md)
-- [Guidance Glossary](./glossary.md)
-- [Rewrite plan](./rewrite-plan.md)
-- [Rewrite register](./rewrite-register.md)
+You do not need to read everything. The route below is a guided walk through the building.
+
+Begin with [Start Here](./orientation/start-here.md). It explains the problem and why design needs to come before scattered implementation. Then visit [the example gallery](./examples/readme.md) and choose an operation or experience that feels familiar.
+
+When the problem feels recognisable, [The Palette: First Look](./palette/first-look.md) shows how to see the parts inside a screen or journey. Later, [Common Flows](./orientation/flows.md) shows recurring routes such as BREAD/ST, BREAST, Request, assessment and approval.
+
+Only when the picture is comfortable do you need [Palette Elements](./palette/elements.md), [Palette Relationships](./palette/relationships.md) or [Palette Technical Terms](./palette/technical-terms.md). These add precision for readers who want to build or review the structure.
+
+## Reference and maintenance
+
+- [Human Orientation](./orientation/readme.md) collects the introductory papers.
+- [Human Reference](./reference/readme.md) contains the glossary and writing style.
+- [Human Guidance Maintenance](./maintenance/readme.md) contains the rewrite plan and register.
+- [Palette](./palette/readme.md) contains the progressive palette route.
 
 ## The high-rise picture
 

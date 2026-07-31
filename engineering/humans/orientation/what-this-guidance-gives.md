@@ -164,5 +164,5 @@ The guidance is intended to be recognised in working situations, not admired as 
 
 - [Human Start Here](./start-here.md)
 - [The Current State](./current-state.md)
-- [Developers Need to Know](../../agents/conventions/developers-need-to-know.md)
-- [Development Principles](../../agents/conventions/principles.md)
+- [Developers Need to Know](../../agents/conventions/development/developers-need-to-know.md)
+- [Development Principles](../../agents/conventions/foundations/principles.md)

@@ -8,7 +8,7 @@ Seeing those parts helps the team ask better questions before code spreads assum
 
 You do not need to remember the technical names. First understand the jobs the parts perform.
 
-The words used in a screen may mean different things in different problem areas. This is called polysemy. First identify the Domain, then the Capability it enables, then the Functions within that capability. The [Guidance Glossary](../glossary.md) explains these ideas.
+The words used in a screen may mean different things in different problem areas. This is called polysemy. First identify the Domain, then the Capability it enables, then the Functions within that capability. The [Guidance Glossary](../reference/glossary.md) explains these ideas.
 
 The same caution applies to words such as **Role** and **System**. A business role is not automatically a system authorisation role, and a digital system is only one part of the wider organisational and legal setting. Qualify the word before designing the boundary.
 
@@ -68,6 +68,6 @@ That shared picture is the first achievement. The detailed terms and reusable im
 
 - [Palette Elements](./elements.md) explains the job of each part.
 - [Palette Relationships](./relationships.md) explains how the parts connect.
-- [Common Flows](../flows.md) shows recurring flow shapes such as BREAD/ST and BREAST.
+- [Common Flows](../orientation/flows.md) shows recurring flow shapes such as BREAD/ST and BREAST.
 - [Request and approval example](../examples/11-request-offer-approval/before.md) shows a complete decomposition.
 - [Palette and Presenter/Player/Coordinator terms](./technical-terms.md) explains the frontend vocabulary.

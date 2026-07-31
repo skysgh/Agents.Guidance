@@ -138,6 +138,6 @@ That question does not prevent delivery. It prevents delivery from becoming a se
 
 - [Human Start Here](./start-here.md)
 - [What the guidance gives each stakeholder](./what-this-guidance-gives.md)
-- [Developers Need to Know](../../agents/conventions/developers-need-to-know.md)
-- [Design the knowable; discover the novel](../../agents/conventions/principles.md)
-- [IQueryable and Governed Queryability](../../agents/conventions/iqueryable.md)
+- [Developers Need to Know](../../agents/conventions/development/developers-need-to-know.md)
+- [Design the knowable; discover the novel](../../agents/conventions/foundations/principles.md)
+- [IQueryable and Governed Queryability](../../agents/conventions/foundations/iqueryable.md)

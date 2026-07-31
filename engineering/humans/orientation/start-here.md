@@ -43,7 +43,7 @@ The answer should consider value, risk, dependency, security, reversibility, ope
 
 A team is more likely to use guidance when it recognises the problem it is meant to solve. Start with [the current state and recurring failure patterns](./current-state.md), then read [what the guidance gives each stakeholder](./what-this-guidance-gives.md).
 
-After that, use the [developer orientation](../../agents/conventions/developers-need-to-know.md) for the practical mental model and the [work instructions](../../agents/conventions/.md) to select the detailed conventions relevant to a task.
+After that, use the [developer orientation](../../agents/conventions/development/developers-need-to-know.md) for the practical mental model and the [work instructions](../../agents/conventions/readme.md) to select the detailed conventions relevant to a task.
 
 ## The two reading speeds
 
@@ -88,10 +88,10 @@ The [example gallery](../examples/readme.md) shows the same movement through sev
 - [What the guidance gives each stakeholder](./what-this-guidance-gives.md)
 - [YAGNI versus WGF](./design-before-build-and-wgf.md)
 - [Example gallery](../examples/readme.md)
-- [Developers Need to Know](../../agents/conventions/developers-need-to-know.md)
-- [Development Principles](../../agents/conventions/principles.md)
-- [Development Constraints](../../agents/conventions/constraints.md)
-- [Vertical Slices](../../agents/conventions/slices.md)
-- [Horizontal Flows](../../agents/conventions/flows.md)
-- [Startup and Discovery](../../agents/conventions/startup.md)
-- [IQueryable and Governed Queryability](../../agents/conventions/iqueryable.md)
+- [Developers Need to Know](../../agents/conventions/development/developers-need-to-know.md)
+- [Development Principles](../../agents/conventions/foundations/principles.md)
+- [Development Constraints](../../agents/conventions/foundations/constraints.md)
+- [Vertical Slices](../../agents/conventions/capabilities/slices.md)
+- [Horizontal Flows](../../agents/conventions/capabilities/flows.md)
+- [Startup and Discovery](../../agents/conventions/foundations/startup.md)
+- [IQueryable and Governed Queryability](../../agents/conventions/foundations/iqueryable.md)
