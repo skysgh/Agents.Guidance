@@ -4,6 +4,8 @@ Read this document for every engineering task; apply these portable MUST rules b
 
 These are the portable consequences of the development principles. They are stronger than preferences and narrower than product-specific architecture. A repository may add stricter local constraints in its binding document, but it must not silently weaken these constraints.
 
+For the accessible explanation of why these constraints exist, read [Human Guidance](../HUMAN/README.md).
+
 ## Queryable access
 
 - Repositories MUST expose governed `IQueryable` surfaces for queryable reads.

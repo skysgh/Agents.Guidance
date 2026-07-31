@@ -2,7 +2,90 @@
 
 Read this document only when a task coordinates multiple capabilities, actors, decisions or stateful steps into one outcome.
 
+For the human explanation of the View, Coordinator, Presenter, Player, Renderer, Action, State, Event and Broker relationships, read [Common Flows](../HUMAN/FLOWS.md). This document keeps the portable implementation rules and lifecycle constraints.
+
+When flow names are ambiguous across problem areas, read the human [Guidance Glossary](../HUMAN/GLOSSARY.md) entry on polysemy, Domains, Capabilities and Functions before creating a new term.
+
+## Purpose
+
+This document gives teams a small set of flow shapes that appear repeatedly in enterprise applications. The purpose is recognition and reuse. A developer should be able to look at a screen, request or journey and find the nearest shape without inventing a new orchestration design from scratch.
+
+## The short version
+
+A vertical slice carries one capability through the building. A horizontal flow connects capabilities across the floors. The flow gives the journey a known shape; the slices provide the detailed rooms and services.
+
+Start with the common flow catalogue. Do not begin by asking a medium-level developer to invent a new flow taxonomy. Most applications use a small number of recurring shapes with different business content.
+
+## The everyday baseline: BREAD/ST
+
+Many managed items can begin with **BREAD/ST**:
+
+- **Browse**: find available items or requests;
+- **Read**: inspect one item or a useful projection;
+- **Edit**: change permitted information;
+- **Add**: create a new item;
+- **Delete**: remove, withdraw or retire it according to its data and lifecycle rules; and
+- **State Transition**: move it through meaningful states such as draft, submitted, approved, published, suspended or closed.
+
+BREAD/ST is a starting shape, not a requirement to force every operation into generic CRUD. The final step matters because submitting, approving, publishing, suspending and closing usually carry rules that a simple field update cannot express.
+
+When a request has attachments, notes, comments or other nested capabilities, apply the same baseline inside the request. A Request can have a BREAD/ST flow, and its Evidence collection can have a smaller BREAD/ST flow within the request. The nested flow remains visible without turning the parent flow into a tangle of special cases.
+
 A horizontal flow is an outcome-oriented path that coordinates multiple vertical slices. It describes how actors, information, decisions and state changes move through the system. A flow is not a replacement for the slices that implement its steps.
+
+## Common flow catalogue
+
+The following shapes cover a large proportion of enterprise applications:
+
+### Discover and select
+
+Find, compare, qualify and choose one or more available items.
+
+### Prepare and submit
+
+Gather information, validate completeness and commit a formal submission for consideration.
+
+### Assess and decide
+
+Review a submission or evidence set, request clarification, recommend, escalate, approve, reject or defer.
+
+### Publish and maintain
+
+Prepare an item, make it discoverable, manage changes, supersede or withdraw it, and keep its public representation accurate.
+
+### Onboard and establish participation
+
+Identify a person or organisation, collect required information, establish participation, grant initial access and confirm readiness.
+
+### Provision and fulfil
+
+Turn an approved request or order into an allocated resource, service, entitlement or delivered outcome.
+
+### Change, renew and close
+
+Manage a live relationship, entitlement, contract or case through renewal, amendment, suspension, expiry and closure.
+
+### Import, synchronise and reconcile
+
+Receive or send data across a boundary, map it, apply accepted changes, detect conflicts and reconcile differences.
+
+### Report and export
+
+Assemble an authorised view or extract for a person, organisation, regulator, operator or downstream system.
+
+### Notify and respond
+
+Detect an event, select recipients, deliver a message, accept a response and update the relevant capability.
+
+### Detect, contain and recover
+
+Detect an incident, restrict impact, investigate, restore service or data, and record follow-up actions.
+
+Most teams should recognise the nearest catalogue shape and use it. Only add a new flow shape when the existing shapes genuinely fail to describe the journey.
+
+## Technical details for agents and experienced implementers
+
+The following sections provide additional implementation detail. Human readers can stop after the catalogue and use the [human flow guide](../HUMAN/FLOWS.md) and [Request example](../examples/10-request-bread-flow/before.md) instead.
 
 ## How to recognise a flow pattern
 
@@ -12,9 +95,9 @@ Do not create a flow for a single resource CRUD operation. Do not make a slice r
 
 Use the same recurrence test as for slice patterns. Compare real journeys, identify the stable orchestration invariant, and abstract only what remains true across them. Recursive composition is legitimate when a flow contains subflows or when a slice invoked by the flow has its own internal lifecycle, but the boundary and ownership must remain visible.
 
-## Common flow families
+## Flow details for implementation
 
-These are common outcome patterns. They are not a fixed acronym and they do not all belong in every product.
+The catalogue gives the first design shape. When implementation requires more detail, the team can add the outcome, trigger, completion condition, participating slices, hand-offs, permissions, state, transactions, retries, recovery and evidence. The details support the recognised flow; they should not become a discovery exercise before the team can begin.
 
 ### Discover and select
 

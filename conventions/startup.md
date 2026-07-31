@@ -2,6 +2,26 @@
 
 Read this document when adding or changing application startup, module initialisation, service registration, configuration binding, registries, schema discovery, settings, seed initialisation, middleware composition or startup diagnostics.
 
+For the accessible explanation of startup as the stage before a building opens, read [Human Guidance](../HUMAN/README.md).
+
+## Purpose
+
+This document explains how a service becomes ready to receive work. It is for developers, testers, operations staff, security roles and anyone who needs to understand what must happen before the first request is safe to process.
+
+## The short version
+
+Startup is the building stage before the building opens. The host finds the parts it needs, checks that they fit, connects them, prepares storage and external services, and records what happened. If a required part is missing or unsafe, the service should not claim to be ready.
+
+In technical language, this deliberate assembly is called the startup lifecycle. The term adds precision. The important idea is that configuration, settings, schema, storage, mapping, caching, security and application capabilities must become available in a known order.
+
+Each role contributes a different view:
+
+- developers make participants implementable and testable;
+- testers check discovery, order, failure and repeat-start behaviour;
+- operations checks readiness, diagnostics and recovery;
+- security checks secrets, permissions and information exposure; and
+- architecture keeps the overall sequence coherent.
+
 ## Startup is platform assembly
 
 Startup is the deliberate assembly of the platform from objects that represent configuration, settings, schema, storage, caching, mapping, capabilities, policies, registries, initialisers and pipeline components. These concerns overlap because they all answer the same startup question: what does the host need to discover, validate, connect, register and make ready before it can safely serve requests?

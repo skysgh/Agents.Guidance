@@ -2,6 +2,18 @@
 
 Apply these conventions to user interfaces, documents, notifications and interactive client features.
 
+For the accessible explanation of inclusive user experiences, read [Human Documentation Writing Style](../HUMAN/WRITING-STYLE.md).
+
+## Purpose
+
+Accessibility makes the service usable by people with different abilities, devices, languages and ways of interacting. It is part of the experience contract, not decoration added after the building is complete.
+
+## The short version
+
+Every important action should be possible to find, understand and complete. Information should remain understandable when a person uses a keyboard, assistive technology, zoom, high contrast, reduced motion or a different language.
+
+Business roles describe the people and situations the service must support. Developers build the accessible structure. Testers check keyboard, screen-reader, zoom and automated evidence. Design and operations help ensure that accessible behaviour remains present after release.
+
 - Target the applicable WCAG conformance level and record exceptions.
 - Make every operation available by keyboard and preserve a visible, logical focus order.
 - Use semantic structure, accessible names, headings, labels, landmarks and meaningful status messages.

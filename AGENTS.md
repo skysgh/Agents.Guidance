@@ -2,6 +2,8 @@
 
 This repository contains portable engineering guidance. Before changing code in a repository that adopts it:
 
+For a human explanation of these instructions, read the [Human Guidance](./HUMAN/README.md). It explains the concepts, examples and high-rise model in accessible language. This file remains the compact loading contract for agents.
+
 1. Read this file.
 2. Read [Development Principles](./conventions/principles.md).
 3. Read [Development Constraints](./conventions/constraints.md).

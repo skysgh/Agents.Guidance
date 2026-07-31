@@ -1,8 +1,16 @@
 # What the Guidance Gives Each Stakeholder
 
+## Purpose
+
+This paper explains how the guidance helps different people contribute to the same system design. It is not a request for every person to become an architect or programmer.
+
 The guidance is a shared way to see the system before implementation details scatter across projects. It is not asking every stakeholder to become an architect or a programmer. Each role needs a different answer from the same structure.
 
 No single role can see the whole system alone. Business analysts contribute domain meaning and decisions. Developers test whether the design is implementable. Testers expose whether the claimed boundaries hold. Operations contributes lifecycle, readiness and recovery knowledge. Security and assurance contribute protection and evidence requirements. Architects preserve coherence across the views. The guidance is the meeting surface between these contributions, not architecture speaking over them.
+
+## The short version
+
+The guidance gives the team a shared picture before each role adds its part. It helps the team agree what a capability means, where it belongs, how it is protected, what is built first and what is deliberately deferred.
 
 ## For everyone
 
@@ -34,7 +42,7 @@ The relevant design question is usually not "Which person owns this?" It is "Whi
 The guidance does not ask a business analyst to design database tables or write service classes. It asks for a clearer description of the business meaning that developers need:
 
 - What outcome is wanted?
-- Who owns the decision or record?
+- Which person, role or boundary is responsible for the decision or record?
 - Who may see, change, approve or withdraw it?
 - What is the difference between a draft, submitted, approved, published or closed state?
 - What must be remembered for audit or history?
@@ -57,7 +65,7 @@ The guidance tells developers where to put work and what not to couple together:
 
 It reduces the number of architectural decisions that each developer has to reinvent while coding.
 
-It also gives a practical answer to "I already do all that." The claim is tested against one real capability, not against familiarity with individual words. The capability should be able to point to its contract, owner, implementation, security decision, lifecycle, mapping, persistence policy, startup participation, tests and explicit deferrals. Where one of those is absent, the work may contain the idea but has not yet assembled the complete pattern.
+It also gives a practical answer to "I already do all that." The claim is tested against one real capability, not against familiarity with individual words. The capability should be able to point to its contract, stewarding boundary, implementation, security decision, lifecycle, mapping, persistence policy, startup participation, tests and explicit deferrals. Where one of those is absent, the work may contain the idea but has not yet assembled the complete pattern.
 
 ## For testers and people learning automation
 
@@ -78,7 +86,7 @@ These questions can become unit tests, integration tests, contract tests, startu
 
 The guidance provides a way to review design without reviewing every line first:
 
-- Is ownership clear?
+- Is responsibility clear across the lifecycle?
 - Are contracts narrower than implementations?
 - Are dependencies crossing declared boundaries?
 - Is the known whole designed even where construction is staged?
@@ -93,13 +101,13 @@ It also provides a place to record deliberate divergence when the standard struc
 
 The guidance separates three different questions that are often confused:
 
-- **What is designed?** The intended structure, contracts and ownership are known.
+- **What is designed?** The intended structure, contracts and responsibilities are known.
 - **What is built?** A selected part has been implemented and tested.
 - **What is deferred?** The intended place and boundary are known, but construction is staged by budget, sequencing or evidence.
 
 This makes architectural risk visible without pretending that every designed capability must be delivered in the first release.
 
-WGF gives delivery discussions a consequence record rather than a contest of preferences. It makes clear what is being included, what is being deferred, what risk is accepted, who owns the next decision and what evidence will justify changing priority.
+WGF gives delivery discussions a consequence record rather than a contest of preferences. It makes clear what is being included, what is being deferred, what risk is accepted, which person, role or boundary is responsible for the next decision and what evidence will justify changing priority.
 
 ## For operators and support teams
 
@@ -140,7 +148,7 @@ The guidance distinguishes reusable platform contracts from product-specific dom
 - identity and access context; and
 - registries and lifecycle participants.
 
-Product teams can then use those capabilities without reimplementing their foundations, while retaining ownership of their domain concepts and flows.
+Product teams can then use those capabilities without reimplementing their foundations, while retaining responsibility for their domain concepts and flows.
 
 ## The shared outcome
 

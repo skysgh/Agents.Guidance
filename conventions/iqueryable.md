@@ -2,6 +2,18 @@
 
 Read this document when designing or changing a .NET server-side read contract, repository query, projection, filtering, paging, sorting, expansion or OData-style API surface.
 
+For the accessible explanation and examples, read [The Palette: First Look](../HUMAN/PALETTE-FIRST-LOOK.md) and [IQueryable guidance in the current-state examples](../HUMAN-CURRENT-STATE.md).
+
+## Purpose
+
+This document explains how a service can let different consumers ask useful questions about the same information without creating a new fixed endpoint for every screen, report or integration. It is for business and delivery roles as well as developers, testers, security roles and operations staff.
+
+## The short version
+
+A service can provide one safe read capability and allow each approved consumer to ask for the fields, records, ordering and page it needs. This reduces repeated endpoint work and helps long-lived services respond to needs that were not visible when the first screen was built.
+
+The service must still control what the consumer may see, how much work a request may cause and which internal details remain private. In technical language, the .NET feature that supports this composable read behaviour is called `IQueryable<T>`. The safety comes from the boundary, mapping and policy around it, not from the word itself.
+
 ## The capability
 
 `IQueryable<T>` allows a server-side query to remain composable until the boundary that understands the consumer's requested shape. A client can ask for the subset, ordering, projection, page or related data it actually needs without the server team predicting every future combination in advance.

@@ -2,6 +2,20 @@
 
 Apply these conventions wherever software collects, stores, transmits, displays, logs or deletes data.
 
+For the accessible explanation of protection, trust and stewardship, read [Human Guidance](../HUMAN/README.md).
+
+## Purpose
+
+These rules help protect people, organisations and the trust placed in a service. They apply to business data as well as information that identifies a person or could harm someone if it were exposed, changed or retained for too long.
+
+## The short version
+
+Treat information as something entrusted to the system. First understand what it is, why it is needed, who may use it, how long it should remain and what must be recorded. Then choose storage, access, sharing and deletion behaviour that matches that understanding.
+
+Security is not a final coat of paint. It shapes the foundations, rooms, doors, lifts and service routes of the building. Developers, testers, business analysts, operations and security roles each contribute evidence about what must be protected and how that protection can be checked.
+
+In technical language, access decisions are often called authorisation and the description of how sensitive information must be handled is called classification. The concepts come first: protect the information and make the reason for access visible.
+
 ## Data handling
 
 - Classify data before choosing storage, access, retention and transmission controls.
@@ -25,4 +39,4 @@ Apply these conventions wherever software collects, stores, transmits, displays,
 
 - Test redaction, authorisation, retention and erasure behaviour.
 - Verify that error responses and telemetry do not disclose protected data.
-- Document the classification, owner and lifecycle for new sensitive data.
+- Document the classification, stewarding boundary and lifecycle for new sensitive data.

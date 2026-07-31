@@ -2,6 +2,16 @@
 
 Apply this checklist to every change, selecting only the validation steps relevant to the affected files and behaviour.
 
+For the accessible explanation of shared completion evidence, read [What the Guidance Gives Each Stakeholder](../HUMAN-WHAT-GUIDANCE-GIVES.md).
+
+## Purpose
+
+This checklist helps the team decide whether a change is ready to be relied upon. It is shared evidence for developers, testers, operations, security and delivery roles, not a final ceremony owned by one role.
+
+## The short version
+
+Done means more than “the code runs.” It means the intended behaviour is implemented through the right boundaries, the important failures have been considered, the change is tested at the right level and any deliberate deferral is visible.
+
 Validate work in increasing scope before declaring it complete.
 
 1. Verify that all applicable conventions have been followed.

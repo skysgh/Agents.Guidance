@@ -1,12 +1,20 @@
 # YAGNI versus WGF
 
+## Purpose
+
+This paper explains how to decide what to build first without allowing the first feature to decide the whole architecture. It is for anyone involved in deciding scope, design, implementation, testing or delivery.
+
+## The short version
+
+YAGNI helps prevent unnecessary construction. WGF helps prevent necessary structure from being omitted. Use them together: understand the intended shape, then decide which part is most valuable or safest to build first.
+
 YAGNI is useful advice with a narrow purpose: do not build speculative features or unjustified infrastructure merely because they might be useful one day.
 
 WGF asks a different question:
 
 > What goes first, and what are the consequences of including, deferring or omitting each part of the intended design?
 
-YAGNI protects construction priority. WGF protects architectural continuity.
+YAGNI protects construction priority. WGF protects the ability to continue construction later without guessing.
 
 ## The difference
 

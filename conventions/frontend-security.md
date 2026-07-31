@@ -2,6 +2,18 @@
 
 Apply these conventions to browser applications and client-side build output.
 
+For the accessible explanation of browser security as a boundary, read [Human Guidance](../HUMAN/README.md).
+
+## Purpose
+
+Browser code is a door into the service. It displays information, accepts actions and communicates with other systems. A browser application therefore needs the same careful protection as any other boundary.
+
+## The short version
+
+Do not place secrets in places a browser user or injected script can read. Treat every external value, link, message and dependency as something that needs a clear trust decision. Test the paths where identity expires, state changes fail, content is untrusted or protected information might leak.
+
+In technical language, these are frontend security controls. The practical idea is to keep the door safe while still allowing people to use the building.
+
 - Keep credentials and tokens out of localStorage, sessionStorage, URLs and client logs.
 - Use secure, HttpOnly cookies for authentication tokens where cookies are the chosen transport.
 - Protect state-changing cookie-authenticated requests against CSRF.

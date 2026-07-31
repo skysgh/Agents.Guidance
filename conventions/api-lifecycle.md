@@ -2,6 +2,8 @@
 
 Apply these conventions to HTTP, event, RPC and other externally consumed contracts.
 
+For the human explanation of why published contracts need a managed life, read [API Lifecycle](../HUMAN/API-LIFECYCLE.md). This document states the precise portable rules.
+
 ## Contract design
 
 - Define the consumer-facing contract before implementing the transport.
@@ -20,6 +22,6 @@ Apply these conventions to HTTP, event, RPC and other externally consumed contra
 - Test authentication, authorisation, validation, concurrency conflict, rate limit and dependency-failure responses.
 - Do not expose an internal query or persistence surface merely to avoid designing a consumer contract.
 
-## Ownership
+## Stewardship
 
-Every published contract needs an owner, compatibility policy, security classification and support path. A contract is not complete when only its success response is documented.
+Every published contract needs a stewarding boundary, compatibility policy, security classification and support path. A contract is not complete when only its success response is documented.

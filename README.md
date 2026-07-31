@@ -4,6 +4,8 @@ This repository contains guidance intended to travel between products and teams.
 
 ## Start here
 
+- Human guidance: [HUMAN/README.md](./HUMAN/README.md)
+- Agent guidance: [AGENTS/README.md](./AGENTS/README.md)
 - Human introduction: [HUMAN-START-HERE.md](./HUMAN-START-HERE.md)
 - Current state and recurring problems: [HUMAN-CURRENT-STATE.md](./HUMAN-CURRENT-STATE.md)
 - Stakeholder outcomes: [HUMAN-WHAT-GUIDANCE-GIVES.md](./HUMAN-WHAT-GUIDANCE-GIVES.md)
@@ -35,7 +37,7 @@ This repository contains guidance intended to travel between products and teams.
 
 ## Two audiences
 
-The Markdown documents are the human reference. `AGENTS.md` is the compact loading contract for agents. Keep the two consistent, but do not copy the whole human reference into the agent entry point.
+The [HUMAN](./HUMAN/README.md) folder is the accessible human route. The [AGENTS](./AGENTS/README.md) folder explains the compact agent route, whose loading contract remains [AGENTS.md](./AGENTS.md). Keep the two consistent, but do not copy the whole human reference into the agent entry point.
 
 ## Portable language
 

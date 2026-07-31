@@ -18,5 +18,7 @@ Start with the case that feels familiar:
 - [Caching at the wrong boundary](./07-caching-at-the-wrong-boundary/before.md) -> [improvement](./07-caching-at-the-wrong-boundary/after.md)
 - [Enums as database truth](./08-enums-as-database-truth/before.md) -> [improvement](./08-enums-as-database-truth/after.md)
 - [Magic strings for routes and permissions](./09-magic-strings/before.md) -> [improvement](./09-magic-strings/after.md)
+- [Request BREAD/ST flow](./10-request-bread-flow/before.md) -> [improvement](./10-request-bread-flow/after.md)
+- [Request, assessment, approval and payment](./11-request-offer-approval/before.md) -> [improvement](./11-request-offer-approval/after.md)
 
 The [YAGNI versus WGF](../HUMAN-YAGNI-VERSUS-WGF.md) paper explains the planning instinct behind the examples.

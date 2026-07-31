@@ -2,6 +2,18 @@
 
 Apply these conventions to deployable services, workers, scheduled jobs and infrastructure integrations.
 
+For the accessible explanation of operations as the part of the building that keeps it safe after people move in, read [Human Guidance](../HUMAN/README.md).
+
+## Purpose
+
+Operations is the part of the building that keeps it safe after people move in. It covers readiness, health, shutdown, dependency failure, diagnostics, recovery and the information needed by the people supporting the service.
+
+## The short version
+
+A service is not complete when its happy path works once. It is complete when the team can explain how it starts, how it reports readiness, what happens when a dependency is slow or unavailable, how work is retried or stopped, and how an operator restores service.
+
+Developers define safe behaviour. Testers exercise failure and recovery. Operations checks whether the signals and runbooks are useful. Security checks that diagnostics do not expose protected information.
+
 ## Service behaviour
 
 - Define startup, readiness, liveness, graceful shutdown and dependency-failure behaviour.

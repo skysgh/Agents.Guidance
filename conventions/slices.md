@@ -2,6 +2,20 @@
 
 Read this document only when a task creates or changes an end-to-end capability with its own contract, orchestration, state or test boundary.
 
+For the accessible explanation of slices and their relationship to the flow palette, read [Common Flows](../HUMAN/FLOWS.md) and [Palette First Look](../HUMAN/PALETTE-FIRST-LOOK.md).
+
+Before naming a slice, identify the Domain that gives the capability its meaning and the Functions that belong within it. The human [Guidance Glossary](../HUMAN/GLOSSARY.md) explains these terms and the risk of polysemy.
+
+## Purpose
+
+This document explains how one capability travels through the building. A slice gives a team a recognisable vertical path instead of asking each feature to invent its own arrangement of screen, service, rules and storage.
+
+## The short version
+
+A slice is one complete capability. It may be a Request, an Evidence item, a Comment, a search result or another meaningful part of the system. The slice has a boundary, rules, protected data, storage or an external effect, and evidence that it works.
+
+In technical language, this is called a vertical slice because the capability travels through several layers. The useful idea is that one team can follow the capability from the outside of the building to the state or result it produces.
+
 A vertical slice is a complete capability that can be followed from an external boundary to the state it reads or changes. It is a unit of architecture, delivery and testing, not merely a folder or one class.
 
 A slice normally includes:

@@ -4,11 +4,27 @@ Read this document for every engineering task; use it as the rationale for the m
 
 These principles are portable engineering priorities. They are not product requirements, project management preferences or a list of framework names. They explain why the more specific constraints and conventions exist.
 
+For the accessible explanation and examples, read [Human Guidance](../HUMAN/README.md). This document keeps the compact rationale used by agents and maintainers.
+
+## How to read this
+
+These principles describe the ground beneath the building. They explain why boundaries, contracts, security, lifecycle, mapping and operational evidence matter before a team starts adding visible features.
+
+You do not need to know the technical names to use the ideas. Each principle starts with a practical concern and then gives more precise engineering language where it helps different contributors discuss the same design.
+
+The principles are shared design material:
+
+- business analysts contribute the meaning and consequences of decisions;
+- developers test whether the principles can become working contracts;
+- testers look for evidence that the boundaries behave as described;
+- operations contributes lifecycle, readiness and recovery concerns; and
+- architecture keeps the structure coherent across capabilities.
+
 ## 1. Optimise the whole service life
 
 A system spends far longer in operation, support and maintenance than in initial delivery. Optimise for the total cost of ownership, not only for the first successful build. A shortcut is not cheap if it creates a permanent operational dependency, repeated support work, or a difficult migration after the original developers have moved on.
 
-This does not justify speculative implementation. It requires distinguishing design completeness from build completeness. The reusable engineering structure is often knowable from decades of enterprise practice, even when the order and budget for building every instance are not. Do not invoke YAGNI to avoid defining a known boundary, contract or lifecycle merely because the first feature does not exercise every part of it.
+This does not justify speculative implementation. It requires distinguishing design completeness from build completeness and matching construction discipline to consequence. A short-lived script, a contained internal tool and an externally relied-upon service do not need identical machinery. The reusable engineering structure is often knowable from decades of enterprise practice, even when the order and budget for building every instance are not. Do not invoke YAGNI to avoid defining a known boundary, contract or lifecycle when the reach, life or consequences of the service require it.
 
 **Source:** The ISO/IEC 25010 quality model treats maintainability, performance efficiency, reliability, security and portability as product quality characteristics, not as post-delivery decoration. See the [ISO/IEC 25010 overview](https://iso25000.com/index.php/en/iso-25000-standards/iso-25010).
 
@@ -147,7 +163,7 @@ Enterprise application engineering is not an empty landscape. Across decades of 
 
 The fact that the next screen or conceptual object is new does not make the whole system unknown. The novelty is usually concentrated in the domain vocabulary, the relationships that matter to this organisation, the decisions the users make and the presentation they need. Those parts can be explored and refined. The surrounding engineering discipline should not be rediscovered from scratch in every feature.
 
-Design the complete intended structure even when implementation is staged. A deferred capability should still have a named place, owner, boundary contract, dependencies, lifecycle, security posture, persistence intention and relationship to the relevant slices and flows. Deferred means "understood and not yet built"; it does not mean "left for a future team to invent from fragments."
+Design the complete intended structure even when implementation is staged. A deferred capability should still have a named place, stewarding boundary, contract, dependencies, lifecycle, security posture, persistence intention and relationship to the relevant slices and flows. Deferred means "understood and not yet built"; it does not mean "left for a future team to invent from fragments."
 
 This is a waterfall of the knowable and an agility of the unknown:
 

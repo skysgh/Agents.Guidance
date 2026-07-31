@@ -1,5 +1,15 @@
 # The Current State: How Enterprise Systems Drift
 
+## Purpose
+
+This paper helps people recognise common ways that a large system becomes harder to change. It is for business analysts, developers, testers, operations staff, security roles, delivery leads and architects. You do not need to know the technical terms before reading it.
+
+## The short version
+
+People usually do not create difficult systems through one careless decision. They make a series of locally reasonable decisions without a shared picture of how the parts should fit together. A screen becomes a data model. A model becomes a service interface. A framework default becomes an unstated rule. A missing boundary is repaired in several different places. Over time, the system becomes difficult to explain and expensive to change.
+
+The guidance provides the shared picture. It asks the team to design the known structure before implementation spreads different assumptions, while allowing the new business concepts and user experiences to develop within that structure.
+
 This paper describes common development conditions that the guidance is intended to improve. It is not an accusation against developers, testers, business analysts or delivery leaders. Most of these problems come from reasonable people working under pressure, using the nearest visible pattern and trying to make progress with incomplete shared design.
 
 The problem is systemic: the organisation asks people to build large structures while leaving too much of the formwork implicit.
@@ -15,21 +25,25 @@ When the visible ticket is treated as the whole design, the team may build:
 - a persistence model shaped around the service's first query; and
 - a database schema shaped around today's fields.
 
-The result may satisfy the ticket while silently deciding ownership, security, lifecycle, mapping and future query behaviour without discussing them. Those decisions then become difficult to change because they are spread across code rather than named as contracts.
+The result may satisfy the ticket while silently deciding responsibility, security, lifecycle, mapping and future query behaviour without discussing them. Those decisions then become difficult to change because they are spread across code rather than named as contracts.
 
 A business description tells us what someone wants to achieve. It does not, by itself, tell us the logical objects, the boundary contracts, the storage model, the access rules or the operational lifecycle needed to achieve it safely.
 
 ## Common drift patterns
 
-### Thick controllers
+### Controllers that carry too many jobs
 
-A controller begins with transport handling and gradually acquires validation, permission decisions, query construction, mapping, state transitions, persistence calls and notification behaviour. The code is easy to start because everything is nearby. It becomes hard to test, reuse, secure and change because one boundary has become responsible for many others.
+A controller begins with receiving a request and returning a response. It gradually acquires validation, permission decisions, query construction, mapping, state transitions, persistence calls and notification behaviour. The code is easy to start because everything is nearby. It becomes hard to test, reuse, secure and change because one boundary has taken on many jobs.
 
-The remedy is not to create more classes mechanically. The remedy is to name the contracts and ownership: transport invokes application capability; application logic composes use cases; repositories govern persistence access; domain rules own meaningful state decisions; mappings protect model boundaries.
+In technical language, this is often called a thick controller. The name is less important than the idea: each part should have a clear job so that the parts can change independently.
 
-### The ticket becomes the persisted object
+The remedy is not to create more classes mechanically. The remedy is to name the contracts and responsibilities: transport invokes application capability; application logic composes use cases; repositories govern persistence access; domain rules make meaningful state decisions; mappings protect model boundaries.
 
-A screen or ticket describes a conceptual shape, and that shape is implemented directly as the database entity. There is no deliberate step through a logical model, no brokering boundary and no discussion of which parts are presentation convenience versus durable domain meaning.
+### The ticket becomes the stored object
+
+A screen or ticket describes a shape, and that shape is implemented directly as the database entity. There is no deliberate step between what the user sees, what the service means and what the database stores. There is no boundary that lets each part evolve independently.
+
+In technical language, that missing separation is often described as a missing brokering layer. The concept is more important than the term: storage should not silently decide the meaning of the business concept.
 
 This makes storage constraints decide the conceptual model too early. It also makes a later screen, report or integration negotiate with the first screen's schema instead of using a reusable capability.
 
@@ -37,9 +51,11 @@ Document models and aggregate-oriented stores can make this drift feel natural b
 
 Event sourcing can amplify the problem when events are treated as accidental serialisations of an early conceptual model. Keeping every historical representation forever does not, by itself, create a sound domain model. Event shape, semantic meaning, versioning, migration and projection responsibilities must be designed deliberately. This is a specialised consequence, not a prerequisite for using the guidance.
 
-### Objects are created before contracts
+### Objects are created before shared agreements
 
-A developer creates a model, then writes services directly against its concrete methods and properties. No capability contract states what consumers may rely on. Other services then depend on the model's accidental shape.
+A developer creates a model, then writes services directly against its concrete methods and properties. No shared agreement states what consumers may rely on. Other services then depend on the model's accidental shape.
+
+In technical language, the shared agreement is a contract. The contract is not a ceremony added beside the model. It is the part that tells different contributors what may safely be relied upon.
 
 The consequences cascade:
 
@@ -64,7 +80,7 @@ The answer is not to hide every framework type. It is to isolate the framework w
 
 YAGNI is useful against speculative features and unjustified infrastructure. It becomes harmful when it is used to remove a known contract, relationship, lifecycle state or extension point because the first release does not use it.
 
-A deferred capability should have a known place, owner and intended boundary. Otherwise each later team must guess whether the missing structure was forgotten, rejected, postponed or owned elsewhere.
+A deferred capability should have a known place, responsible boundary and intended contract. Otherwise each later team must guess whether the missing structure was forgotten, rejected, postponed or assigned elsewhere.
 
 Physical deletion is especially risky in relational systems. Removing a field or relationship can affect historical meaning, migrations, referential integrity, reports and future composition. Deletion may be correct, but it is an architectural decision that needs evidence, not merely tidying.
 
@@ -86,9 +102,9 @@ These patterns are reinforced by normal pressures:
 
 - delivery measures visible features more readily than preserved structure;
 - tickets often describe outcomes without enough logical design;
-- developers are asked to code before ownership and contracts are agreed;
+- developers are asked to code before responsibilities and contracts are agreed;
 - framework defaults provide an attractive path of least resistance;
-- tests may cover the happy path without testing boundary ownership;
+- tests may cover the happy path without testing boundary responsibilities;
 - architecture documents may be too abstract, too long or too disconnected from code; and
 - deferred work is recorded as a vague backlog item rather than a designed future capability.
 

@@ -2,6 +2,18 @@
 
 Apply these conventions whenever tests are created, changed, moved, reviewed or used to validate a change.
 
+For the accessible explanation of testing as shared evidence, read [What the Guidance Gives Each Stakeholder](../HUMAN-WHAT-GUIDANCE-GIVES.md).
+
+## Purpose
+
+Testing gives the team evidence that the building behaves as designed. It is not only a final search for defects. Tests help developers check contracts, help testers challenge boundaries, help business roles confirm meaning and help operations understand failure and recovery.
+
+## The short version
+
+Choose the smallest test that can prove the behaviour, then add broader tests where the boundary itself needs proving. A passing screen is not enough. The team should know what happens when information is invalid, access is denied, a state change is wrong, storage fails or an external dependency is unavailable.
+
+In technical language, tests may be static or dynamic. The practical difference is whether the test can run inside the test process or needs a running host, deployed component or external service.
+
 ## Projects
 
 Create two test projects for each Logical Deployment Module (LDM):

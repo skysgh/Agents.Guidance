@@ -3,6 +3,8 @@
 
 Apply these conventions when creating, restructuring, reviewing or retiring documentation intended for stakeholders, operators or maintainers.
 
+For the human-facing writing contract, apply [Human Documentation Writing Style](../HUMAN/WRITING-STYLE.md). It requires concept-first explanations, plain and translation-friendly language, consistent terminology, role-inclusive examples and a clear separation between human explanation and compact agent rules.
+
 
 ## Role Based First
 
