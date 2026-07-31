@@ -1,6 +1,5 @@
 # Human Guidance Maintenance
 
-This folder controls the staged human and agent documentation rewrite:
+This folder contains the small amount of control material needed to keep the guidance coherent as it changes:
 
-- [Rewrite Plan](./rewrite-plan.md)
-- [Rewrite Register](./rewrite-register.md)
+- [Documentation Register](./documentation-register.md)
