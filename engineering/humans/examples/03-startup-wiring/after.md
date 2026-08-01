@@ -3,7 +3,7 @@
 The team first defines the participant contracts and lifecycle:
 
 - what capability each participant provides;
-- which module or boundary stewards it;
+- which module or boundary carries responsibility for it;
 - when it may run;
 - what it depends on;
 - how duplicates and exclusions work;

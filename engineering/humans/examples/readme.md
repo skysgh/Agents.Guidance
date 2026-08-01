@@ -3,11 +3,11 @@
 These examples are for recognition. They show ordinary situations in which a local decision appears reasonable but creates a wider structural problem. Each case has two files:
 
 - `before.md` describes the common starting point and its consequences;
-- `after.md` shows how the same work can move through shared design, stewardship and staged construction.
+- `after.md` shows how the same work can move through shared design, responsible boundaries and staged construction.
 
-No role is presented as the sole cause of the problem. Each example shows how business meaning, implementation, testing, operations and architecture contribute different evidence to the improvement.
+No role is presented as the sole cause of the problem. Each example shows how business meaning, implementation, testing, operations and architecture contribute different evidence to the improvement. The examples are places to see the ideas in motion, not tests of whether the reader already knows the vocabulary.
 
-Start with the case that feels familiar:
+Choose a case that feels familiar, then follow its improvement to see how the decision changes when the wider structure is made visible:
 
 - [Screen request becomes storage design](./01-screen-to-capability/before.md) -> [improvement](./01-screen-to-capability/after.md)
 - [Concrete model before contract](./02-model-before-contract/before.md) -> [improvement](./02-model-before-contract/after.md)

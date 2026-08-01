@@ -10,30 +10,19 @@ Before publishing a contract, decide what callers may ask for, what they may rec
 
 The outside world may depend on the contract for years. A small-looking change can affect another team, a user interface, a report, a finance system or an automated process.
 
+Imagine a team publishing an endpoint that returns the fields needed by its first screen. The response is small, the caller is known and the change appears easy to make. Months later, another team uses the same endpoint for a report, a support tool depends on one of its error codes and an automated process retries a request after a network timeout. A field that seemed internal has become part of several relationships, and changing it now means changing other people's work.
+
+The team did not do anything unusual. It published the shape that solved the first problem and relied on the caller to understand the rest. API lifecycle engineering begins when the team recognises that a published contract has a life beyond its first consumer.
+
 ## The contract has more than one part
 
-A useful consumer contract includes:
-
-- accepted inputs and questions;
-- returned information and its meaning;
-- actions and state changes;
-- errors and their remedies;
-- permission and classification rules;
-- limits such as paging, cost and rate;
-- retry and idempotency behaviour;
-- correlation and diagnostic information; and
-- versioning, deprecation and migration expectations.
+A useful consumer contract explains accepted inputs and questions, returned information and its meaning, actions and state changes, errors and their remedies, permission and classification rules, limits such as paging, cost and rate, retry and idempotency behaviour, correlation and diagnostic information and versioning, deprecation and migration expectations.
 
 In technical language, this is an API lifecycle. The practical idea is that a contract has a beginning, a useful life and a managed change or retirement path.
 
 ## How the roles contribute
 
-- business analysis explains the consumer outcome and meaning of the information;
-- developers define a contract that can be implemented without exposing internal storage;
-- testers check successful, invalid, denied, retried and concurrent use;
-- operations checks limits, readiness, diagnostics and dependency failures;
-- security checks authentication, authorisation and data classification; and
-- delivery records compatibility, migration and deprecation decisions.
+Business analysis explains the consumer outcome and meaning of the information. Developers define a contract that can be implemented without exposing internal storage. Testers check successful, invalid, denied, retried and concurrent use. Operations checks limits, readiness, diagnostics and dependency failures. Security checks authentication, authorisation and data classification, while delivery records compatibility, migration and deprecation decisions.
 
 ## Change safely
 
@@ -52,4 +41,4 @@ A contract may be designed before every client is known. Define the stable meani
 - [Palette Technical Terms](../palette/technical-terms.md)
 - [IQueryable and Governed Queryability](../../agents/conventions/foundations/iqueryable.md)
 - [API lifecycle rules](../../agents/conventions/capabilities/api-lifecycle.md)
-- [Stewardship and Deferred Design](./responsible-boundaries-and-deferred-design.md)
+- [Responsible Boundaries and Deferred Design](./responsible-boundaries-and-deferred-design.md)

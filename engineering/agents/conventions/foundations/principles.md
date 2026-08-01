@@ -4,7 +4,7 @@ Read this document for every engineering task; use it as the rationale for the m
 
 These principles are portable engineering priorities. They are not product requirements, project management preferences or a list of framework names. They explain why the more specific constraints and conventions exist.
 
-For the accessible explanation and examples, read [Human Guidance](../../../humans/README.md). This document keeps the compact rationale used by agents and maintainers.
+For the accessible explanation and examples, read [Human Guidance](../../../humans/readme.md). This document keeps the compact rationale used by agents and maintainers.
 
 ## How to read this
 
@@ -38,13 +38,19 @@ This supports reuse that was not fully imaginable during development: new screen
 
 **Sources:** [Microsoft, `IQueryable<T>`](https://learn.microsoft.com/en-us/dotnet/api/system.linq.iqueryable-1) describes a queryable data source whose query is represented as an expression tree; [OData](https://www.oasis-open.org/standards/odata/) defines a standard way to query and represent resources; [Microsoft, DDD and layered architecture](https://learn.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/ddd-oriented-microservice) discusses keeping domain and infrastructure concerns behind application boundaries.
 
-## 3. Preserve logical abstraction until the presentation boundary
+## 3. Model every domain ontologically before shaping it for consumers
 
-Keep the logical capability, relationships, state and queryable meaning intact for as long as possible. Delay consumer-specific conceptual shaping until the presentation or integration boundary where the actual need is known.
+Domain thinking is not reserved for customer-facing business concepts. Every coherent problem space has a domain, including technical and platform domains. The Domain layer for a business capability should hold the **ontological model of the business domain**. A platform capability should hold the equivalent ontological model of its technical domain: what configuration, identity, persistence, messaging, startup, diagnostics, caching, deployment or recovery concepts exist, how they relate, which states and failures matter and which contracts other parts may rely on.
 
-This does **not** mean exposing domain entities, persistence records or unrestricted queries. It means separating logical meaning from a premature screen model, report shape or endpoint convenience model. Application contracts should preserve useful semantics and compose them through governed projections. The final interface, view, export or integration adapter may then shape that meaning for a particular consumer.
+Each domain model is logical in architecture because it is independent of a particular transport, vendor or storage implementation. It is conceptual within its own problem space because it is how the system knows what that domain means. A technical domain is not merely a wrapper around a library. Its model should express the capability, policy, lifecycle and failure semantics that make the technical concern useful to the rest of the system.
 
-Look for recurring structure before inventing a new conceptual shape. When several capabilities share an invariant, prefer a stable logical abstraction and explicit mapping at the edge. When only one consumer needs a shape, keep it at that consumer boundary rather than allowing it to redefine the underlying capability.
+Keep that logical capability, relationships, state and queryable meaning intact for as long as possible. Delay consumer-specific shaping until the presentation or integration boundary where the actual need is known.
+
+This does **not** mean exposing domain entities, persistence records or unrestricted queries. It means separating an ontological domain model from a consumer's current screen, process, vendor API, framework type, report shape or endpoint convenience model. Application and technical contracts should translate between those views and preserve useful semantics through governed projections or adapters. The final interface, view, export, integration adapter or infrastructure provider may then shape the domain meaning for its consumer.
+
+Look for recurring structure before inventing a new domain concept. When several capabilities share an invariant, prefer a stable ontological abstraction and explicit mapping at the edge. When only one consumer needs a shape, keep it at that consumer boundary rather than allowing it to redefine the underlying capability.
+
+This is not a demand to follow DDD or ANSI/SPARC terminology as doctrine. Those traditions provide useful tools and warnings. The objective is long-term system value: abstract from real business or technical needs and evidence so that today's application view, vendor choice or framework arrangement does not become tomorrow's system constraint. Do not invent an elegant domain model without evidence either. The team must make the difficult judgement about what is durable, what is local and what must remain explicitly different.
 
 This improves evolvability because later consumers can ask different questions without requiring a new persistence path or a workaround around the first screen. It reduces novel solutions because established resource, relationship, query and lifecycle patterns remain reusable. It also respects long-lived patterns such as separation of concerns, information hiding, abstraction barriers and representation independence instead of rediscovering them as bespoke presentation models.
 

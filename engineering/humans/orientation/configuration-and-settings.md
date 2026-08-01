@@ -10,6 +10,10 @@ Configuration helps the building open and operate. Settings are choices availabl
 
 Both may look like key-value pairs. They are not the same responsibility.
 
+Imagine a team adding a setting that lets an organisation choose how long a service waits before closing an inactive case. The value belongs to the organisation and can be changed through the product. The same team also needs a connection target and a secret store location so the service can start. If both values are placed in one untyped collection, the product may expose a deployment secret as an editable setting, or treat a user choice as though it can only change during deployment.
+
+The values may look identical in a configuration file. Their sources, permissions, lifecycles and failure consequences are different. The distinction becomes important when someone needs to change one without redeploying the service, protect another from users and operators, or explain where the effective value came from.
+
 ## Configuration
 
 Configuration provides values needed to assemble or operate a service. Examples include connection targets, feature switches needed during startup, provider options and deployment settings.
@@ -26,24 +30,13 @@ A setting is not only its current value. The system may need to explain where th
 
 ## Why the distinction matters
 
-If configuration and settings are mixed together, several problems follow:
-
-- startup values may be exposed as though users can edit them;
-- user choices may be read like immutable deployment configuration;
-- secrets may be treated like ordinary settings;
-- permissions and inheritance may be missing;
-- changes may occur at unsafe times; and
-- services may depend on a raw key-value store instead of a meaningful contract.
+If configuration and settings are mixed together, startup values may be exposed as though users can edit them, user choices may be read like immutable deployment configuration, secrets may be treated like ordinary settings, permissions and inheritance may be missing, changes may occur at unsafe times and services may depend on a raw key-value store instead of a meaningful contract.
 
 The distinction is a form of safety. It tells the team which values belong to construction, which belong to product behaviour and which require protected sources.
 
 ## How the roles contribute
 
-- business roles describe which choices should be manageable and by whom;
-- developers define typed contracts and safe resolution behaviour;
-- testers check defaults, overrides, validation, permissions and reload behaviour;
-- operations checks deployment sources, secrets, readiness and recovery; and
-- security checks classification, exposure and change authority.
+Business roles describe which choices should be manageable and by whom. Developers define typed contracts and safe resolution behaviour. Testers check defaults, overrides, validation, permissions and reload behaviour. Operations checks deployment sources, secrets, readiness and recovery, while security checks classification, exposure and change authority.
 
 No single role needs to know every detail. The contract brings the views together.
 

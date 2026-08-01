@@ -1,6 +1,6 @@
 ## Work Instructions
 
-Before changing this repository, identify which conventions apply and read them before planning, then implement them as you work.
+Before changing this repository, read the mandatory baseline conventions below. Then identify which additional conventions apply, read them before planning and implement them as you work.
 
 ## Convention groups
 
@@ -19,6 +19,10 @@ For any work, read first and adhere to:
 For onboarding, cross-cutting architectural decisions, module boundaries, model boundaries, slice design or flow design, read and follow:
 
 - [Developers Need to Know](./development/developers-need-to-know.md)
+
+For platform service design, startup composition, dependency readiness or a missing shared capability, read and follow:
+
+- [Platform Service Inventory](./development/platform-services.md)
 
 For any repository creation, restructuring or Git-related work, read and follow:
 

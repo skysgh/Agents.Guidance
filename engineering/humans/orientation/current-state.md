@@ -27,7 +27,7 @@ When the visible ticket is treated as the whole design, the team may build:
 
 The result may satisfy the ticket while silently deciding responsibility, security, lifecycle, mapping and future query behaviour without discussing them. Those decisions then become difficult to change because they are spread across code rather than named as contracts.
 
-A business description tells us what someone wants to achieve. It does not, by itself, tell us the logical objects, the boundary contracts, the storage model, the access rules or the operational lifecycle needed to achieve it safely.
+A business description tells us what someone wants to achieve. It does not, by itself, tell us the logical objects, the boundary contracts, the storage model, the access rules or the operational lifecycle needed to achieve it safely. The business analyst is not at fault when implementation invents the wrong logical object; the team is responsible for carrying the conceptual request into a deliberate logical design. [What the Guidance Gives Each Stakeholder](./what-this-guidance-gives.md) explains how business analysts, developers and testers can protect that distinction together.
 
 ## Common drift patterns
 
@@ -43,7 +43,7 @@ The remedy is not to create more classes mechanically. The remedy is to name the
 
 A screen or ticket describes a shape, and that shape is implemented directly as the database entity. There is no deliberate step between what the user sees, what the service means and what the database stores. There is no boundary that lets each part evolve independently.
 
-In technical language, that missing separation is often described as a missing brokering layer. The concept is more important than the term: storage should not silently decide the meaning of the business concept.
+In technical language, that missing separation is often described as a missing brokering layer. The concept is more important than the term: storage should not silently decide the meaning of the business concept. A tester may notice the smell when test cases, fixtures and assertions can only describe the behaviour through table names or persistence entities. That does not prove the design is wrong, but it is a useful reason to ask whether the logical capability has been defined independently of its physical storage.
 
 This makes storage constraints decide the conceptual model too early. It also makes a later screen, report or integration negotiate with the first screen's schema instead of using a reusable capability.
 
@@ -136,8 +136,9 @@ That question does not prevent delivery. It prevents delivery from becoming a se
 
 ## Related guidance
 
-- [Human Start Here](./start-here.md)
+- [The Structure Before the Feature](./the-structure-before-the-feature.md)
 - [What the guidance gives each stakeholder](./what-this-guidance-gives.md)
+- [Systems Within Systems](./systems-within-systems.md)
 - [Developers Need to Know](../../agents/conventions/development/developers-need-to-know.md)
 - [Design the knowable; discover the novel](../../agents/conventions/foundations/principles.md)
 - [IQueryable and Governed Queryability](../../agents/conventions/foundations/iqueryable.md)

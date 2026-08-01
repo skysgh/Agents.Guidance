@@ -16,47 +16,82 @@ Use this pattern:
 
 The technical word adds precision. It is not a test of whether the reader understood the idea.
 
+## Conceptual pacing and transitions
+
+Human readers need time to form a mental picture. Do not move abruptly from one concept to the next, even when the connection seems obvious to the writer. Explain the first idea and its consequence, allow it to settle, then use a short bridge to show why the related idea is being introduced.
+
+A bridge might say that a familiar comparison will make the difference visible, that the next idea depends on the one just explained, or that a practical example will make the principle concrete. The reader should understand why the direction is changing before the change happens.
+
+Prefer a gentle progression over compressed routing. A person reading for understanding cannot be expected to pivot conceptually as quickly as an agent following explicit instructions. Human guidance should therefore feel like a connected explanation, with enough space between ideas for the reader to carry the earlier one forward.
+
+## System design is an engineering discipline
+
+Do not describe system design as an equal mixture of science and art when that suggests that every design is a unique act of personal creativity. After decades of enterprise software, many of the structural problems are recurring: boundaries, contracts, identity, data protection, persistence, lifecycle, failure, recovery, observation and operation. The programming languages, vendors and materials change, but the engineering relationships return.
+
+The custom part is real, but it is usually concentrated in the organisation's meaning, decisions, constraints, workflows and human experience. Those choices deserve careful thought. They do not justify reinventing the supporting structure or treating improvisation as architecture. A building may have distinctive rooms, finishes and furnishings, but most of its strength comes from the repeated engineering of foundations, frames, connections, services and safety margins.
+
+Use the building comparison to keep the proportions visible. Objects, screens and visible features are the paint, curtains and rooms people notice. Contracts, boundaries, data handling, security, recovery and operating evidence are closer to the steel, concrete, pipes and cables that make the building usable. A workaround may be necessary for a time, but duct tape is not a design philosophy and improvisation is not the same as engineering judgement.
+
+This does not mean that system design is mechanical or that every problem has one correct answer. It means that teams should first recognise the established engineering problem, use the known patterns that fit it and make the genuinely new decisions explicit. Guidance should give people confidence to reuse sound structure rather than making novelty a status test.
+
+## Patterns before bespoke solutions
+
+Do not treat patterns as vocabulary that developers use to get hired and then leave behind when real work begins. Patterns are working tools. They record solutions to problems that have already appeared repeatedly, along with the forces, trade-offs and consequences that made those solutions useful.
+
+A bespoke solution may be justified when the domain, constraints or evidence genuinely do not fit an established pattern. It should not be the default simply because the team can make a local version that works. Before inventing a new shape, ask which known patterns apply, what they would protect, where they would need adaptation and what evidence would justify departing from them.
+
+"It works" is necessary but incomplete evidence. A locally successful solution may still leave unclear ownership, hidden coupling, weak recovery, poor auditability or a difficult path for the next team. A pattern gives the team a shared starting point and language for reviewing those risks. If the team chooses a bespoke design, record why, what risk it accepts and how it will remain understandable to people who did not invent it.
+
+## Taking responsibility for entrusted systems
+
+When people or organisations entrust a system with their records, money, access or essential services, the system carries a responsibility that is larger than its visible feature set. The people who build and maintain it must protect what has been entrusted to them, keep it available to the people who are allowed to use it, preserve its accuracy and make it understandable and usable. Good engineering should help the service improve people's lives, not merely make a process run.
+
+That responsibility does not mean quietly turning every existing policy or process into permanent software behaviour. A process may have grown from a temporary limitation, an old assumption or a well-intentioned response to an earlier problem. Even when its original reason was good, embedding it invisibly in code can make it difficult to question, explain or change.
+
+Human-facing guidance should therefore make these decisions visible. It should distinguish the responsibility the system must uphold from the policy or process currently used to uphold it. Where a policy belongs in the software, explain its purpose, authority and expected change points. Where a process is only one way of meeting the responsibility, keep that choice replaceable and do not present it as an unchangeable truth.
+
+## Building and operating are different responsibilities
+
+People cannot spend unlimited time on one construction effort. A service also has to remain dependable after the people who built it have moved to other work. This gives us two related responsibilities: building the service so that its structure, boundaries and behaviour can be understood, and operating it so that it remains secure, available, accurate and useful over time.
+
+Building responsibility includes making sound decisions, joining the parts carefully, recording what future people need to know and leaving the unfinished parts structurally safe. Operating responsibility includes watching what is happening, responding when the service or its dependencies change, protecting the records and access entrusted to the service, and helping people recover when something goes wrong.
+
+These responsibilities meet at the point where the building is handed over and then maintained. A service that can only be operated by the people who originally built it is not complete, however elegant its code may be. Guidance should therefore describe both what the builders must establish and what the operators must be able to understand, observe and change without depending on an absent expert.
+
 ## Plain and translation-friendly language
 
 Human-facing documents should:
 
-- use short sentences and familiar words;
-- state one main idea in each paragraph;
+- avoid terseness;
+- avoid technical terms until the concept is understandable;
+- use familiar words;
+- do not rely on short sentences so heavily that the prose becomes terse or uninviting;
+- do not use one long sentence to carry several unrelated ideas at once;
+- keep to one main idea in each paragraph;
 - define a technical term when it first appears;
 - use the same word for the same idea throughout a document;
 - prefer active voice where it makes the actor clearer;
-- use lists for sequences, responsibilities and choices;
-- explain acronyms the first time they appear;
+- avoid lists when flowing paragraphs would be more natural; after the ideas have been introduced, lists can summarise sequences, responsibilities and choices;
+- explain acronyms the first time they appear, then also point to the glossary;
+- use metaphors to introduce when examples are difficult; 
 - use examples before abstract generalisations where the subject is difficult;
 - explain the consequence of including, omitting or deferring a design choice;
 - say what each role contributes to the shared design; and
 - finish a section with the practical meaning or next step.
 
-Write for people who may understand the business problem but not the implementation vocabulary. Do not make terminology a gate to participation.
+Write for people who may understand the business problem but not the implementation vocabulary. 
 
-## High-rise teaching metaphor
+Do NOT make terminology a gate to participation.
 
-The high-rise metaphor may be used consistently:
+## Building and High-rise teaching metaphor
 
-- bedrock represents dependable evidence and foundations;
-- foundations represent contracts, security, lifecycle and other structural necessities;
-- vertical shafts represent capabilities carried through layers;
-- slabs represent shared boundaries and platform services;
-- horizontal flows represent journeys between capabilities; and
-- tenant spaces represent experiences adapted for particular users or organisations.
+People have some experience of buildings, so the building picture can help explain software relationships and dependencies. The fuller explanation belongs in [The Building Metaphor](./building-metaphor.md). Use that explanation before introducing the metaphor in another human-facing document.
 
-Use the metaphor to explain relationships, not to decorate a document. Return to concrete terms after the picture is understood.
+Use the metaphor to explain relationships, not to decorate a document. Introduce the practical software idea first, use the building picture to make the relationship easier to see, and return to concrete software terms once the picture is understood.
 
-The building picture explains relationships and dependencies. It does not mean that every future business detail can be predicted, or that software must be delivered through one rigid construction process. Buildings have different sizes, and software has different levels of consequence.
+Keep the scale of the metaphor proportional to the consequences of the service. A temporary shelter, single dwelling, multi-unit building and high-rise do not need the same construction method. The audience, service life, external reliance and legal, financial or reputational consequences should determine how much structure and evidence the guidance asks for. Do not use a small-looking building as an excuse to ignore a boundary on which other people depend.
 
-The metaphor must also allow for different building sizes. Not every piece of software needs the same construction method:
-
-- a **temporary shelter** may be a short-lived script or one-off integration, built quickly from simple materials because its life and consequences are limited;
-- a **single dwelling** may be an internal application used by one team, with lighter construction and fewer shared services;
-- a **multi-unit building** may support several teams or groups and therefore need shared entrances, utilities, maintenance and rules for different residents; and
-- a **high-rise or commercial building** may support many external users, integrations and obligations, requiring deliberate foundations, boundaries, safety checks, services and operating evidence.
-
-The guidance is aimed primarily at the later cases: services that matter beyond the immediate development team. The larger the audience, the longer the service life, the greater the external reliance and the greater the reputational or legal consequence of failure, the more organised the foundations must be. Scale the construction method to the consequences, but do not use a small-looking building as an excuse to ignore a known boundary when the outside world depends on it.
+Keep the shared vocabulary consistent when it is useful: bedrock and foundations for dependable evidence and structural necessities; vertical shafts for capabilities carried through layers; slabs for shared boundaries and platform services; horizontal flows for journeys between capabilities; and tenant spaces for experiences adapted for particular users or organisations.
 
 ## Inclusive voice
 

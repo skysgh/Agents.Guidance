@@ -10,7 +10,7 @@ When a word such as Request, Approval, Evidence or Service appears, check its Do
 
 A flow is a repeated shape for moving from one useful result to another. The business content changes, but the shape often does not. Using a known shape reduces missed steps, surprises and repeated design work.
 
-A vertical slice carries one capability through the building. A flow connects several capabilities across the floors. The flow gives the journey a known route; the slices provide the rooms and services.
+A vertical slice carries one capability through the building. A flow connects several capabilities across the floors. The flow gives the journey a known route; the slices provide the rooms and services. See [Vertical Slices: Common Shafts](../development/vertical-slices.md) for common slice shapes and [Cross-Cutting Services](../development/cross-cutting-services.md) for the shared building systems that support them.
 
 ## The everyday baseline: BREAD/ST
 
@@ -26,6 +26,8 @@ Many managed items can begin with **BREAD/ST**:
 The last part is important. Submitting, approving, publishing, suspending and closing often require decisions that are different from changing a field.
 
 BREAD/ST is a useful starting shape. It is not a command to force every business action into generic CRUD.
+
+BREAD/ST and CRU/ST describe related but different views. BREAD/ST describes how a person may browse and work with a managed item through an experience. CRU/ST describes the capability shaft that owns the record, its rules, its state transitions and its effects. One BREAD/ST experience may use one CRU/ST slice, several slices or a larger horizontal flow. Read [Vertical Slices: Common Shafts](../development/vertical-slices.md) when the question is about the capability boundary rather than the visible journey.
 
 ## The assembly palette
 

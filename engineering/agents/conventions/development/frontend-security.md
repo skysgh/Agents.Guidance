@@ -2,7 +2,7 @@
 
 Apply these conventions to browser applications and client-side build output.
 
-For the accessible explanation of browser security as a boundary, read [Human Guidance](../../../humans/README.md).
+For the accessible explanation of browser security as a boundary, read [Human Guidance](../../../humans/readme.md).
 
 ## Purpose
 

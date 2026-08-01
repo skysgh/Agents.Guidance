@@ -2,7 +2,7 @@
 
 Apply these conventions to deployable services, workers, scheduled jobs and infrastructure integrations.
 
-For the accessible explanation of operations as the part of the building that keeps it safe after people move in, read [Human Guidance](../../../humans/README.md).
+For the accessible explanation of operations as the part of the building that keeps it safe after people move in, read [Human Guidance](../../../humans/readme.md).
 
 ## Purpose
 

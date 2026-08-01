@@ -2,7 +2,7 @@
 
 Apply these conventions wherever software collects, stores, transmits, displays, logs or deletes data.
 
-For the accessible explanation of protection, trust and stewardship, read [Human Guidance](../../../humans/README.md).
+For the accessible explanation of protection, trust and stewardship, read [Human Guidance](../../../humans/readme.md) and [Legal and Regulatory Context](../../../humans/orientation/legal-context.md).
 
 ## Purpose
 

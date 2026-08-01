@@ -2,7 +2,7 @@
 
 This is the agent-facing entrance to the Engineering Guidance domain.
 
-The compact repository entry point is [agents.md](../../agents.md). Agents should load only the conventions relevant to the task.
+The compact repository entry point is [agents.md](../../agents.md). Agents should load the mandatory baseline conventions first, then load only the additional conventions relevant to the task.
 
 ## Human explanation
 

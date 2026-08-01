@@ -67,9 +67,19 @@ The same word may describe different capabilities in different Domains. This is 
 
 ## Domain
 
-The area of business meaning in which concepts, rules, decisions and capabilities make sense together. A Domain is not only a database area or a folder. It gives a capability its vocabulary and boundaries.
+The area of meaning in which concepts, rules, decisions and capabilities make sense together. A Domain is not only a database area, project or folder. It gives a capability its vocabulary and boundaries.
+
+A **business domain** describes the people, records, decisions, relationships and outcomes the service exists to support. A **technical or platform domain** describes a coherent technical problem, such as identity, settings, persistence, startup or diagnostics. Both need explicit concepts, contracts, lifecycle rules and responsible boundaries.
+
+A **domain model** is the logical ontological model of one domain. It describes the things, identities, relationships, states and rules that the system must understand. It is not automatically a storage model, transport model or framework model.
 
 In technical language, a Domain-Driven Design (DDD) team tries to keep the software language close to the language and rules of the relevant Domain.
+
+## Logical Deployment Module (LDM)
+
+An LDM is a deployment and ownership boundary. It is not automatically a DDD bounded context, aggregate or single domain. One LDM may contain one or more explicit domains when those domains are related and their deployment, ownership and contracts justify keeping them together. When the domains no longer share a coherent purpose, lifecycle or responsibility, the team should consider a separate LDM.
+
+For example, a Systems LDM may contain related User, Role, Permission and Settings domains because they support the operation of the same service foundation. A business LDM may then contain Request and Evidence domains for the organisation's business need. Person and Group may belong in the Systems LDM or a separate LDM depending on their complexity, reuse, ownership and lifecycle. The example is a way to reason about structure, not a mandatory decomposition.
 
 ## Function
 
@@ -95,6 +105,8 @@ These roles may be related, but they are not interchangeable. A person acting as
 ### System is polysemous
 
 **System** can mean different layers of a wider arrangement. There are two useful views, and they should not be confused.
+
+For the wider relationship between those layers, see [Systems Within Systems](../orientation/systems-within-systems.md). That paper uses **polysystem** as a reminder that a digital system can participate in several wider systems of obligations, duties and capabilities at once.
 
 #### The organisational and service view
 
@@ -208,7 +220,7 @@ An Event that records a meaningful fact in a Domain, such as a Request being sub
 
 Explanations written for people from different roles and levels of technical experience. Human guidance explains the problem and concept before the technical term.
 
-See [Human Guidance](./README.md).
+See [Human Guidance](./readme.md).
 
 ## Lifecycle responsibility
 
