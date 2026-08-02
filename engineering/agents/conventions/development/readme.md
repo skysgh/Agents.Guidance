@@ -1,6 +1,6 @@
 # Development Conventions
 
-These conventions support implementation, testing, operations and project structure. Start with [Developer Architecture Route](./developers-need-to-know.md), then select the subject relevant to the task. For the reasoning behind the rules, read the human paper [What Developers Need to Know](../../../humans/orientation/developers-need-to-know.md).
+These conventions support implementation, testing, operations and project structure. Start with [Developer Architecture Route](./guidance-for-developers.md), then select the subject relevant to the task. For the reasoning behind the rules, read the human paper [Guidance for Developers](../../../humans/orientation/guidance-for-developers.md).
 
 ## Subject areas
 

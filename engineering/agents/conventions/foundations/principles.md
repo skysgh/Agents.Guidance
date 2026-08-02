@@ -4,7 +4,7 @@ Read this document for every engineering task; use it as the rationale for the m
 
 These principles are portable engineering priorities. They are not product requirements, project management preferences or a list of framework names. They explain why the more specific constraints and conventions exist.
 
-For the accessible explanation and examples, read [Human Guidance](../../../humans/readme.md). This document keeps the compact rationale used by agents and maintainers.
+For the accessible explanation and examples, read [Human Guidance](../../../humans/readme.md), [Deliverable Systems](../../../humans/reference/catalogues/deliverable-systems.md) and [Deliverables](../../../humans/reference/catalogues/deliverables.md). This document keeps the compact rationale used by agents and maintainers.
 
 ## How to read this
 
@@ -40,9 +40,9 @@ This supports reuse that was not fully imaginable during development: new screen
 
 ## 3. Model every domain ontologically before shaping it for consumers
 
-Domain thinking is not reserved for customer-facing business concepts. Every coherent problem space has a domain, including technical and platform domains. The Domain layer for a business capability should hold the **ontological model of the business domain**. A platform capability should hold the equivalent ontological model of its technical domain: what configuration, identity, persistence, messaging, startup, diagnostics, caching, deployment or recovery concepts exist, how they relate, which states and failures matter and which contracts other parts may rely on.
+Domain thinking is not reserved for customer-facing business concepts. Every coherent problem space has a domain, including technical and platform domains. Within an LDM, the application and domain implementation should physically express the **ontological model of the business domain**. A platform capability should physically express the equivalent ontological model of its technical domain: what configuration, identity, persistence, messaging, startup, diagnostics, caching, deployment or recovery concepts exist, how they relate, which states and failures matter and which contracts other parts may rely on. Interface DTOs and view models may be physically shaped closer to consumer language, while persistence models physically carry the meaning into storage and add the keys, constraints, indexes and other requirements that storage needs.
 
-Each domain model is logical in architecture because it is independent of a particular transport, vendor or storage implementation. It is conceptual within its own problem space because it is how the system knows what that domain means. A technical domain is not merely a wrapper around a library. Its model should express the capability, policy, lifecycle and failure semantics that make the technical concern useful to the rest of the system.
+Each domain model is logical because it is independent of a particular transport, vendor or storage implementation. Domain code is a physical representation of that logical model, and it is conceptual within its own problem space because it is how the system knows what that domain means. A technical domain is not merely a wrapper around a library. Its model should express the capability, policy, lifecycle and failure semantics that make the technical concern useful to the rest of the system.
 
 Keep that logical capability, relationships, state and queryable meaning intact for as long as possible. Delay consumer-specific shaping until the presentation or integration boundary where the actual need is known.
 

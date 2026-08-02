@@ -2,7 +2,7 @@
 
 Apply these conventions to deployable services, workers, scheduled jobs and infrastructure integrations.
 
-For the accessible explanation of operations as the part of the building that keeps it safe after people move in, read [Human Guidance](../../../humans/readme.md).
+For the accessible explanation of operations as the part of the building that keeps it safe after people move in, read [Human Guidance](../../../humans/readme.md), [Deliverable Systems](../../../humans/reference/catalogues/deliverable-systems.md), [Deliverables](../../../humans/reference/catalogues/deliverables.md), [Deliverables Checklist](../../../humans/reference/checklists/deliverables.md), [External Dependencies](../../../humans/reference/catalogues/external-dependencies.md), [Security at Rest Checklist](../../../humans/reference/checklists/security-at-rest.md) and [Security in Transit Checklist](../../../humans/reference/checklists/security-in-transit.md).
 
 ## Purpose
 

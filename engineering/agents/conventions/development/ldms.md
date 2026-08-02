@@ -2,6 +2,8 @@
 
 Read this document only when creating, restructuring or managing a Logical Deployment Module or its project boundaries.
 
+For the accessible explanation of the package boundary, read [Logical Deployment Modules](../../../humans/reference/catalogues/ldms.md), [LDM Layers and Contents](../../../humans/development/layers.md) and [Guidance for System Design Architects](../../../humans/orientation/guidance-for-system-design-architects.md).
+
 Systems are developed as a stack of discrete Logical Deployment Modules (LDMs), per stakeholder.
 
 ### Sys
@@ -35,7 +37,7 @@ Shared:
 Domain:
 - references Shared for access to LDM specific constants and contracts.
 - defines the ontological model of the relevant business or technical domain: an abstracted account of durable capabilities, concepts, relationships, states, policies and rules;
-- is logical in architecture but conceptual within its problem space: it is how the system knows the domain, not a transcription of one current client, team, vendor or framework description;
+- is physically implemented in domain code while remaining logically independent of transport, storage, vendors and frameworks; within its problem space it carries the conceptual meaning of the domain rather than transcribing one current client, team, vendor or framework description;
 - defines repository ports that are implemented within the repository's persistence implementation, such as `App.Modules.{key}.Infrastructure.Persistence.EF`; and
 - must not make physical storage entities the definition of the business concept.
 Infrastructure:
@@ -75,8 +77,8 @@ The LDM projects are organised around dependency direction, not merely around fo
  Client/application concepts
          |
          v
-Domain logical model:
-ontological model of the business or technical domain
+ Domain implementation:
+physical code expressing the logical ontological model
          ^
          |
   Infrastructure implements ports
@@ -90,7 +92,7 @@ An LDM is a deployment and ownership boundary. It is not automatically a DDD bou
 
 Within a domain, use DDD building blocks where they fit the ontological model of the business or technical domain: entities have identity and lifecycle, value objects carry a complete value without independent identity, aggregates protect a consistency boundary, and domain services hold rules that do not naturally belong to one entity or value object. These patterns are tools for thinking, not lore to follow mechanically. The team must abstract from real business or technical needs and evidence so that the model can survive changes in organisation, process, vendor or infrastructure. Application code coordinates use cases around that model; it should not turn database records or vendor objects into the domain model by default.
 
-Different domain views must be kept distinct. An application or interface layer may express how a particular client, role or process understands and requests the work. A technical adapter may express how a vendor or framework exposes a capability. The Domain layer expresses the ontological model of the relevant domain: the stable meaning, relationships, states, policies and rules that the system carries forward. It is logical in the ANSI/SPARC sense because it is independent of storage and implementation, but conceptual within its problem space because it is how the system knows what things mean. Physical entities and framework types remain at the infrastructure or interface edges, with explicit mapping wherever their responsibility differs.
+Different model types and implementation positions must be kept distinct. Every layer contains physical code and physical models; the layers are not conceptual, logical and physical model types. Interface DTOs and view models are physical representations shaped close to the concepts and language that a consumer, role or business process recognises. Application and domain entities are physical representations shaped closer to the ontological and logical distinctions, relationships, states, policies and rules that the system carries forward. Persistence models are also physical representations: they carry the logical meaning as far as the persistence boundary requires, while adding storage-system requirements such as primary keys, foreign keys, indexes, concurrency tokens and provider constraints. A technical adapter may physically express how a vendor or framework exposes a capability. Mapping remains explicit wherever semantic proximity, lifecycle or responsibility differs.
 
 Do not follow layering terminology as an authority by itself. Use it to protect the customer's long-term value. If the outer application view is copied directly into the domain, today's client arrangement becomes tomorrow's system constraint. If the domain is invented without evidence from real clients and stakeholders, it becomes elegant but untrustworthy. The team must do the harder work: abstract what is durable, name what is genuinely different and keep the mapping visible.
 

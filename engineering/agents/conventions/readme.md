@@ -18,7 +18,7 @@ For any work, read first and adhere to:
 
 For onboarding, cross-cutting architectural decisions, module boundaries, model boundaries, slice design or flow design, read and follow:
 
-- [Developers Need to Know](./development/developers-need-to-know.md)
+- [Guidance for Developers](./development/guidance-for-developers.md)
 
 For platform service design, startup composition, dependency readiness or a missing shared capability, read and follow:
 

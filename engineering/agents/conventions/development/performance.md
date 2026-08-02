@@ -2,6 +2,8 @@
 
 Apply these conventions to production services, workers, data access, browser applications and resource-sensitive tooling.
 
+For the accessible explanation of performance as a system quality and delivery concern, read [Quality Perspectives](../../../humans/reference/catalogues/qualities.md) and [Guidance for Tech Leads](../../../humans/orientation/guidance-for-tech-leads.md).
+
 ## Define the target
 
 Before optimising, record the representative workload, data size, concurrency, throughput target, latency target and resource budget. Use percentile latency, including p95 and p99, rather than averages alone.

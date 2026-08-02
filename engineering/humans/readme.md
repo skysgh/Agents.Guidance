@@ -2,6 +2,12 @@
 
 Software engineering is the work of making a service understandable, dependable and able to change. The visible feature is only one part of that work. A service also needs clear responsibilities, boundaries, security, persistence, recovery and evidence that it behaves as intended.
 
+A delivered outcome is wider than the service code. Start with [Deliverable Systems](./reference/catalogues/deliverable-systems.md) to distinguish the delivery, service, consumer, testing and cross-system test-context systems, then use [Deliverables](./reference/catalogues/deliverables.md) to organise the data, content, domains, DNS, certificates, discovery, dependencies and operational evidence they require. Use [Registries](./reference/catalogues/registries.md) to separate enterprise-wide sources that projects refer to from project-specific records that projects produce and maintain.
+
+The human benefit of this structure is explained in [Liberation Through Clarity](./shared/liberation-through-clarity.md), including what it gives developers, Business Analysts, Product Managers, Product Owners, architects, technical leads, testers, operators and maintainers.
+
+Stakeholder-specific routes are collected in [Stakeholder Guidance](./stakeholders/readme.md). They explain role contributions and handoffs without splitting shared engineering concepts into separate silos.
+
 Not every service needs the same amount of structure. A short-lived script, a tool used by one team, a shared service and a public-facing system have different audiences and different consequences when something goes wrong. The construction effort should match those consequences.
 
 That creates a design problem before it creates a coding problem. People need a shared picture of what the service is responsible for, which parts depend on one another and what must remain safe when the next feature arrives. Without that picture, each contributor can make a locally sensible decision that leaves the whole service harder to understand and change.

@@ -1,8 +1,8 @@
 # System LDM Service Readiness Reference
 
-This reference is the detailed readiness table supporting the human [System LDM Services](../development/services.md) paper. It describes the services and domains that commonly belong in a System LDM. It is a dependency and readiness guide, not a mandatory feature list. The System LDM provides reusable technical foundations and shared system capabilities. A business LDM still owns its business concepts, rules, state transitions and business workflow.
+This reference is the detailed readiness table supporting the human [System LDM Services](../development/services.md) paper. It describes the services and domains that commonly belong in a System LDM. It is a dependency and readiness guide, not a mandatory feature list. The System LDM provides reusable technical foundations and shared system capabilities. A business LDM remains responsible for its business concepts, rules, state transitions and business workflow.
 
-The list is deliberately more explicit than a framework or hosting template. Frameworks can provide useful mechanisms, but they do not decide the application's ownership, data classification, lifecycle, recovery, audit, portability or operating responsibilities. The System LDM turns those responsibilities into contracts that the rest of the application can use without repeating provider-specific assumptions.
+The list is deliberately more explicit than a framework or hosting template. Frameworks can provide useful mechanisms, but they do not decide the application's responsibilities, data classification, lifecycle, recovery, audit, portability or operating concerns. The System LDM turns those responsibilities into contracts that the rest of the application can use without repeating provider-specific assumptions.
 
 ## What belongs in the System LDM
 
@@ -20,32 +20,32 @@ Common system domains include:
 - **Audit:** accountable records of protected access, decisions and changes.
 - **Startup and discovery:** the contracts and ordering that make a running service ready.
 
-Person and Group may also belong in the System LDM when they are shared system concepts. They may deserve a separate LDM when their complexity, reuse, ownership or lifecycle becomes substantial. Do not force them into the System LDM merely because they sound foundational.
+Person and Group may also belong in the System LDM when they are shared system concepts. They may deserve a separate LDM when their complexity, reuse, responsibility or lifecycle becomes substantial. Do not force them into the System LDM merely because they sound foundational.
 
-The System LDM can provide the technical ability to authenticate, authorise, audit, queue or coordinate work. It must not silently become the owner of a business concept just because that concept uses one of those services. For example, the System LDM can provide permission evaluation; a business LDM still owns what approving a request means.
+The System LDM can provide the technical ability to authenticate, authorise, audit, queue or coordinate work. It must not silently become responsible for a business concept just because that concept uses one of those services. For example, the System LDM can provide permission evaluation; a business LDM remains responsible for what approving a request means.
 
 | Order | Capability | Purpose | Readiness question |
 | --- | --- | --- | --- |
 | 1 | Configuration | Supplies typed construction values, environment references and dependency targets. | Are sources, classification, defaults and validation rules known before dependent services activate? |
 | 2 | Diagnostics | Reports composition, health, failure, correlation and operational evidence. | Can the service explain what it tried to assemble and why readiness succeeded or failed? |
-| 3 | Key Vault and secret resolution | Retrieves protected secrets, credentials, tokens and keys without treating them as ordinary source-controlled configuration. | Can protected material be resolved, classified, rotated and redacted safely? |
-| 4 | Storage foundations | Provides contracts for durable storage, object or media storage and other persistent resources. | Are ownership, readiness, failure, retention and recovery policies explicit? |
-| 5 | Settings | Defines available choices and effective values for users, workspaces, modules or environments. | Are declarations separate from persisted values, with validation, scope, ownership and classification? |
-| 6 | Routing | Connects external requests to the responsible interface and capability boundary. | Are routes stable, authorised, observable and free from business ownership that belongs deeper in the system? |
+| 3 | Key Vault and secret resolution | Retrieves protected secrets, credentials, tokens and keys without treating them as ordinary source-controlled configuration. The pipeline and the executing workload use identities to access values only when required; humans do not retrieve or copy production secret values. | Can protected material be resolved, classified, rotated and redacted safely, with human administration separated from value retrieval? |
+| 4 | Storage foundations | Provides contracts for durable storage, object or media storage and other persistent resources. | Are responsibility, readiness, failure, retention and recovery policies explicit? |
+| 5 | Settings | Defines available choices and effective values for users, workspaces, modules or environments. | Are declarations separate from persisted values, with validation, scope, responsibility and classification? |
+| 6 | Routing | Connects external requests to the responsible interface and capability boundary. | Are routes stable, authorised, observable and free from business responsibility that belongs deeper in the system? |
 | 7 | Mapping | Translates between external, application, domain, persistence and query projection models. | Are mappings explicit, safe for query translation and independent of accidental storage or UI shape? |
 | 8 | Startup reflection and contract-based discovery | Finds eligible platform and module participants, orders them and invokes their lifecycle contracts. | Is discovery scoped, deterministic, observable, duplicate-safe and tested for execution as well as presence? |
-| 9 | EF schema and model contribution | Discovers and applies persistence model contributions, migrations and provider-specific schema behaviour. | Is schema ownership clear, is design-time/runtime discovery consistent and is persistence ready before dependent work? |
+| 9 | EF schema and model contribution | Discovers and applies persistence model contributions, migrations and provider-specific schema behaviour. | Is schema responsibility clear, is design-time/runtime discovery consistent and is persistence ready before dependent work? |
 | 10 | Local caching | Reuses rebuildable values within one process. | Are keys, expiry, invalidation, classification and restart loss acceptable for a per-instance cache? |
 | 11 | Remote caching | Shares values across processes or instances and can survive an individual process restart. | Are network failure, consistency, security, availability, invalidation and provider cost understood? |
-| 12 | Templating | Produces controlled messages, documents or presentation content from approved data and templates. | Are template ownership, escaping, versioning, localisation, sensitive data and failure behaviour explicit? |
+| 12 | Templating | Produces controlled messages, documents or presentation content from approved data and templates. | Are template responsibility, escaping, versioning, localisation, sensitive data and failure behaviour explicit? |
 | 13 | Notifications, including SMTP | Delivers outbound email or other notifications through a governed capability. | Are recipient authority, consent or policy, redaction, delivery status, retry and provider failure handled? |
 | 14 | Local user authentication | Establishes identity using credentials or identity records owned by the service or platform. | Are credential storage, recovery, session/token lifecycle, lockout and sensitive diagnostics safe? |
 | 15 | Remote user authentication | Establishes user identity through an external identity provider. | Are issuer, audience, claims, key rotation, clock tolerance, logout and provider outage behaviour defined? |
 | 16 | Remote service authentication | Establishes service-to-service identity and trust. | Are credentials or workload identities scoped, rotated, audited and rejected safely when invalid? |
-| 17 | Authorisation | Decides whether an authenticated actor may perform an action on a classified resource in its context. | Is the decision enforced at the owning boundary and tested for both allow and deny paths? |
+| 17 | Authorisation | Decides whether an authenticated actor may perform an action on a classified resource in its context. | Is the decision enforced at the responsible boundary and tested for both allow and deny paths? |
 | 18 | Auditing | Records protected access, decisions, changes, commands and operational events that require accountability. | Is the audit record trustworthy, minimised, protected, correlated and retained for the required period? |
 | 19 | Queuing | Records durable work for later processing, retry, throttling and recovery. | Are identity, correlation, status, idempotency, retry, poison handling, expiry and operator visibility defined? |
-| 20 | Workflow | Coordinates capabilities, actors, decisions and durable state across a business or technical journey. | Are slice ownership, transitions, compensation, permissions, recovery and resumption explicit? |
+| 20 | Workflow | Coordinates capabilities, actors, decisions and durable state across a business or technical journey. | Are slice responsibility, transitions, compensation, permissions, recovery and resumption explicit? |
 
 ## Why framework defaults are not enough
 
@@ -53,7 +53,7 @@ Framework defaults are useful starting points. They are usually designed to make
 
 For every adopted service, ask what the default leaves undecided:
 
-- **Ownership:** which LDM owns the contract, data, policy and lifecycle?
+- **Responsibility:** which LDM is responsible for the contract, data, policy and lifecycle?
 - **Meaning:** what does the capability mean to this service rather than to the framework?
 - **Security:** who may use it, what may they see or change and how are denied paths enforced?
 - **Classification:** which values, logs, cache entries, messages and projections are protected?
@@ -76,11 +76,11 @@ The service contract is the answer to those questions. It may wrap a framework m
 
 ### Storage, settings and persistence composition
 
-**Storage foundations** provide application-owned contracts for durable resources, media and other persistent dependencies. A provider client does not decide data ownership, retention, recovery, consistency, deletion, export or migration policy.
+**Storage foundations** provide application-defined contracts for durable resources, media and other persistent dependencies. A provider client does not decide data responsibility, retention, recovery, consistency, deletion, export or migration policy.
 
 **Settings** are choices that users, workspaces, organisations or modules may manage. They are not the same as deployment configuration. Framework options do not decide scope, validation, inheritance, protection, effective-value calculation or the audit trail for a changed setting.
 
-**Schema and model contribution** makes persistence composition deliberate. An ORM can infer tables or accept registrations, but the System LDM must establish ownership, discovery, migration responsibility, design-time/runtime consistency and readiness before dependent capabilities run.
+**Schema and model contribution** makes persistence composition deliberate. An ORM can infer tables or accept registrations, but the System LDM must establish responsibility, discovery, migration responsibility, design-time/runtime consistency and readiness before dependent capabilities run.
 
 ### Routing, mapping and discovery
 
@@ -92,17 +92,17 @@ The service contract is the answer to those questions. It may wrap a framework m
 
 ### Caching, templating and notifications
 
-**Local caching** is a per-process optimisation. The System LDM must define rebuildability, key ownership, expiry, invalidation, classification and acceptable loss on restart. A framework cache does not know whether the value is safe to reuse or whether stale data changes a decision.
+**Local caching** is a per-process optimisation. The System LDM must define rebuildability, key responsibility, expiry, invalidation, classification and acceptable loss on restart. A framework cache does not know whether the value is safe to reuse or whether stale data changes a decision.
 
 **Remote caching** adds network, consistency, availability, security, cost and invalidation concerns. A provider's distributed-cache API does not make those trade-offs disappear.
 
-**Templating** and **notifications** are governed output capabilities. The service must control template ownership, escaping, localisation, sensitive data, recipient authority, consent or policy, delivery status, retries and provider failure. An SMTP or template library only supplies mechanics.
+**Templating** and **notifications** are governed output capabilities. The service must control template responsibility, escaping, localisation, sensitive data, recipient authority, consent or policy, delivery status, retries and provider failure. An SMTP or template library only supplies mechanics.
 
 ### Identity, access and accountability
 
 **Authentication** establishes who or what is acting. Local and remote identity have different credential, issuer, claims, key-rotation, session, logout and outage concerns. The framework can validate a token or credential, but the service still needs a clear identity contract and safe failure behaviour.
 
-**Authorisation** decides whether an actor may perform an action on a classified resource in context. A framework role check is not automatically the correct policy. The owning boundary must define the resource, action, context, denied path and audit requirement.
+**Authorisation** decides whether an actor may perform an action on a classified resource in context. A framework role check is not automatically the correct policy. The responsible boundary must define the resource, action, context, denied path and audit requirement.
 
 **Auditing** records accountable access, decisions, changes and operational events. A logging framework is not an audit design. Audit records need trustworthy identity and correlation, minimisation, protection, retention, review and resistance to accidental alteration.
 
@@ -122,7 +122,7 @@ The later capabilities build on those foundations but are not all required by ev
 
 For every capability a repository adopts, document:
 
-- the concrete implementation and owning module;
+- the concrete implementation and responsible module;
 - the public contract and consumers;
 - dependencies and startup phase;
 - configuration and secret requirements;
@@ -132,4 +132,4 @@ For every capability a repository adopts, document:
 - test coverage and failure evidence; and
 - whether the capability is available, planned, not applicable or missing.
 
-Do not hide a missing shared capability inside a feature-specific helper. Name the gap, assign its owner and record the deliberate temporary arrangement.
+Do not hide a missing shared capability inside a feature-specific helper. Name the gap, assign a responsible boundary and record the deliberate temporary arrangement.

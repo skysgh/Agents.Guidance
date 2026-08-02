@@ -1,5 +1,7 @@
 Apply these conventions to authentication, authorisation, identity, session, privacy and security-sensitive design decisions.
 
+For the accessible review prompts, read [Security at Rest Checklist](../../../humans/reference/checklists/security-at-rest.md) and [Security in Transit Checklist](../../../humans/reference/checklists/security-in-transit.md).
+
 ### Identification
 Design the system to not need their Name. Identify them by the uniqueness of the `sid`:`sub`
 
@@ -25,4 +27,4 @@ Provide them a quick one time temporary link to into the system to view the mess
 
 ### Secure & Http-Only Cookies
 
-Authentication cookies must be Secure, HttpOnly and protected against cross-site request forgery. Development environments must use the same token storage and identity model as production. If local HTTPS or an identity provider is inconvenient, use a local development issuer, test identity provider or controlled development certificate. Do not fall back to client-stored bearer tokens, localStorage or sessionStorage.
+Authentication cookies must be Secure, HttpOnly and protected against cross-site request forgery. For browser SPAs using OIDC, identity is established and validated by OIDC but browser-to-service interaction uses the protected cookie session only. Do not persist access or ID tokens in localStorage, sessionStorage, IndexedDB, the Cache API or equivalent browser-controlled storage, and do not put them in URLs or logs. Development environments must use the same token storage and identity model as production. If local HTTPS or an identity provider is inconvenient, use a local development issuer, test identity provider or controlled development certificate. Do not fall back to client-stored bearer tokens.

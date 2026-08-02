@@ -2,6 +2,8 @@
 
 These conventions define the portable foundations of a service:
 
+The foundations apply across the [Deliverable Systems](../../../humans/reference/catalogues/deliverable-systems.md) and their wider [Deliverables](../../../humans/reference/catalogues/deliverables.md). Use the [Deliverables Checklist](../../../humans/reference/checklists/deliverables.md) when confirming that a foundation is represented in delivery, operation and evidence as well as in code.
+
 - [Principles](../foundations/principles.md)
 - [Constraints](../foundations/constraints.md)
 - [Startup and discovery](../foundations/startup.md)

@@ -51,7 +51,7 @@ The [example gallery](../examples/readme.md) shows the same movement through sev
 - [Different Types of Builders](../reference/builders-metaphor.md)
 - [YAGNI versus WGF](./design-before-build-and-wgf.md)
 - [Example gallery](../examples/readme.md)
-- [Developers Need to Know](../../agents/conventions/development/developers-need-to-know.md)
+- [Developer Architecture Route](../../agents/conventions/development/guidance-for-developers.md)
 - [Development Principles](../../agents/conventions/foundations/principles.md)
 - [Development Constraints](../../agents/conventions/foundations/constraints.md)
 - [Vertical Slices](../../agents/conventions/capabilities/slices.md)

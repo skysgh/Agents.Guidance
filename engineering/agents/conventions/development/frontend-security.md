@@ -2,7 +2,7 @@
 
 Apply these conventions to browser applications and client-side build output.
 
-For the accessible explanation of browser security as a boundary, read [Human Guidance](../../../humans/readme.md).
+For the accessible explanation of browser security as a boundary, read [Human Guidance](../../../humans/readme.md) and [Security in Transit Checklist](../../../humans/reference/checklists/security-in-transit.md).
 
 ## Purpose
 
@@ -14,7 +14,7 @@ Do not place secrets in places a browser user or injected script can read. Treat
 
 In technical language, these are frontend security controls. The practical idea is to keep the door safe while still allowing people to use the building.
 
-- Keep credentials and tokens out of localStorage, sessionStorage, URLs and client logs.
+- Keep credentials and tokens out of localStorage, sessionStorage, IndexedDB, the Cache API, equivalent browser-controlled storage, URLs and client logs. Local storage may hold non-security preferences where appropriate, but it must not be an authentication or authorisation authority.
 - Use secure, HttpOnly cookies for authentication tokens where cookies are the chosen transport.
 - Protect state-changing cookie-authenticated requests against CSRF.
 - Encode untrusted text by context and avoid unsafe HTML, script, URL and style injection.

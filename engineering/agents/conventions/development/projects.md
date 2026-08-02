@@ -2,6 +2,8 @@
 
 Read this document when creating, renaming, restructuring or configuring projects and their namespaces.
 
+For the accessible explanation of how project and deployment boundaries relate to responsibility, read [Logical Deployment Modules](../../../humans/reference/catalogues/ldms.md), [LDM Layers and Contents](../../../humans/development/layers.md), [Deliverable Systems](../../../humans/reference/catalogues/deliverable-systems.md), [Deliverables](../../../humans/reference/catalogues/deliverables.md) and [Guidance for Developers](../../../humans/orientation/guidance-for-developers.md).
+
 Name each project so that its filename and default namespace identify its place within the system.
 
 Use the intentionally generic `App.` prefix.

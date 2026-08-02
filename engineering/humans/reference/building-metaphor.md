@@ -86,6 +86,10 @@ Horizontal flows move through the building rather than belonging to one vertical
 
 Tenant spaces represent experiences adapted for particular users or organisations. The tenant experience may change the rooms, signs and routes that a person sees without changing who owns the underlying capability. A tenant-specific experience should not quietly duplicate the rules that belong to the shared capability.
 
+The current tenant may also change over time without becoming a different tenant. A restaurant may change its menu, service model, ordering route or kitchen operation. The organisation may later merge departments, split responsibilities or move the capability to a different operating group. These changes have different timescales and different causes, but both test whether the building's durable structure was designed separately from today's arrangement.
+
+A future tenant is a secondary resilience test, not the starting assumption. If the building could be adapted for another restaurant business without ruinous reconstruction, that suggests the current tenant's changing needs have not been mistaken for the permanent structure. The software lesson is the same: design for the current business unit's continuing life first, while keeping a responsible option for wider organisational change.
+
 ## Buildings have different sizes
 
 The smallest building in this picture is a **temporary shelter**, like a short-lived script or one-off integration. Its materials can be simple because its life and consequences are limited. A **single dwelling** is like a small internal application used by one team. A **multi-unit building** is like a shared service used by several teams or groups, where common spaces and services need care. A **high-rise or commercial building** is like a service used by external people, organisations and systems, where failure can affect people beyond the team that built it.

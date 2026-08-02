@@ -50,7 +50,7 @@ Stakeholders are separate from phases and roles. They are the people and organis
 
 A customer may describe the experience they need without building the structure that makes it possible. A funder may define an outcome without operating the service. A regulator may require evidence without implementing the feature. An operator may depend on a safe workflow without owning the contracts or persistence behind it.
 
-The categories can overlap, but they should not be collapsed. Keeping them distinct makes it possible to ask who is affected if something fails, who owns the decision or boundary, which role has the knowledge to carry the work and during which phase the responsibility must be exercised and evidenced.
+The categories can overlap, but they should not be collapsed. Keeping them distinct makes it possible to ask who is affected if something fails, who owns the decision or boundary, which role has the knowledge to carry the work and during which phase the responsibility must be exercised and evidenced. Quality is judged in the context of those affected people and organisations; [Quality Perspectives](../reference/catalogues/qualities.md) explains how their outcomes connect to data and system qualities.
 
 ## Handoffs and overlap
 
@@ -71,5 +71,5 @@ These questions keep lifecycle responsibility visible without pretending that ev
 - [The Structure Before the Feature](./the-structure-before-the-feature.md)
 - [What This Guidance Gives](./what-this-guidance-gives.md)
 - [Systems Within Systems](./systems-within-systems.md)
-- [What Architects Need to Know](./architects-need-to-know.md)
-- [What Tech Leads Need to Know](./tech-leads-need-to-know.md)
+- [Guidance for System Design Architects](./guidance-for-system-design-architects.md)
+- [Guidance for Tech Leads](./guidance-for-tech-leads.md)

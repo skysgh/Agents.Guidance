@@ -10,6 +10,8 @@ In the building metaphor, contracts are formwork and jigs. Formwork holds concre
 
 The contract is not the finished object and it is not every private implementation detail. It is the stable shape that lets the implementation develop without making each caller guess. It exposes what must be known at the boundary and leaves room for the responsible implementation to change behind it.
 
+This is the practical freedom that a good contract creates. When a component has one responsibility, a clear predicate, agreed inputs and outputs, and a meaningful place within its [Domain](../reference/glossary.md#domain) and LDM, its author should not need to keep reopening the same lines merely because another part of the system changes. The contract, tests and owning boundary carry the shared understanding. The developer can rely on them, move on and spend attention on the next capability. Returning to the implementation remains appropriate when the problem was misunderstood, the predicate was wrong or the contract no longer represents the responsibility; it should not be the normal price of every unrelated change.
+
 A contract written too late allows objects, screens or providers to become accidental authorities. A contract written too broadly becomes another implementation to maintain. Good formwork is precise where the load is real and open where the implementation is allowed to vary.
 
 ## What a useful contract answers

@@ -73,4 +73,4 @@ These roles are all builders. Their strengths become most valuable when they are
 - [The Building Metaphor](./building-metaphor.md)
 - [The Structure Before the Feature](../orientation/the-structure-before-the-feature.md)
 - [What This Guidance Gives Each Stakeholder](../orientation/what-this-guidance-gives.md)
-- [Developers Need to Know](../../agents/conventions/development/developers-need-to-know.md)
+- [Developer Architecture Route](../../agents/conventions/development/guidance-for-developers.md)

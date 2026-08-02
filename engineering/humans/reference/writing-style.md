@@ -24,6 +24,14 @@ A bridge might say that a familiar comparison will make the difference visible, 
 
 Prefer a gentle progression over compressed routing. A person reading for understanding cannot be expected to pivot conceptually as quickly as an agent following explicit instructions. Human guidance should therefore feel like a connected explanation, with enough space between ideas for the reader to carry the earlier one forward.
 
+## Introduce before asking
+
+An introductory human page is not an instruction sheet. Its first responsibility is to help the reader recognise a problem, understand why it matters and see how the proposed way of thinking could make their work clearer or less burdensome. Links, examples, related concepts and practical tools give the reader ways to continue when curiosity or need takes them there; they do not create a reading assignment.
+
+Do not ask the reader to act merely because they reached an introduction. Avoid turning the opening into a gate with phrases such as "Start here", "Read this before continuing" or "Do not begin until". Explain why a destination may be useful and leave the reader free to follow it. A later decision, development or checklist page can ask for a specific action once the reader understands the reason for it.
+
+This gives the guidance a gentle progression: introduction creates understanding and desire; links provide routes to deeper meaning; examples make the benefit tangible; catalogues and checklists provide tools; and the responsible role or decision record asks for action when the situation calls for it. The reader is being brought along, not tested at the door.
+
 ## System design is an engineering discipline
 
 Do not describe system design as an equal mixture of science and art when that suggests that every design is a unique act of personal creativity. After decades of enterprise software, many of the structural problems are recurring: boundaries, contracts, identity, data protection, persistence, lifecycle, failure, recovery, observation and operation. The programming languages, vendors and materials change, but the engineering relationships return.
@@ -82,6 +90,30 @@ Human-facing documents should:
 Write for people who may understand the business problem but not the implementation vocabulary. 
 
 Do NOT make terminology a gate to participation.
+
+### Weave links into the explanation
+
+Links in human guidance should help the reader understand the idea being explained. They should not make the reader stop and follow an instruction before the explanation has finished. This is especially important for catalogue and reference links, which should answer the reader's likely next question in the words around the link.
+
+Use inline links to let readers take a simpler or more detailed explanation when they need it. A long guidance set asks readers to absorb many connected ideas. A well-placed link gives them permission to follow the question that matters most to them, then return to the main path when they are ready. The link should support understanding, not test whether the reader is willing to leave the page.
+
+When the destination contains several subjects, link to the exact heading or passage that answers the immediate question. Prefer an exact anchor over a link to the top of a long document. Use the surrounding sentence to say what the reader will find there, so the destination is predictable before they leave the current explanation.
+
+For example:
+
+> A role can describe business responsibility, access context or system authorisation. The [Polysemy guidance for Role](./glossary.md#role-is-polysemous) separates these meanings before the example applies them.
+
+An inline link is not a substitute for the local explanation. State enough here for the reader to understand the current point, then offer the link for readers who need a gentler introduction, a deeper explanation or the canonical definition. Keep the link close to the term or question it supports, and do not make readers hunt through a navigation list to recover the missing context.
+
+Prefer:
+
+> The [Logical Deployment Modules](../reference/catalogues/ldms.md) catalogue explains the boundary, while the [Logical Deployment Modules development guidance](../development/ldms.md) explains what that boundary means for delivery.
+
+Avoid:
+
+> [Logical Deployment Modules](../reference/catalogues/ldms.md) is required reading before you may continue.
+
+The first version keeps the link inside the story and tells the reader why it is relevant. The second version sounds like a route for an automated agent and interrupts the explanation with an instruction. Navigation lists at the end of a document may still use direct links because their purpose is to help readers find related material.
 
 ## Building and High-rise teaching metaphor
 

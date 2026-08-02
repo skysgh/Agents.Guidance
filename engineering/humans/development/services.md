@@ -2,7 +2,7 @@
 
 The System LDM is normally the first LDM developed because it gives later business LDMs dependable shared capabilities. This list is a starting catalogue, not a demand to build every service before any business value appears.
 
-A service is a capability with a contract and a responsible boundary. It is not the LDM itself. The System LDM contains services alongside domains, layers, constants, models, registries, repositories, mappings and infrastructure implementations.
+A service is a capability with a [contract](./contracts.md) and a responsible boundary. It is not the LDM itself. The [Service glossary entry](../reference/glossary.md#service) distinguishes this designed service from the wider organisational service system and the technical web-service representation. The System LDM contains services alongside domains, layers, constants, models, registries, repositories, mappings and infrastructure implementations.
 
 ## The first System LDM shape
 
@@ -97,7 +97,7 @@ This paper gives people the service catalogue and the reasoning behind it. The [
 - [Human Development Guidance](./readme.md)
 - [Logical Deployment Modules](./ldms.md)
 - [LDM Layers and Contents](./layers.md)
-- [What Tech Leads Need to Know](../orientation/tech-leads-need-to-know.md)
-- [What Developers Need to Know](../orientation/developers-need-to-know.md)
+- [Guidance for Tech Leads](../orientation/guidance-for-tech-leads.md)
+- [Guidance for Developers](../orientation/guidance-for-developers.md)
 - [System LDM Service Readiness Reference](../reference/platform-services.md)
 - [Platform Service Inventory](../../agents/conventions/development/platform-services.md)

@@ -1,5 +1,7 @@
 # Python Code Conventions
 
+For the human explanation of bounded tooling, integration and production exceptions, read [Selecting a Language and Framework](../../../humans/orientation/language-and-framework-selection.md).
+
 ## Scope
 
 Do not use Python for code intended to run as part of a production service or production request path unless there is no adequate alternative. An exception requires an explicit decision that records the reason, the operational boundary, the resource impact, the support owner and the exit or review condition.

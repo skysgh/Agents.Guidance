@@ -43,4 +43,4 @@ WGF makes omission visible. It does not require every capability to be built imm
 - [The Palette: First Look](../palette/first-look.md)
 - [Common Flows](./flows.md)
 - [Design Before Build and What Goes First](./design-before-build-and-wgf.md)
-- [Developers Need to Know](../../agents/conventions/development/developers-need-to-know.md)
+- [Developer Architecture Route](../../agents/conventions/development/guidance-for-developers.md)

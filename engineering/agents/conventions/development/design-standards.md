@@ -2,6 +2,8 @@
 
 Read this document when designing or reviewing a system, data model, service, interface or user-facing capability. Use the standards that apply to the capability; do not load the entire catalogue for a narrow implementation change.
 
+For human-facing transport and browser security review prompts, read [Security in Transit Checklist](../../../humans/reference/checklists/security-in-transit.md).
+
 ## Quality foundation
 
 Treat these ISO/IEC standards as the top-level quality foundation for development decisions:

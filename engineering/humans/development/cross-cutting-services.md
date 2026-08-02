@@ -4,7 +4,7 @@ A cross-cutting service is a shared capability that many parts of the building m
 
 In an information system, configuration, diagnostics, tracing, settings, identity, authorisation, storage, mapping, caching, audit and messaging can play a similar role. They are commonly provided by the System LDM so that business slices do not each invent a private version.
 
-The name can sound vague. The precise meaning is: **a contract-bearing service with a shared technical or system responsibility, an owning LDM, known consumers and an explicit lifecycle**. Cross-cutting does not mean global, static, invisible or free.
+The name can sound vague. The precise meaning is: **a [contract](./contracts.md)-bearing service with a shared technical or system responsibility, an owning LDM, known consumers and an explicit lifecycle**. Cross-cutting does not mean global, static, invisible or free.
 
 ## Shared utilities are not shared ownership
 
@@ -59,7 +59,7 @@ Keep deployment configuration, setting declarations and persisted setting values
 
 ### Secrets
 
-Secret resolution protects credentials, tokens, keys and certificates. It must define access identity, scope, rotation, expiry, redaction, startup failure and recovery. A secret provider retrieves material; it does not decide the complete security policy around that material.
+Secret resolution protects credentials, tokens, keys and certificates. Production integration credentials belong only in Key Vault, never in ordinary system configuration, source control, generated artifacts, URLs or logs. Production values are retrieved by the executing workload identity only as required; the delivery pipeline may retrieve values only when required for delivery. Humans must not retrieve or copy production secret values, although they may manage access, rotation, expiry and metadata without seeing the values. Local development should use an approved local development secret store, such as .NET User Secrets backed by a local `secrets.json` outside the project directory. The service must still define access identity, scope, rotation, expiry, redaction, startup failure and recovery.
 
 ### Identity and authentication
 
@@ -167,6 +167,6 @@ Before adopting a cross-cutting service, record:
 - [Vertical Slices: Common Shafts](./vertical-slices.md)
 - [The Building Metaphor](../reference/building-metaphor.md)
 - [System LDM Service Readiness Reference](../reference/platform-services.md)
-- [What Developers Need to Know](../orientation/developers-need-to-know.md)
-- [What Tech Leads Need to Know](../orientation/tech-leads-need-to-know.md)
+- [Guidance for Developers](../orientation/guidance-for-developers.md)
+- [Guidance for Tech Leads](../orientation/guidance-for-tech-leads.md)
 - [Platform Service Inventory](../../agents/conventions/development/platform-services.md)

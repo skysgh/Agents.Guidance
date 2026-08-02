@@ -2,7 +2,7 @@
 
 Apply these conventions whenever tests are created, changed, moved, reviewed or used to validate a change.
 
-For the accessible explanation of testing as shared evidence, read [What the Guidance Gives Each Stakeholder](../../../humans/orientation/what-this-guidance-gives.md).
+For the accessible explanation of testing as shared evidence, read [What the Guidance Gives Each Stakeholder](../../../humans/orientation/what-this-guidance-gives.md), [Deliverable Systems](../../../humans/reference/catalogues/deliverable-systems.md), [Deliverables](../../../humans/reference/catalogues/deliverables.md) and the [Deliverables Checklist](../../../humans/reference/checklists/deliverables.md).
 
 ## Purpose
 
@@ -30,6 +30,14 @@ Place tests according to the dependencies required to execute them.
 `Dynamic` tests require a running host, deployed component or infrastructure dependency. They may use `WebApplicationFactory`, HTTP endpoints, SQL Server, Azurite, containers or other running services.
 
 Do not describe the projects as `Unit` and `Integration`. Those terms describe the scope of a test, whereas `Static` and `Dynamic` describe its execution requirements.
+
+## Cross-system test context
+
+When a scenario crosses service, consumer or provider boundaries, use a shared cross-system test context rather than unrelated service-local fixtures. The context is a neutral information system with stable scenario identifiers, relationships, lifecycle states, expected outcomes and provenance. Each participating system translates it into its own seeds, requests, messages, files or provider setup.
+
+The shared context is a deliverable to which multiple projects may contribute. Keep its meaning independent from any one database schema, API, ORM model or vendor representation. Review contributions for compatibility, ownership, classification, reset, retention and deprecation, and preserve evidence of which context version produced each test result.
+
+Production data must not leave production environments. Generate synthetic context by default. If an exceptional need requires a transformed dataset, it must be formally approved as a new non-production dataset with explicit authority, minimisation, de-identification, access control, retention, deletion and audit evidence; it must not be treated as a casual copy of production.
 
 ## Files
 

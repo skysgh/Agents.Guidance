@@ -10,7 +10,7 @@ When a word such as Request, Approval, Evidence or Service appears, check its Do
 
 A flow is a repeated shape for moving from one useful result to another. The business content changes, but the shape often does not. Using a known shape reduces missed steps, surprises and repeated design work.
 
-A vertical slice carries one capability through the building. A flow connects several capabilities across the floors. The flow gives the journey a known route; the slices provide the rooms and services. See [Vertical Slices: Common Shafts](../development/vertical-slices.md) for common slice shapes and [Cross-Cutting Services](../development/cross-cutting-services.md) for the shared building systems that support them.
+A vertical slice carries one [capability](../reference/glossary.md#capability) through the building. A flow connects several [capabilities](../reference/glossary.md#capability) across the floors. The flow gives the journey a known route; the slices provide the rooms and services. See [Vertical Slices: Common Shafts](../development/vertical-slices.md) for common slice shapes and [Cross-Cutting Services](../development/cross-cutting-services.md) for the shared building systems that support them.
 
 ## The everyday baseline: BREAD/ST
 

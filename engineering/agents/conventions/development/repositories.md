@@ -2,6 +2,8 @@
 
 Read this document when creating, restructuring, configuring or reviewing a Git repository and its root layout.
 
+For the accessible explanation of the repository as part of the delivery system, read [Deliverable Systems](../../../humans/reference/catalogues/deliverable-systems.md), [Deliverables](../../../humans/reference/catalogues/deliverables.md), [External Dependencies](../../../humans/reference/catalogues/external-dependencies.md), [Security in Transit Checklist](../../../humans/reference/checklists/security-in-transit.md) and [Guidance for System Design Architects](../../../humans/orientation/guidance-for-system-design-architects.md).
+
 Repositories are primarily for system maintainability while reducing risk. 
 Committing often takes care of the risk, however the maintainability depends
 on a purposeful structure. 

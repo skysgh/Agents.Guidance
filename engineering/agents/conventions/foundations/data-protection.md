@@ -2,7 +2,7 @@
 
 Apply these conventions wherever software collects, stores, transmits, displays, logs or deletes data.
 
-For the accessible explanation of protection, trust and stewardship, read [Human Guidance](../../../humans/readme.md) and [Legal and Regulatory Context](../../../humans/orientation/legal-context.md).
+For the accessible explanation of protection, trust and stewardship, read [Human Guidance](../../../humans/readme.md), [Deliverable Systems](../../../humans/reference/catalogues/deliverable-systems.md), [Deliverables](../../../humans/reference/catalogues/deliverables.md), [Deliverables Checklist](../../../humans/reference/checklists/deliverables.md), [Legal and Regulatory Context](../../../humans/orientation/legal-context.md), [Security at Rest Checklist](../../../humans/reference/checklists/security-at-rest.md), [Security in Transit Checklist](../../../humans/reference/checklists/security-in-transit.md) and [Regulatory and Obligation Domains](../../../humans/reference/catalogues/regulatory-obligations.md).
 
 ## Purpose
 
@@ -22,6 +22,7 @@ In technical language, access decisions are often called authorisation and the d
 - Collect the minimum data needed for a stated purpose.
 - Keep personal, confidential and security-sensitive data out of URLs, logs, telemetry and notification text unless explicitly required.
 - Redact or pseudonymise data in diagnostics and test fixtures.
+- Use synthetic or separately governed non-production data in development, integration, testing, qualification and recovery environments. Do not copy production data into those environments as a convenience.
 - Encrypt sensitive data in transit and at rest using platform-managed controls where available.
 - Keep secrets, credentials, tokens and encryption keys out of source code, configuration committed to Git and generated artefacts.
 - Define retention, archival, export, correction, deletion or depersonalisation behaviour for each persisted personal-data category.
@@ -38,5 +39,6 @@ In technical language, access decisions are often called authorisation and the d
 ## Verification
 
 - Test redaction, authorisation, retention and erasure behaviour.
+- Test the cross-system test context translations and verify that non-production environments cannot receive unapproved production data.
 - Verify that error responses and telemetry do not disclose protected data.
 - Document the classification, stewarding boundary and lifecycle for new sensitive data.

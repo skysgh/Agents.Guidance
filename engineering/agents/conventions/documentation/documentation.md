@@ -35,7 +35,7 @@ Therefore, organise documentation by Stakeholder Role at the first level:
 
 However, there is a general overall sequence to consider.
 
-`Discovery` leads to `Discussions` (Options Analysis) which lead to `Decisions` (ADRs) which leads to `Definitions` (FRs and QRs_ which lead to `Design` (SDD and TDD), which leads to `Development` then `Deployment` at which point `Support`, `Operations`, and `Maintenance` must be in place.
+`Discovery` leads to `Discussions` (Options Analysis) which lead to `Decisions` (ADRs), `Definitions` (FRs and QRs) and, where procurement or market response is involved, a controlled `Solution Architecture Document` (SAD). Respondents may provide `Solution Design Documents` (SDDs). Once a solution is accepted, `Technical Design Documents` (TDDs) are developed for the relevant work and referenced from work items, decisions, contracts, tests and evidence. This leads to `Development` and then `Deployment`, at which point `Support`, `Operations` and `Maintenance` must be in place.
 
 
 ## Registers

@@ -25,7 +25,7 @@ The most common enterprise shape manages a record through a controlled lifecycle
 
 This is a useful **CRU/ST** baseline. It is deliberately different from generic CRUD. Submission, approval, publication, suspension and closure are decisions or transitions, not ordinary field edits.
 
-A record may also have a controlled retirement, withdrawal, archival or erasure operation. Physical deletion should not be the default shortcut because it can destroy history, relationships, audit evidence and recovery options. It is also wrong to say that records must never be deleted: retention law, privacy law, correction rights, contractual terms or an explicit lifecycle policy may require erasure. Treat deletion as a named, authorised and evidenced state or operation with a clear reason. [Digital Data Lifecycle](./digital-data-lifecycle.md) explains when preserving the digital record through irreversible anonymisation or de-identification is the stronger outcome.
+A record may also have a controlled retirement, withdrawal, archival or erasure operation. Physical deletion should not be the default shortcut because it can destroy history, relationships, audit evidence and recovery options. It is also wrong to say that records must never be deleted: retention law, privacy law, correction rights, contractual terms or an explicit lifecycle policy may require erasure. Treat deletion as a named, authorised and evidenced state or operation with a clear reason. [Detailed Data Deletion Considerations](./detailed-data-deletion-considerations.md) explains when preserving the digital record through irreversible anonymisation or de-identification is the stronger outcome.
 
 The read part of this shaft is often useful on its own. The system may first establish a governed read capability, then add commands and transitions as the business need becomes clear. That is a design sequence, not permission to expose persistence records directly.
 
@@ -96,6 +96,8 @@ A relationship shaft manages an association between owned things:
 
 The relationship deserves its own slice when it has permissions, cardinality, effective dates, state, audit history, classification, reporting or a lifecycle of its own. Do not hide a meaningful relationship inside one side's record merely because the first screen displays it there.
 
+A relationship shaft is often the implementation boundary for a Transient relationship between Enduring concepts. For example, `StudentAt` can preserve the enduring identity of a Person and School while recording the bounded membership, effective dates, status and authority. See [Entity Lifecycle Patterns](../reference/catalogues/entity-lifecycle-patterns.md) before deciding whether a relationship belongs inside one entity or deserves its own capability and slice.
+
 The contract must define who owns each end, who may create or change the relationship, how duplicates are handled, what happens when an end is retired and whether the relationship itself is historical evidence.
 
 ## Document and media shafts
@@ -147,30 +149,20 @@ Authentication establishes who or what is acting. Authorisation decides whether 
 
 ## Recognising the shaft before building it
 
-Before implementing a candidate slice, record:
+A strong slice is clear about its own responsibility. As the design takes shape, it helps to be able to name the capability and its non-goals, the owning domain and LDM, the actors and authority, the resource, evidence and classification, the read operations and query restrictions, the commands and state transitions, the persistence or external effect, the audit, retention and recovery obligations, and the contract and tests that will prove the behaviour. Any uncertainty in that picture points to useful design work rather than a failure of the person doing it.
 
-1. the capability and its non-goals;
-2. the owning domain and LDM;
-3. the actors and authority;
-4. the resource, evidence and classification;
-5. the read operations and query restrictions;
-6. the commands and state transitions;
-7. the persistence or external effect;
-8. the audit, retention and recovery obligations; and
-9. the contract and tests that prove the behaviour.
-
-Then ask whether the candidate is really a slice or whether it is a horizontal flow. If it mainly coordinates several independently meaningful capabilities, it is a flow. If it owns one capability's rules, state or external effect, it is a slice.
+This also helps distinguish a slice from a horizontal flow. A candidate that mainly coordinates several independently meaningful capabilities is a flow; one that owns a capability's rules, state or external effect is a slice.
 
 ## Related guidance
 
 - [Human Development Guidance](./readme.md)
-- [Data Deletion Guidance](./digital-data-lifecycle-overview.md)
-- [Detailed Data Deletion Considerations](./digital-data-lifecycle.md)
+- [Data Deletion Guidance](./data-deletion-guidance.md)
+- [Detailed Data Deletion Considerations](./detailed-data-deletion-considerations.md)
 - [Logical Deployment Modules](./ldms.md)
 - [LDM Layers and Contents](./layers.md)
 - [Cross-Cutting Services](./cross-cutting-services.md)
 - [Common Flows](../orientation/flows.md)
-- [What Developers Need to Know](../orientation/developers-need-to-know.md)
+- [Guidance for Developers](../orientation/guidance-for-developers.md)
 - [The Building Metaphor](../reference/building-metaphor.md)
 - [Vertical Slices](../../agents/conventions/capabilities/slices.md)
 - [Horizontal Flows](../../agents/conventions/capabilities/flows.md)

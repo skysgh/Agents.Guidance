@@ -18,12 +18,7 @@ The problem is systemic: the organisation asks people to build large structures 
 
 A ticket usually describes a business outcome or a screen. That is useful, but it is not a complete engineering design.
 
-When the visible ticket is treated as the whole design, the team may build:
-
-- a controller shaped around the screen;
-- a service shaped around the controller action;
-- a persistence model shaped around the service's first query; and
-- a database schema shaped around today's fields.
+When the visible ticket is treated as the whole design, the screen can shape the controller, the controller action can shape the service, the service's first query can shape the persistence model and today's fields can harden into the database schema. Each step feels close to the work in front of the team, but the accumulated shape quietly decides responsibility, security, lifecycle, mapping and future query behaviour without discussing them.
 
 The result may satisfy the ticket while silently deciding responsibility, security, lifecycle, mapping and future query behaviour without discussing them. Those decisions then become difficult to change because they are spread across code rather than named as contracts.
 
@@ -55,7 +50,7 @@ Event sourcing can amplify the problem when events are treated as accidental ser
 
 A developer creates a model, then writes services directly against its concrete methods and properties. No shared agreement states what consumers may rely on. Other services then depend on the model's accidental shape.
 
-In technical language, the shared agreement is a contract. The contract is not a ceremony added beside the model. It is the part that tells different contributors what may safely be relied upon.
+In technical language, the shared agreement is a [contract](../development/contracts.md). The contract is not a ceremony added beside the model. It is the part that tells different contributors what may safely be relied upon.
 
 The consequences cascade:
 
@@ -78,7 +73,7 @@ The answer is not to hide every framework type. It is to isolate the framework w
 
 ### YAGNI removes structure instead of features
 
-YAGNI is useful against speculative features and unjustified infrastructure. It becomes harmful when it is used to remove a known contract, relationship, lifecycle state or extension point because the first release does not use it.
+YAGNI is useful against speculative features and unjustified infrastructure. It becomes harmful when it is used to remove a known contract, relationship, lifecycle state or extension point because the first release does not use it. [YAGNI versus WGF](./design-before-build-and-wgf.md) explains how to defer construction without losing the structure needed for a later change.
 
 A deferred capability should have a known place, responsible boundary and intended contract. Otherwise each later team must guess whether the missing structure was forgotten, rejected, postponed or assigned elsewhere.
 
@@ -139,6 +134,6 @@ That question does not prevent delivery. It prevents delivery from becoming a se
 - [The Structure Before the Feature](./the-structure-before-the-feature.md)
 - [What the guidance gives each stakeholder](./what-this-guidance-gives.md)
 - [Systems Within Systems](./systems-within-systems.md)
-- [Developers Need to Know](../../agents/conventions/development/developers-need-to-know.md)
+- [Developer Architecture Route](../../agents/conventions/development/guidance-for-developers.md)
 - [Design the knowable; discover the novel](../../agents/conventions/foundations/principles.md)
 - [IQueryable and Governed Queryability](../../agents/conventions/foundations/iqueryable.md)

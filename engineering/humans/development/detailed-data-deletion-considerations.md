@@ -4,7 +4,7 @@ This paper addresses digital data. It is about rows, fields, objects, files, ind
 
 This is engineering guidance, not legal advice. The applicable law depends on the data, the purpose, the organisation, the people affected, the sector, the storage locations and the jurisdictions involved. Obtain legal advice for a real service or a high-consequence decision.
 
-Read [Data Deletion Guidance](./digital-data-lifecycle-overview.md) first for the plain-language answer and the stakeholder questions. This paper provides the deeper reasoning, legal patterns and technical tests behind that guide.
+Read [Data Deletion Guidance](./data-deletion-guidance.md) first for the plain-language answer and the stakeholder questions. This paper provides the deeper reasoning, legal patterns and technical tests behind that guide.
 
 Deletion also changes what an organisation can know about its own history. Removing funding records changes totals and outcomes. Removing student records can make earlier years look as if they had no students. Removing old social messages can make gradual service adoption look sudden. These are not only storage or privacy effects: they can create false reports and lead people to make decisions from an incomplete past.
 
@@ -62,6 +62,7 @@ A de-identification assessment should consider at least:
 
 - direct identifiers such as names, email addresses, account numbers and government identifiers;
 - free text, uploaded documents, images, audio, URLs, filenames and error details that identify a person;
+- outbound emails, notifications, generated documents and attachments, including one-time or permanent URLs, access tokens and deep links; a one-time link is not safe merely because it expires if it still resolves to the invoice or other record after the name or person association has changed. Revoke or invalidate the link, or enforce current authorisation so that an old link cannot bypass the current permission check;
 - stable replacement identifiers, hashes, tokens and record numbers that permit linkage;
 - dates, times, locations, occupations, rare events and small groups that permit singling out;
 - combinations of ordinary fields that become unique together;
@@ -105,13 +106,13 @@ There are two common ways to preserve useful history without retaining the perso
 1. **Delete the identity information.** Remove names, contact details, account identifiers and other direct identifiers, then remove mapping keys, free-text references, media, logs and other routes that could reconnect the record to the person.
 2. **Reassign the record to a non-linkable anonymous identity.** Replace the person reference with a value that has no relationship to the person and cannot be used to join that person’s records across systems or events. This can preserve the existence, category, date range or outcome of an event without preserving who experienced it.
 
-The second pattern does not mean assigning a new stable customer number. A value that lets the organisation recognise the same person across multiple records, even without knowing their name, can still enable singling out or linkage. That is pseudonymisation, not anonymisation, and the surviving data remains subject to personal-information controls. The jurisdictional sections below explain why the two genuine patterns can satisfy the relevant framework and where another legal duty can still require the identifiable record.
+The second pattern does not mean assigning a new stable customer number. A value that lets the organisation link records about one person with other records or information that can be associated with an identified or identifiable person remains pseudonymous personal information. That is pseudonymisation, not anonymisation, and the surviving data remains subject to personal-information controls. The jurisdictional sections below explain why the two genuine patterns can satisfy the relevant framework and where another legal duty can still require the identifiable record.
 
 ## Jurisdictional analysis
 
 The following is a cross-jurisdiction engineering reading of selected privacy frameworks. The named jurisdictions are examples of different legal patterns, not an exhaustive list, country ranking or universal baseline. It is not a substitute for checking the actual statute, sector rule, contract, order or regulator guidance that applies to the service.
 
-The direct answer for the four regimes covered by the front-door paper is **yes in every case**: genuine anonymisation can be sufficient. The legal route differs. Under the GDPR and New Zealand Privacy Act, the result is no longer personal data or personal information. Under California law, it must meet the statutory conditions for deidentified information. Under Australian APP 11.2, de-identification is expressly an alternative to destruction. In every case, the transformation must be real rather than cosmetic, and another rule may still require the identifiable record to be preserved.
+The direct answer for the four regimes covered by the front-door paper is **yes in every case**: genuine anonymisation is sufficient. The legal route differs. Under the GDPR and New Zealand Privacy Act, the result is no longer personal data or personal information. Under California law, it must meet the statutory conditions for deidentified information. Under Australian APP 11.2, de-identification is expressly an alternative to destruction. In every case, the transformation must be real rather than cosmetic, and another rule may still require the identifiable record to be preserved.
 
 | Jurisdiction | Legal shape relevant to digital data | Strong engineering consequence |
 | --- | --- | --- |
@@ -123,7 +124,7 @@ The direct answer for the four regimes covered by the front-door paper is **yes 
 
 ### European Union
 
-**Answer: yes.** Genuine anonymisation can be sufficient under the GDPR because anonymous information is no longer personal data. That is the legal basis for retaining a historical event, measure or aggregate after removing the person’s identity and every reasonably available route back to that person.
+**Answer: yes.** Genuine anonymisation is sufficient under the GDPR because anonymous information is no longer personal data. That is the legal basis for retaining a historical event, measure or aggregate after removing the person’s identity and every reasonably available route back to that person.
 
 The GDPR gives the strongest reason to distinguish personal data from the bytes that once contained it. The definition in [Article 4(1)](https://eur-lex.europa.eu/eli/reg/2016/679/oj) includes direct and indirect identification. [Recital 26](https://eur-lex.europa.eu/eli/reg/2016/679/oj) says that the principles do not apply to anonymous information or information rendered anonymous so the data subject is not or is no longer identifiable, taking account of reasonably likely means of identification.
 
@@ -145,7 +146,7 @@ The US position therefore supports a disciplined argument, not a universal sloga
 
 ### California
 
-**Answer: yes.** Genuine deidentification can be sufficient under the CCPA. The surviving record must meet the statutory conditions, not merely have its name field removed.
+**Answer: yes.** Genuine deidentification is sufficient under the CCPA. The surviving record must meet the statutory conditions, not merely have its name field removed.
 
 The [CCPA right to delete](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=1798.105.&lawCode=CIV) applies to personal information and has exceptions, including completing a transaction, security, research, internal compatible uses and compliance with a legal obligation. It also requires attention to service providers, contractors and third parties.
 
@@ -165,7 +166,7 @@ This is the clearest support for the position in this paper: Australian privacy 
 
 ### New Zealand
 
-**Answer: yes.** Genuine anonymisation can be sufficient under the Privacy Act because the Act regulates personal information, meaning information about an identifiable individual. Once the surviving historical record is no longer about an identifiable individual, IPP 9 does not require that non-personal record to be discarded.
+**Answer: yes.** Genuine anonymisation is sufficient under the Privacy Act because the Act regulates personal information, meaning information about an identifiable individual. Once the surviving historical record is no longer about an identifiable individual, IPP 9 does not require that non-personal record to be discarded.
 
 [Privacy Act 2020, section 22, information privacy principle 9](https://www.legislation.govt.nz/act/public/2020/31/latest/whole.html) limits retention of personal information to no longer than is required for the purposes for which it may lawfully be used. The principle is about continuing necessity and purpose, not a universal command to erase an entire digital record on request.
 
@@ -221,12 +222,12 @@ This is not avoidance or a clever relabelling exercise. It is an achievable solu
 ## Related guidance
 
 - [Human Development Guidance](./readme.md)
-- [Data Deletion Guidance](./digital-data-lifecycle-overview.md)
+- [Data Deletion Guidance](./data-deletion-guidance.md)
 - [Vertical Slices: Common Shafts](./vertical-slices.md)
 - [Cross-Cutting Services](./cross-cutting-services.md)
 - [System LDM Services](./services.md)
 - [Legal and Regulatory Context](../orientation/legal-context.md)
-- [What Developers Need to Know](../orientation/developers-need-to-know.md)
-- [What Tech Leads Need to Know](../orientation/tech-leads-need-to-know.md)
-- [What Architects Need to Know](../orientation/architects-need-to-know.md)
+- [Guidance for Developers](../orientation/guidance-for-developers.md)
+- [Guidance for Tech Leads](../orientation/guidance-for-tech-leads.md)
+- [Guidance for System Design Architects](../orientation/guidance-for-system-design-architects.md)
 - [Data Protection Conventions](../../agents/conventions/foundations/data-protection.md)

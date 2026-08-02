@@ -18,9 +18,19 @@ The guidance gives the team a shared picture before each role adds its part. It 
 
 That shared picture includes the wider systems around the service. [Systems Within Systems](./systems-within-systems.md) explains why a digital system must be understood as part of wider enterprise, physical, policy, regulatory, legal and international arrangements, each carrying obligations, duties, capabilities and evidence.
 
+## The change story
+
+Imagine one business unit running one restaurant. It is the only customer the team has today. That does not mean its current menu, kitchen process or organisation will stay fixed. Over time it may change how it serves people, add catering, alter its ordering route or take on new responsibilities. The organisation around it may also merge departments, split teams or move responsibilities between groups. Those changes happen at different speeds and for different reasons, but both should be possible without rebuilding the whole system.
+
+The building analogy makes the role handoff visible. The architect designs the durable restaurant-capable structure rather than freezing one current arrangement into it. The technical lead recognises that design, checks whether the available team, technology, dependencies and constraints can achieve it, and plots the construction path. The developer builds the agreed part of the structure and keeps its responsibility intact. A different tenant is only a later resilience test: could the building be adapted for another restaurant without making the current design ruinously expensive to change?
+
+This is why abstraction matters even when there is one customer. The first responsibility is to help that customer change safely. The second is to help the organisation change around the capability. A possible future tenant simply tests whether the design has preserved enough durable structure to keep that option open.
+
 ## For everyone
 
-The guidance gives the team a common vocabulary for following that capability through the system. A **contract** says what a boundary promises and requires. An **object** carries meaning, state or policy. A **service** composes objects into useful behaviour. A **registry** is an owned place that collects and governs participants. A **vertical slice** carries one complete owned capability, while a **horizontal flow** coordinates several capabilities into a journey. A **deferred capability** is not built yet, but its future place and responsible boundary are known.
+The guidance gives the team a common vocabulary for following that capability through the system. A [**contract**](../reference/glossary.md#contract) says what a boundary promises and requires. An **object** carries meaning, state or policy. A **service** composes objects into useful behaviour. A [**registry**](../reference/catalogues/logical-building-blocks.md#registry) is an owned place that collects and governs participants. A [**vertical slice**](../development/vertical-slices.md) carries one complete owned capability, while a [**horizontal flow**](../reference/glossary.md#flow) coordinates several capabilities into a journey. A **deferred capability** is not built yet, but its future place and responsible boundary are known.
+
+[Liberation Through Clarity](../shared/liberation-through-clarity.md) explains the personal benefit of this shared structure for developers, Business Analysts, Product Managers, Product Owners, architects, technical leads, testers, operators and maintainers.
 
 This vocabulary lets people discuss the same system without assuming that a ticket, model, endpoint or table is the whole design.
 
@@ -54,11 +64,13 @@ This is the most important distinction in the guidance. A business request is us
 
 The service still needs a **logical** design before construction spreads assumptions. In this guidance, that logical domain design is the **ontological model of the business domain**. In plain language, it is the system's answer to what kinds of things exist, how they relate, which identities and states matter and which rules should remain meaningful when today's client organisation or process changes. It is an abstraction from real business evidence, not a copy of one current screen or team structure. It does not need to name database tables or framework classes.
 
-The **physical** design is how those responsibilities are carried through transport, application code, mappings, persistence, infrastructure and deployment. A table, endpoint, ORM entity or framework component may be a good physical implementation, but it is not automatically the logical object or business concept that gave rise to it. When the physical design becomes the only explanation of the business concept, the system may still run, but its ability to change without losing meaning is already in serious danger.
+The **physical** design is how those responsibilities are represented and executed through interfaces, application and domain code, mappings, persistence, infrastructure and deployment. Physical code appears at every position in that stack. An endpoint or user-facing label may stay close to the conceptual language, while application and domain objects may use more abstract names to implement the logical ontological model. A table, ORM entity or framework component may be a good physical implementation, but it is not automatically the logical object or business concept that gave rise to it. When any physical representation becomes the only explanation of the business concept, the system may still run, but its ability to change without losing meaning is already in serious danger.
 
-ANSI/SPARC gives this separation a formal vocabulary through external, conceptual and internal views. The practical lesson is simpler: do not let a screen become the ontological domain model, do not let that model become a storage schema by accident and do not ask one role to carry all three views alone. We are not following layering lore for its own sake. We are doing the harder work of abstracting on behalf of customers so that the system can carry durable meaning into future needs. The whole team must keep asking whether the implementation still expresses that meaning, and must carry it forward as the system grows.
+ANSI/SPARC gives related separations a formal vocabulary through external, conceptual and internal views. The practical lesson is simpler: Conceptual, Logical and Physical are model types, while interface, application/domain and storage are implementation positions. Do not let a screen become the ontological domain model, do not let that model become a storage schema by accident and do not ask one role to carry all three model types alone. [Conceptual, Logical and Physical Models](../reference/catalogues/conceptual-logical-physical-models.md) develops this distinction. We are not following layering lore for its own sake. We are doing the harder work of abstracting on behalf of customers so that the system can carry durable meaning into future needs. The whole team must keep asking whether the implementation still expresses that meaning, and must carry it forward as the system grows. The [Quality Perspectives](../reference/catalogues/qualities.md) catalogue follows that meaning through system qualities, data qualities and the outcomes people experience in use.
 
 ## For business analysts and product people
+
+Product Managers steward objectives within considered context: purpose, users, value, viability, strategic fit, investment, budget, schedule, capacity, obligations and risk. [Product Manager Guidance](../stakeholders/product-managers/readme.md) explains how that longer view connects to Product Owner outcomes, complete elicitation, logical design, evidence and the whole service lifecycle.
 
 The guidance does not ask a business analyst to design database tables or write service classes. It asks for the business meaning that developers need: the outcome, the responsible decision or record, who may see or change it, the difference between states such as draft, submitted, approved, published and closed, what must be remembered for history and audit, which capabilities it depends on and how its meaning differs from the first screen that displays it.
 
@@ -68,7 +80,7 @@ The team should be able to carry the ticket forward and show how each important 
 
 ## For developers
 
-Developer is a family name rather than one uniform role. The [Builders Metaphor](../reference/builders-metaphor.md) describes platform and DevOps developers, integration developers, maintenance developers, test developers and system developers. Those roles overlap, but their experience gives them different strengths and different questions to ask. The dedicated [What Developers Need to Know](./developers-need-to-know.md) paper follows the developer route from problem decomposition through domains, contracts, slices, flows and operation.
+Developer is a family name rather than one uniform role. The [Builders Metaphor](../reference/builders-metaphor.md) describes platform and DevOps developers, integration developers, maintenance developers, test developers and system developers. Those roles overlap, but their experience gives them different strengths and different questions to ask. The dedicated [Guidance for Developers](./guidance-for-developers.md) paper follows the developer route from problem decomposition through domains, contracts, slices, flows and operation.
 
 The guidance tells developers where to put work and what not to couple together. They begin with a contract that has a responsible boundary rather than a convenient concrete model. They keep transport, application, domain and persistence responsibilities distinct when their meanings differ, use governed queryability for flexible reads and explicit commands for writes, map deliberately at boundaries, keep access and classification rules close to the boundary that owns them, make startup participants contract-bearing and observable and build a complete vertical slice through the prepared structure.
 
@@ -88,9 +100,9 @@ Testers also help protect the layers. They test the conceptual outcome people ca
 
 ## For technical leads and architects
 
-The guidance provides a way to review design without reviewing every line first. A technical lead or architect can follow responsibility across the lifecycle, compare contracts with implementations, see whether dependencies cross declared boundaries, check that the known whole is designed even when construction is staged and ask whether security, lifecycle, persistence and operational obligations are explicit. They can also distinguish contract-led discovery from reflection that hides poor wiring, check whether a flow coordinates slices or absorbs their rules and examine whether deletion retires a capability deliberately with its consequences understood. [What Tech Leads Need to Know](./tech-leads-need-to-know.md) adds the platform service sequence and the questions to ask when a required capability is missing.
+The guidance provides a way to review design without reviewing every line first. A technical lead or architect can follow responsibility across the lifecycle, compare contracts with implementations, see whether dependencies cross declared boundaries, check that the known whole is designed even when construction is staged and ask whether security, lifecycle, persistence and operational obligations are explicit. They can also distinguish contract-led discovery from reflection that hides poor wiring, check whether a flow coordinates slices or absorbs their rules and examine whether deletion retires a capability deliberately with its consequences understood. [Guidance for Tech Leads](./guidance-for-tech-leads.md) adds the platform service sequence and the questions to ask when a required capability is missing.
 
-It also provides a place to record deliberate divergence when the standard structure is not suitable. [What Architects Need to Know](./architects-need-to-know.md) develops the wider system map that technical leads need to understand: stakeholder interfaces, access within those interfaces, external dependencies and distinct downstream obligations.
+It also provides a place to record deliberate divergence when the standard structure is not suitable. [Guidance for System Design Architects](./guidance-for-system-design-architects.md) develops the wider system map that technical leads need to understand: stakeholder interfaces, access within those interfaces, external dependencies and distinct downstream obligations. Those maps should also make important quality outcomes and evidence visible; [Quality Perspectives](../reference/catalogues/qualities.md) explains how system, data and quality-in-use concerns connect without collapsing into one measure.
 
 ## For delivery and programme stakeholders
 
@@ -132,8 +144,8 @@ The guidance is intended to be recognised in working situations, not admired as 
 
 - [The Structure Before the Feature](./the-structure-before-the-feature.md)
 - [The Current State](./current-state.md)
-- [What Developers Need to Know](./developers-need-to-know.md)
-- [What Tech Leads Need to Know](./tech-leads-need-to-know.md)
+- [Guidance for Developers](./guidance-for-developers.md)
+- [Guidance for Tech Leads](./guidance-for-tech-leads.md)
 - [Platform Services Reference](../reference/platform-services.md)
 - [Human Development Guidance](../development/readme.md)
 - [Development Principles](../../agents/conventions/foundations/principles.md)

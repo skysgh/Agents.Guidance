@@ -1,23 +1,22 @@
 # LDM Layers and Contents
 
-An LDM contains more than services. It contains layers that give different responsibilities a safe place to live. The layers are architectural responsibilities first and projects or folders second.
+An LDM contains more than services. It contains logical layers that give different responsibilities a safe place to live. The layers are architectural responsibilities first and projects or folders second. They are not necessarily separate deployments, projects or folders.
 
-A useful shape is:
+A useful implementation shape is:
 
 ```text
-consumer interface
+consumer-facing interface implementation
         |
         v
-application layer
+application and domain implementation
         |
         v
-logical domain layer
-        ^
-        |
-infrastructure and persistence implementations
+persistence and external effects implementation
 ```
 
-A shared or substrate area supplies narrow vocabulary and structural contracts used by the LDM. It must not become a fourth business layer or a dumping ground for types that have no clear owner.
+A shared or substrate area supplies narrow vocabulary and structural contracts used by the LDM. It must not become a fourth business layer or a dumping ground for types that have no clear responsibility.
+
+These are implementation responsibilities, not three model types. A consumer-facing interface is physical code that carries conceptual language. Application and domain code is physical code that implements logical ontological distinctions. Persistence and external effects are physical representations and behaviours needed for execution. The [Conceptual, Logical and Physical Models](../reference/catalogues/conceptual-logical-physical-models.md) catalogue explains the model types separately.
 
 ## The layers
 
@@ -27,35 +26,29 @@ This area contains stable LDM vocabulary, constants and contracts that must be k
 
 A shared contract is not automatically a domain model. Keep business meaning in the domain layer when that is where the responsibility belongs.
 
-### Interface layer
+### Consumer-facing interface layer
 
-The interface layer adapts an external consumer to an application contract. It owns transport, protocol and presentation concerns such as HTTP metadata, request shapes, response shapes and boundary validation.
+The consumer-facing interface layer adapts an external consumer to an application contract. It physically represents the language and interaction the consumer recognises and owns transport, protocol and presentation concerns such as HTTP metadata, request shapes, response shapes and boundary validation.
 
-It should not own domain rules, persistence access or substantial application orchestration. A screen or endpoint is a consumer of a capability, not the owner of its meaning.
+It should not own logical domain rules, physical persistence access or substantial application orchestration. A screen or endpoint is a consumer of a capability, not the source of its meaning.
 
-### Application layer
+### Application and domain layer
 
-The application layer coordinates a use case. It composes contracts, validates the application request, establishes the relevant actor and context, invokes domain behaviour, calls repositories or brokers through contracts and maps the result for the consumer.
+The application and domain layer physically implements and coordinates the logical model. It composes contracts, validates the application request, establishes the relevant actor and context, invokes domain behaviour, calls repositories or brokers through contracts and maps the result for the consumer.
 
-It may contain commands, queries, requests, responses, results, projections and application view models where those shapes serve a use case. It should not force the domain model to mirror one client, screen or organisational process.
+It may contain application coordination, domain concepts, commands, queries, requests, responses, results, projections and application view models where those shapes serve a use case. It should not force the logical model to mirror one client, screen or organisational process.
 
-### Domain layer
+### Persistence and external implementation layer
 
-The domain layer contains the logical ontological model of the relevant business or technical problem. It includes concepts, identities, relationships, states, policies and rules that remain meaningful when transport, storage, vendor or current team structure changes.
+The persistence and external implementation layer implements contracts against frameworks, providers, storage, external systems and runtime mechanisms. It contains adapters, brokers, provider-specific services, registrations and operational integration.
 
-Entities, value objects, aggregates and domain services belong here when they express the domain's meaning. A repository contract may also be owned here when the application needs persistence in domain terms.
+This layer is allowed to know the framework or provider. Inner logical contracts should not reach outward to call those implementations directly.
 
-### Infrastructure layer
+### Physical storage
 
-Infrastructure implements contracts against frameworks, providers, storage, external systems and runtime mechanisms. It contains adapters, brokers, provider-specific services, registrations and operational integration.
+Physical storage contains physical records, ORM configuration, schema contribution, migrations and storage mappings. A persistence record may resemble a logical entity, but it remains physical until an explicit mapping shows otherwise.
 
-Infrastructure is allowed to know the framework or provider. Inner domain and application contracts should not reach outward to call those implementations directly.
-
-### Persistence layer
-
-Persistence infrastructure owns physical records, ORM configuration, schema contribution, migrations and storage mappings. A persistence record may resemble a domain entity, but it remains physical until an explicit mapping shows otherwise.
-
-The persistence layer must not make a table, ORM entity or provider document the definition of the business concept.
+Physical storage must not make a table, ORM entity or provider document the definition of the business concept.
 
 ## What lives inside a layer
 
@@ -83,9 +76,9 @@ The [Contracts](./contracts.md) paper explains how to decide whether an agreemen
 
 ## The dependency direction
 
-The outer layers may depend on inner contracts. The domain must not depend on transport, persistence, infrastructure, vendors or frameworks. Infrastructure and persistence implement ports owned by inner layers.
+The consumer-facing interface may depend on application and domain contracts. The logical model must not depend on transport, physical storage, infrastructure, vendors or frameworks. Physical and external implementations implement ports defined by the application and domain responsibilities.
 
-A vertical slice travels through these layers, but ownership does not move with the request. The business capability remains owned by its domain and LDM while each layer contributes the responsibility it was designed to carry.
+A vertical slice travels through these layers, but responsibility does not move with the request. The business capability remains the responsibility of its domain and LDM while each layer contributes the work it was designed to carry.
 
 ## Related guidance
 
@@ -94,6 +87,9 @@ A vertical slice travels through these layers, but ownership does not move with 
 - [Constants](./constants.md)
 - [Contracts](./contracts.md)
 - [System LDM Services](./services.md)
-- [What Developers Need to Know](../orientation/developers-need-to-know.md)
+- [Logical Layers](../reference/catalogues/logical-layers.md)
+- [Logical Building Blocks](../reference/catalogues/logical-building-blocks.md)
+- [Logical and Physical Models in ORM](./logical-and-physical-models.md)
+- [Guidance for Developers](../orientation/guidance-for-developers.md)
 - [Code Conventions](../../agents/conventions/development/code-csharp.md)
 - [Logical Deployment Modules](../../agents/conventions/development/ldms.md)

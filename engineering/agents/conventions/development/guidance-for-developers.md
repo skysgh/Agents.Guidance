@@ -1,6 +1,6 @@
 # Developer Architecture Route
 
-This is the agent-facing route for developer architecture decisions. The human explanation is [What Developers Need to Know](../../../humans/orientation/developers-need-to-know.md). Read it when the task needs the reasoning behind these rules; use this document to apply the rules consistently.
+This is the agent-facing route for developer architecture decisions. The human explanation is [Guidance for Developers](../../../humans/orientation/guidance-for-developers.md). Read it when the task needs the reasoning behind these rules; use this document to apply the rules consistently.
 
 ## Required design route
 
