@@ -1,8 +1,10 @@
 # Guidance for Dependable Services
 
-Software becomes harder to trust when its meaning, boundaries and responsibilities are left to emerge from the first screen, class or database table. This repository is a place to think about those things before they become expensive to change, and to keep the reasoning visible after the first release and the first team.
+Meaningful software helps people do something that matters. It gives users enough clarity, capability and confidence to act, while giving the team a coherent structure for delivering and sustaining that value within real budget, timeline and organisational constraints.
 
-The guidance is written for people who design, build, test, operate, support and maintain services. It treats a service as a living system: something with users, records, decisions, dependencies, evidence, failure modes and a future.
+This repository is guidance for teams delivering meaningful software. It helps people in the roles that shape, design, build, test, operate, support and maintain a service understand how their contributions fit together. The focus is cohesive delivery: preserving the purpose, responsibilities, boundaries and evidence that allow users to be empowered by the result.
+
+The guidance treats a service as a living system with users, records, decisions, dependencies, failure modes and a future. It connects the visible experience to the less visible work that makes the experience dependable, maintainable and able to grow without losing its meaning.
 
 ## Find your route
 
@@ -12,8 +14,4 @@ The [agent guidance](./engineering/agents/readme.md) is the precise route for ap
 
 Both routes describe the same engineering concerns at different moments: understanding the system, then working within it.
 
-## Keep the evidence close
-
-The [audit evidence](./audit/HUMAN-GUIDANCE-AUDIT-FINDINGS.md) records how the human guidance was reviewed. The [implementation plan](./IMPLEMENTATION-PLAN.md) records the current improvement cycle and keeps larger capability gaps visible without pretending that a navigation improvement solves them.
-
-The repository is an invitation to make serious systems more understandable, dependable and able to change. Choose the page that matches the question in front of you, and follow the connections that make the answer clearer.
+The repository is an invitation to make serious systems more understandable, dependable and able to change. Its pages explore the questions that arise when a team turns purpose into a service, connects many kinds of expertise and makes responsible choices within the limits of time, money and capacity.
