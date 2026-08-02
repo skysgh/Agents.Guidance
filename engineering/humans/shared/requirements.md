@@ -22,40 +22,28 @@ Driver
             -> Use case or flow
               -> Capability and Domain
                 -> Contract and acceptance predicate
-                  -> Implementation, deliverables and evidence
+                  -> Work item with acceptance criteria
+                    -> Test Suite and implementation
+                      -> Deliverables and evidence
 ```
 
 The chain is not a mandatory document sequence. It is a way to find missing meaning, authority, ownership or evidence. New evidence may send the team back to an earlier point. That is responsible correction, not failure.
 
 The chain connects a [Capability](../reference/glossary.md#capability) to its responsible [Domain](../reference/glossary.md#domain) before contract, implementation, deliverables and evidence are chosen.
 
+Acceptance criteria are the bridge between meaning and evidence. They describe the conditions under which the outcome can be recognised as true, including relevant success, failure, authority, data, quality and recovery conditions. A work item that contains only a business concept or feature label has not yet given the Test Suite or the developer enough to prove what “done” means.
+
 ## Requirement views
 
-Use the views that fit the responsibility. Do not create disconnected documents just to satisfy a classification.
-
-- **Business:** what the organisation must achieve, preserve, provide, prevent or prove.
-- **User:** what direct users, represented subjects, affected people or connected systems need in context.
-- **System functional:** what the system must do, remember, decide, communicate or prevent.
-- **System quality:** how safely, securely, accessibly, reliably, quickly, accurately, recoverably or maintainably it must behave.
-- **Transitional:** what is needed to move from the current arrangement to the intended one, including migration, training, staged release, fallback and retirement.
-- **Operational:** what must be true for the service to be supported, observed, operated, recovered, changed and maintained.
+The useful requirement views depend on the responsibility being clarified, and they work best when they remain connected rather than becoming disconnected documents created only to satisfy a classification. A **Business** view describes what the organisation must achieve, preserve, provide, prevent or prove. A **User** view describes what direct users, represented subjects, affected people or connected systems need in context. A **System functional** view describes what the system must do, remember, decide, communicate or prevent. A **System quality** view describes how safely, securely, accessibly, reliably, quickly, accurately, recoverably or maintainably it must behave. A **Transitional** view describes what is needed to move from the current arrangement to the intended one, including migration, training, staged release, fallback and retirement. An **Operational** view describes what must be true for the service to be supported, observed, operated, recovered, changed and maintained.
 
 BUST is a useful reminder for Business, User, System and Transitional requirements. It is not an IIBA or BABOK term and it does not replace operational, quality or lifecycle analysis.
 
 ## Make a requirement usable
 
-A requirement should be understandable to the people who must decide, implement, test, operate or accept it. Where material, identify:
+A requirement should be understandable to the people who must decide, implement, test, operate or accept it. Its meaning becomes more usable when the affected subject, actor or system is visible, together with the outcome, action, state, information or constraint. The [Domain](../reference/glossary.md#domain), [capability](../reference/glossary.md#capability) or boundary responsible for it should be recognisable, as should the authority, policy, obligation or evidence behind it. Timing, quality, security, privacy, accessibility and recovery conditions may shape the requirement, alongside assumptions, exclusions, conflicts and deliberate deferrals. An acceptance predicate or other testable evidence connects the statement to proof, while the responsible authority and the person or team able to change or accept it keep its future life clear.
 
-- the subject, actor or system affected;
-- the outcome, action, state, information or constraint;
-- the [Domain](../reference/glossary.md#domain), [capability](../reference/glossary.md#capability) or boundary responsible;
-- the authority, policy, obligation or evidence behind it;
-- relevant timing, quality, security, privacy, accessibility and recovery conditions;
-- assumptions, exclusions, conflicts and deliberate deferrals;
-- the acceptance predicate or other evidence that can test it; and
-- the owner and authority for changing or accepting it.
-
-“The system shall support requests” is not enough. A useful statement distinguishes the relevant request, actor, state, authority, result and failure conditions without prescribing a physical design prematurely.
+“The system shall support requests” is not enough. A useful statement distinguishes the relevant request, actor, state, authority, result and failure conditions without prescribing a physical design prematurely. The acceptance criteria can then express the examples and boundaries that a tester can automate and a developer can implement against.
 
 ## Requirements and contracts
 
@@ -63,36 +51,27 @@ A requirement expresses what must be true. A contract expresses the dependable r
 
 A requirement may lead to a user, API, event, data, operational or delivery contract. The contract owner must be explicit. A Technical Analyst, architect or developer may document the contract, but documentation activity does not transfer authority from the responsible Domain, product, security, privacy, operational or technical boundary.
 
+The Test Suite does not invent the acceptance meaning after implementation. It makes the agreed acceptance criteria executable where that is useful and returns ambiguity to the responsible product, business, Domain or specialist authority.
+
 ## Requirements and acceptance
 
 Acceptance is evidence-based. The person who explains a need, records a requirement, orders an outcome, implements a contract, produces a test or accepts product scope may be different people.
 
-Keep these distinctions visible:
-
-- evidence is not authority;
-- a test pass is not policy approval;
-- Product Owner acceptance does not erase specialist obligations;
-- architectural coherence does not prove operational readiness; and
-- a deployed feature is not a complete deliverable without the required data, trust, content, manuals, support, operation, maintenance and evidence.
+These distinctions remain important throughout acceptance. Evidence is not authority, and a test pass is not policy approval. Product Owner acceptance does not erase specialist obligations, just as architectural coherence does not prove operational readiness. A deployed feature is not a complete deliverable when the required data, trust, content, manuals, support, operation, maintenance or evidence is absent.
 
 ## Requirements and change
 
-When a requirement changes, inspect its consequences across users, stakeholders, Domains, capabilities, contracts, systems, deliverables, tests, operations, support, maintenance and retirement. Record whether the change is an addition, correction, conflict resolution, exclusion, deferral or replacement.
+When a requirement changes, its consequences reach across users, stakeholders, Domains, capabilities, contracts, systems, deliverables, tests, operations, support, maintenance and retirement. The change record can describe whether the change is an addition, correction, conflict resolution, exclusion, deferral or replacement.
 
 A deliberate deferral retains its intended place, owner, trigger, risk and evidence condition. An unowned omission that transfers known cost or risk to future people is technical theft, not ordinary technical debt.
 
 ## Role handoffs
 
-- **Stakeholder Analyst:** identifies relevant stakeholder and user groups, elicits meaning, checks representation and makes uncertainty visible.
-- **Product Manager:** may set broader product direction, purpose, value and lifecycle decisions.
-- **Product Owner:** orders near-term outcomes and decides scope and priority within delegated authority.
-- **Business, Domain and policy authorities:** establish meaning, rules, obligations and decisions within their authority.
-- **Architect:** maps boundaries, dependencies, responsibilities and system structure without impersonating specialist SMEs.
-- **Technical Analyst:** makes technical meaning, contracts, mappings and conditions precise when explicitly assigned and competent.
-- **Technical lead and developers:** turn the prepared meaning into implementable structure and behaviour, raising contradictions and unsafe assumptions.
-- **Testers and assurance roles:** challenge predicates and produce evidence for the claims within their responsibility.
-- **Operations, support and maintainers:** define and verify readiness, observability, recovery, supportability, changeability and retirement conditions.
-- **Scrum Master or flow facilitator:** helps the work move and improve; does not own product meaning, priority or technical authority.
+The **Stakeholder Analyst** identifies relevant stakeholder and user groups, elicits meaning, checks representation and makes uncertainty visible. The **Product Manager** may set broader product direction, purpose, value and lifecycle decisions, while the **Product Owner** orders near-term outcomes and decides scope and priority within delegated authority. **Business, Domain and policy authorities** establish meaning, rules, obligations and decisions within their authority.
+
+The **Architect** maps boundaries, dependencies, responsibilities and system structure without impersonating specialist SMEs. The **Technical Analyst** makes technical meaning, contracts, mappings and conditions precise when explicitly assigned and competent. **Technical leads and developers** turn the prepared meaning into implementable structure and behaviour, raising contradictions and unsafe assumptions. The **Tester and Test Developer** turn acceptance criteria into appropriately scoped automated, exploratory or manual evidence, then return ambiguity or failed predicates to the responsible decision.
+
+The **Front-end Developer** turns prepared consumer meaning and service contracts into an accessible, usable and secure browser or client experience while preserving server-side authority for business rules, authorisation, durable state and audit. **Testers and assurance roles** challenge predicates and produce evidence for the claims within their responsibility. **Operations, support and maintainers** define and verify readiness, observability, recovery, supportability, changeability and retirement conditions. The **Scrum Master or flow facilitator** helps the work move and improve without becoming the authority for product meaning, priority or technical decisions.
 
 ### Specialist controls: enable the outcome and protect it when needed
 
@@ -119,14 +98,4 @@ This is the minimum formwork for staged delivery. It is not a demand for perfect
 
 ## Related guidance
 
-- [Shared Human Guidance](./readme.md)
-- [BUST Requirements](../stakeholders/business-analysts/bust-requirements.md)
-- [Traceability and Evidence](../stakeholders/business-analysts/traceability-and-evidence.md)
-- [Product Purpose and Outcomes](../stakeholders/product-owners/product-purpose-and-outcomes.md)
-- [Acceptance and Evidence](../stakeholders/product-owners/acceptance-and-evidence.md)
-- [Stakeholder Conflict and Authority](../stakeholders/product-owners/stakeholder-conflict-and-authority.md)
-- [Stakeholder Roles](../reference/catalogues/stakeholder-roles.md)
-- [Users to Consider](../reference/catalogues/users.md)
-- [System Roles](../reference/catalogues/system-roles.md)
-- [Domains and Capabilities](../reference/catalogues/domains-and-capabilities.md)
-- [Deliverables](../reference/catalogues/deliverables.md)
+The [Shared Human Guidance](./readme.md) gives the wider route. [BUST Requirements](../stakeholders/business-analysts/bust-requirements.md) and [Traceability and Evidence](../stakeholders/business-analysts/traceability-and-evidence.md) develop the analyst perspective. [Product Purpose and Outcomes](../stakeholders/product-owners/product-purpose-and-outcomes.md), [Acceptance and Evidence](../stakeholders/product-owners/acceptance-and-evidence.md) and [Stakeholder Conflict and Authority](../stakeholders/product-owners/stakeholder-conflict-and-authority.md) follow the product decisions. The [Stakeholder Roles](../reference/catalogues/stakeholder-roles.md), [Users to Consider](../reference/catalogues/users.md), [System Roles](../reference/catalogues/system-roles.md), [Domains and Capabilities](../reference/catalogues/domains-and-capabilities.md) and [Deliverables](../reference/catalogues/deliverables.md) catalogues provide the surrounding vocabulary and delivery context.

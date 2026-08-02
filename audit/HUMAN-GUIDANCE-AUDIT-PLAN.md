@@ -95,6 +95,7 @@ Test at least these journeys from a cold start:
 - an architect decomposing conceptual language;
 - a Technical Analyst making a contract precise;
 - a technical lead preparing implementation;
+- a Front-end Developer building a browser or client consumer system;
 - a tester creating cross-system evidence;
 - a Test Developer creating automated evidence;
 - an operator diagnosing and recovering a live service;
@@ -156,6 +157,7 @@ Then assess catalogue roles that do not yet have equivalent route depth:
 - sponsor and business owner;
 - enterprise, business, data, integrations, security, solution/application, platform/infrastructure/cloud and domain architects;
 - system/application, integration, test and specialist developer families;
+- front-end developer responsible for the consumer system and browser experience;
 - Monitoring;
 - Change Control;
 - Security;

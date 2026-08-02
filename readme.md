@@ -1,13 +1,16 @@
 # Guidance for Dependable Services
 
-Software helps people achieve things. It can make work possible, clarify decisions, connect people and organisations, or place a service within reach when it is needed.
+Software helps people work, decide, connect and reach services. Its value is measured by the outcome it makes possible and by the care taken with the people, records and decisions that depend on it.
 
-Meaningful software helps achieve meaningful outcomes. The value is not in the size of the feature or the novelty of the technology. It is in what becomes possible for people, communities and organisations: greater agency, better decisions, safer work, dependable access or a responsibility carried well over time.
+This repository helps teams make services understandable, dependable and able to change. Product, analysis, architecture, development, testing, operations, support and maintenance each contribute to that result, within real limits of time, money, capability and risk.
 
-Those outcomes shape how people experience the organisation behind the software. An organisation's reputation is a real asset, built through the promises it makes and the care it shows in keeping them. Meaningful software can strengthen that asset through useful services, sound decisions and respect for the people who depend on the result. Careless, unreliable or indifferent software can diminish it. Reputation is too valuable to squander casually, and that is why this guidance exists.
+A service is more than its code. It also includes users, data, dependencies, configuration, evidence, failure behaviour and the responsibilities that keep it useful after release. The guidance connects those parts without asking one role to carry the whole design.
 
-This repository is for the teams who deliver such software. Product, analysis, architecture, development, testing, operations, support and maintenance each contribute a different part of a cohesive delivery. The service has to remain meaningful within real budget, timeline, capability and organisational constraints, not only in an ideal design.
+There is no required reading order. A useful next question might be:
 
-A service is a living system with users, records, decisions, dependencies, failure modes and a future. The guidance connects the visible experience to the less visible structures that make it dependable, maintainable and able to grow without losing its meaning.
+- [Where can I find a short, story-led way into the guidance?](./engineering/humans/orientation/ways-into-guidance.md)
+- [How does the shared engineering guidance fit together?](./engineering/readme.md)
+- [How does delivery become a usable and supportable service?](./engineering/humans/delivery/readme.md)
+- [What problem or role feels closest to my work?](./engineering/humans/examples/readme.md)
 
-The repository is an invitation to make serious systems more understandable, dependable and able to change. The [Engineering Guidance](./engineering/readme.md) gathers the shared ideas, structures and audience-specific expressions that support that work.
+The [assessment](./assessments/repository-assessment-2026-08-02.md) records the current strengths and the serious gaps that still need dedicated guidance. It is an honest boundary around this repository, not a claim that the material alone makes a regulated system ready for production.

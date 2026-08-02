@@ -1,5 +1,3 @@
-# Palette
+# Palette compatibility route
 
-This folder teaches how to look at a visible experience and recognise the parts beneath it.
-
-[First Look](./first-look.md) offers a short introduction to the visible parts of an experience. [Elements](./elements.md) names those parts, [Relationships](./relationships.md) considers how they fit together, and [Technical Terms](./technical-terms.md) provides more precise language when that helps with the code. The pages work as a connected set, but any one of them can be useful when it matches the question being explored.
+The canonical client-system Palette now lives in [Client System Guidance](../systems/client/readme.md). Its [UX Palette](../systems/client/ux-palette.md), [First Look](../systems/client/first-look.md) and [Implementation Vocabulary](../systems/client/implementation-vocabulary.md) provide the detailed routes. This page remains temporarily so older links continue to lead readers to the new system boundary.

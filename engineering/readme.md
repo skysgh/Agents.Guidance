@@ -1,34 +1,69 @@
 # Engineering Guidance
 
-Delivering software is larger than developing software. Development creates and changes the software. Delivery brings that software, its data, configuration, dependencies, supporting material and responsibilities together so that it can reach operations, become usable by its intended people and remain supportable after release.
+Delivering software is larger than developing it. A delivered service joins software with its data, configuration, dependencies, supporting material, evidence and responsibilities so that people can use it, operators can run it, support can understand it and maintainers can change it.
 
-Development is therefore one important part of engineering delivery, not the whole of it. Product, analysis, architecture, development, testing, release, deployment, operations, support and maintenance each carry different responsibilities. A service becomes a delivered service when those responsibilities join around something that people can use, operators can run, support can understand and maintainers can change.
+This guidance is one connected body of knowledge with several useful perspectives. It does not require one reading order or ask one role to own every decision. It helps the team see what must accompany a feature, where responsibility belongs and what evidence will keep the outcome dependable after release.
 
-## From purpose to operation
+## A useful way in
 
-The delivery begins with purpose, people, outcomes, obligations and constraints. It becomes a service through domain understanding, logical design, contracts, code, data, interfaces, infrastructure, testing and evidence. It reaches its users through release and deployment, and remains meaningful through observability, support, recovery, controlled change and maintenance.
+Choose the question closest to the work in front of you, or use the [short, story-led way into the guidance](./humans/orientation/ways-into-guidance.md) when the vocabulary is not familiar yet:
 
-The visible feature is only one part of this movement. Meaning also has to survive the boundaries between people and systems, the passage from decision to implementation, the first release, the first failure and the arrival of the next team. This is why the delivery view includes operational readiness, security, persistence, recovery, evidence and the conditions in which the service will actually be used.
+- **What are we trying to deliver?** [Delivery Guidance](./humans/delivery/readme.md) explains the wider delivered whole.
+- **What does the service mean and where does it belong?** [Architecture](#architecture) connects purpose to systems, boundaries and dependencies.
+- **How do we build a capability?** [Technical Leadership and Development](#technical-leadership-and-development) connects design to contracts, slices and implementation.
+- **How do we know it is dependable?** [Quality](#quality), [Assurance](#assurance) and [Operating](#operating) keep qualities, controls, evidence and live service concerns visible.
+- **What is my contribution?** [Delivery Team Roles](#delivery-team-roles) leads to the stakeholder routes and their handoffs.
+
+These are invitations, not gates. The same service will appear differently from each perspective, but the responsibilities, boundaries and evidence still need to join up.
+
+The delivery begins with purpose, people, outcomes, obligations and constraints. It becomes a service through domain understanding, logical design, contracts, code, data, interfaces, infrastructure, testing and evidence. It reaches its users through release and deployment, then remains meaningful through observability, support, recovery, controlled change and maintenance.
+
+The visible feature is only one part of this movement. Meaning also has to survive the boundaries between people and systems, the first release, the first failure and the arrival of the next team.
 
 ## Oversight for cohesive delivery
 
-This guidance provides a shared view across the delivery without pretending that one role owns every decision. It makes the relationships between purpose, responsibilities, boundaries, capabilities, systems, evidence and lifecycle visible. That view helps a team recognise what must accompany the software for the outcome to be real, and where an omission would leave users, operators, the organisation or future teams carrying an avoidable burden.
+This guidance makes the relationships between purpose, responsibilities, boundaries, capabilities, systems, evidence and lifecycle visible. It helps a team recognise what must accompany the software for the outcome to be real, and where an omission would leave users, operators, the organisation or future teams carrying an avoidable burden.
 
-The wider delivery is described through [Deliverable Systems](./humans/reference/catalogues/deliverable-systems.md), [Deliverables](./humans/reference/catalogues/deliverables.md) and [Registries](./humans/reference/catalogues/registries.md). The [catalogues](./humans/reference/catalogues/readme.md) name the important concepts, roles, systems and qualities. The [checklists](./humans/reference/checklists/readme.md) gather practical reference material around them.
+The [Delivery Guidance](./humans/delivery/readme.md) explains how software, supporting material, operational responsibility and evidence become one usable delivered service. When the situation is not yet clear, the [short way into the guidance](./humans/orientation/ways-into-guidance.md) begins with stories and questions. Once the question is understood, the [catalogues](./humans/reference/catalogues/readme.md) name the important concepts, roles, systems and qualities, and the [checklists](./humans/reference/checklists/readme.md) gather practical prompts for applying them.
 
 ## Many ways into the guidance
 
 This is one body of knowledge, but it does not have one prescribed journey. Its meaning becomes easier to recognise from different perspectives, and each perspective connects with the same delivered whole.
 
+
+### Delivery Team Roles
+
 A role perspective is available through [Stakeholder Guidance](./humans/stakeholders/readme.md). It shows how Product, Analysis, Architecture, Development, Testing, Support, Operations and Maintenance contribute knowledge, decisions, work and evidence without separating those contributions from the shared delivery.
 
-An outcome and completeness perspective is available through [Deliverable Systems](./humans/reference/catalogues/deliverable-systems.md), [Deliverables](./humans/reference/catalogues/deliverables.md) and [Registries](./humans/reference/catalogues/registries.md). Together they make visible the systems being delivered, the people and organisations that depend on them, and the supporting material, records and responsibilities that have to accompany the software.
 
-An architecture and technical-structure perspective is available through the [Engineering Catalogues](./humans/reference/catalogues/readme.md), [Logical Deployment Modules](./humans/development/ldms.md), [LDM Layers and Contents](./humans/development/layers.md), [Vertical Slices](./humans/development/vertical-slices.md) and [Contracts](./humans/development/contracts.md). They connect meaning to boundaries, dependencies, implementation responsibility and change.
+### Product Management and Lifecycle
 
-An assurance perspective is available through [Quality Perspectives](./humans/reference/catalogues/qualities.md), [Testing Evidence and Boundaries](./humans/stakeholders/testers/evidence-and-boundaries.md), the [security checklists](./humans/reference/checklists/security-at-rest.md), [regulatory obligations](./humans/reference/catalogues/regulatory-obligations.md) and [operational readiness and recovery](./humans/stakeholders/operators/readiness-observability-and-recovery.md). Together they give qualities, tests, security, controls, obligations and evidence their own view of the service rather than treating assurance as a final inspection.
+[Product Manager Guidance](./humans/stakeholders/product-managers/readme.md) connects objectives, investment, organisational capacity, obligations and risk to the outcomes a service should pursue. [Product Owner Guidance](./humans/stakeholders/product-owners/readme.md) connects those objectives to ordered outcomes, foundations, acceptance and evidence. [Delivery Guidance](./humans/delivery/readme.md) explains how those outcomes become usable, operable and supportable services. [SDLC](./humans/reference/catalogues/sdlc.md) then describes how the service is discovered, discussed, decided, defined, designed, developed, delivered, maintained and eventually decommissioned. Together they keep product direction connected to the service's full life rather than treating delivery as the end of product responsibility.
 
-A lifecycle and operating perspective is available through [SDLC](./humans/reference/catalogues/sdlc.md), [Availability, Capacity and Resilience](./humans/development/availability-capacity-and-resilience.md) and the [operator guidance](./humans/stakeholders/operators/readme.md). The [orientation pages](./humans/orientation/readme.md), [examples](./humans/examples/readme.md) and [shared guidance](./humans/shared/readme.md) provide further ways to recognise the ideas through explanation, experience and consequence.
+The product outcome also needs a completeness view. [Deliverables](./humans/reference/catalogues/deliverables.md) makes the supporting systems, data, content, reachability, operational material and evidence visible. [Registries](./humans/reference/catalogues/registries.md) makes the decisions, dependencies, responsibilities and time-bound obligations that keep those deliverables current visible. Together they help Product and delivery roles see what must accompany the software for the intended outcome to remain real.
+
+
+### Architecture
+
+An architecture perspective is available through the [Human System Guidance](./humans/systems/readme.md), the [Engineering Catalogues](./humans/reference/catalogues/readme.md), [Guidance for System Design Architects](./humans/orientation/guidance-for-system-design-architects.md), [Deliverable Systems](./humans/reference/catalogues/deliverable-systems.md), [Conceptual, Logical and Physical Models](./humans/reference/catalogues/conceptual-logical-physical-models.md), [Domains and Capabilities](./humans/reference/catalogues/domains-and-capabilities.md) and [External Dependencies](./humans/reference/catalogues/external-dependencies.md). These pages connect purpose and meaning to systems, boundaries, dependencies and responsibility before implementation choices narrow the design.
+
+### Technical Leadership and Development
+
+[Technical Lead Guidance](./humans/stakeholders/technical-leads/readme.md) turns architecture into an achievable implementation and readiness path. [Developer Guidance](./humans/stakeholders/developers/readme.md) gives the general implementation route, while [Front-end Developer Guidance](./humans/stakeholders/developers/front-end.md) follows the distinct browser consumer system, its client-side horizontal flows, component assemblies, accessibility, usability and browser security. [Human System Guidance](./humans/systems/readme.md) keeps the client, service, pipeline, testing and shared boundaries visible while that path is built. [Logical Deployment Modules](./humans/development/ldms.md), [LDM Layers and Contents](./humans/development/layers.md), [Vertical Slices](./humans/development/vertical-slices.md) and [Contracts](./humans/development/contracts.md) remain the current detailed development pages while their ownership is migrated.
+
+### Quality
+
+[Quality Perspectives](./humans/reference/catalogues/qualities.md) describes the qualities of the system, its data and its use. It connects qualities to the outcomes people and organisations need, without reducing quality to a list of technical attributes or a final test result.
+
+### Assurance
+
+An assurance perspective is available through [Testing Evidence and Boundaries](./humans/stakeholders/testers/evidence-and-boundaries.md), the [security checklists](./humans/reference/checklists/security-at-rest.md), [regulatory obligations](./humans/reference/catalogues/regulatory-obligations.md) and [operational readiness and recovery](./humans/stakeholders/operators/readiness-observability-and-recovery.md). These routes explain how claims become controls, tests, decisions and evidence, and how missing evidence is returned to the responsible boundary.
+
+### Operating
+
+[Availability, Capacity and Resilience](./humans/development/availability-capacity-and-resilience.md) connects service targets to design, operation and evidence. The [operator guidance](./humans/stakeholders/operators/readme.md) covers the live service, observability, support, diagnosis, recovery and the conditions that keep it dependable after release.
+
+The [orientation pages](./humans/orientation/readme.md), [examples](./humans/examples/readme.md) and [shared guidance](./humans/shared/readme.md) provide further ways to recognise these subjects through explanation, experience and consequence.
 
 ## Structures for enduring value
 

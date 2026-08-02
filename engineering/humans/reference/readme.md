@@ -6,5 +6,6 @@ This folder contains explanations and language guidance to return to while readi
 - [The Building Metaphor](./building-metaphor.md)
 - [Different Types of Builders](./builders-metaphor.md)
 - [Human Documentation Writing Style](./writing-style.md)
+- [Human System Guidance](../systems/readme.md)
 - [Engineering Catalogues](./catalogues/readme.md)
 - [Engineering Checklists](./checklists/readme.md)

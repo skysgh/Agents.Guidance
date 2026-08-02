@@ -6,7 +6,7 @@ This glossary gives the plain meaning first. The technical label is included so 
 
 A request for the system to do something, such as add, edit, submit, approve, return or cancel. An action is not automatically the same as a state change.
 
-See [Palette Elements](../palette/elements.md).
+See [Client UX Palette](../systems/client/ux-palette.md#actions-and-action-zones).
 
 ## Action Zone
 
@@ -26,7 +26,7 @@ The part of the service that turns a request into an application capability. It 
 
 A component that knows how to reach another capability or external system. It hides the details of the call from the visible experience. In technical language, it is a boundary connector.
 
-See [Palette Relationships](../palette/relationships.md).
+See [Client UX Palette](../systems/client/ux-palette.md#the-relationship-map).
 
 ## Registry
 
@@ -81,6 +81,44 @@ A Technical Analyst is a responsibility profile for making technical meaning pre
 Technical Analyst is not a universal job title or a claim that one person owns every technical decision. The analyst should work with the relevant architect, Domain authority, developers, testers, security and privacy specialists, data and integration owners, Operations, Maintenance and other SMEs. They may propose or document a contract, but the responsible boundary owns its meaning and authority, and specialist roles must validate the conditions they own. A Technical Analyst does not silently become the system architect, API owner, security authority, operational SME or developer.
 
 Business Analysts are not automatically unsuitable for this work, and architects are not automatically the best people to perform it. Either may carry the Technical Analyst responsibility when they have the demonstrated knowledge, capacity and accountability for the particular contracts and technical boundaries involved. Where the work is substantial, specialised or high-risk, assign it explicitly to a suitably capable Technical Analyst or technical team member rather than assuming that a BA will fill the gap or that an architect must absorb it.
+
+## Developer
+
+Developer is a family name for people who turn prepared responsibilities, contracts and boundaries into dependable physical implementation. The family may include system or application developers, front-end developers, integration developers, test developers, environment and pipeline developers and maintenance developers. These are responsibility profiles, not a ranking or a fixed organisation chart. One person may carry several profiles, but the work and evidence for each responsibility should remain visible.
+
+See [Developer Families](./catalogues/stakeholder-roles.md#developer-families) and [Developer Guidance](../stakeholders/developers/readme.md).
+
+## Front-end Developer
+
+A Front-end Developer builds the browser-side or client-side consumer system through which people or other systems reach a service. For a single-page application, this includes its assets, browser execution, client-side state, views, interaction flows, component assemblies and calls to service interfaces. The Front-end Developer makes the consumer experience functional, accessible, usable, secure and recoverable without making the SPA the authority for business rules, authorisation or durable state.
+
+The client-side flow may be the most complete expression of the human journey, but the service system still owns authoritative capabilities, decisions, data and audit. Front-end components may collect input, present output, arrange collections or assemble focused interactions. Browser authentication and authorisation data must not be kept in browser-accessible storage; where cookies are used for the session, `Secure`, `HttpOnly`, appropriate `SameSite` protection and CSRF controls must be understood together.
+
+See [Front-end Developer Guidance](../stakeholders/developers/front-end.md), [Deliverable Systems](./catalogues/deliverable-systems.md#3-service-consumer-system), [Accessibility Conventions](../../agents/conventions/development/accessibility.md) and [Frontend Security Conventions](../../agents/conventions/development/frontend-security.md).
+
+## Pipeline Developer
+
+A Pipeline Developer builds and maintains the delivery path that validates, packages, promotes, deploys, observes and recovers a service or its supporting systems. Their work may use declarative infrastructure languages such as Azure Bicep or ARM templates, AWS CloudFormation, typed infrastructure frameworks such as AWS CDK, and imperative orchestration through PowerShell, Bash or another bounded tool language.
+
+The language is not the responsibility. A short script may still hold production credentials or permission to change networks, identities, storage, DNS or deployment artifacts. Pipeline development therefore needs provenance, bounded authority, secret protection, repeatable execution, failure handling, rollback and evidence. See [Pipeline Development and Infrastructure as Code](../systems/pipeline/development-language.md) and [Developer Families](./catalogues/stakeholder-roles.md#developer-families).
+
+## Infrastructure as Code
+
+Infrastructure as Code (IaC) is the practice of describing and changing infrastructure through versioned, reviewable definitions and controlled execution rather than relying on undocumented manual changes. IaC may be declarative, as with Bicep, CloudFormation or Terraform, or authored through a typed framework such as AWS CDK that synthesizes a provider template. Scripts may coordinate IaC, but a script is not automatically the infrastructure model.
+
+IaC does not make infrastructure safe by itself. The organisation still needs a responsible boundary, identity, permissions, secrets, policy, environment separation, drift awareness, preview or plan evidence, deployment recovery, cost visibility and exit conditions.
+
+## Test Suite
+
+A Test Suite is a coherent set of test cases and supporting test code organised around a claim, boundary, flow, risk or quality concern. It may include fixtures, scenario setup, generators, helpers, assertions, tags, cleanup and evidence expectations. A Test Suite is not the Testing System that runs it, the Test Data it uses, the Test Plan that scopes it or the result produced by an execution.
+
+See [Testing Evidence and Boundaries](../stakeholders/testers/evidence-and-boundaries.md#test-suite).
+
+## Backend for Frontend (BFF)
+
+A Backend for Frontend (BFF) is a service-side boundary shaped for the needs of one client or client family. It may aggregate, map, filter or coordinate calls to other service capabilities, but it does not become the authority for business meaning, authorisation or durable state merely because it serves the client.
+
+See [Testing System Guidance](../systems/tests/readme.md#test-areas-and-suites) for the BFF testing area.
 
 ## Solution Architecture Document (SAD)
 
@@ -321,7 +359,7 @@ A shared agreement about what a boundary provides, what it needs and what caller
 
 A component that manages movement between surfaces or steps. It sequences, transitions and gates a journey. It should coordinate the journey without absorbing every business rule.
 
-See [Palette Technical Terms](../palette/technical-terms.md).
+See [Client Implementation Vocabulary](../systems/client/implementation-vocabulary.md).
 
 ## Design completeness
 
@@ -441,7 +479,7 @@ A deliberate move from one state to another. Submission, approval, publication, 
 
 The experience a person recognises, such as a page, form, list, tree, workspace, report or sequence. A View is not necessarily the boundary that owns every behaviour visible within it.
 
-See [The Palette: First Look](../palette/first-look.md).
+See [First Look at the Client Experience](../systems/client/first-look.md).
 
 ## WGF: What Goes First?
 

@@ -2,7 +2,9 @@
 
 This folder contains human-facing explanations used by more than one stakeholder role.
 
-Shared guidance is not owned by one profession. It describes concepts, relationships and handoffs that multiple roles must understand together. Role-specific routes should explain how a stakeholder enters, uses and contributes to that shared material; they should not copy it into separate silos.
+Shared guidance is not owned by one profession or one implementation system. It describes concepts, relationships and handoffs that multiple roles and system boundaries must understand together. Role-specific and system-specific routes should explain how a reader enters, uses and contributes to that shared material; they should not copy it into separate silos.
+
+The staged [Shared System Concerns](../systems/shared/readme.md) route classifies the shared material that crosses client, service, pipeline and testing boundaries. It is an index into the existing shared authorities, not a replacement for them.
 
 ## Shared subjects
 

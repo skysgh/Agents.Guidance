@@ -1,9 +1,15 @@
 # AGENTS.GUIDANCE Repository Assessment (2026-08-02)
 
 ## EXECUTIVE ASSESSMENT
-**Status**: Strong intellectual foundation with substantive operational and governance gaps. Near-best for architecture thinking; not yet best for serious-system engineering in regulated, multi-team, multi-system contexts.
+**Status**: Strong architectural and explanatory foundation with substantive operational, security, governance and verification gaps. The material is useful for learning and reviewing domains, boundaries, contracts, lifecycle and delivery, but it is not a complete production-readiness guide for regulated, multi-team or multi-system contexts.
 
-**Verdict**: Best-in-class on problem decomposition, domain modeling, lifecycle thinking, and examples. Missing half of what "serious systems" need for production readiness, security, compliance, and operational control.
+**Scope of this assessment**: This is a repository assessment against the needs of serious systems, not a benchmark against other guidance collections. It records what is present, what is only foundational and what still needs dedicated patterns, procedures or evidence.
+
+## How to use this assessment
+
+This document is a boundary marker for the guidance, not a reading assignment. **Present** means the repository has a usable treatment. **Foundational** means the principle or concept exists but practical patterns or evidence are still limited. **Missing** means a serious-system need is known but does not yet have enough dedicated guidance here. The gaps point to the next engineering question; they do not make the existing domain, contract or lifecycle material unusable.
+
+Readers can use the assessment in different ways: a developer may follow the [engineering entry](../engineering/readme.md) into implementation guidance, an operator may use the [Operating perspective](../engineering/readme.md#operating), and a team assessing production readiness can treat the gap sections as questions requiring project-specific evidence rather than as claims that this repository answers them.
 
 ---
 
@@ -258,12 +264,12 @@
 - Multi-system integrations needing deployment coordination and contract management
 
 **Gaps are substantive, not polish**:
-- Operations, access control, security architecture, governance, evidence/verification, performance testing, cross-system coordination are missing half or more of their needed guidance
-- These gaps matter for "serious systems" in production, regulated contexts
-- Audit already identified most gaps and deferred work explicitly
+- Operations, access control, security architecture, governance, evidence/verification, performance testing and cross-system coordination need dedicated patterns, procedures or evidence beyond the current foundations.
+- These gaps matter for serious systems in production and regulated contexts.
+- The audit already identifies most of these gaps and records them as deferred work.
 
-**Near-best, not yet best**:
-- Intellectual foundation (domains, contracts, lifecycle) is first-rate
-- Examples and stakeholder thinking are excellent
-- Gaps are addressable with systematic additions to operations, security, governance, and verification domains
-- Not a question of fixing poor thinking; it's expanding coverage into missing operational/control territories
+**Current position**:
+- The intellectual foundation for domains, contracts, lifecycle and examples is strong.
+- Stakeholder thinking and deliverables framing provide useful shared context.
+- The main limitation is coverage: operations, security, governance, cross-system coordination and evidence need dedicated patterns and procedures.
+- The next work is therefore an expansion of capability and evidence, not a claim that the existing foundation is sufficient by itself.

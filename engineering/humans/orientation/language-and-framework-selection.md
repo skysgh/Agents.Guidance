@@ -99,6 +99,12 @@ Python is appropriate for development tooling, one-off migration or analysis scr
 
 A production Python exception must compare representative workload and concurrency with the supported .NET alternative. Measure CPU, memory, startup, throughput, latency, failure behaviour, dependency maintenance, isolation, scaling and observability. Record the owner, operating boundary, exit or review condition and the evidence supporting the decision.
 
+### Pipeline and infrastructure development
+
+Pipeline development has a different execution boundary from the service request path. Azure infrastructure may be expressed in ARM templates or Bicep. AWS infrastructure may be expressed in CloudFormation templates or authored through AWS CDK using TypeScript, JavaScript, Python, Java, C# or Go. PowerShell and Bash commonly coordinate provider tools, environments, approvals and evidence around those definitions.
+
+TypeScript is prominent in AWS CDK because it was the first supported CDK language and the CDK itself is developed in TypeScript. That is not a general AWS requirement or a reason to make TypeScript the only pipeline language. The decision should fit the provider model, team capability, support lifecycle, security boundary, testing, rollback and recovery evidence. [Pipeline Development and Infrastructure as Code](../systems/pipeline/development-language.md) explains the distinction between declarative infrastructure, typed infrastructure programming and imperative orchestration.
+
 ## Recognise DevOps and integration engineering
 
 DevOps, environment and pipeline engineers work on software that is executed by build systems, deployment systems, infrastructure automation and operators. Integration engineers work on software that crosses system boundaries, often through provider SDKs, queues, scheduled transfers or network protocols. Their work is still production engineering when it is trusted with release authority, credentials, regulated information or a critical operational path.

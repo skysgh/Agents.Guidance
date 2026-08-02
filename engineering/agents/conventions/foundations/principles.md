@@ -1,24 +1,16 @@
 # Development Principles
 
-Read this document for every engineering task; use it as the rationale for the more specific conventions selected by the task.
+Engineering work becomes easier to review when the team can explain not only what a convention asks for, but what enduring concern it protects. This document keeps that compact rationale for agents and maintainers. The more specific conventions selected for a task should make sense as consequences of these priorities rather than as isolated rules.
 
-These principles are portable engineering priorities. They are not product requirements, project management preferences or a list of framework names. They explain why the more specific constraints and conventions exist.
+These principles are portable engineering priorities. They are not product requirements, project-management preferences or a list of framework names. Their purpose is to connect everyday technical choices to the service's long life, its boundaries and contracts, the people who depend on it and the evidence needed to trust it.
 
-For the accessible explanation and examples, read [Human Guidance](../../../humans/readme.md), [Deliverable Systems](../../../humans/reference/catalogues/deliverable-systems.md) and [Deliverables](../../../humans/reference/catalogues/deliverables.md). This document keeps the compact rationale used by agents and maintainers.
+The [Human Guidance](../../../humans/readme.md), [Deliverable Systems](../../../humans/reference/catalogues/deliverable-systems.md) and [Deliverables](../../../humans/reference/catalogues/deliverables.md) routes provide the accessible explanations and examples. This page remains deliberately compact because it is the agent-facing rationale behind those wider explanations.
 
 ## How to read this
 
 These principles describe the ground beneath the building. They explain why boundaries, contracts, security, lifecycle, mapping and operational evidence matter before a team starts adding visible features.
 
-You do not need to know the technical names to use the ideas. Each principle starts with a practical concern and then gives more precise engineering language where it helps different contributors discuss the same design.
-
-The principles are shared design material:
-
-- business analysts contribute the meaning and consequences of decisions;
-- developers test whether the principles can become working contracts;
-- testers look for evidence that the boundaries behave as described;
-- operations contributes lifecycle, readiness and recovery concerns; and
-- architecture keeps the structure coherent across capabilities.
+The ideas can be understood before their technical names are familiar. Each principle starts with a practical concern and then introduces more precise engineering language where that helps different contributors discuss the same design. Business analysts bring the meaning and consequences of decisions. Developers test whether the priorities can become working contracts. Testers look for evidence that the boundaries behave as described. Operations brings lifecycle, readiness and recovery concerns. Architecture keeps the structure coherent across capabilities.
 
 ## 1. Optimise the whole service life
 
@@ -199,12 +191,6 @@ Reflection is therefore a consequence of good organisation, not a panacea for po
 
 The test is not whether reflection feels sophisticated. The test is whether the contracts make discovery safe, bounded, deterministic, diagnosable and replaceable. If they do, reflection should normally remove repetitive host wiring. If they do not, improve the contracts and evidence before adding more discovery machinery.
 
-## How to use these principles
+## Applying the principles
 
-A principle is not a reason to add architecture automatically. For each proposed abstraction or infrastructure dependency, state:
-
-- which principle or operational risk requires it;
-- the smallest boundary that addresses that risk;
-- what measurable cost it adds;
-- how it can be tested and observed; and
-- what evidence would justify removing or simplifying it.
+A principle is not, by itself, a reason to add architecture. A proposed abstraction or infrastructure dependency becomes easier to judge when its connection to a principle or operational risk is clear, when the smallest boundary that addresses the risk is understood, and when its measurable cost is visible. The same explanation can describe how the choice will be tested and observed and what evidence would later justify removing or simplifying it.

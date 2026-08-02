@@ -119,6 +119,7 @@ For example, accessibility may be a legal duty and a quality-in-use concern. Sec
 
 ## Related guidance
 
+- [Delivery Guidance](../../delivery/readme.md) places obligations alongside the systems, material, responsibilities and evidence that make an outcome real.
 - [Legal and Regulatory Context](../../orientation/legal-context.md) explains how to map jurisdictions and delivery context.
 - [Regulatory and Obligation Checklist](../checklists/regulatory-obligations.md) provides practical review prompts.
 - [Systems Within Systems](../../orientation/systems-within-systems.md) shows how duties cross enterprise, legal, organisational and digital boundaries.

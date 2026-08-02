@@ -1,6 +1,6 @@
-# Palette Elements
+# Palette compatibility route
 
-This document follows [The Palette: First Look](./first-look.md). It explains the job of each element before explaining how the elements connect.
+The element catalogue now lives in the [Client UX Palette](../systems/client/ux-palette.md). This page remains temporarily so older links reach the canonical client-system catalogue.
 
 ## View
 

@@ -2,7 +2,7 @@
 
 Read this document only when a task creates or changes an end-to-end capability with its own contract, orchestration, state or test boundary.
 
-For the accessible explanation of slices and their relationship to the flow palette, read [Common Flows](../../../humans/orientation/flows.md), [Deliverable Systems](../../../humans/reference/catalogues/deliverable-systems.md), [Deliverables](../../../humans/reference/catalogues/deliverables.md) and [Palette First Look](../../../humans/palette/first-look.md).
+For the accessible explanation of slices and their relationship to the flow palette, read [Common Flows](../../../humans/orientation/flows.md), [Deliverable Systems](../../../humans/reference/catalogues/deliverable-systems.md), [Deliverables](../../../humans/reference/catalogues/deliverables.md) and [First Look at the Client Experience](../../../humans/systems/client/first-look.md).
 
 Before naming a slice, identify the Domain that gives the capability its meaning and the Functions that belong within it. The human [Guidance Glossary](../../../humans/reference/glossary.md) explains these terms and the risk of polysemy.
 

@@ -48,7 +48,7 @@ Do not treat patterns as vocabulary that developers use to get hired and then le
 
 A bespoke solution may be justified when the domain, constraints or evidence genuinely do not fit an established pattern. It should not be the default simply because the team can make a local version that works. Before inventing a new shape, ask which known patterns apply, what they would protect, where they would need adaptation and what evidence would justify departing from them.
 
-"It works" is necessary but incomplete evidence. A locally successful solution may still leave unclear ownership, hidden coupling, weak recovery, poor auditability or a difficult path for the next team. A pattern gives the team a shared starting point and language for reviewing those risks. If the team chooses a bespoke design, record why, what risk it accepts and how it will remain understandable to people who did not invent it.
+"It works" is necessary but incomplete evidence. A locally successful solution may still leave unclear responsibility, hidden coupling, weak recovery, poor auditability or a difficult path for the next team. A pattern gives the team a shared starting point and language for reviewing those risks. If the team chooses a bespoke design, record why, what risk it accepts and how it will remain understandable to people who did not invent it.
 
 ## Taking responsibility for entrusted systems
 
@@ -155,6 +155,8 @@ Avoid relying on these words without explanation:
 For wide human audiences, prefer **responsible boundary** or **lifecycle responsibility** on first use. Explain that this means the part of the system or team that keeps a capability coherent as it is created, changed, operated and eventually retired. Introduce **stewardship** later as the technical term if it helps precision. Do not assume that Owner or Steward is clear without explaining what responsibility the word represents.
 
 These terms are valid. Explain them in the context where they matter.
+
+Prefer **responsible person**, **responsible team**, **responsible boundary** or **responsible authority** to the generic word **owner** when describing human accountability. “Owner” can sound like a job title, imply total authority or hide the difference between business, technical, operational and legal responsibility. Keep formal titles such as Product Owner, and retain technical field or provider terminology when the exact term is the subject, but explain the responsibility in plain language.
 
 ## Human document structure
 

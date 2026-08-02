@@ -4,15 +4,19 @@ This folder contains routes for people who contribute distinct knowledge, decisi
 
 A route is not a job description and it does not make a role the owner of every subject it touches. Shared concepts remain in [Shared Human Guidance](../shared/readme.md). Each stakeholder route explains how that role enters the shared material, what it contributes, what it decides, what it produces, what it needs from other roles and where its responsibility ends.
 
+If the role vocabulary is new, [A Short Way Into the Guidance](../orientation/ways-into-guidance.md) starts with situations rather than titles. The routes below become useful once a reader recognises the responsibility or handoff they need to understand.
+
 ## Routes
 
 - [Stakeholder Analysts (Business Analysts)](./business-analysts/readme.md): elicit meaning from all material stakeholder and user groups, identify representation and develop requirements from drivers through evidence.
+- [Sponsors](./sponsors/readme.md): protect the organisational commitment, funding, authority, whole-life accountability and escalation when delivery does not match the promise.
 - [Product Managers](./product-managers/readme.md): steward far-seeing product objectives within budget, schedule, organisational capacity, obligations and risk, and connect strategic direction to responsible investment.
 - [Product Owners](./product-owners/readme.md): convene complete product conversations, help the right people decide, order valuable testable outcomes and protect the foundations that lower avoidable risk.
 - [Service Providers](./service-providers/readme.md): remain accountable for the service promise, people, evidence, support, operation, maintenance and lifecycle.
 - [Architects](./architects/readme.md): integrate stakeholder, product and specialist input into coherent boundaries, dependencies and system structure.
 - [Technical Leads](./technical-leads/readme.md): turn architectural structure into an achievable implementation, readiness and evidence path.
 - [Developers](./developers/readme.md): implement prepared capabilities and contracts while raising ambiguity, unsafe assumptions and missing ownership.
+- [Front-end Developers](./developers/front-end.md): build the browser consumer system, its client-side flows and component assemblies, with accessibility, usability and browser security evidence.
 - [Testers](./testers/readme.md): turn requirements, contracts and quality claims into boundary and failure evidence.
 - [Support](./support/readme.md): help people use the service, investigate reported problems and escalate to the responsible boundary.
 - [Operators](./operators/readme.md): keep the delivered service available, observable, secure and recoverable.

@@ -1,6 +1,6 @@
-# Palette Relationships
+# Palette compatibility route
 
-This document follows [Palette Elements](./elements.md). It explains how the parts fit together after their individual jobs are familiar.
+The relationship map now lives in the [Client UX Palette](../systems/client/ux-palette.md#the-relationship-map). This page remains temporarily so older links reach the canonical client-system catalogue.
 
 ## The relationship map
 

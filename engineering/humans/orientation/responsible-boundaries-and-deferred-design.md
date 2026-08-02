@@ -6,7 +6,7 @@ This document explains how a team can design a capability even when the eventual
 
 ## The short version
 
-Do not wait for a person before defining the structure. Define which boundary has lifecycle responsibility for the capability, what contract it provides, what it depends on, what security rules apply and what safe default exists.
+The structure does not need to wait for a named person. The design can first make clear which boundary has lifecycle responsibility for the capability, what contract it provides, what it depends on, what security rules apply and what safe default exists.
 
 A named person may later approve a policy, operate a service or make a business decision. The technical design should remain understandable and deliverable before that person is known.
 
@@ -30,7 +30,7 @@ This is design completeness without build completeness. It protects later constr
 
 A team can usually define much of the technical structure from the problem, existing patterns and platform constraints. It can distinguish capabilities, describe the information that crosses each boundary, identify required states and actions, recognise protected data, decide which parts are reusable, separate optional from required dependencies and show which later construction must fit the existing structure.
 
-A business decision may still be open. Record it as an open decision with a safe default or a deliberate block. Do not leave the technical boundary undefined because the business decision is waiting.
+A business decision may still be open. An open-decision record can preserve the uncertainty alongside a safe default or a deliberate block. The technical boundary can remain defined while the business decision is waiting.
 
 ## How to use this with WGF
 
@@ -40,7 +40,4 @@ WGF makes omission visible. It does not require every capability to be built imm
 
 ## Related guidance
 
-- [The Palette: First Look](../palette/first-look.md)
-- [Common Flows](./flows.md)
-- [Design Before Build and What Goes First](./design-before-build-and-wgf.md)
-- [Developer Architecture Route](../../agents/conventions/development/guidance-for-developers.md)
+[First Look at the Client Experience](../systems/client/first-look.md) introduces the visible consumer boundary. [Common Flows](./flows.md) follows movement through capabilities, while [Design Before Build and What Goes First](./design-before-build-and-wgf.md) explains how structure and construction order relate. The [Developer Architecture Route](../../agents/conventions/development/guidance-for-developers.md) connects those ideas to engineering practice.

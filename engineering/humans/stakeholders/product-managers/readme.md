@@ -19,7 +19,7 @@ The distinction is not a rank order. A Product Owner can expose strategic incohe
 
 ## A useful way into the route
 
-[Liberation Through Clarity](../../shared/liberation-through-clarity.md) explains how good structure gives product people a stronger basis for influence, prioritisation and responsible commitment. [Stakeholder Roles](../../reference/catalogues/stakeholder-roles.md) describes the relationship between Product Manager, Product Owner, sponsor, business owner, analysts, architects and specialist authorities.
+[Liberation Through Clarity](../../shared/liberation-through-clarity.md) explains how good structure gives product people a stronger basis for influence, prioritisation and responsible commitment. [Stakeholder Roles](../../reference/catalogues/stakeholder-roles.md) describes the relationship between Product Manager, Product Owner, sponsor, business owner, analysts, architects and specialist authorities. [Sponsor Guidance](../sponsors/readme.md) explains the separate accountability for the organisational commitment, delivery variance and escalation.
 
 [Software Development Lifecycle](../../reference/catalogues/sdlc.md) provides the wider reasoning frame from discovery and discussion through decision, definition, design, development, delivery, operation and decommissioning. It helps the Product Manager see where strategic intent must become evidence rather than remaining a statement of ambition.
 

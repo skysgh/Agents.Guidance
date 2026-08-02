@@ -6,7 +6,7 @@ This paper explains how to decide what to build first without allowing the first
 
 ## The short version
 
-YAGNI helps prevent unnecessary construction. WGF helps prevent necessary structure from being omitted. Use them together: understand the intended shape, then decide which part is most valuable or safest to build first.
+YAGNI helps prevent unnecessary construction. WGF helps prevent necessary structure from being omitted. Together they support a useful sequence: the intended shape becomes understandable before the team decides which part is most valuable or safest to build first.
 
 YAGNI is useful advice with a narrow purpose: do not build speculative features or unjustified infrastructure merely because they might be useful one day.
 
@@ -60,14 +60,10 @@ Agility is the ability to learn, change and continue safely. Sometimes the most 
 
 ## The practical rule
 
-Use YAGNI to decide what not to build yet. Use WGF to decide what must be designed now and what should be built first.
+YAGNI helps decide what need not be built yet, while WGF helps decide what must be designed now and what should be built first.
 
 The result is staged construction without structural amnesia.
 
 ## Related guidance
 
-- [The Structure Before the Feature](./the-structure-before-the-feature.md)
-- [The Current State](./current-state.md)
-- [What This Guidance Gives](./what-this-guidance-gives.md)
-- [Development Principles](../../agents/conventions/foundations/principles.md)
-- [Development Constraints](../../agents/conventions/foundations/constraints.md)
+[The Structure Before the Feature](./the-structure-before-the-feature.md) explains why the shape of the system matters before visible features. [The Current State](./current-state.md) describes how to understand an existing arrangement, while [What This Guidance Gives](./what-this-guidance-gives.md) describes the support available through the wider route. [Development Principles](../../agents/conventions/foundations/principles.md) and [Development Constraints](../../agents/conventions/foundations/constraints.md) provide the corresponding engineering rules.

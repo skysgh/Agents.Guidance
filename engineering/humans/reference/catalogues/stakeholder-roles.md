@@ -170,6 +170,14 @@ A system developer creates or extends the capabilities that make a service usefu
 
 They are not expected to make every architectural or business decision alone. They are responsible for raising unclear ownership, unsafe assumptions and contracts that cannot be implemented or tested. A system developer should be able to explain where a capability belongs, which boundary owns it and what evidence shows that it works.
 
+### Front-end developer
+
+A front-end developer builds the service consumer system through which people or other consumers reach the service. For a browser SPA, this includes assets, browser execution, client-side state, views, interaction flows, component assemblies and calls to service interfaces. They make the client-side journey understandable, accessible, usable, secure and recoverable while preserving the service system's authority over business rules, authorisation, durable state and audit.
+
+They work with the service-side developer and architect across the contract boundary. The front-end developer may coordinate the consumer-side horizontal flow more completely because that is where several capabilities become one human journey, but they do not absorb the rules or state ownership of the participating capabilities. They make waiting, failure, retry, cancellation, unsaved work, stale data and return conditions visible, and they provide evidence for functional behaviour, accessibility, usability, security, integration, performance and quality in use.
+
+Component responsibility should remain clear. A component may collect input, present output, arrange a collection of inputs or outputs, arrange other collections or assemble a focused interaction from those parts. It is not automatically a business boundary or an authorisation authority. See [Front-end Developer Guidance](../../stakeholders/developers/front-end.md) for the consumer-system route, including WCAG, focused interactions, browser security and protected cookie sessions.
+
 ### Integration developer
 
 An integration developer implements the contracts designed between systems. They configure or build adapters, clients, message handlers, transformations, authentication, scheduling, correlation, retry, idempotency, reconciliation, observability and recovery behaviour.
@@ -185,6 +193,8 @@ Test developers are not merely the last gate after coding. They help expose ambi
 ### Environment and pipeline developer
 
 An environment and pipeline developer makes build, deployment and operational environments repeatable. Their work may include infrastructure as code, build pipelines, artifact promotion, environment configuration, identity and secret integration, network routes, observability, scaling, release controls and recovery automation.
+
+Their infrastructure code may be declarative, such as Bicep, ARM or CloudFormation, or authored through a typed infrastructure framework such as AWS CDK. PowerShell, Bash and other bounded tools may coordinate the surrounding provider commands and evidence. The distinction between resource declaration and imperative orchestration remains important: neither the language nor the wrapper removes the need for provenance, bounded authority, secret protection, repeatability, rollback and recovery.
 
 The term **DevOps** is a portmanteau rather than a precise single job. It can describe a culture of shared responsibility, a team, a platform capability or a person who develops environments and pipelines. It should not hide the fact that environment and pipeline development is substantial work. The same person may also perform integration development, security engineering, operations or system development, but asking one person to carry all of those responsibilities indefinitely creates a capacity and assurance risk.
 

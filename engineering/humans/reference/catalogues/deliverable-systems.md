@@ -4,11 +4,15 @@ A deliverable system is a system that must be produced, operated or used to make
 
 The team may deliver several systems as one product experience. That does not make them one system. Shared ownership, a shared repository or a shared release train does not remove the boundaries between their execution environments or responsibilities.
 
+The [Human System Guidance](../../systems/readme.md) provides the corresponding human entry routes. It does not replace this catalogue or imply that every system perspective has equal implementation depth.
+
+A codebase can itself be a system when it has a distinct purpose, owner, lifecycle, boundary, dependencies and evidence. The codebase that defines an environment is therefore not merely a file beside the pipeline. It is a named delivery constituent that the pipeline executes or applies. The resulting environment is a separate execution context and is not the same thing as its definition code.
+
 ## Relationship to deliverables
 
 [Deliverables](./deliverables.md) names the wider things that must exist around these systems: data, content, registrations, discovery, dependencies, operational material and evidence. The [Deliverables Checklist](../checklists/deliverables.md) turns both views into review prompts. Use all three together: systems describe distinct execution and information boundaries; deliverables describe what must be produced, configured, published or maintained across those boundaries.
 
-## The four primary deliverable systems
+## The primary deliverable systems
 
 ### 1. Delivery system
 
@@ -17,6 +21,18 @@ The delivery system compiles, qualifies, packages, promotes and deploys the othe
 The delivery system is not the service runtime. It may be needed to release, repair, secure, recover or decommission the service without receiving the service's normal user requests.
 
 Its design must define source and artifact provenance, identity and permissions, environment separation, secret handling, approvals, evidence, rollback, recovery and what can happen when the pipeline is unavailable or compromised.
+
+### Delivery system constituents
+
+The delivery system is often composed of several related systems. They may share a repository or team, but their responsibilities remain distinguishable:
+
+- **Pipeline Definition System:** the versioned codebase that defines delivery flows, triggers, gates, approvals, runner selection, inputs, outputs and evidence handling.
+- **Pipeline Execution System:** the runners, agents, orchestrators, credentials, logs and control services that execute the pipeline definitions. This is the system that performs the work; it is not the flow definition itself.
+- **Environment Definition System:** the versioned codebase that defines desired environments, infrastructure resources, networks, identities, policies, configuration scaffolding and deployment targets. It may use ARM/Bicep, CloudFormation, Terraform or another infrastructure language.
+
+The Pipeline Execution System runs the Pipeline Definition System and applies the Environment Definition System. It may also build, test, package and deploy the service, client and testing codebases. The actual development, test, business-test, production or recovery environment is the resulting execution context, not another name for the codebase that defines it.
+
+Deployment definitions may belong to the Environment Definition System, the Service or Client codebase, or a separate codebase when their owner, lifecycle and evidence genuinely differ. The classification follows responsibility rather than a preferred repository layout.
 
 ### 2. Service system
 
@@ -30,6 +46,8 @@ The service system is not the delivery system, the consumer system or the testin
 
 The service consumer system is the browser-side or client-side system through which a consumer reaches the service. For a single-page application, it includes the SPA assets, browser execution, client-side state, views, interaction flows and calls to the service interfaces.
 
+The [Front-end Developer Guidance](../../stakeholders/developers/front-end.md) follows the responsibility for building this consumer system, including its client-side flow, component assemblies, accessibility, usability and browser security.
+
 The consumer system runs in a distinct execution environment from the service system. A browser has different memory, storage, trust, update, network and failure properties from a server runtime. The service must therefore enforce its own security and authorisation rather than trusting the SPA to do so.
 
 The same team may deliver both the service system and the consumer system, and they may be released together. They are still distinct systems with distinct boundaries, deployments, failure modes and security responsibilities. They are not one system merely because they form one user experience, and neither is the System LDM.
@@ -40,7 +58,7 @@ The testing system is the system used to qualify the service system and the serv
 
 It may include test runners, static and dynamic test hosts, browsers, devices, test environments, stubs, simulators, seeded data, reference data, test identities, observability and result storage. Its execution environment and trust assumptions must be understood because test systems can access real interfaces, data and credentials if they are poorly isolated.
 
-The testing system must prove the required behaviour and qualities of both the service and its consumer. It should test the contract between them as well as each system's own behaviour. Test evidence is a deliverable, not only an activity that disappears when the pipeline finishes.
+The testing system must prove the required behaviour and qualities of both the service and its consumer. It should test the contract between them as well as each system's own behaviour. Its Test Suites, Test Plans, Test Data and retained evidence are separate deliverables within the testing work. Test evidence is a deliverable, not only an activity that disappears when the pipeline finishes.
 
 ## Supporting information system: cross-system test context
 
@@ -107,4 +125,4 @@ For each deliverable system, record:
 
 For the cross-system test context system, also record the neutral model, contributing projects, translators, generated representations, scenario identifiers, data classification, reset process and the rule that prevents production data from entering non-production environments.
 
-Read [Deliverables](./deliverables.md) for the wider set of things that must be produced around these systems. Read [External Dependencies](./external-dependencies.md) when a system depends on another boundary rather than containing it.
+These systems are one part of the wider delivery picture. [Delivery Guidance](../../delivery/readme.md) explains how they join with people, responsibilities, material and evidence to make an outcome usable and supportable. From here, [Deliverables](./deliverables.md) covers the wider things produced around the systems, while [External Dependencies](./external-dependencies.md) covers boundaries the systems rely on rather than contain.

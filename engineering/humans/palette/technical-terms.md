@@ -1,6 +1,6 @@
-# Palette Technical Terms
+# Palette compatibility route
 
-This document is optional technical detail. [The Palette: First Look](./first-look.md) gives the surrounding picture when the terms are new.
+The client implementation vocabulary now lives in [Client Implementation Vocabulary](../systems/client/implementation-vocabulary.md). This page remains temporarily so older links reach the canonical client-system route.
 
 ## View and surface
 

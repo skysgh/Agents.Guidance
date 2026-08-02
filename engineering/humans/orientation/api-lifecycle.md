@@ -38,7 +38,7 @@ A contract may be designed before every client is known. Define the stable meani
 
 ## Related guidance
 
-- [Palette Technical Terms](../palette/technical-terms.md)
+- [Client Implementation Vocabulary](../systems/client/implementation-vocabulary.md)
 - [IQueryable and Governed Queryability](../../agents/conventions/foundations/iqueryable.md)
 - [API lifecycle rules](../../agents/conventions/capabilities/api-lifecycle.md)
 - [Responsible Boundaries and Deferred Design](./responsible-boundaries-and-deferred-design.md)

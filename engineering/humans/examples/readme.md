@@ -20,6 +20,7 @@ Choose a case that feels familiar, then follow its improvement to see how the de
 - **Implementation or contracts:** [Concrete model before contract](./02-model-before-contract/after.md), [Queryable read](./04-queryable-read/after.md), [EF schema development](./05-ef-schema-development/after.md), [Object mapping](./06-object-mapping/after.md), [Caching](./07-caching-at-the-wrong-boundary/after.md), [Enums as database truth](./08-enums-as-database-truth/after.md), [Magic strings](./09-magic-strings/after.md), [Request BREAD/ST flow](./10-request-bread-flow/after.md)
 - **Analysis, meaning or stakeholder language:** [Screen request becomes storage design](./01-screen-to-capability/after.md), [Request BREAD/ST flow](./10-request-bread-flow/after.md), [Ambiguity in status states](./14-ambiguity-in-status-states-before-authority-emerges/after.md), [Role polysemy across boundaries](./15-role-polysemy-across-boundaries/after.md), [Enduring entities and bounded membership](./16-enduring-entities-and-membership/after.md)
 - **Testing, Operations or Support handoff:** [Screen request becomes storage design](./01-screen-to-capability/after.md), [Request, assessment, approval and payment](./11-request-offer-approval/after.md), [Product Owner foundation under pressure](./12-product-owner-foundation-under-pressure/after.md), [Request submission full lifecycle](./17-request-submission-full-lifecycle/after.md)
+- **Client system, SPA or accessibility boundary:** [SPA consumer system](./18-spa-consumer-system/after.md), [Screen request becomes storage design](./01-screen-to-capability/after.md), [Request, assessment, approval and payment](./11-request-offer-approval/after.md)
 
 **I am facing:**
 
@@ -28,6 +29,7 @@ Choose a case that feels familiar, then follow its improvement to see how the de
 - **Coupled authority or an over-broad contract:** [Broad contract replaced](./13-broad-contract-replaced/after.md), [Role polysemy across boundaries](./15-role-polysemy-across-boundaries/after.md)
 - **Entity lifecycle or membership ownership:** [Enduring entities and bounded membership](./16-enduring-entities-and-membership/after.md), [Request submission full lifecycle](./17-request-submission-full-lifecycle/after.md)
 - **Data representation or schema drift:** [EF schema development](./05-ef-schema-development/after.md), [Enums as database truth](./08-enums-as-database-truth/after.md), [Magic strings](./09-magic-strings/after.md)
+- **A browser client that is carrying service authority:** [SPA consumer system](./18-spa-consumer-system/after.md)
 
 - [Screen request becomes storage design](./01-screen-to-capability/before.md) -> [improvement](./01-screen-to-capability/after.md)
 - [Concrete model before contract](./02-model-before-contract/before.md) -> [improvement](./02-model-before-contract/after.md)
@@ -46,5 +48,6 @@ Choose a case that feels familiar, then follow its improvement to see how the de
 - [Role polysemy across boundaries](./15-role-polysemy-across-boundaries/before.md) -> [improvement](./15-role-polysemy-across-boundaries/after.md)
 - [Enduring entities and bounded membership](./16-enduring-entities-and-membership/before.md) -> [improvement](./16-enduring-entities-and-membership/after.md)
 - [Request submission capability through its full lifecycle](./17-request-submission-full-lifecycle/before.md) -> [improvement](./17-request-submission-full-lifecycle/after.md)
+- [SPA consumer system treated as presentation furniture](./18-spa-consumer-system/before.md) -> [improvement](./18-spa-consumer-system/after.md)
 
 The [YAGNI versus WGF](../orientation/design-before-build-and-wgf.md) paper explains the planning instinct behind the examples.
