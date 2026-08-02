@@ -97,7 +97,7 @@ A slice normally includes its contract, logical model, application orchestration
 
 Use governed query contracts for reads. Keep writes and state transitions explicit. Create, submit, recommend, approve, reject, publish and close are not automatically the same operation as editing a field.
 
-Lifecycle is also a capability decision. When personal information is no longer needed, do not assume that the correct implementation is to delete the whole digital record. Start with [Data Deletion Guidance](../development/data-deletion-guidance.md), then use the [Detailed Data Deletion Considerations](../development/detailed-data-deletion-considerations.md) paper when the legal or technical assessment needs more depth. The decision must cover free text, linkage keys, indexes, caches, exports, events, replicas and backups.
+Lifecycle is also a capability decision. When personal information is no longer needed, do not assume that the correct implementation is to delete the whole digital record. [Data Deletion Guidance](../development/data-deletion-guidance.md) explains the first decision, while [Detailed Data Deletion Considerations](../development/detailed-data-deletion-considerations.md) provides more depth when the legal or technical assessment needs it. The decision must cover free text, linkage keys, indexes, caches, exports, events, replicas and backups.
 
 ## Coordinate flows without taking over responsibility
 

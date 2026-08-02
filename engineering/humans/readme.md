@@ -2,11 +2,11 @@
 
 Software engineering is the work of making a service understandable, dependable and able to change. The visible feature is only one part of that work. A service also needs clear responsibilities, boundaries, security, persistence, recovery and evidence that it behaves as intended.
 
-A delivered outcome is wider than the service code. Start with [Deliverable Systems](./reference/catalogues/deliverable-systems.md) to distinguish the delivery, service, consumer, testing and cross-system test-context systems, then use [Deliverables](./reference/catalogues/deliverables.md) to organise the data, content, domains, DNS, certificates, discovery, dependencies and operational evidence they require. Use [Registries](./reference/catalogues/registries.md) to separate enterprise-wide sources that projects refer to from project-specific records that projects produce and maintain.
+A delivered outcome is wider than the service code. [Deliverable Systems](./reference/catalogues/deliverable-systems.md) explains the delivery, service, consumer, testing and cross-system test-context systems around a service. [Deliverables](./reference/catalogues/deliverables.md) describes the data, content, domains, DNS, certificates, discovery, dependencies and operational evidence they require. [Registries](./reference/catalogues/registries.md) distinguishes enterprise-wide sources that projects refer to from project-specific records that projects produce and maintain.
 
 The human benefit of this structure is explained in [Liberation Through Clarity](./shared/liberation-through-clarity.md), including what it gives developers, Business Analysts, Product Managers, Product Owners, architects, technical leads, testers, operators and maintainers.
 
-Stakeholder-specific routes are collected in [Stakeholder Guidance](./stakeholders/readme.md). They explain role contributions and handoffs without splitting shared engineering concepts into separate silos.
+Role-specific routes are collected in [Stakeholder Guidance](./stakeholders/readme.md). They explain contributions and handoffs without splitting shared engineering concepts into separate silos. The [orientation pages](./orientation/readme.md), [development guidance](./development/readme.md), [examples](./examples/readme.md), [catalogues](./reference/catalogues/readme.md) and [checklists](./reference/checklists/readme.md) offer other useful views of the same system.
 
 Not every service needs the same amount of structure. A short-lived script, a tool used by one team, a shared service and a public-facing system have different audiences and different consequences when something goes wrong. The construction effort should match those consequences.
 

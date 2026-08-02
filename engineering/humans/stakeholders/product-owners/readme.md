@@ -18,7 +18,7 @@ The Product Owner does not automatically act as Scrum Master or Kanban flow faci
 
 Explore [Product Purpose and Outcomes](./product-purpose-and-outcomes.md) when the product request is still expressed as a feature, pressure or promise and needs to become a measurable outcome.
 
-Continue with [Ordering and Sequencing](./ordering-and-sequencing.md) when deciding which outcome, foundation or dependency should be addressed next.
+[Ordering and Sequencing](./ordering-and-sequencing.md) is useful when deciding which outcome, foundation or dependency should be addressed next.
 
 Read [Foundations and Delay](./foundations-and-delay.md) and [Scope and Deferral](./scope-and-deferral.md) when deciding what can be staged responsibly and what must remain part of the current product obligation.
 

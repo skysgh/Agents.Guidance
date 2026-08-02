@@ -4,7 +4,7 @@ A serious service operates inside legal, regulatory and policy systems. These sy
 
 This paper is an engineering orientation, not legal advice. The team must obtain advice appropriate to the service, the people affected and the jurisdictions involved.
 
-## Start with the jurisdiction map
+## The jurisdiction map
 
 For a genuinely local service, the jurisdiction where the service is offered and the jurisdiction from which it is delivered may be the same. That is often the simplest case, but it still needs to be established rather than assumed.
 

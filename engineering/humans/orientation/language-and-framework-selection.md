@@ -6,7 +6,7 @@ A language is not good or bad in isolation. A framework is not a guarantee of qu
 
 Do not turn the decision into a slogan such as "this language can never serve a national system". Large systems can use more than one language. The important questions are whether the chosen runtime can meet the workload, security, availability, recovery, accessibility, maintainability and operating obligations, and whether the organisation can support it. A language that is suitable for a browser, a build tool or a bounded integration may be unsuitable for a continuously operated, CPU-intensive service path without further evidence.
 
-## Start with the execution boundary
+## The execution boundary
 
 First identify what is being built and where it runs:
 

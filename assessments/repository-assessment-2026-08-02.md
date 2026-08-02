@@ -10,14 +10,14 @@
 ## SUBSTANTIVE STRENGTHS
 
 ### 1. Architectural Foundation (Excellent)
-- [engineering/humans/reference/catalogues/](deliverable-systems.md) - Distinct systems concept (delivery, service, consumer, testing, cross-system-test-context)
-- [engineering/humans/reference/catalogues/ldms.md](ldms.md) - Clean logical deployment module boundary thinking
-- [engineering/humans/development/layers.md](layers.md) - Layers, logical building blocks well-explained
-- [engineering/humans/development/contracts.md](contracts.md) - Contracts as boundary formwork
+- [Deliverable Systems](../engineering/humans/reference/catalogues/deliverable-systems.md) - Distinct systems concept (delivery, service, consumer, testing, cross-system-test-context)
+- [Logical Deployment Modules](../engineering/humans/reference/catalogues/ldms.md) - Clean logical deployment module boundary thinking
+- [LDM Layers](../engineering/humans/development/layers.md) - Layers, logical building blocks well-explained
+- [Contracts](../engineering/humans/development/contracts.md) - Contracts as boundary formwork
 - Conceptual/logical/physical model separation (ANSI/SPARC properly applied)
 
 ### 2. Example Gallery (Strong)
-- 17 before/after cases in [engineering/humans/examples/](examples/)
+- 17 before/after cases in [human examples](../engineering/humans/examples/)
 - Concrete problems (screen-to-design drift, contract formwork, ambiguity in state, entity lifecycle)
 - Visible how decisions cascade when structure is missing
 - Real tracing of impact across teams/boundaries
@@ -30,19 +30,19 @@
 - Audit identified gaps and recommended treatment (H-03, M-01)
 
 ### 4. Legal/Regulatory Awareness (Good)
-- [engineering/humans/orientation/legal-context.md](legal-context.md) - Jurisdiction mapping, obligation framing
-- [engineering/humans/reference/catalogues/regulatory-obligations.md](regulatory-obligations.md) - Catalog of recurring domains (purpose, PII, tracking, records, retention, security, accessibility, fairness, safety, sector duties, financial, cross-border)
+- [Legal and Regulatory Context](../engineering/humans/orientation/legal-context.md) - Jurisdiction mapping, obligation framing
+- [Regulatory Obligations](../engineering/humans/reference/catalogues/regulatory-obligations.md) - Catalog of recurring domains (purpose, PII, tracking, records, retention, security, accessibility, fairness, safety, sector duties, financial, cross-border)
 - Acknowledges this is not legal advice; team must map actual sources
 - Data protection as first-order architectural concern
 
 ### 5. Development Guidance (Solid)
-- [engineering/agents/conventions/foundations/principles.md](principles.md) - 7 core principles with ISO 25010 grounding
+- [Agent Principles](../engineering/agents/conventions/foundations/principles.md) - 7 core principles with ISO 25010 grounding
 - Principles touch evolvability, ontology, scale, dependencies, boundary technology, policy
 - Agent conventions for code/C#/Python/TS, projects, platform services, testing, operations, dependencies, accessibility, performance
 - Not overly prescriptive; gives intent first
 
 ### 6. Quality and Deliverables Thinking (Advanced)
-- [engineering/humans/reference/catalogues/deliverables.md](deliverables.md) - Data, content, addressing, certificates, discovery, operations, maintenance, evidence as deliverables
+- [Deliverables](../engineering/humans/reference/catalogues/deliverables.md) - Data, content, addressing, certificates, discovery, operations, maintenance, evidence as deliverables
 - Omission test: "What must exist outside code repo for real operator/consumer/recovery process?"
 - Distinguishes deliverable systems from deliverables from SDD/SAD/TDD
 - Cross-system test context as shareable, versioned, portable resource
@@ -59,7 +59,7 @@
 
 ### GAP 1: Operations Depth (Substantive)
 **Severity**: High for serious systems
-**Where**: [engineering/humans/stakeholders/operators/](operators/), [engineering/humans/stakeholders/maintainers/](maintainers/)
+**Where**: [Operators](../engineering/humans/stakeholders/operators/), [Maintainers](../engineering/humans/stakeholders/maintainers/)
 **What's There**:
 - Readiness, observability, recovery *concepts*
 - References to agent conventions (operations.md)
@@ -78,7 +78,7 @@
 
 ### GAP 2: Access Control & Authorization Patterns (Substantive)
 **Severity**: Critical for serious systems handling sensitive work
-**Where**: [engineering/agents/conventions/foundations/data-protection.md](data-protection.md) mentions "Authorise every read and write at the owning boundary"
+**Where**: [Data protection conventions](../engineering/agents/conventions/foundations/data-protection.md) mention "Authorise every read and write at the owning boundary"
 **What's There**:
 - Principle that authorization should happen at service boundary
 - Data protection checklist touches classification and access
@@ -128,7 +128,7 @@
 
 ### GAP 5: Evidence & Verification (Substantive)
 **Severity**: High for compliance and serious systems
-**Where**: [engineering/humans/reference/checklists/](checklists/) has some good prompts, but no systematic evidence framework
+**Where**: [Engineering checklists](../engineering/humans/reference/checklists/) have some good prompts, but no systematic evidence framework
 **What's There**:
 - Checklists for deliverables, regulatory obligations, ldms, security-at-rest, security-in-transit
 - Principle that evidence must exist
@@ -145,7 +145,7 @@
 
 ### GAP 6: Cross-System Integration & Coordination (Substantive)
 **Severity**: Medium-High for services with multiple LDMs or external integrations
-**Where**: [engineering/humans/reference/catalogues/deliverable-systems.md](deliverable-systems.md) covers systems concept; missing operational coordination
+**Where**: [Deliverable Systems](../engineering/humans/reference/catalogues/deliverable-systems.md) covers systems concept; missing operational coordination
 **What's There**:
 - Distinct systems (delivery, service, consumer, testing, cross-system-test-context)
 - Contract concept; API lifecycle mentioned
@@ -164,7 +164,7 @@
 
 ### GAP 7: Performance Testing & Cost (Substantive)
 **Severity**: Medium for production systems
-**Where**: [engineering/agents/conventions/foundations/principles.md](principles.md) has "Prepare for scale; spend as little as needed" principle
+**Where**: [Agent Principles](../engineering/agents/conventions/foundations/principles.md) has "Prepare for scale; spend as little as needed" principle
 **What's There**:
 - Principle with good rationale (measure, don't speculate)
 - References AWS/Azure cost-optimization pillars
@@ -180,7 +180,7 @@
 
 ### GAP 8: Database Schema & Migration Safety (Substantive)
 **Severity**: Medium-High for relational systems
-**Where**: [engineering/agents/conventions/development/code-csharp.md](code-csharp.md) exists but missing schema guidance
+**Where**: [C# conventions](../engineering/agents/conventions/development/code-csharp.md) exist but miss schema guidance
 **What's There**: Some EF Core guidance in examples (schema development patterns shown in examples)
 **What's Missing**:
 - **Schema design conventions**: Naming, constraints, keys, relationships—how to keep them maintainable?
@@ -208,7 +208,7 @@
 
 ### GAP 10: Navigation & Search (Polish → UX Impact)
 **Severity**: Low for engineering value; Medium for adoption
-**Where**: [engineering/humans/examples/readme.md](examples/readme.md) acknowledged in audit (M-02)
+**Where**: [Human examples](../engineering/humans/examples/readme.md) acknowledged in audit (M-02)
 **Audit findings**:
 - M-02: Examples organized by case number, not reader question (cross-indexing deferred)
 - M-03: Decision-record format not provided (deferred pending governance format decision)
@@ -236,7 +236,7 @@
 | Performance & cost | Foundational | Principle good; testing and modeling missing |
 | Cross-system integration | Partial | Systems concept solid; operational coordination, versioning, tracing missing |
 | Development conventions | Partial | Code guidance for major languages; migration, schema, observability contracts incomplete |
-| Navigation/search | Deferred | Acknowledged in audit; impacts adoption for non-sequential readers |
+| Navigation/search | Partially addressed | Root and human entry routes now preserve reader choice; problem-to-example indexing, specialist discovery and a decision-record format remain open |
 
 ---
 

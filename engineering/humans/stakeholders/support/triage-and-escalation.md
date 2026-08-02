@@ -2,7 +2,7 @@
 
 Support is the first human point of contact for end users. The first task is not to guess the technical cause. It is to understand the report well enough to help the person, protect their information and send the right evidence to the responsible boundary.
 
-## Begin with the person and the impact
+## The person and the impact
 
 Record the minimum information needed to understand and act on the report:
 

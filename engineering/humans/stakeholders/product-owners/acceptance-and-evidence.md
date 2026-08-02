@@ -4,7 +4,7 @@ Product acceptance is a decision that the intended outcome is sufficiently true 
 
 The Product Owner contributes the value, priority and outcome perspective. Acceptance also depends on evidence from the relevant business, user, domain, policy, security, privacy, data, technical, testing, operational, support and maintenance authorities.
 
-## Start with the outcome
+## The outcome as the acceptance lens
 
 Acceptance should answer:
 

@@ -4,7 +4,7 @@ A product purpose explains the responsibility the product exists to support. An 
 
 The Product Owner keeps purpose and outcome visible while the team discovers the detail needed to build, test, operate and maintain the product. They do not invent missing policy or specialist knowledge. They bring the relevant decision-makers and SMEs into the work, then make the resulting choice, uncertainty and evidence visible.
 
-## Start with the driver
+## The driver behind the purpose
 
 A useful purpose account answers:
 

@@ -2,4 +2,4 @@
 
 This folder teaches how to look at a visible experience and recognise the parts beneath it.
 
-Start with [First Look](./first-look.md). It is written for a first encounter. Continue to [Elements](./elements.md) when the picture is familiar, then [Relationships](./relationships.md) and finally [Technical Terms](./technical-terms.md) when more precise language will help you work with the code.
+[First Look](./first-look.md) offers a short introduction to the visible parts of an experience. [Elements](./elements.md) names those parts, [Relationships](./relationships.md) considers how they fit together, and [Technical Terms](./technical-terms.md) provides more precise language when that helps with the code. The pages work as a connected set, but any one of them can be useful when it matches the question being explored.

@@ -68,7 +68,7 @@ A contract is an agreement between a provider and consumer. It describes what is
 
 ## Choosing a building block
 
-Start with the responsibility, consumer, boundary, lifecycle and failure behaviour. Then choose the smallest building block that makes that responsibility clear. Do not create one of every category, and do not rename a class to make an unclear responsibility sound designed.
+The responsibility, consumer, boundary, lifecycle and failure behaviour provide the useful account of a building block. The smallest building block that makes that responsibility clear is usually the strongest choice. Do not create one of every category, and do not rename a class to make an unclear responsibility sound designed.
 
 A logical building block may be implemented by several physical types. Several building blocks may share one physical type only when their responsibilities, lifecycle and reasons for change genuinely align. When a physical class starts carrying interface, state management, persistence, provider and registry responsibilities at once, the layers have probably collapsed.
 

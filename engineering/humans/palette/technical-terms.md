@@ -1,6 +1,6 @@
 # Palette Technical Terms
 
-This document is optional technical detail. Start with [The Palette: First Look](./first-look.md) if the terms are new.
+This document is optional technical detail. [The Palette: First Look](./first-look.md) gives the surrounding picture when the terms are new.
 
 ## View and surface
 

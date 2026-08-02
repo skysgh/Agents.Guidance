@@ -2,7 +2,7 @@
 
 Testing provides evidence about whether stated behaviour and quality conditions hold under stated conditions. Testing is not merely a final inspection after development, and it is not the same responsibility as Support, Operations or Maintenance.
 
-## Begin with a claim
+## The claim under examination
 
 A useful test starts with a claim that can be examined. The claim may come from a requirement, contract, predicate, quality target, state rule, operational condition, security decision, migration rule or acceptance condition.
 

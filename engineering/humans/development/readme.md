@@ -6,19 +6,13 @@ The LDM is only one logical package inside a wider delivery. Read [Deliverable S
 
 These papers explain ideas and help people learn the reasoning. The [agent development conventions](../../agents/conventions/development/readme.md) state the repository rules, invariants and validation requirements. They are two views of the same engineering intent, not two competing architectures.
 
-## Read in this order
+## Papers for different questions
 
-1. [Logical Deployment Modules](./ldms.md): understand the logical package whose components are delivered together and whose contracts, data and lifecycle remain coherent.
-2. [LDM Layers and Contents](./layers.md): understand why an LDM contains layers, and what belongs inside them.
-3. [Vertical Slices: Common Shafts](./vertical-slices.md): recognise the recurring capability shapes that travel through those layers.
-4. [Data Deletion Guidance](./data-deletion-guidance.md): understand why deletion can damage history, when it may be required or blocked, and how anonymisation can preserve useful records.
-5. [Availability, Capacity and Resilience](./availability-capacity-and-resilience.md): understand how service targets become design, operational and assurance evidence.
-6. [Cross-Cutting Services](./cross-cutting-services.md): understand shared system capabilities that support many slices.
-7. [System LDM Services](./services.md): understand the services and system domains commonly established first.
-8. [Constants](./constants.md): understand how stable shared vocabulary is built without creating magic strings or global bags of values.
-9. [Contracts](./contracts.md): understand the formwork that lets objects, services and implementations change safely.
+[Logical Deployment Modules](./ldms.md) explains the logical package whose components are delivered together and whose contracts, data and lifecycle remain coherent. [LDM Layers and Contents](./layers.md) explains what belongs inside that package, while [Vertical Slices: Common Shafts](./vertical-slices.md) shows the recurring capability shapes that travel through the layers.
 
-Return to the relevant paper when a capability, module or technology decision raises one of these questions. The route is deliberately modular: a team can read the LDM paper without pretending that every service or layer must be built immediately.
+[Data Deletion Guidance](./data-deletion-guidance.md) covers deletion, history and anonymisation. [Availability, Capacity and Resilience](./availability-capacity-and-resilience.md) connects service targets to design, operations and assurance evidence. [Cross-Cutting Services](./cross-cutting-services.md) and [System LDM Services](./services.md) describe shared capabilities and system domains.
+
+[Constants](./constants.md) protects stable shared vocabulary, and [Contracts](./contracts.md) explains the formwork that lets objects, services and implementations change safely. Return to whichever paper matches the capability, module or technology decision in front of you. The route is deliberately modular: no service or layer is required merely because it appears in the catalogue.
 
 ## Related guidance
 

@@ -30,9 +30,9 @@ The system design architect does not need to prescribe every framework, class or
 
 Building blocks depend on scale. At architecture scale, **components** are meaningful parts of a site, flow, view or LDM. At technical-lead scale, **logical building blocks** describe responsibilities such as services, repositories, brokers and registries within those components and layers. At developer scale, **code types and design patterns** express those responsibilities in a language and framework. These are related views of the same design, not interchangeable names for the same physical thing.
 
-## Start with stakeholders
+## The stakeholder map
 
-Begin with the groups and connected systems that participate in, depend on or are affected by the service. A stakeholder is not only a person who clicks a screen. It may be a public group, consumer, partner, intermediary, provider, support team, operator, maintainer, regulator, downstream system or organisation carrying a contractual or legal obligation.
+The map includes the groups and connected systems that participate in, depend on or are affected by the service. A stakeholder is not only a person who clicks a screen. It may be a public group, consumer, partner, intermediary, provider, support team, operator, maintainer, regulator, downstream system or organisation carrying a contractual or legal obligation.
 
 For each stakeholder, understand:
 
