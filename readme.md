@@ -1,17 +1,13 @@
 # Guidance for Dependable Services
 
-Meaningful software helps people do something that matters. It gives users enough clarity, capability and confidence to act, while giving the team a coherent structure for delivering and sustaining that value within real budget, timeline and organisational constraints.
+Software helps people achieve things. It can make work possible, clarify decisions, connect people and organisations, or place a service within reach when it is needed.
 
-This repository is guidance for teams delivering meaningful software. It helps people in the roles that shape, design, build, test, operate, support and maintain a service understand how their contributions fit together. The focus is cohesive delivery: preserving the purpose, responsibilities, boundaries and evidence that allow users to be empowered by the result.
+Meaningful software helps achieve meaningful outcomes. The value is not in the size of the feature or the novelty of the technology. It is in what becomes possible for people, communities and organisations: greater agency, better decisions, safer work, dependable access or a responsibility carried well over time.
 
-The guidance treats a service as a living system with users, records, decisions, dependencies, failure modes and a future. It connects the visible experience to the less visible work that makes the experience dependable, maintainable and able to grow without losing its meaning.
+Those outcomes shape how people experience the organisation behind the software. An organisation's reputation is a real asset, built through the promises it makes and the care it shows in keeping them. Meaningful software can strengthen that asset through useful services, sound decisions and respect for the people who depend on the result. Careless, unreliable or indifferent software can diminish it. Reputation is too valuable to squander casually, and that is why this guidance exists.
 
-## Find your route
+This repository is for the teams who deliver such software. Product, analysis, architecture, development, testing, operations, support and maintenance each contribute a different part of a cohesive delivery. The service has to remain meaningful within real budget, timeline, capability and organisational constraints, not only in an ideal design.
 
-The [human guidance](./engineering/humans/readme.md) is the welcoming route into the ideas, examples and practical questions. It explains why the structures matter and connects them to the people who depend on the result.
+A service is a living system with users, records, decisions, dependencies, failure modes and a future. The guidance connects the visible experience to the less visible structures that make it dependable, maintainable and able to grow without losing its meaning.
 
-The [agent guidance](./engineering/agents/readme.md) is the precise route for applying repository conventions while changing a system. It states the invariants, boundaries and validation expectations that protect the design in implementation.
-
-Both routes describe the same engineering concerns at different moments: understanding the system, then working within it.
-
-The repository is an invitation to make serious systems more understandable, dependable and able to change. Its pages explore the questions that arise when a team turns purpose into a service, connects many kinds of expertise and makes responsible choices within the limits of time, money and capacity.
+The repository is an invitation to make serious systems more understandable, dependable and able to change. The [Engineering Guidance](./engineering/readme.md) gathers the shared ideas, structures and audience-specific expressions that support that work.
