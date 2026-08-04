@@ -14,7 +14,7 @@ Documentation is information deliberately prepared for a reader, decision or act
 
 Not every note needs to become a formal document. The useful question is whether a person or team needs the information to make a material decision, perform a recurring activity, understand a boundary or recover from a failure. The form should fit the reader, consequence, change rate and required evidence.
 
-The [Deliverables catalogue](../../reference/catalogues/deliverables.md) describes documentation as part of the wider delivered outcome. The [Human Documentation Writing Style](../../reference/writing-style.md) explains how human-facing guidance should introduce meaning, terminology, consequences and routes. The [Documentation Register](../../maintenance/documentation-register.md) records significant changes to this repository's guidance; it is not a substitute for a project's own documentation set.
+The [Deliverables catalogue](../../shared/reference/catalogues/deliverables.md) describes documentation as part of the wider delivered outcome. The [Human Documentation Writing Style](../../reference/writing-style.md) explains how human-facing guidance should introduce meaning, terminology, consequences and routes. The [Documentation Register](../../maintenance/documentation-register.md) records significant changes to this repository's guidance; it is not a substitute for a project's own documentation set.
 
 ## How to develop it
 
@@ -32,7 +32,7 @@ Keep descriptive teaching separate from project-specific evidence where that hel
 
 ## Questions to consider
 
-Use the relevant [Engineering Checklists](../../reference/checklists/readme.md) after understanding the subject. The [Deliverables Checklist](../../reference/checklists/deliverables.md) helps check whether the outcome includes the documentation and operational material it needs. Subject checklists help with security, dependencies, interfaces, obligations and other evidence that documentation may need to describe.
+Use the relevant [Engineering Checklists](../../shared/reference/checklists/readme.md) after understanding the subject. The [Deliverables Checklist](../../shared/reference/checklists/deliverables.md) helps check whether the outcome includes the documentation and operational material it needs. Subject checklists help with security, dependencies, interfaces, obligations and other evidence that documentation may need to describe.
 
 Ask:
 
@@ -49,8 +49,8 @@ This route is the human entry point. The catalogue and checklists remain the det
 ## Related guidance
 
 - [Delivery Guidance](../readme.md)
-- [Deliverables](../../reference/catalogues/deliverables.md)
+- [Deliverables](../../shared/reference/catalogues/deliverables.md)
 - [Human Documentation Writing Style](../../reference/writing-style.md)
-- [Engineering Checklists](../../reference/checklists/readme.md)
+- [Engineering Checklists](../../shared/reference/checklists/readme.md)
 - [Documentation Register](../../maintenance/documentation-register.md)
 - [Documentation and Workflow Conventions](../../../agents/conventions/documentation/readme.md)

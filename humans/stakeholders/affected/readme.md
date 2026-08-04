@@ -10,13 +10,13 @@ Affected people may be represented by a user, a provider, an adviser, a family m
 
 Affected people may include a patient whose record informs a decision, a child affected by an education service, a family member affected by a care decision, a resident affected by a public service, a person represented in a case record or a community affected by a policy implemented through software.
 
-The [Users to Consider Catalogue](../../reference/catalogues/users.md) distinguishes direct users from represented and affected people. [Shared Requirements](../../shared/requirements.md) explains how needs, consequences and evidence become part of the requirement conversation.
+The [Users to Consider Catalogue](../../shared/reference/catalogues/users.md) distinguishes direct users from represented and affected people. [Shared Requirements](../../shared/requirements.md) explains how needs, consequences and evidence become part of the requirement conversation.
 
 ## Related guidance
 
 - [Service Users](../users/readme.md)
 - [Influencers](../influencers/readme.md)
 - [Deliverers](../deliverers/readme.md)
-- [Stakeholder Roles Catalogue](../../reference/catalogues/stakeholder-roles.md)
+- [Stakeholder Roles Catalogue](../../shared/reference/catalogues/stakeholder-roles.md)
 
 [Up: Stakeholder Guidance](../readme.md)

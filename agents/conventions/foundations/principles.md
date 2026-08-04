@@ -4,7 +4,7 @@ Engineering work becomes easier to review when the team can explain not only wha
 
 These principles are portable engineering priorities. They are not product requirements, project-management preferences or a list of framework names. Their purpose is to connect everyday technical choices to the service's long life, its boundaries and contracts, the people who depend on it and the evidence needed to trust it.
 
-The [Human Guidance](../../../humans/readme.md), [Deliverable Systems](../../../humans/reference/catalogues/deliverable-systems.md) and [Deliverables](../../../humans/reference/catalogues/deliverables.md) routes provide the accessible explanations and examples. This page remains deliberately compact because it is the agent-facing rationale behind those wider explanations.
+The [Human Guidance](../../../humans/readme.md), [Deliverable Systems](../../../humans/shared/reference/catalogues/deliverable-systems.md) and [Deliverables](../../../humans/shared/reference/catalogues/deliverables.md) routes provide the accessible explanations and examples. This page remains deliberately compact because it is the agent-facing rationale behind those wider explanations.
 
 ## How to read this
 

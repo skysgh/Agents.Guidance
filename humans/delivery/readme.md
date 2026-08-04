@@ -26,9 +26,9 @@ The delivered whole can include several connected systems and many kinds of supp
 
 The exact set is shaped by the outcome and its consequences. The point is not to create every category. The point is to keep the things that make the outcome possible visible, assigned to a responsible boundary and able to change.
 
-[Human System Guidance](../systems/readme.md) provides the reader routes for the client, service, pipeline, testing and shared system perspectives. It records which routes are developed and which are reserved for future investment.
+[Human System Guidance](./systems/readme.md) provides the reader routes for the client, service, pipeline, testing and shared system perspectives. It records which routes are developed and which are reserved for future investment.
 
-[Deliverable Systems](../reference/catalogues/deliverable-systems.md) explains the distinct systems that may be delivered together. [Deliverables](../reference/catalogues/deliverables.md) describes the wider things that must be produced, configured, published or maintained around them. [Registries](../reference/catalogues/registries.md) distinguishes enterprise-referred sources of constraints and options from project-produced records of the actual delivery.
+[Deliverable Systems](../shared/reference/catalogues/deliverable-systems.md) explains the distinct systems that may be delivered together. [Deliverables](../shared/reference/catalogues/deliverables.md) describes the wider things that must be produced, configured, published or maintained around them. [Registries](../shared/reference/catalogues/registries.md) distinguishes enterprise-referred sources of constraints and options from project-produced records of the actual delivery.
 
 ## Development within delivery
 
@@ -42,7 +42,7 @@ These are not steps that make one role more important than another. They are dif
 
 The delivery perspective remains present after the first release. A service may need new capabilities, changed policies, migrated data, altered dependencies, renewed certificates, revised content, restored environments, incident learning or a controlled retirement. Each change can affect more than the code that initiated it.
 
-The [SDLC catalogue](../reference/catalogues/sdlc.md) gives the lifecycle a shared vocabulary from discovery through decommissioning. [Availability, Capacity and Resilience](../development/availability-capacity-and-resilience.md) connects service targets to design, operation and assurance. [Data Deletion Guidance](../development/data-deletion-guidance.md) connects lifecycle decisions to history, privacy, recovery and evidence.
+The [SDLC catalogue](../shared/reference/catalogues/sdlc.md) gives the lifecycle a shared vocabulary from discovery through decommissioning. [Availability, Capacity and Resilience](../development/availability-capacity-and-resilience.md) connects service targets to design, operation and assurance. [Data Deletion Guidance](../development/data-deletion-guidance.md) connects lifecycle decisions to history, privacy, recovery and evidence.
 
 The delivery is therefore not a moment when development stops. It is the continuing relationship between purpose, people, systems, material, evidence and responsibility.
 
@@ -50,7 +50,7 @@ The delivery is therefore not a moment when development stops. It is the continu
 
 The service needs enough structure for its meaning to survive change. [Logical Deployment Modules](../development/ldms.md) describe coherent packages of responsibility, data, contracts and lifecycle. [Layers and Contents](../development/layers.md) distinguish the purposes within those packages, and [Vertical Slices](../development/vertical-slices.md) show how a capability can travel through them as a complete piece of delivery.
 
-[Contracts](../development/contracts.md) protect relationships between parts. The [Engineering Catalogues](../reference/catalogues/readme.md) provide shared language for systems, roles, qualities, models, dependencies and responsibilities. The [Engineering Checklists](../reference/checklists/readme.md) gather practical reference material for design, delivery and review.
+[Contracts](../development/contracts.md) protect relationships between parts. The [Engineering Catalogues](../shared/reference/catalogues/readme.md) provide shared language for systems, roles, qualities, models, dependencies and responsibilities. The [Engineering Checklists](../shared/reference/checklists/readme.md) gather practical reference material for design, delivery and review.
 
 These structures are not decoration around development. They are part of how a team preserves useful meaning, supports responsible choices within constraints and leaves enough clarity for the people who operate, change and depend on the service later.
 

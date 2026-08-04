@@ -50,7 +50,7 @@ A system is not only a collection of components. It is an arrangement that must 
 
 For example, a privacy obligation may create duties to minimise collection, restrict access, retain information for a justified period, support correction or deletion and record protected use. The digital service then needs capabilities such as classification, authorisation, secure storage, audit, export, retention and deletion. The capability is not the obligation itself. It is one part of the evidence-bearing arrangement that fulfils the obligation.
 
-An obligation can belong to a wider system while a digital service carries part of the duty. That is why a development team cannot dismiss privacy, data protection, storage, audit or recovery as someone else's concern merely because the original requirement came from law, policy or an external partner. The [Regulatory and Obligation Domains](../reference/catalogues/regulatory-obligations.md) catalogue groups the recurring objectives, and the [Regulatory and Obligation Checklist](../reference/checklists/regulatory-obligations.md) provides prompts for recording the actual source, owner, capability and evidence.
+An obligation can belong to a wider system while a digital service carries part of the duty. That is why a development team cannot dismiss privacy, data protection, storage, audit or recovery as someone else's concern merely because the original requirement came from law, policy or an external partner. The [Regulatory and Obligation Domains](../shared/reference/catalogues/regulatory-obligations.md) catalogue groups the recurring objectives, and the [Regulatory and Obligation Checklist](../shared/reference/checklists/regulatory-obligations.md) provides prompts for recording the actual source, owner, capability and evidence.
 
 ## Digital systems operate inside enterprise systems
 
@@ -64,9 +64,9 @@ This also explains why a digital service may have several interfaces. The public
 
 The nested picture must not be confused with the conceptual, logical and physical views of one system.
 
-- The [**conceptual view**](../reference/catalogues/conceptual-logical-physical-models.md#conceptual-model) describes what a wider system means, needs and recognises as an outcome.
-- The [**logical view**](../reference/catalogues/conceptual-logical-physical-models.md#logical-model) describes the capabilities, responsibilities, relationships, states, policies and contracts that carry that meaning.
-- The [**physical view**](../reference/catalogues/conceptual-logical-physical-models.md#physical-model) describes how people, processes, software, storage, infrastructure and facilities make those responsibilities real.
+- The [**conceptual view**](../shared/reference/catalogues/conceptual-logical-physical-models.md#conceptual-model) describes what a wider system means, needs and recognises as an outcome.
+- The [**logical view**](../shared/reference/catalogues/conceptual-logical-physical-models.md#logical-model) describes the capabilities, responsibilities, relationships, states, policies and contracts that carry that meaning.
+- The [**physical view**](../shared/reference/catalogues/conceptual-logical-physical-models.md#physical-model) describes how people, processes, software, storage, infrastructure and facilities make those responsibilities real.
 
 The views can be applied at each level. An enterprise may have a conceptual service promise, a logical operating model and a physical arrangement of people, sites and technology. A digital service may have a conceptual capability, a logical domain and a physical implementation of interfaces, application code and storage.
 
@@ -132,11 +132,11 @@ Then ask whether the proposed implementation is merely functional or whether it 
 
 - [Guidance for System Design Architects](./guidance-for-system-design-architects.md)
 - [Legal and Regulatory Context](./legal-context.md)
-- [Regulatory and Obligation Domains](../reference/catalogues/regulatory-obligations.md)
-- [Regulatory and Obligation Checklist](../reference/checklists/regulatory-obligations.md)
+- [Regulatory and Obligation Domains](../shared/reference/catalogues/regulatory-obligations.md)
+- [Regulatory and Obligation Checklist](../shared/reference/checklists/regulatory-obligations.md)
 - [Guidance for Tech Leads](./guidance-for-tech-leads.md)
 - [Guidance for Developers](./guidance-for-developers.md)
 - [What This Guidance Gives](./what-this-guidance-gives.md)
 - [Data Protection Conventions](../../agents/conventions/foundations/data-protection.md)
 - [Development Principles](../../agents/conventions/foundations/principles.md)
-- [Guidance Glossary](../reference/glossary.md)
+- [Guidance Glossary](../shared/reference/glossary.md)

@@ -40,4 +40,4 @@ WGF makes omission visible. It does not require every capability to be built imm
 
 ## Related guidance
 
-[First Look at the Client Experience](../systems/client/first-look.md) introduces the visible consumer boundary. [Common Flows](./flows.md) follows movement through capabilities, while [Design Before Build and What Goes First](./design-before-build-and-wgf.md) explains how structure and construction order relate. The [Developer Architecture Route](../../agents/conventions/development/guidance-for-developers.md) connects those ideas to engineering practice.
+[First Look at the Client Experience](../delivery/systems/client/first-look.md) introduces the visible consumer boundary. [Common Flows](./flows.md) follows movement through capabilities, while [Design Before Build and What Goes First](./design-before-build-and-wgf.md) explains how structure and construction order relate. The [Developer Architecture Route](../../agents/conventions/development/guidance-for-developers.md) connects those ideas to engineering practice.

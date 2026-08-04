@@ -20,13 +20,13 @@ One person may perform several delivery responsibilities, especially in a small 
 - [Operators](./operators/readme.md): keep the delivered service available, observable, secure and recoverable.
 - [Maintainers](./maintainers/readme.md): preserve and change an occupied service without losing its meaning, contracts or evidence.
 
-These responsibilities meet around shared requirements, capabilities, contracts, quality, deliverables and evidence. They may be combined in one person, but the contribution and boundary should remain visible. The [Stakeholder Roles Catalogue](../../reference/catalogues/stakeholder-roles.md) provides the fuller vocabulary and relationship map.
+These responsibilities meet around shared requirements, capabilities, contracts, quality, deliverables and evidence. They may be combined in one person, but the contribution and boundary should remain visible. The [Stakeholder Roles Catalogue](../../shared/reference/catalogues/stakeholder-roles.md) provides the fuller vocabulary and relationship map.
 
 ## Related guidance
 
 - [Stakeholder Guidance](../readme.md)
 - [Shared Human Guidance](../../shared/readme.md)
 - [Human Orientation](../../orientation/readme.md)
-- [Deliverable Systems](../../reference/catalogues/deliverable-systems.md)
+- [Deliverable Systems](../../shared/reference/catalogues/deliverable-systems.md)
 
 [Up: Stakeholder Guidance](../readme.md)

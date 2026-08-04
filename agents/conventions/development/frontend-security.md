@@ -2,7 +2,7 @@
 
 Apply these conventions to browser applications and client-side build output.
 
-For the accessible explanation of browser security as a boundary, read [Human Guidance](../../../humans/readme.md) and [Security in Transit Checklist](../../../humans/reference/checklists/security-in-transit.md).
+For the accessible explanation of browser security as a boundary, read [Human Guidance](../../../humans/readme.md) and [Security in Transit Checklist](../../../humans/shared/reference/checklists/security-in-transit.md).
 
 ## Purpose
 

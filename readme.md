@@ -36,7 +36,7 @@ The guidance can be entered through the responsibility that is most useful at th
 - **Assurance**: connect security, privacy, legal, accessibility, resilience, recovery and audit obligations to accountable decisions and evidence.
 - **Operating**: treat support, monitoring, incidents, maintenance, migration and retirement as part of the service, not as work that begins after release.
 
-The [human orientation](./humans/orientation/readme.md), [delivery route](./humans/delivery/readme.md), [system routes](./humans/systems/readme.md), [stakeholder routes](./humans/stakeholders/readme.md), [examples](./humans/examples/readme.md) and [reference material](./humans/reference/readme.md) provide the detailed paths.
+The [human orientation](./humans/orientation/readme.md), [delivery route](./humans/delivery/readme.md), [system routes](./humans/delivery/systems/readme.md), [stakeholder routes](./humans/stakeholders/readme.md), [examples](./humans/examples/readme.md) and [reference material](./humans/shared/reference/readme.md) provide the detailed paths.
 
 ## Structures for enduring value
 

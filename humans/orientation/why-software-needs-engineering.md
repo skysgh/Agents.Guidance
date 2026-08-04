@@ -88,11 +88,11 @@ These responsibilities do not require every service to become a high-rise. They 
 
 The building comparison is useful because it makes hidden relationships easier to see. Foundations, formwork, shared services, safe routes, inspections and maintenance all point toward responsibilities that software can also carry. The comparison should then return us to concrete software decisions: contracts, boundaries, security, persistence, testing, operations, recovery and evidence.
 
-The [Building Metaphor](../reference/building-metaphor.md) explains those relationships. [The Structure Before the Feature](./the-structure-before-the-feature.md) explains how to decide what must be understood before construction and what can be built in stages. [Speed is not the same as agility](./design-before-build-and-wgf.md) explains why visible motion and safe adaptability are not the same thing.
+The [Building Metaphor](../shared/reference/building-metaphor.md) explains those relationships. [The Structure Before the Feature](./the-structure-before-the-feature.md) explains how to decide what must be understood before construction and what can be built in stages. [Speed is not the same as agility](./design-before-build-and-wgf.md) explains why visible motion and safe adaptability are not the same thing.
 
 ## Related guidance
 
 - [The Current State](./current-state.md)
 - [What This Guidance Gives](./what-this-guidance-gives.md)
 - [Design Before Build and WGF](./design-before-build-and-wgf.md)
-- [The Building Metaphor](../reference/building-metaphor.md)
+- [The Building Metaphor](../shared/reference/building-metaphor.md)

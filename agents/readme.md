@@ -6,7 +6,7 @@ The compact repository entry point is [agents.md](../agents.md). Agents should l
 
 ## Human explanation
 
-For the accessible explanation, read [Human Guidance](../humans/readme.md). Use the [Guidance Glossary](../humans/reference/glossary.md) when a term is unfamiliar.
+For the accessible explanation, read [Human Guidance](../humans/readme.md). Use the [Guidance Glossary](../humans/shared/reference/glossary.md) when a term is unfamiliar.
 
 ## Convention groups
 

@@ -6,7 +6,7 @@ It also leaves several questions unanswered. Who owns the submission? Which info
 
 Most service structures are not unknown. Teams repeatedly need places for the consumer experience, application decisions, business meaning and stored information. They need agreements between those places, objects that give the agreements concrete form, services that compose useful behaviour, and a way to assemble, protect, observe and change the result. They also need to distinguish a complete capability from the longer journey that connects several capabilities.
 
-What is usually novel is the organisation's language, relationships, decisions, workflow detail and presentation shape. The reusable engineering structure should be designed before feature coding, while the novel business meaning is explored inside that structure. The [Building Metaphor](../reference/building-metaphor.md) helps make this distinction visible: the rooms and activities may be new, but the need for dependable structure and clear responsibility is familiar.
+What is usually novel is the organisation's language, relationships, decisions, workflow detail and presentation shape. The reusable engineering structure should be designed before feature coding, while the novel business meaning is explored inside that structure. The [Building Metaphor](../shared/reference/building-metaphor.md) helps make this distinction visible: the rooms and activities may be new, but the need for dependable structure and clear responsibility is familiar.
 
 This is the governing idea:
 
@@ -48,7 +48,7 @@ The [example gallery](../examples/readme.md) shows the same movement through sev
 
 - [Current state and recurring failure patterns](./current-state.md)
 - [What the guidance gives each stakeholder](./what-this-guidance-gives.md)
-- [Different Types of Builders](../reference/builders-metaphor.md)
+- [Different Types of Builders](../shared/reference/builders-metaphor.md)
 - [YAGNI versus WGF](./design-before-build-and-wgf.md)
 - [Example gallery](../examples/readme.md)
 - [Developer Architecture Route](../../agents/conventions/development/guidance-for-developers.md)

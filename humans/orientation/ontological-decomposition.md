@@ -91,6 +91,6 @@ Under-decomposition hides important identity, lifecycle, policy or authority. Ov
 
 ## Relationship to other guidance
 
-Ontological decomposition supports [Conceptual, Logical and Physical Models](../reference/catalogues/conceptual-logical-physical-models.md), [LDM Layers and Contents](../development/layers.md), [Entity Lifecycle Patterns](../reference/catalogues/entity-lifecycle-patterns.md), [Domains and Capabilities](../reference/catalogues/domains-and-capabilities.md), [Contracts](../development/contracts.md) and [Domain-Driven Design](../reference/glossary.md#domain-driven-design-ddd).
+Ontological decomposition supports [Conceptual, Logical and Physical Models](../shared/reference/catalogues/conceptual-logical-physical-models.md), [LDM Layers and Contents](../development/layers.md), [Entity Lifecycle Patterns](../shared/reference/catalogues/entity-lifecycle-patterns.md), [Domains and Capabilities](../shared/reference/catalogues/domains-and-capabilities.md), [Contracts](../development/contracts.md) and [Domain-Driven Design](../shared/reference/glossary.md#domain-driven-design-ddd).
 
 It does not replace elicitation, domain authority, architecture, contracts, testing or operational evidence. It gives those responsibilities a clearer object of discussion: the distinctions the system must preserve, the representations it may choose and the evidence that would show the choice remains sound.

@@ -28,9 +28,9 @@ Keep four things distinct:
 
 For example, a legal requirement may create a duty to protect personal information. The service may need classification, minimised collection, authorisation, secure storage, retention, audit, export, correction and erasure capabilities. Those capabilities are not the law itself, and their existence is not evidence that they work. The team must define tests, records, monitoring and review evidence appropriate to the obligation.
 
-The exact legal sources vary by jurisdiction and sector, but the recurring objectives are recognisable. The [Regulatory and Obligation Domains](../reference/catalogues/regulatory-obligations.md) catalogue groups them without pretending that one country's source applies everywhere. It covers purpose and fairness, personal information, tracking, records, retention, security, accessibility, trustworthy use, safety, financial responsibilities, cross-border suppliers and content rights.
+The exact legal sources vary by jurisdiction and sector, but the recurring objectives are recognisable. The [Regulatory and Obligation Domains](../shared/reference/catalogues/regulatory-obligations.md) catalogue groups them without pretending that one country's source applies everywhere. It covers purpose and fairness, personal information, tracking, records, retention, security, accessibility, trustworthy use, safety, financial responsibilities, cross-border suppliers and content rights.
 
-Use the [Regulatory and Obligation Checklist](../reference/checklists/regulatory-obligations.md) when the team needs to record the actual sources, owners, capabilities, evidence, gaps and review triggers. The catalogue explains the subject; the checklist helps apply it to a service.
+Use the [Regulatory and Obligation Checklist](../shared/reference/checklists/regulatory-obligations.md) when the team needs to record the actual sources, owners, capabilities, evidence, gaps and review triggers. The catalogue explains the subject; the checklist helps apply it to a service.
 
 ## Why omitted requirements still matter
 
@@ -43,9 +43,9 @@ If a ticket is silent about an applicable obligation, that silence is not permis
 - [Systems Within Systems](./systems-within-systems.md)
 - [Guidance for System Design Architects](./guidance-for-system-design-architects.md)
 - [Guidance for Tech Leads](./guidance-for-tech-leads.md)
-- [Regulatory and Obligation Domains](../reference/catalogues/regulatory-obligations.md)
-- [Regulatory and Obligation Checklist](../reference/checklists/regulatory-obligations.md)
-- [Stakeholder Roles](../reference/catalogues/stakeholder-roles.md)
+- [Regulatory and Obligation Domains](../shared/reference/catalogues/regulatory-obligations.md)
+- [Regulatory and Obligation Checklist](../shared/reference/checklists/regulatory-obligations.md)
+- [Stakeholder Roles](../shared/reference/catalogues/stakeholder-roles.md)
 - [Data Deletion Guidance](../development/data-deletion-guidance.md)
 - [Detailed Data Deletion Considerations](../development/detailed-data-deletion-considerations.md)
 - [Data Protection Conventions](../../agents/conventions/foundations/data-protection.md)

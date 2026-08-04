@@ -10,13 +10,13 @@ User guidance should consider direct tasks, assisted journeys, accessibility nee
 
 Users may include applicants, customers, employees using an intranet, partner staff, support staff, providers, operational staff, reviewers or people using a public information site. A connected system can also be a consumer, although its interface and obligations differ from those of a person.
 
-The [Users to Consider Catalogue](../../reference/catalogues/users.md) provides the wider vocabulary for direct users, represented subjects, affected people, providers, support users, operational users, assurance users and connected systems.
+The [Users to Consider Catalogue](../../shared/reference/catalogues/users.md) provides the wider vocabulary for direct users, represented subjects, affected people, providers, support users, operational users, assurance users and connected systems.
 
 ## Related guidance
 
 - [Affected People](../affected/readme.md)
 - [Influencers](../influencers/readme.md)
 - [Deliverers](../deliverers/readme.md)
-- [Sites](../../reference/catalogues/sites.md)
+- [Sites](../../shared/reference/catalogues/sites.md)
 
 [Up: Stakeholder Guidance](../readme.md)

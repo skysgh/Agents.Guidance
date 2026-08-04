@@ -30,22 +30,22 @@ These are routes into shared work, not separate versions of the system. A front-
 
 When a story has made the problem visible, use the catalogue that gives the next question a stable name:
 
-- [Stakeholder Roles](../reference/catalogues/stakeholder-roles.md) places knowledge, authority, handoffs and responsibility boundaries.
-- [Deliverable Systems](../reference/catalogues/deliverable-systems.md) distinguishes delivery, service, consumer and testing systems.
-- [Sites, Flows, Views and Components](../reference/catalogues/sites-flows-views-components.md) gives the consumer experience a shape without making a view the owner of every rule.
-- [Quality Perspectives](../reference/catalogues/qualities.md) connects system quality, data quality and quality in use to context and evidence.
-- [Conceptual, Logical and Physical Models](../reference/catalogues/conceptual-logical-physical-models.md) keeps meaning, logical responsibility and physical implementation distinct.
-- [Domains and Capabilities](../reference/catalogues/domains-and-capabilities.md) places behaviour with the problem space and responsibility that give it meaning.
+- [Stakeholder Roles](../shared/reference/catalogues/stakeholder-roles.md) places knowledge, authority, handoffs and responsibility boundaries.
+- [Deliverable Systems](../shared/reference/catalogues/deliverable-systems.md) distinguishes delivery, service, consumer and testing systems.
+- [Sites, Flows, Views and Components](../shared/reference/catalogues/sites-flows-views-components.md) gives the consumer experience a shape without making a view the owner of every rule.
+- [Quality Perspectives](../shared/reference/catalogues/qualities.md) connects system quality, data quality and quality in use to context and evidence.
+- [Conceptual, Logical and Physical Models](../shared/reference/catalogues/conceptual-logical-physical-models.md) keeps meaning, logical responsibility and physical implementation distinct.
+- [Domains and Capabilities](../shared/reference/catalogues/domains-and-capabilities.md) places behaviour with the problem space and responsibility that give it meaning.
 
-The [Engineering Catalogues](../reference/catalogues/readme.md) index offers the wider shared map. It is more useful after the reader knows which question they are trying to answer.
+The [Engineering Catalogues](../shared/reference/catalogues/readme.md) index offers the wider shared map. It is more useful after the reader knows which question they are trying to answer.
 
 ## Apply the understanding
 
-The [Engineering Checklists](../reference/checklists/readme.md) are practical prompts for a design, review or delivery decision. They are intentionally later in the route. A checklist can remind a team to check a cookie flag, a recovery condition or an accessibility behaviour; it cannot explain why that condition matters or who has authority to decide it.
+The [Engineering Checklists](../shared/reference/checklists/readme.md) are practical prompts for a design, review or delivery decision. They are intentionally later in the route. A checklist can remind a team to check a cookie flag, a recovery condition or an accessibility behaviour; it cannot explain why that condition matters or who has authority to decide it.
 
-Use the relevant human route and catalogue first, then choose a checklist such as [Security in Transit](../reference/checklists/security-in-transit.md), [Deliverables](../reference/checklists/deliverables.md) or [Sites and Interfaces](../reference/checklists/sites-and-interfaces.md). Record the answers with the service's requirements, decisions, tests and evidence.
+Use the relevant human route and catalogue first, then choose a checklist such as [Security in Transit](../shared/reference/checklists/security-in-transit.md), [Deliverables](../shared/reference/checklists/deliverables.md) or [Sites and Interfaces](../shared/reference/checklists/sites-and-interfaces.md). Record the answers with the service's requirements, decisions, tests and evidence.
 
-When the question is really about where a responsibility lives, [Human System Guidance](../systems/readme.md) separates the client, service, pipeline, testing and shared perspectives. It is a boundary map, not a claim that every route has equal depth.
+When the question is really about where a responsibility lives, [Human System Guidance](../delivery/systems/readme.md) separates the client, service, pipeline, testing and shared perspectives. It is a boundary map, not a claim that every route has equal depth.
 
 ## Keep the route open
 
@@ -55,7 +55,7 @@ The guidance is not a test of endurance. A reader may stop when the current ques
 
 - [Human Orientation](./readme.md)
 - [Human Engineering Guidance](../readme.md)
-- [Human System Guidance](../systems/readme.md)
+- [Human System Guidance](../delivery/systems/readme.md)
 - [Example Gallery](../examples/readme.md)
-- [Engineering Catalogues](../reference/catalogues/readme.md)
-- [Engineering Checklists](../reference/checklists/readme.md)
+- [Engineering Catalogues](../shared/reference/catalogues/readme.md)
+- [Engineering Checklists](../shared/reference/checklists/readme.md)

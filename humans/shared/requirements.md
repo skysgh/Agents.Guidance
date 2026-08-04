@@ -1,12 +1,12 @@
 # Shared Requirements
 
-A [requirement](../reference/glossary.md#requirement) is an agreed statement of something a serious system must achieve, provide, prevent, preserve or prove. It is not merely a request, feature label, screen description or implementation task.
+A [requirement](./reference/glossary.md#requirement) is an agreed statement of something a serious system must achieve, provide, prevent, preserve or prove. It is not merely a request, feature label, screen description or implementation task.
 
 Requirements are shared engineering objects. A Stakeholder Analyst may elicit and clarify them. A Product Manager or Product Owner may provide direction, priority and scope decisions within authority. Business, Domain, policy and specialist SMEs provide meaning and constraints. Architects place responsibilities and boundaries. Technical Analysts help make technical contracts precise when that capability is assigned. Developers implement. Testers challenge predicates and produce evidence. Operations, support and maintainers establish readiness, recovery and lifecycle conditions.
 
 No single role should silently absorb the authority or knowledge of all the others.
 
-Specialists in Security, Privacy, Records, Monitoring, Change Control or Assurance can use this page as their shared entry point. The [specialist controls](#specialist-controls-enable-the-outcome-and-protect-it-when-needed) section names each responsibility's contribution, bounded authority, evidence and return path; [Stakeholder Roles](../reference/catalogues/stakeholder-roles.md) supplies the broader role definitions.
+Specialists in Security, Privacy, Records, Monitoring, Change Control or Assurance can use this page as their shared entry point. The [specialist controls](#specialist-controls-enable-the-outcome-and-protect-it-when-needed) section names each responsibility's contribution, bounded authority, evidence and return path; [Stakeholder Roles](./reference/catalogues/stakeholder-roles.md) supplies the broader role definitions.
 
 ## The requirement chain
 
@@ -29,7 +29,7 @@ Driver
 
 The chain is not a mandatory document sequence. It is a way to find missing meaning, authority, ownership or evidence. New evidence may send the team back to an earlier point. That is responsible correction, not failure.
 
-The chain connects a [Capability](../reference/glossary.md#capability) to its responsible [Domain](../reference/glossary.md#domain) before contract, implementation, deliverables and evidence are chosen.
+The chain connects a [Capability](./reference/glossary.md#capability) to its responsible [Domain](./reference/glossary.md#domain) before contract, implementation, deliverables and evidence are chosen.
 
 Acceptance criteria are the bridge between meaning and evidence. They describe the conditions under which the outcome can be recognised as true, including relevant success, failure, authority, data, quality and recovery conditions. A work item that contains only a business concept or feature label has not yet given the Test Suite or the developer enough to prove what ÔÇ£doneÔÇØ means.
 
@@ -41,7 +41,7 @@ BUST is a useful reminder for Business, User, System and Transitional requiremen
 
 ## Make a requirement usable
 
-A requirement should be understandable to the people who must decide, implement, test, operate or accept it. Its meaning becomes more usable when the affected subject, actor or system is visible, together with the outcome, action, state, information or constraint. The [Domain](../reference/glossary.md#domain), [capability](../reference/glossary.md#capability) or boundary responsible for it should be recognisable, as should the authority, policy, obligation or evidence behind it. Timing, quality, security, privacy, accessibility and recovery conditions may shape the requirement, alongside assumptions, exclusions, conflicts and deliberate deferrals. An acceptance predicate or other testable evidence connects the statement to proof, while the responsible authority and the person or team able to change or accept it keep its future life clear.
+A requirement should be understandable to the people who must decide, implement, test, operate or accept it. Its meaning becomes more usable when the affected subject, actor or system is visible, together with the outcome, action, state, information or constraint. The [Domain](./reference/glossary.md#domain), [capability](./reference/glossary.md#capability) or boundary responsible for it should be recognisable, as should the authority, policy, obligation or evidence behind it. Timing, quality, security, privacy, accessibility and recovery conditions may shape the requirement, alongside assumptions, exclusions, conflicts and deliberate deferrals. An acceptance predicate or other testable evidence connects the statement to proof, while the responsible authority and the person or team able to change or accept it keep its future life clear.
 
 ÔÇ£The system shall support requestsÔÇØ is not enough. A useful statement distinguishes the relevant request, actor, state, authority, result and failure conditions without prescribing a physical design prematurely. The acceptance criteria can then express the examples and boundaries that a tester can automate and a developer can implement against.
 
@@ -98,4 +98,4 @@ This is the minimum formwork for staged delivery. It is not a demand for perfect
 
 ## Related guidance
 
-The [Shared Human Guidance](./readme.md) gives the wider route. [BUST Requirements](../stakeholders/business-analysts/bust-requirements.md) and [Traceability and Evidence](../stakeholders/business-analysts/traceability-and-evidence.md) develop the analyst perspective. [Product Purpose and Outcomes](../stakeholders/product-owners/product-purpose-and-outcomes.md), [Acceptance and Evidence](../stakeholders/product-owners/acceptance-and-evidence.md) and [Stakeholder Conflict and Authority](../stakeholders/product-owners/stakeholder-conflict-and-authority.md) follow the product decisions. The [Stakeholder Roles](../reference/catalogues/stakeholder-roles.md), [Users to Consider](../reference/catalogues/users.md), [System Roles](../reference/catalogues/system-roles.md), [Domains and Capabilities](../reference/catalogues/domains-and-capabilities.md) and [Deliverables](../reference/catalogues/deliverables.md) catalogues provide the surrounding vocabulary and delivery context.
+The [Shared Human Guidance](./readme.md) gives the wider route. [BUST Requirements](../stakeholders/business-analysts/bust-requirements.md) and [Traceability and Evidence](../stakeholders/business-analysts/traceability-and-evidence.md) develop the analyst perspective. [Product Purpose and Outcomes](../stakeholders/product-owners/product-purpose-and-outcomes.md), [Acceptance and Evidence](../stakeholders/product-owners/acceptance-and-evidence.md) and [Stakeholder Conflict and Authority](../stakeholders/product-owners/stakeholder-conflict-and-authority.md) follow the product decisions. The [Stakeholder Roles](./reference/catalogues/stakeholder-roles.md), [Users to Consider](./reference/catalogues/users.md), [System Roles](./reference/catalogues/system-roles.md), [Domains and Capabilities](./reference/catalogues/domains-and-capabilities.md) and [Deliverables](./reference/catalogues/deliverables.md) catalogues provide the surrounding vocabulary and delivery context.

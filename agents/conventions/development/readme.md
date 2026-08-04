@@ -5,7 +5,7 @@ These conventions support implementation, testing, operations and project struct
 ## Subject areas
 
 - [Code and language guidance](./code.md)
-- [Pipeline Development and Infrastructure as Code](../../../humans/systems/pipeline/development-language.md)
+- [Pipeline Development and Infrastructure as Code](../../../humans/delivery/systems/pipeline/development-language.md)
 - [Projects and LDMs](./projects.md)
 - [Platform Services](./platform-services.md)
 - [Testing](./testing.md)

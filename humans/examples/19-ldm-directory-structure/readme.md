@@ -342,10 +342,10 @@ The durable questions are: which responsibility owns this type, which Domain giv
 
 ## Related guidance
 
-- [LDM Layers and Contents](../../systems/service/layers.md)
-- [Logical Deployment Modules](../../systems/service/ldms.md)
-- [Logical Deployment Modules Catalogue](../../reference/catalogues/ldms.md)
-- [Logical Building Blocks](../../reference/catalogues/logical-building-blocks.md)
+- [LDM Layers and Contents](../../delivery/systems/service/layers.md)
+- [Logical Deployment Modules](../../delivery/systems/service/ldms.md)
+- [Logical Deployment Modules Catalogue](../../shared/reference/catalogues/ldms.md)
+- [Logical Building Blocks](../../shared/reference/catalogues/logical-building-blocks.md)
 - [Guidance for Developers](../../orientation/guidance-for-developers.md)
 - [Develop LDMs agent convention](../../../agents/conventions/development/ldms.md)
 - [C# code organization agent convention](../../../agents/conventions/development/code-csharp.md)

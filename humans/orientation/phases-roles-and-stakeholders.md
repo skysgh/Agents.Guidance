@@ -50,7 +50,7 @@ Stakeholders are separate from phases and roles. They are the people and organis
 
 A customer may describe the experience they need without building the structure that makes it possible. A funder may define an outcome without operating the service. A regulator may require evidence without implementing the feature. An operator may depend on a safe workflow without owning the contracts or persistence behind it.
 
-The categories can overlap, but they should not be collapsed. Keeping them distinct makes it possible to ask who is affected if something fails, who owns the decision or boundary, which role has the knowledge to carry the work and during which phase the responsibility must be exercised and evidenced. Quality is judged in the context of those affected people and organisations; [Quality Perspectives](../reference/catalogues/qualities.md) explains how their outcomes connect to data and system qualities.
+The categories can overlap, but they should not be collapsed. Keeping them distinct makes it possible to ask who is affected if something fails, who owns the decision or boundary, which role has the knowledge to carry the work and during which phase the responsibility must be exercised and evidenced. Quality is judged in the context of those affected people and organisations; [Quality Perspectives](../shared/reference/catalogues/qualities.md) explains how their outcomes connect to data and system qualities.
 
 ## Handoffs and overlap
 

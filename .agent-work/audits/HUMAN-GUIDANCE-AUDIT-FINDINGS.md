@@ -10,7 +10,7 @@ The findings distinguish a missing route from a missing responsibility. A role m
 
 - The core routes for Business Analysts, Product Owners, Architects, Technical Leads, Developers, Testers, Support, Operators, Maintainers and Service Providers are coherent enough to provide a viable starting point.
 - [Shared Requirements](../../humans/shared/requirements.md) gives the routes a common requirement chain and names important handoffs.
-- [Stakeholder Roles](../../humans/reference/catalogues/stakeholder-roles.md) provides a broad candidate vocabulary and makes several non-absorption boundaries visible.
+- [Stakeholder Roles](../../humans/shared/reference/catalogues/stakeholder-roles.md) provides a broad candidate vocabulary and makes several non-absorption boundaries visible.
 - [Liberation Through Clarity](../../humans/shared/liberation-through-clarity.md) explains personal benefit rather than presenting structure only as organisational control.
 - The recent introduction and navigation work has removed the strongest reading gates from the route README files.
 - An opening-level fresh-eyes review now covers the root, engineering, human, orientation, delivery, stakeholder, role, development, example, reference, catalogue and checklist indexes. The story-led bridge is available before deeper naming, and the Development index was corrected so it begins with the reader's problem before exposing catalogues or checklists.
@@ -76,7 +76,7 @@ The first lifecycle trace is recorded in [Human Guidance Lifecycle Trace](HUMAN-
 
 - **Severity:** High
 - **Affected reader:** Security, Privacy, Records and Information Governance, Monitoring, Change Control, Assurance or Audit specialist.
-- **Source:** [Stakeholder Roles](../../humans/reference/catalogues/stakeholder-roles.md), [Operator Guidance](../../humans/stakeholders/operators/readme.md), [Product Owner Scope and Deferral](../../humans/stakeholders/product-owners/scope-and-deferral.md).
+- **Source:** [Stakeholder Roles](../../humans/shared/reference/catalogues/stakeholder-roles.md), [Operator Guidance](../../humans/stakeholders/operators/readme.md), [Product Owner Scope and Deferral](../../humans/stakeholders/product-owners/scope-and-deferral.md).
 - **Issue:** The catalogue named these responsibilities without a shared route decision or purpose-led explanation. Their authority, evidence, handoffs and failure consequences were unevenly discoverable, and the material risked presenting specialists as external approval obstacles rather than contributors to completeness and protection.
 - **Consequence:** A specialist reader may find a role definition but not the path from obligation to design decision, implementation evidence, operation and assurance. Other readers may misunderstand the specialist as an infuriating gatekeeper instead of someone helping bring the organisation's full force behind completeness and evidence, or protecting it when careless work could spill into real harm.
 - **Recommended treatment:** Build a control-responsibility matrix first. For each responsibility, explain the positive contribution, the conditions that create defensive intervention, its authority, the evidence it needs and the handoff it makes. Group roles with genuinely shared concerns where possible; do not create routes merely to mirror titles.
@@ -96,7 +96,7 @@ The first lifecycle trace is recorded in [Human Guidance Lifecycle Trace](HUMAN-
 
 - **Severity:** High
 - **Affected reader:** Sponsor, Product Manager, Product Owner, business owner or delivery participant trying to understand who checks delivery against the organisational promise.
-- **Source:** [Stakeholder Guidance](../../humans/stakeholders/readme.md), [Sponsor Guidance](../../humans/stakeholders/sponsors/readme.md), [Stakeholder Roles](../../humans/reference/catalogues/stakeholder-roles.md).
+- **Source:** [Stakeholder Guidance](../../humans/stakeholders/readme.md), [Sponsor Guidance](../../humans/stakeholders/sponsors/readme.md), [Stakeholder Roles](../../humans/shared/reference/catalogues/stakeholder-roles.md).
 - **Issue:** Sponsor was defined as organisational backing and investment authority, but the guidance did not give the Sponsor a clear way to examine delivery against promise, constraints, qualities, evidence, whole-life cost and unresolved variance.
 - **Consequence:** Delivery could appear successful through status, tickets or deployment while unmet outcomes, specialist responsibilities or lifecycle ownership remained without a visible escalation path.
 - **Recommended treatment:** Provide a decision-focused Sponsor route that preserves the Product Manager's product stewardship and the Product Owner's near-term ordering authority, while making commitment, evidence, variance, intervention and whole-life accountability explicit.
@@ -106,7 +106,7 @@ The first lifecycle trace is recorded in [Human Guidance Lifecycle Trace](HUMAN-
 
 - **Severity:** High
 - **Affected reader:** Front-end Developer, technical lead, architect, tester, accessibility specialist, security specialist or Product Owner responsible for a browser SPA.
-- **Source:** [Deliverable Systems](../../humans/reference/catalogues/deliverable-systems.md), [Stakeholder Roles](../../humans/reference/catalogues/stakeholder-roles.md), [Developer Guidance](../../humans/stakeholders/developers/readme.md).
+- **Source:** [Deliverable Systems](../../humans/shared/reference/catalogues/deliverable-systems.md), [Stakeholder Roles](../../humans/shared/reference/catalogues/stakeholder-roles.md), [Developer Guidance](../../humans/stakeholders/developers/readme.md).
 - **Issue:** The service consumer system was already identified as a distinct deliverable system, and agent conventions already contained accessibility and browser-security rules, but the human guidance did not identify Front-end Developer as a distinct developer-family responsibility or provide a route into client-side flows, component assemblies and quality-in-use evidence.
 - **Consequence:** The SPA could be treated as presentation furniture attached to the server, leaving accessibility, usability, browser security, client-side failure behaviour and consumer-system evidence without a clear owner.
 - **Recommended treatment:** Add Front-end Developer to the glossary, stakeholder developer-family catalogue and stakeholder navigation, then provide a human route that preserves the boundary between consumer-side experience coordination and service-side authority.
@@ -116,7 +116,7 @@ The first lifecycle trace is recorded in [Human Guidance Lifecycle Trace](HUMAN-
 
 - **Severity:** High
 - **Affected reader:** Front-end Developer, service-side Developer, architect, technical lead, tester, operator or reader trying to understand which constraints belong to the client, service or shared boundary.
-- **Source:** [Deliverable Systems](../../humans/reference/catalogues/deliverable-systems.md), [Palette](../../humans/systems/client/palette/readme.md), [Human Development Guidance](../../humans/development/readme.md).
+- **Source:** [Deliverable Systems](../../humans/shared/reference/catalogues/deliverable-systems.md), [Palette](../../humans/delivery/systems/client/palette/readme.md), [Human Development Guidance](../../humans/development/readme.md).
 - **Issue:** The repository described distinct client, service, delivery and testing systems, but the Palette was located outside a system route and the Development folder mixed service implementation guidance with contracts, flows, lifecycle and other cross-boundary material.
 - **Consequence:** A reader could treat the SPA as presentation attached to the service, or treat a service implementation rule as a shared system contract, without seeing the different execution environments, authority, failure modes and evidence.
 - **Recommended treatment:** Introduce system-oriented human indexes, relocate the client Palette into a canonical client route, preserve compatibility links, and classify service versus shared Development material before moving it. Reserve honest future routes for Pipeline and Testing Systems.
@@ -126,7 +126,7 @@ The first lifecycle trace is recorded in [Human Guidance Lifecycle Trace](HUMAN-
 
 - **Severity:** High
 - **Affected reader:** Sponsor, Product Manager, Technical Lead, Front-end Developer, service Developer, Tester, Operations or Release participant trying to understand what the delivery and qualification systems must prove.
-- **Source:** [Pipeline System Guidance](../../humans/systems/pipeline/readme.md), [Testing System Guidance](../../humans/systems/tests/readme.md), [Deliverable Systems](../../humans/reference/catalogues/deliverable-systems.md).
+- **Source:** [Pipeline System Guidance](../../humans/delivery/systems/pipeline/readme.md), [Testing System Guidance](../../humans/delivery/systems/tests/readme.md), [Deliverable Systems](../../humans/shared/reference/catalogues/deliverable-systems.md).
 - **Issue:** Delivery and Testing Systems were named in the catalogue, but their human routes did not yet explain lifecycle, ownership, environment, security, qualification, evidence or failure responsibilities.
 - **Consequence:** The organisation could treat a build, deployment, browser test or green pipeline as proof of the complete service without distinguishing artifact evidence, client/service behaviour, test-system assumptions and operational readiness.
 - **Recommended treatment:** Provide foundation routes for Pipeline and Testing Systems, then add project-specific environments, identities, data, evidence retention, release, rollback and recovery material when a real service requires it.
@@ -136,7 +136,7 @@ The first lifecycle trace is recorded in [Human Guidance Lifecycle Trace](HUMAN-
 
 - **Severity:** Medium
 - **Affected reader:** Environment and Pipeline Developer, Technical Lead, Architect, service Developer or reviewer choosing how infrastructure and delivery automation should be expressed.
-- **Source:** [Pipeline Development and Infrastructure as Code](../../humans/systems/pipeline/development-language.md), [Selecting a Language and Framework](../../humans/orientation/language-and-framework-selection.md), [Stakeholder Roles](../../humans/reference/catalogues/stakeholder-roles.md).
+- **Source:** [Pipeline Development and Infrastructure as Code](../../humans/delivery/systems/pipeline/development-language.md), [Selecting a Language and Framework](../../humans/orientation/language-and-framework-selection.md), [Stakeholder Roles](../../humans/shared/reference/catalogues/stakeholder-roles.md).
 - **Issue:** The guidance distinguished C#, TypeScript and Python for browser, service and bounded work, but did not provide a human entry for declarative infrastructure languages, typed infrastructure frameworks or the PowerShell/Bash orchestration around them.
 - **Consequence:** Pipeline work could be treated as incidental scripting, or AWS CDK's TypeScript origins could be mistaken for a universal AWS requirement, leaving resource authority, provider templates, permissions, rollback and pipeline evidence underexplained.
 - **Recommended treatment:** Provide a provider-aware Pipeline Developer route that separates resource declaration from imperative orchestration and records the support, security, repeatability and evidence consequences of the language choice.
@@ -146,7 +146,7 @@ The first lifecycle trace is recorded in [Human Guidance Lifecycle Trace](HUMAN-
 
 - **Severity:** High
 - **Affected reader:** Sponsor, Technical Lead, Pipeline Developer, Environment Developer, Service Developer, Front-end Developer, Tester, Operator or maintainer trying to establish what must be delivered for a service to exist and recover.
-- **Source:** [Deliverable Systems](../../humans/reference/catalogues/deliverable-systems.md), [Deliverables](../../humans/reference/catalogues/deliverables.md), [Deliverables Checklist](../../humans/reference/checklists/deliverables.md) and [Pipeline System Guidance](../../humans/systems/pipeline/readme.md).
+- **Source:** [Deliverable Systems](../../humans/shared/reference/catalogues/deliverable-systems.md), [Deliverables](../../humans/shared/reference/catalogues/deliverables.md), [Deliverables Checklist](../../humans/shared/reference/checklists/deliverables.md) and [Pipeline System Guidance](../../humans/delivery/systems/pipeline/readme.md).
 - **Issue:** The earlier model named a delivery system and infrastructure definitions, but did not clearly distinguish the pipeline-definition codebase, pipeline execution system, environment-definition codebase, resulting environment instance, runner support or environment baseline evidence.
 - **Consequence:** A team could deliver service and client code while treating environment creation as a side file, or could confuse a successful pipeline run with proof that the resulting environment matches its definition and is recoverable.
 - **Recommended treatment:** Treat the definition codebases, execution system, resulting environments and evidence as distinct but connected deliverables. Preserve their ownership, permissions, dependencies, lifecycle, release relationship and recovery evidence even when they share a repository.
@@ -156,7 +156,7 @@ The first lifecycle trace is recorded in [Human Guidance Lifecycle Trace](HUMAN-
 
 - **Severity:** Medium
 - **Affected reader:** Sponsor, Product Manager, Architect, Front-end Developer, service Developer, Pipeline Developer, Tester, Operations or content and branding contributor trying to understand what must accompany a usable service.
-- **Source:** [Delivery Guidance](../../humans/delivery/readme.md), [Deliverables](../../humans/reference/catalogues/deliverables.md), [Deliverables Checklist](../../humans/reference/checklists/deliverables.md).
+- **Source:** [Delivery Guidance](../../humans/delivery/readme.md), [Deliverables](../../humans/shared/reference/catalogues/deliverables.md), [Deliverables Checklist](../../humans/shared/reference/checklists/deliverables.md).
 - **Issue:** The delivered-whole list grouped data, content, reference values, migrations, derived information, infrastructure, reachability, interfaces, events, media and data contracts as if they were one kind of supporting item.
 - **Consequence:** People could lose the distinct responsibility, evidence and lifecycle of branding, media and accessibility, interface contracts, optional event/message flows, data and environment reachability.
 - **Recommended treatment:** Separate the delivered-whole categories by the responsibility they protect. Keep data authority in data guidance, interface meaning in contract guidance and event/message concerns as an optional flow with its own delivery and reconciliation evidence.
@@ -166,7 +166,7 @@ The first lifecycle trace is recorded in [Human Guidance Lifecycle Trace](HUMAN-
 
 - **Severity:** Medium
 - **Affected reader:** Tester, Test Developer, Front-end Developer, service Developer, Pipeline Developer, Product Owner or reviewer trying to understand what a set of tests represents and what evidence its execution produces.
-- **Source:** [Testing Evidence and Boundaries](../../humans/stakeholders/testers/evidence-and-boundaries.md), [Testing System Guidance](../../humans/systems/tests/readme.md), [Deliverables](../../humans/reference/catalogues/deliverables.md).
+- **Source:** [Testing Evidence and Boundaries](../../humans/stakeholders/testers/evidence-and-boundaries.md), [Testing System Guidance](../../humans/delivery/systems/tests/readme.md), [Deliverables](../../humans/shared/reference/catalogues/deliverables.md).
 - **Issue:** The guidance distinguished Test Data, Test System and Test Plan, but did not name the coherent set of test cases and supporting code that exercises selected claims, boundaries, flows, risks or qualities.
 - **Consequence:** A green suite could be confused with a complete Testing System, a test plan or a result, while failures could be attributed to the wrong boundary.
 - **Recommended treatment:** Treat Test Suite as a deliverable within the test codebase and as a user of Test Data, Test System and Test Plan. Keep execution results and retained evidence separate from the suite itself.
@@ -176,7 +176,7 @@ The first lifecycle trace is recorded in [Human Guidance Lifecycle Trace](HUMAN-
 
 - **Severity:** High
 - **Affected reader:** Tester, Test Developer, service Developer, Front-end Developer, Pipeline Developer, data or integration specialist, Product Owner or reviewer deciding what a test result actually proves.
-- **Source:** [Testing System Guidance](../../humans/systems/tests/readme.md), [Testing Evidence and Boundaries](../../humans/stakeholders/testers/evidence-and-boundaries.md), [Deliverable Systems](../../humans/reference/catalogues/deliverable-systems.md).
+- **Source:** [Testing System Guidance](../../humans/delivery/systems/tests/readme.md), [Testing Evidence and Boundaries](../../humans/stakeholders/testers/evidence-and-boundaries.md), [Deliverable Systems](../../humans/shared/reference/catalogues/deliverable-systems.md).
 - **Issue:** The Testing System was described as one qualification environment without a clear map of service, service interop API, BFF, client, data ingress/egress and external-integration test areas. The guidance also risked letting tests appear to certify the truth of business data rather than the behaviour of the system that validates and transforms it.
 - **Consequence:** A green test could be overinterpreted as proof of an untested boundary, or a fixture could silently become the authority for real-world data.
 - **Recommended treatment:** Use separate Test Suites and evidence for the relevant areas, while keeping the Testing System shared. Test data validation, mapping, classification, reconciliation and error behaviour, but leave business-data truth with the responsible business, Domain, data, policy, privacy, records or external-system authority.
@@ -186,7 +186,7 @@ The first lifecycle trace is recorded in [Human Guidance Lifecycle Trace](HUMAN-
 
 - **Severity:** High
 - **Affected reader:** Sponsor, Product Owner, Business Analyst, Tester, Test Developer, Service Developer, Front-end Developer, Pipeline Developer or reviewer trying to understand how acceptance becomes maintainable evidence.
-- **Source:** [Shared Requirements](../../humans/shared/requirements.md), [Acceptance and Evidence](../../humans/stakeholders/product-owners/acceptance-and-evidence.md), [Testing Evidence and Boundaries](../../humans/stakeholders/testers/evidence-and-boundaries.md), [Testing System Guidance](../../humans/systems/tests/readme.md).
+- **Source:** [Shared Requirements](../../humans/shared/requirements.md), [Acceptance and Evidence](../../humans/stakeholders/product-owners/acceptance-and-evidence.md), [Testing Evidence and Boundaries](../../humans/stakeholders/testers/evidence-and-boundaries.md), [Testing System Guidance](../../humans/delivery/systems/tests/readme.md).
 - **Issue:** The guidance connected requirements, testing and implementation, but did not make the acceptance-criteria-to-Test-Suite-to-Service-or-Client implementation path explicit. Parallel handoff of an underspecified story could leave testers and developers working from different meanings.
 - **Consequence:** Manual checks repeatedly fail for interpretation reasons, while automation arrives after implementation and cannot protect maintainable change as effectively as executable acceptance evidence developed with the work item.
 - **Recommended treatment:** Treat acceptance criteria as part of a complete work item. Let testers and Test Developers make suitable criteria executable, then let Service and Client Developers implement against those checks, with iterative return to the responsible meaning authority when the criteria or implementation is wrong.
@@ -246,10 +246,10 @@ The first lifecycle trace is recorded in [Human Guidance Lifecycle Trace](HUMAN-
 
 - **Severity:** Medium
 - **Affected reader:** Product, architecture, testing, Operations, Support, maintenance, records, privacy and assurance participants following a capability beyond first delivery.
-- **Source:** [Human Guidance Lifecycle Trace](HUMAN-GUIDANCE-AUDIT-LIFECYCLE-TRACE.md), [Software Development Lifecycle](../../humans/reference/catalogues/sdlc.md), [Deliverables](../../humans/reference/catalogues/deliverables.md).
+- **Source:** [Human Guidance Lifecycle Trace](HUMAN-GUIDANCE-AUDIT-LIFECYCLE-TRACE.md), [Software Development Lifecycle](../../humans/shared/reference/catalogues/sdlc.md), [Deliverables](../../humans/shared/reference/catalogues/deliverables.md).
 - **Issue:** The lifecycle guidance names the necessary stages and evidence, and canonical pages now connect specialist responsibilities and cross-system scenario evidence. The first trace still needs to prove that a reader can follow those destinations at the point of need, including capability-specific retirement evidence.
 - **Consequence:** A team may understand each responsibility separately while still missing evidence at the transitions between delivery, service, recovery, change and retirement.
-- **Recommended treatment:** Re-run the trace with the [Specialist controls](../../humans/shared/requirements.md) and [Cross-system evidence and reconciliation](../../humans/reference/catalogues/deliverable-systems.md) destinations in view. Add a focused example only if the reader still cannot follow the evidence. Keep the lifecycle model shared rather than creating role-specific copies.
+- **Recommended treatment:** Re-run the trace with the [Specialist controls](../../humans/shared/requirements.md) and [Cross-system evidence and reconciliation](../../humans/shared/reference/catalogues/deliverable-systems.md) destinations in view. Add a focused example only if the reader still cannot follow the evidence. Keep the lifecycle model shared rather than creating role-specific copies.
 - **Status:** Canonical treatment, cold-start discoverability and an illustrative full-lifecycle application are verified through [Example 17](../../humans/examples/17-request-submission-full-lifecycle/after.md); real capability evidence remains contingent on an actual service change or retirement
 
 ## Audit limits

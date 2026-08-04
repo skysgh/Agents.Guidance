@@ -1,6 +1,6 @@
 Apply these conventions to authentication, authorisation, identity, session, privacy and security-sensitive design decisions.
 
-For the accessible review prompts, read [Security at Rest Checklist](../../../humans/reference/checklists/security-at-rest.md) and [Security in Transit Checklist](../../../humans/reference/checklists/security-in-transit.md).
+For the accessible review prompts, read [Security at Rest Checklist](../../../humans/shared/reference/checklists/security-at-rest.md) and [Security in Transit Checklist](../../../humans/shared/reference/checklists/security-in-transit.md).
 
 ### Identification
 Design the system to not need their Name. Identify them by the uniqueness of the `sid`:`sub`

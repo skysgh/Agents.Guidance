@@ -1,6 +1,6 @@
 # Platform Service Inventory
 
-Agents must use this inventory when planning a new capability, module, service, endpoint, persistence model or cross-cutting integration. The human explanation is [Guidance for Tech Leads](../../../humans/orientation/guidance-for-tech-leads.md), and the detailed human reference is [Platform Services Reference](../../../humans/reference/platform-services.md).
+Agents must use this inventory when planning a new capability, module, service, endpoint, persistence model or cross-cutting integration. The human explanation is [Guidance for Tech Leads](../../../humans/orientation/guidance-for-tech-leads.md), and the detailed human reference is [Platform Services Reference](../../../humans/shared/reference/platform-services.md).
 
 ## Canonical sequence
 
@@ -64,4 +64,4 @@ For every adopted platform service, request:
 - focused tests, including failure tests; and
 - repository binding or implementation reference.
 
-Use the [Platform Services Reference](../../../humans/reference/platform-services.md) for the purpose and readiness questions of each item.
+Use the [Platform Services Reference](../../../humans/shared/reference/platform-services.md) for the purpose and readiness questions of each item.

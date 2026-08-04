@@ -45,13 +45,13 @@ The routes meet around shared artefacts:
 
 The purpose of the routes is to make those handoffs explicit. No role should have to reconstruct another role's contribution from tickets, screens or implementation details.
 
-The [Stakeholder Roles Catalogue](../reference/catalogues/stakeholder-roles.md) gives the fuller role boundaries, including Product Manager, Product Owner and Scrum Master or delivery facilitator.
+The [Stakeholder Roles Catalogue](../shared/reference/catalogues/stakeholder-roles.md) gives the fuller role boundaries, including Product Manager, Product Owner and Scrum Master or delivery facilitator.
 
 ## Related guidance
 
 - [Shared Human Guidance](../shared/readme.md)
 - [Human Orientation](../orientation/readme.md)
-- [Stakeholder Roles Catalogue](../reference/catalogues/stakeholder-roles.md)
-- [Users to Consider Catalogue](../reference/catalogues/users.md)
-- [System Roles Catalogue](../reference/catalogues/system-roles.md)
+- [Stakeholder Roles Catalogue](../shared/reference/catalogues/stakeholder-roles.md)
+- [Users to Consider Catalogue](../shared/reference/catalogues/users.md)
+- [System Roles Catalogue](../shared/reference/catalogues/system-roles.md)
 - [What This Guidance Gives Each Stakeholder](../orientation/what-this-guidance-gives.md)

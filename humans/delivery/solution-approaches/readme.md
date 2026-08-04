@@ -26,7 +26,7 @@ Do not use one label to answer three different questions.
 
 ### Responsibility
 
-Identify the responsibility before selecting the construction approach. It may be a service capability, consumer experience, integration flow, delivery process, testing capability or supporting record system. The [Deliverable Systems](../../reference/catalogues/deliverable-systems.md) catalogue helps identify the boundary and its evidence.
+Identify the responsibility before selecting the construction approach. It may be a service capability, consumer experience, integration flow, delivery process, testing capability or supporting record system. The [Deliverable Systems](../../shared/reference/catalogues/deliverable-systems.md) catalogue helps identify the boundary and its evidence.
 
 ### Implementation approach
 
@@ -50,7 +50,7 @@ A platform can be an external dependency and also host a delivered solution. Tho
 
 Platform objects, fields, screens, flows and rules are physical representations. They should not silently become the logical model just because the platform presents them first.
 
-Use the existing [Conceptual, Logical and Physical Models](../../reference/catalogues/conceptual-logical-physical-models.md) guidance:
+Use the existing [Conceptual, Logical and Physical Models](../../shared/reference/catalogues/conceptual-logical-physical-models.md) guidance:
 
 ```text
 Conceptual:
@@ -88,7 +88,7 @@ The fastest first configuration is not necessarily the fastest path to a dependa
 
 ## Questions to consider
 
-Use the relevant catalogue and checklist after understanding the responsibility. [Deliverables](../../reference/catalogues/deliverables.md) identifies the wider outcome beyond the configured solution. [External Dependencies](../../reference/catalogues/external-dependencies.md) helps describe supplier and platform boundaries. [Registries](../../reference/catalogues/registries.md) helps record platform, component, dependency, expiry, release and evidence facts. The [Deliverables Checklist](../../reference/checklists/deliverables.md) and subject checklists turn those concerns into review prompts.
+Use the relevant catalogue and checklist after understanding the responsibility. [Deliverables](../../shared/reference/catalogues/deliverables.md) identifies the wider outcome beyond the configured solution. [External Dependencies](../../shared/reference/catalogues/external-dependencies.md) helps describe supplier and platform boundaries. [Registries](../../shared/reference/catalogues/registries.md) helps record platform, component, dependency, expiry, release and evidence facts. The [Deliverables Checklist](../../shared/reference/checklists/deliverables.md) and subject checklists turn those concerns into review prompts.
 
 Ask:
 
@@ -112,11 +112,11 @@ A Salesforce configuration may implement a service capability, a consumer experi
 ## Related guidance
 
 - [Delivery Guidance](../readme.md)
-- [Conceptual, Logical and Physical Models](../../reference/catalogues/conceptual-logical-physical-models.md)
-- [Deliverable Systems](../../reference/catalogues/deliverable-systems.md)
-- [Deliverables](../../reference/catalogues/deliverables.md)
-- [External Dependencies](../../reference/catalogues/external-dependencies.md)
-- [Registries](../../reference/catalogues/registries.md)
-- [Deliverables Checklist](../../reference/checklists/deliverables.md)
+- [Conceptual, Logical and Physical Models](../../shared/reference/catalogues/conceptual-logical-physical-models.md)
+- [Deliverable Systems](../../shared/reference/catalogues/deliverable-systems.md)
+- [Deliverables](../../shared/reference/catalogues/deliverables.md)
+- [External Dependencies](../../shared/reference/catalogues/external-dependencies.md)
+- [Registries](../../shared/reference/catalogues/registries.md)
+- [Deliverables Checklist](../../shared/reference/checklists/deliverables.md)
 - [Vendor Material and Engineering Competence](../../orientation/vendor-material-and-engineering-competence.md)
 - [Selecting a Language and Framework](../../orientation/language-and-framework-selection.md)

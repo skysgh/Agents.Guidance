@@ -12,9 +12,9 @@ If this is your first visit, [The Current State](./current-state.md) shows the f
 
 Developers usually find [Guidance for Developers](./guidance-for-developers.md) the most useful first route, with [Human Development Guidance](../development/readme.md) and [Vertical Slices](../../agents/conventions/capabilities/slices.md) available when implementation structure becomes the question. Technical leads often begin with [Guidance for Tech Leads](./guidance-for-tech-leads.md), then return to the development, startup and operations material as the service takes shape. Architects can begin with [Guidance for System Design Architects](./guidance-for-system-design-architects.md) and follow the links into [Systems Within Systems](./systems-within-systems.md), [Legal and Regulatory Context](./legal-context.md) or [Logical Deployment Modules](../development/ldms.md) as the map becomes more detailed. Teams choosing technology may find [Selecting a Language and Framework](./language-and-framework-selection.md) and [Vendor Material and Engineering Competence](./vendor-material-and-engineering-competence.md) useful companions while they weigh their options.
 
-The shared structural reference is the [Engineering Catalogues](../reference/catalogues/readme.md). The [Engineering Checklists](../reference/checklists/readme.md) are available when a design or review needs practical prompts; the explanatory pages remain the place to understand the reasoning behind them.
+The shared structural reference is the [Engineering Catalogues](../shared/reference/catalogues/readme.md). The [Engineering Checklists](../shared/reference/checklists/readme.md) are available when a design or review needs practical prompts; the explanatory pages remain the place to understand the reasoning behind them.
 
-The ideas of [Deliverable Systems](../reference/catalogues/deliverable-systems.md) and [Deliverables](../reference/catalogues/deliverables.md) help make visible the multiple systems and the wider set of data, content, reachability, discovery and evidence needed for a usable outcome. They are useful companions when that wider shape becomes relevant.
+The ideas of [Deliverable Systems](../shared/reference/catalogues/deliverable-systems.md) and [Deliverables](../shared/reference/catalogues/deliverables.md) help make visible the multiple systems and the wider set of data, content, reachability, discovery and evidence needed for a usable outcome. They are useful companions when that wider shape becomes relevant.
 
 The useful outcome of the first reading is not memorising terms. It is being able to name the capability, its responsible boundary, the next design question and the evidence needed before construction proceeds.
 
@@ -22,7 +22,7 @@ The useful outcome of the first reading is not memorising terms. It is being abl
 
 The growing [Stakeholder Guidance](../stakeholders/readme.md) provides role-specific routes while keeping requirements, capabilities, contracts, deliverables and evidence in shared guidance.
 
-The remaining orientation papers introduce particular foundations when they become useful: [Why Software Needs Engineering](./why-software-needs-engineering.md), [Vendor Material and Engineering Competence](./vendor-material-and-engineering-competence.md), [Phases, Roles and Stakeholders](./phases-roles-and-stakeholders.md), [Systems Within Systems](./systems-within-systems.md), [Legal and Regulatory Context](./legal-context.md), [Guidance for Developers](./guidance-for-developers.md), [Guidance for Tech Leads](./guidance-for-tech-leads.md), [Guidance for System Design Architects](./guidance-for-system-design-architects.md), [Configuration and Settings](./configuration-and-settings.md), [Common Flows](./flows.md), [Responsible Boundaries and Deferred Design](./responsible-boundaries-and-deferred-design.md) and [API Lifecycle](./api-lifecycle.md). The building and builder comparisons remain in the shared [reference material](../reference/readme.md), where they can be revisited without interrupting the main progression.
+The remaining orientation papers introduce particular foundations when they become useful: [Why Software Needs Engineering](./why-software-needs-engineering.md), [Vendor Material and Engineering Competence](./vendor-material-and-engineering-competence.md), [Phases, Roles and Stakeholders](./phases-roles-and-stakeholders.md), [Systems Within Systems](./systems-within-systems.md), [Legal and Regulatory Context](./legal-context.md), [Guidance for Developers](./guidance-for-developers.md), [Guidance for Tech Leads](./guidance-for-tech-leads.md), [Guidance for System Design Architects](./guidance-for-system-design-architects.md), [Configuration and Settings](./configuration-and-settings.md), [Common Flows](./flows.md), [Responsible Boundaries and Deferred Design](./responsible-boundaries-and-deferred-design.md) and [API Lifecycle](./api-lifecycle.md). The building and builder comparisons remain in the shared [reference material](../shared/reference/readme.md), where they can be revisited without interrupting the main progression.
 
 ## Which question does each page answer?
 
@@ -31,7 +31,7 @@ The remaining orientation papers introduce particular foundations when they beco
 - [Vendor Material and Engineering Competence](./vendor-material-and-engineering-competence.md) explains why product fluency and out-of-the-box usage are not substitutes for system-design competence.
 - [The Structure Before the Feature](./the-structure-before-the-feature.md) explains what should be understood and placed before construction spreads assumptions through the service.
 - [What This Guidance Gives](./what-this-guidance-gives.md) shows how different contributors add knowledge to the shared design.
-- [Quality Perspectives](../reference/catalogues/qualities.md) explains how system qualities and data qualities enable the outcomes people and organisations experience in use.
+- [Quality Perspectives](../shared/reference/catalogues/qualities.md) explains how system qualities and data qualities enable the outcomes people and organisations experience in use.
 - [Systems Within Systems](./systems-within-systems.md) explains how digital systems sit inside wider physical, logical, enterprise, regulatory, legal and international systems of obligations and capabilities.
 - [Legal and Regulatory Context](./legal-context.md) explains how to identify the jurisdictions where a service is offered and delivered, including wider implications created by access, processing, hosting and connected providers.
 - [Guidance for Developers](./guidance-for-developers.md) explains how developers move from problem decomposition through domains, contracts, slices, flows and operation. [Human Development Guidance](../development/readme.md) explains the LDM, layers and code-purpose categories beneath that route.
@@ -47,7 +47,7 @@ Together, these pages move from recognising a delivery problem to understanding 
 ## Related guidance
 
 - [Human Guidance](../readme.md)
-- [Human Reference Material](../reference/readme.md)
+- [Human Reference Material](../shared/reference/readme.md)
 - [Human Examples](../examples/readme.md)
 
 [Up: Human Guidance](../readme.md)

@@ -2,7 +2,7 @@
 
 Read this document when designing or reviewing a system, data model, service, interface or user-facing capability. Use the standards that apply to the capability; do not load the entire catalogue for a narrow implementation change.
 
-For human-facing transport and browser security review prompts, read [Security in Transit Checklist](../../../humans/reference/checklists/security-in-transit.md).
+For human-facing transport and browser security review prompts, read [Security in Transit Checklist](../../../humans/shared/reference/checklists/security-in-transit.md).
 
 ## Quality foundation
 

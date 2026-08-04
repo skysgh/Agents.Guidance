@@ -10,7 +10,7 @@ A registry makes a governed set of facts visible. It does not make every fact tr
 
 ## What we mean by registries
 
-The [Registries catalogue](../../reference/catalogues/registries.md) distinguishes two related but different scopes:
+The [Registries catalogue](../../shared/reference/catalogues/registries.md) distinguishes two related but different scopes:
 
 - **Enterprise-referred registries** are maintained outside the project and provide shared options, constraints, authority or information. A project should preserve the source, identifier, version or effective date it relied on.
 - **Project-produced registries** record the project's own deliverables, dependencies, risks, decisions, releases, environments, people, schedules, data, integrations or evidence. They are not automatically enterprise policy.
@@ -38,7 +38,7 @@ Do not put secret values in a registry. Record the protected object, responsible
 
 ## Questions to consider
 
-Start with the [Registries catalogue](../../reference/catalogues/registries.md), then use the relevant [Engineering Checklists](../../reference/checklists/readme.md) to review the consequence. The [Deliverables Checklist](../../reference/checklists/deliverables.md) helps identify registries needed to make an outcome deliverable and maintainable. Security, dependency, regulatory, integration and operational checklists may add subject-specific questions.
+Start with the [Registries catalogue](../../shared/reference/catalogues/registries.md), then use the relevant [Engineering Checklists](../../shared/reference/checklists/readme.md) to review the consequence. The [Deliverables Checklist](../../shared/reference/checklists/deliverables.md) helps identify registries needed to make an outcome deliverable and maintainable. Security, dependency, regulatory, integration and operational checklists may add subject-specific questions.
 
 Ask:
 
@@ -51,13 +51,13 @@ Ask:
 - What evidence proves that the registry is complete enough for its purpose?
 - How are entries notified, reviewed, deprecated, migrated and retired?
 
-The registry route is the human story and decision path. The [Registries catalogue](../../reference/catalogues/registries.md) remains the canonical explanation of registry types and the minimum registry contract. Project teams must still create only the registries their own consequences require.
+The registry route is the human story and decision path. The [Registries catalogue](../../shared/reference/catalogues/registries.md) remains the canonical explanation of registry types and the minimum registry contract. Project teams must still create only the registries their own consequences require.
 
 ## Related guidance
 
 - [Delivery Guidance](../readme.md)
-- [Registries Catalogue](../../reference/catalogues/registries.md)
-- [Deliverables](../../reference/catalogues/deliverables.md)
-- [External Dependencies](../../reference/catalogues/external-dependencies.md)
-- [Engineering Checklists](../../reference/checklists/readme.md)
+- [Registries Catalogue](../../shared/reference/catalogues/registries.md)
+- [Deliverables](../../shared/reference/catalogues/deliverables.md)
+- [External Dependencies](../../shared/reference/catalogues/external-dependencies.md)
+- [Engineering Checklists](../../shared/reference/checklists/readme.md)
 - [Technology Registry Conventions](../../../agents/conventions/development/registries.md)

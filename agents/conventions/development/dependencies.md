@@ -2,7 +2,7 @@
 
 Apply these conventions when adding, updating or distributing third-party dependencies, tools or build actions.
 
-For the accessible explanation of dependencies as organisational commitments, read [The Current State](../../../humans/orientation/current-state.md), [Vendor Material and Engineering Competence](../../../humans/orientation/vendor-material-and-engineering-competence.md), [External Dependencies](../../../humans/reference/catalogues/external-dependencies.md), [Deliverable Systems](../../../humans/reference/catalogues/deliverable-systems.md), [Deliverables](../../../humans/reference/catalogues/deliverables.md) and [Security in Transit Checklist](../../../humans/reference/checklists/security-in-transit.md).
+For the accessible explanation of dependencies as organisational commitments, read [The Current State](../../../humans/orientation/current-state.md), [Vendor Material and Engineering Competence](../../../humans/orientation/vendor-material-and-engineering-competence.md), [External Dependencies](../../../humans/shared/reference/catalogues/external-dependencies.md), [Deliverable Systems](../../../humans/shared/reference/catalogues/deliverable-systems.md), [Deliverables](../../../humans/shared/reference/catalogues/deliverables.md) and [Security in Transit Checklist](../../../humans/shared/reference/checklists/security-in-transit.md).
 
 ## Purpose
 
