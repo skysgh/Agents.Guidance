@@ -1,3 +1,5 @@
+[Up](../readme.md)
+
 # A current student record becomes the identity
 
 A school service is asked to show which students belong to which schools. The team creates one `Student` record with `PersonId`, `SchoolId` and a current status. The record is treated as the identity of the person in the service, and the school relationship is updated whenever the person changes school.

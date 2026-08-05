@@ -1,4 +1,7 @@
+[Up](./readme.md)
+
 # External Dependencies
+
 
 An external dependency is a system, provider or technical capability that a service needs but does not contain within the responsibility currently being designed. The dependency may be operated by another team, supplied by a platform, provided by a vendor or represented by infrastructure outside the application process. External does not necessarily mean outside the organisation. It means that the current capability relies on a separate boundary and must deal with that boundary deliberately.
 
@@ -103,4 +106,4 @@ External dependencies sit outside the logical package that uses them, even when 
 
 The boundary between an external dependency and an internal component should remain visible. Internal components express the serviceÔÇÖs responsibility. External dependencies provide or receive capabilities across a contract. Confusing the two leads to vendor concepts leaking into the domain, private copies of shared behaviour and recovery plans that exist only in someoneÔÇÖs memory.
 
-For a wider map of the system landscape, read [Guidance for System Design Architects](../../../orientation/guidance-for-system-design-architects.md). For implementation placement, read [Logical Deployment Modules](./ldms.md), [Logical Layers](./logical-layers.md) and [Logical Building Blocks](./logical-building-blocks.md).
+For a wider map of the system landscape, read [Guidance for System Design Architects](../../../foundations/guidance-for-system-design-architects.md). For implementation placement, read [Logical Deployment Modules](./ldms.md), [Logical Layers](./logical-layers.md) and [Logical Building Blocks](./logical-building-blocks.md).

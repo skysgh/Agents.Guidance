@@ -1,4 +1,7 @@
+[Up](./readme.md)
+
 # The Building Metaphor
+
 
 This page explains the building picture used throughout the guidance. It gives readers a shared way to understand foundations, contracts, objects, services, capabilities, flows and tenant experiences before those ideas are described in implementation vocabulary.
 
@@ -24,7 +27,7 @@ The building also has neighbours. A shared drive, access route, wall, service co
 
 Software boundaries work in the same way. A service must protect what belongs inside its domain, but it must also understand the enterprise process, policy, regulation, legal duties, interfaces, dependencies and downstream systems outside the codebase. A shared database, identity provider, storage container, queue, reporting feed or archive is like a shared drive: it has more than one participant and needs an explicit agreement about access, ownership, maintenance, failure and change.
 
-The architect therefore designs from the boundary in both directions. Inward, they define the capabilities, contracts and responsibilities the service owns. Outward, they identify the systems, people, rules and shared resources that constrain or depend on it. See [Systems Within Systems](../../orientation/systems-within-systems.md) for the wider obligation model.
+The architect therefore designs from the boundary in both directions. Inward, they define the capabilities, contracts and responsibilities the service owns. Outward, they identify the systems, people, rules and shared resources that constrain or depend on it. See [Systems Within Systems](../../foundations/systems-within-systems.md) for the wider obligation model.
 
 ## The parts of the building
 
@@ -48,7 +51,7 @@ Software teams can make the same mistake when everyone focuses on objects. Objec
 
 This matters especially in a high-rise or shared service. A weak boundary is not confined to one room; it can be repeated across many floors, capabilities or consuming systems. Time spent making the formwork sound can therefore prevent much more expensive changes after the structure has spread.
 
-Whether that preparation is creating agility or merely delaying useful work is a sequence and scope decision. [Speed is not the same as agility](../../orientation/design-before-build-and-wgf.md) explains how to make that decision.
+Whether that preparation is creating agility or merely delaying useful work is a sequence and scope decision. [Speed is not the same as agility](../../foundations/design-before-build-and-wgf.md) explains how to make that decision.
 
 Formwork is not the finished building. A contract should not contain every private implementation detail, and it should not pretend that undiscovered business detail is already known. It should be clear enough to protect the boundary and open enough to allow the responsible implementation to change behind it.
 
@@ -102,13 +105,13 @@ The guidance is mainly concerned with shared services and public-facing or enter
 
 Different buildings also need different kinds of builders. [Different Types of Builders](./builders-metaphor.md) explains how platform, integration, maintenance, test and system developers contribute different strengths and risk perspectives to the same building.
 
-[Systems Within Systems](../../orientation/systems-within-systems.md) explains how a service participates in wider physical, logical, enterprise, regulatory and legal systems.
+[Systems Within Systems](../../foundations/systems-within-systems.md) explains how a service participates in wider physical, logical, enterprise, regulatory and legal systems.
 
 ## How to use the picture
 
 Use the building picture to show where a responsibility belongs and what it depends on. Do not use it as decoration or as a substitute for the concrete software decision.
 
-Questions about what should be designed first, what should be built now and what can be deferred belong to [The Structure Before the Feature](../../orientation/the-structure-before-the-feature.md). This page supplies the building-to-software relationships that help make those decisions visible; it does not replace the sequence and scope guidance.
+Questions about what should be designed first, what should be built now and what can be deferred belong to [The Structure Before the Feature](../../foundations/the-structure-before-the-feature.md). This page supplies the building-to-software relationships that help make those decisions visible; it does not replace the sequence and scope guidance.
 
 The practical question is not, "Are we building enterprise software?" It is, "Who relies on this service, for how long, and what happens if its assumptions are wrong?" Those answers should determine how much design, evidence and operational structure the service needs.
 

@@ -1,3 +1,5 @@
+[Up](readme.md)
+
 # Traceability and Evidence
 
 Traceability shows how the reason for work remains connected to what is designed, built, tested, operated and accepted. It is not a demand to link every sentence to every artefact. It is a way to prevent meaning, authority and evidence from disappearing between roles.
@@ -132,10 +134,10 @@ Before declaring a capability or requirement complete, ask:
 - [Drivers, Stakeholders, Objectives and Outcomes](./drivers-stakeholders-objectives-outcomes.md)
 - [BUST Requirements](./bust-requirements.md)
 - [Use Cases and Flows](./use-cases-and-flows.md)
-- [Stakeholder Roles](../../reference/catalogues/stakeholder-roles.md)
-- [Domains and Capabilities](../../reference/catalogues/domains-and-capabilities.md)
-- [Deliverable Systems](../../reference/catalogues/deliverable-systems.md)
-- [Deliverables](../../reference/catalogues/deliverables.md)
-- [Deliverables Checklist](../../reference/checklists/deliverables.md)
+- [Stakeholder Roles](../../../shared/reference/catalogues/stakeholder-roles.md)
+- [Domains and Capabilities](../../../shared/reference/catalogues/domains-and-capabilities.md)
+- [Deliverable Systems](../../../shared/reference/catalogues/deliverable-systems.md)
+- [Deliverables](../../../shared/reference/catalogues/deliverables.md)
+- [Deliverables Checklist](../../../shared/reference/checklists/deliverables.md)
 - [Guidance for Product Owners](../product-owners/readme.md)
-- [Guidance for System Design Architects](../../orientation/guidance-for-system-design-architects.md)
+- [Guidance for System Design Architects](../../../foundations/guidance-for-system-design-architects.md)

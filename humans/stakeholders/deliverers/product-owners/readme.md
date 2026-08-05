@@ -1,4 +1,7 @@
-# Product Owner Guidance
+[Up](../readme.md)
+
+# Product Owners
+
 
 A Product Owner is a powerful steward of value and clarity. They bring stakeholder and organisational needs into a shared conversation, help the right people make the right decisions, and arrange valuable, testable outcomes in a responsible order. Their influence can turn a persuasive feature request into a better understanding of the people, capability, evidence and change the organisation actually needs.
 
@@ -10,9 +13,9 @@ The Product Owner may work alongside a Product Manager. The Product Manager comm
 
 ## A useful way into the route
 
-[Liberation Through Clarity](../../shared/liberation-through-clarity.md) explains why clear foundations can make the Product Owner's decisions more valuable and less lonely. [Stakeholder Roles](../../reference/catalogues/stakeholder-roles.md) separates product priority from business authority, domain knowledge and technical responsibility. [BUST Requirements](../business-analysts/bust-requirements.md) shows the requirement material a BA helps develop, while [Guidance for System Design Architects](../../orientation/guidance-for-system-design-architects.md) and [Guidance for Tech Leads](../../orientation/guidance-for-tech-leads.md) follow the path from meaning into something buildable.
+[Liberation Through Clarity](../../../shared/liberation-through-clarity.md) explains why clear foundations can make the Product Owner's decisions more valuable and less lonely. [Stakeholder Roles](../../../shared/reference/catalogues/stakeholder-roles.md) separates product priority from business authority, domain knowledge and technical responsibility. [BUST Requirements](../business-analysts/bust-requirements.md) shows the requirement material a BA helps develop, while [Guidance for System Design Architects](../../../foundations/guidance-for-system-design-architects.md) and [Guidance for Tech Leads](../../../foundations/guidance-for-tech-leads.md) follow the path from meaning into something buildable.
 
-Read [Shared Requirements](../../shared/requirements.md) for the common requirement chain and the handoffs shared with Stakeholder Analysts, architects, technical analysts, developers, testers and operators. Use [Registries](../../reference/catalogues/registries.md) to keep enterprise-referred constraints separate from project-produced backlogs, deliverables, risks, decisions, people, schedules and release records.
+Read [Shared Requirements](../../../shared/requirements.md) for the common requirement chain and the handoffs shared with Stakeholder Analysts, architects, technical analysts, developers, testers and operators. Use [Registries](../../../shared/reference/catalogues/registries.md) to keep enterprise-referred constraints separate from project-produced backlogs, deliverables, risks, decisions, people, schedules and release records.
 
 The Product Owner does not automatically act as Scrum Master or Kanban flow facilitator. If that delivery responsibility is unassigned, it should be named explicitly or recorded as a delivery risk rather than silently absorbed by the Product Owner.
 
@@ -26,11 +29,11 @@ Read [Acceptance and Evidence](./acceptance-and-evidence.md) when deciding wheth
 
 ## Prioritise the strategy before the next interface
 
-The Product Owner manages the tickets, but the tickets are not the delivery strategy. Before focusing on the next business LDM or the next interface, they should prioritise the System LDM foundations that the architect has identified as necessary for the service to be built, tested, operated and changed. See [Logical Deployment Modules](../../development/ldms.md#the-system-ldm-and-business-ldms) and the [System LDM dependency-led service sequence](../../development/services.md#dependency-led-service-sequence).
+The Product Owner manages the tickets, but the tickets are not the delivery strategy. Before focusing on the next business LDM or the next interface, they should prioritise the System LDM foundations that the architect has identified as necessary for the service to be built, tested, operated and changed. See [Logical Deployment Modules](../../../development/ldms.md#the-system-ldm-and-business-ldms) and the [System LDM dependency-led service sequence](../../../development/services.md#dependency-led-service-sequence).
 
 The architect owns the logical architecture and explains how the problem is blocked into a sequence: shared system foundations first, then the business LDM responsibilities that depend on them, then the interfaces and furniture that make those responsibilities visible. The Product Owner does not elicit or take over architecture. They listen to the architect's blocking, understand which ticket establishes which foundation, and order the tickets so that the intended strategy can actually be delivered.
 
-The following handoff is [Guidance for System Design Architects](../../orientation/guidance-for-system-design-architects.md), where the ordered outcome, foundation tickets, specialist evidence and unresolved assumptions become the inputs to the whole-system map. The architect owns the logical boundary and stopping point described in [Product Owner and Architect: protect the delivery sequence](../../shared/requirements.md#product-owner-and-architect-protect-the-delivery-sequence).
+The following handoff is [Guidance for System Design Architects](../../../foundations/guidance-for-system-design-architects.md), where the ordered outcome, foundation tickets, specialist evidence and unresolved assumptions become the inputs to the whole-system map. The architect owns the logical boundary and stopping point described in [Product Owner and Architect: protect the delivery sequence](../../../shared/requirements.md#product-owner-and-architect-protect-the-delivery-sequence).
 
 This is the Product Owner's protection against tactical impulse. Business pressure may demand a visible feature before its structure is ready. Developers may prefer to skip the rigour they are not used to. The Product Owner's job is not to surrender to either pressure. They keep the strategy visible, ask what foundation a ticket depends on, and make the cost of breaking the sequence explicit. A screen must not become the architecture merely because it was the easiest thing to demonstrate.
 
@@ -123,10 +126,10 @@ Acceptance should account for the applicable functional, quality, transitional, 
 - [Stakeholder Conflict and Authority](./stakeholder-conflict-and-authority.md)
 - [Business Analyst Guidance](../business-analysts/readme.md)
 - [BUST Requirements](../business-analysts/bust-requirements.md)
-- [Liberation Through Clarity](../../shared/liberation-through-clarity.md)
-- [Stakeholder Roles](../../reference/catalogues/stakeholder-roles.md)
-- [Guidance for System Design Architects](../../orientation/guidance-for-system-design-architects.md)
-- [Guidance for Tech Leads](../../orientation/guidance-for-tech-leads.md)
-- [Deliverable Systems](../../reference/catalogues/deliverable-systems.md)
-- [Deliverables](../../reference/catalogues/deliverables.md)
-- [Deliverables Checklist](../../reference/checklists/deliverables.md)
+- [Liberation Through Clarity](../../../shared/liberation-through-clarity.md)
+- [Stakeholder Roles](../../../shared/reference/catalogues/stakeholder-roles.md)
+- [Guidance for System Design Architects](../../../foundations/guidance-for-system-design-architects.md)
+- [Guidance for Tech Leads](../../../foundations/guidance-for-tech-leads.md)
+- [Deliverable Systems](../../../shared/reference/catalogues/deliverable-systems.md)
+- [Deliverables](../../../shared/reference/catalogues/deliverables.md)
+- [Deliverables Checklist](../../../shared/reference/checklists/deliverables.md)

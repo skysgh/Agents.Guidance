@@ -1,4 +1,7 @@
+[Up](../readme.md)
+
 # LDM Directory Structure
+
 
 A directory tree can make an LDM easier to navigate, but it must not be mistaken for the LDM itself. The LDM is a logical package of responsibilities, contracts, dependencies, data and lifecycle. Projects and folders are physical representations of that package.
 
@@ -342,11 +345,11 @@ The durable questions are: which responsibility owns this type, which Domain giv
 
 ## Related guidance
 
-- [LDM Layers and Contents](../../delivery/systems/service/layers.md)
-- [Logical Deployment Modules](../../delivery/systems/service/ldms.md)
+- [LDM Layers and Contents](../../deliverables/systems/service/layers.md)
+- [Logical Deployment Modules](../../deliverables/systems/service/ldms.md)
 - [Logical Deployment Modules Catalogue](../../shared/reference/catalogues/ldms.md)
 - [Logical Building Blocks](../../shared/reference/catalogues/logical-building-blocks.md)
-- [Guidance for Developers](../../orientation/guidance-for-developers.md)
+- [Guidance for Developers](../../foundations/guidance-for-developers.md)
 - [Develop LDMs agent convention](../../../agents/conventions/development/ldms.md)
 - [C# code organization agent convention](../../../agents/conventions/development/code-csharp.md)
 - [Testing Conventions](../../../agents/conventions/development/testing.md)

@@ -1,4 +1,7 @@
-# Business Analyst Guidance
+[Up](../readme.md)
+
+# Business Analysts
+
 
 A Stakeholder Analyst (Business Analyst) helps the team understand the world the service must support before implementation turns one person's explanation into permanent system behaviour. The repository uses Stakeholder Analyst as a working emphasis, while retaining Business Analyst for the IIBA/BABOK discipline and external terminology.
 
@@ -6,11 +9,11 @@ The analyst does not merely transcribe requests into tickets. The analyst identi
 
 ## A useful way into the route
 
-[Liberation Through Clarity](../../shared/liberation-through-clarity.md) explains why making meaning explicit helps the next person work with less uncertainty. The [Stakeholder Roles](../../reference/catalogues/stakeholder-roles.md), [Users to Consider](../../reference/catalogues/users.md) and [System Roles](../../reference/catalogues/system-roles.md) catalogues help keep representation, authority, knowledge, user context and access responsibilities visible.
+[Liberation Through Clarity](../../../shared/liberation-through-clarity.md) explains why making meaning explicit helps the next person work with less uncertainty. The [Stakeholder Roles](../../../shared/reference/catalogues/stakeholder-roles.md), [Users to Consider](../../../shared/reference/catalogues/users.md) and [System Roles](../../../shared/reference/catalogues/system-roles.md) catalogues help keep representation, authority, knowledge, user context and access responsibilities visible.
 
-The route then opens in several directions. [Elicitation](./elicitation.md) explores how tacit knowledge, exceptions, consequences and unresolved questions become visible. [Shared Requirements](../../shared/requirements.md) connects that material to Product Owners, architects, technical analysts, developers, testers and operators. The pages on [Drivers, Stakeholders, Objectives and Outcomes](./drivers-stakeholders-objectives-outcomes.md), [Functional and Quality Requirements](./functional-and-quality-requirements.md), [Transitional and Operational Requirements](./transitional-and-operational-requirements.md), [BUST Requirements](./bust-requirements.md), [Use Cases and Flows](./use-cases-and-flows.md) and [Traceability and Evidence](./traceability-and-evidence.md) each deepen a different part of that shared account.
+The route then opens in several directions. [Elicitation](./elicitation.md) explores how tacit knowledge, exceptions, consequences and unresolved questions become visible. [Shared Requirements](../../../shared/requirements.md) connects that material to Product Owners, architects, technical analysts, developers, testers and operators. The pages on [Drivers, Stakeholders, Objectives and Outcomes](./drivers-stakeholders-objectives-outcomes.md), [Functional and Quality Requirements](./functional-and-quality-requirements.md), [Transitional and Operational Requirements](./transitional-and-operational-requirements.md), [BUST Requirements](./bust-requirements.md), [Use Cases and Flows](./use-cases-and-flows.md) and [Traceability and Evidence](./traceability-and-evidence.md) each deepen a different part of that shared account.
 
-[Guidance for Product Owners](../product-owners/readme.md) shows the adjacent prioritisation and outcome decisions, while [Guidance for System Design Architects](../../orientation/guidance-for-system-design-architects.md) follows elicited meaning into system structure. When a requirement risks turning a membership, appointment, role, assignment or workflow into one lasting identity, [Entity Lifecycle Patterns](../../reference/catalogues/entity-lifecycle-patterns.md) offers a more focused explanation.
+[Guidance for Product Owners](../product-owners/readme.md) shows the adjacent prioritisation and outcome decisions, while [Guidance for System Design Architects](../../../foundations/guidance-for-system-design-architects.md) follows elicited meaning into system structure. When a requirement risks turning a membership, appointment, role, assignment or workflow into one lasting identity, [Entity Lifecycle Patterns](../../../shared/reference/catalogues/entity-lifecycle-patterns.md) offers a more focused explanation.
 
 ## The BA's contribution
 
@@ -29,7 +32,7 @@ The BA helps the team move from a request to a designable account of the respons
 
 These are connected views, not a stack of documents to complete mechanically. The BA helps the team trace them into use cases, flows, capabilities, Domains, contracts, acceptance predicates, deliverable systems, deliverables and evidence.
 
-The BA should ask which concepts are [Enduring](../../reference/glossary.md#enduring) and which are [Transient](../../reference/glossary.md#transient) bounded arrangements. When stakeholders say "a student at a school", capture whether they mean a Person, an enduring student classification, a School or Group, a Location, or a time-bounded `StudentAt` membership. This is a requirements question because identity, history, authority, reporting, transition and retention depend on the answer.
+The BA should ask which concepts are [Enduring](../../../shared/reference/glossary.md#enduring) and which are [Transient](../../../shared/reference/glossary.md#transient) bounded arrangements. When stakeholders say "a student at a school", capture whether they mean a Person, an enduring student classification, a School or Group, a Location, or a time-bounded `StudentAt` membership. This is a requirements question because identity, history, authority, reporting, transition and retention depend on the answer.
 
 ## What the BA must not silently absorb
 
@@ -62,8 +65,8 @@ A useful BA output lets another role answer:
 - [Traceability and Evidence](./traceability-and-evidence.md)
 - [BUST Requirements](./bust-requirements.md)
 - [Guidance for Product Owners](../product-owners/readme.md)
-- [Stakeholder Roles](../../reference/catalogues/stakeholder-roles.md)
-- [Liberation Through Clarity](../../shared/liberation-through-clarity.md)
-- [Deliverable Systems](../../reference/catalogues/deliverable-systems.md)
-- [Deliverables](../../reference/catalogues/deliverables.md)
-- [Engineering Checklists](../../reference/checklists/readme.md)
+- [Stakeholder Roles](../../../shared/reference/catalogues/stakeholder-roles.md)
+- [Liberation Through Clarity](../../../shared/liberation-through-clarity.md)
+- [Deliverable Systems](../../../shared/reference/catalogues/deliverable-systems.md)
+- [Deliverables](../../../shared/reference/catalogues/deliverables.md)
+- [Engineering Checklists](../../../shared/reference/checklists/readme.md)

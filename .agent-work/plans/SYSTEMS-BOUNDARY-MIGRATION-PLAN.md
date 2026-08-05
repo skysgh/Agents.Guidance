@@ -84,7 +84,7 @@ Shared guidance must describe a relationship that crosses system boundaries or i
 | Current material | Shared candidate | Guardrail |
 | --- | --- | --- |
 | `development/contracts.md` | Shared contract guidance | Explain client-service, service-provider and internal contracts without making every contract client material. |
-| `orientation/flows.md` | Shared flow language | Keep the general flow shape shared; add client and service interpretations rather than duplicating one flow definition. |
+| `foundations/flows.md` | Shared flow language | Keep the general flow shape shared; add client and service interpretations rather than duplicating one flow definition. |
 | `development/data-deletion-guidance.md` and `detailed-data-deletion-considerations.md` | Shared lifecycle and data-protection guidance | Keep authority with privacy, records, business and system owners; do not make deletion a client-only or service-only concern. |
 | `development/availability-capacity-and-resilience.md` | Shared quality outcome with service evidence | Separate common quality meaning from service operational targets and client experience evidence when needed. |
 | `development/logical-and-physical-models.md` | Shared model guidance | Preserve conceptual, logical and physical distinctions across client, service and infrastructure models. |

@@ -1,3 +1,5 @@
+[Up](readme.md)
+
 # Drivers, Stakeholders, Objectives and Outcomes
 
 A requirement should have a reason that can be understood and challenged. This page gives the BA a route from the pressure or obligation that starts the work to the outcome the service must help make true.
@@ -53,7 +55,7 @@ Identify:
 - policy owners, regulators, auditors and sponsors; and
 - groups whose accessibility, safety, privacy or trust may be affected.
 
-For each important perspective, record what the representative knows, what authority they have, who or what they represent, what they need, what they contribute and what happens if their view is absent. The [Stakeholder Roles](../../reference/catalogues/stakeholder-roles.md) catalogue provides the fuller structure.
+For each important perspective, record what the representative knows, what authority they have, who or what they represent, what they need, what they contribute and what happens if their view is absent. The [Stakeholder Roles](../../../shared/reference/catalogues/stakeholder-roles.md) catalogue provides the fuller structure.
 
 Do not use the Product Owner or a single SME as a substitute for every stakeholder. Product priority, business authority, domain knowledge, lived experience, operational responsibility and technical responsibility are different contributions.
 
@@ -158,9 +160,9 @@ Before the analysis moves into product ordering and architecture, ask:
 - [Business Analyst Guidance](./readme.md)
 - [Elicitation](./elicitation.md)
 - [BUST Requirements](./bust-requirements.md)
-- [Stakeholder Roles](../../reference/catalogues/stakeholder-roles.md)
-- [Domains and Capabilities](../../reference/catalogues/domains-and-capabilities.md)
-- [Conceptual, Logical and Physical Models](../../reference/catalogues/conceptual-logical-physical-models.md)
+- [Stakeholder Roles](../../../shared/reference/catalogues/stakeholder-roles.md)
+- [Domains and Capabilities](../../../shared/reference/catalogues/domains-and-capabilities.md)
+- [Conceptual, Logical and Physical Models](../../../shared/reference/catalogues/conceptual-logical-physical-models.md)
 - [Guidance for Product Owners](../product-owners/readme.md)
-- [Deliverable Systems](../../reference/catalogues/deliverable-systems.md)
-- [Deliverables](../../reference/catalogues/deliverables.md)
+- [Deliverable Systems](../../../shared/reference/catalogues/deliverable-systems.md)
+- [Deliverables](../../../shared/reference/catalogues/deliverables.md)

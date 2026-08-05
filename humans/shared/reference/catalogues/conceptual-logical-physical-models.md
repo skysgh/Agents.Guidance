@@ -1,4 +1,7 @@
+[Up](./readme.md)
+
 # Conceptual, Logical and Physical Models
+
 
 Imagine developing a building for a restaurant business. The business may be the only customer today, but it will not remain unchanged. It may move from fine dining to fast service, add catering, change its menu, reorganise its kitchen or introduce a new way for customers to order. The building should support those changes without requiring the whole structure to be rebuilt.
 
@@ -124,8 +127,8 @@ The practical test is whether the team can explain:
 - which representation owns each rule, policy and lifecycle decision; and
 - what evidence would show that a change preserves both recognition and enduring meaning.
 
-The [Logical Layers](./logical-layers.md) catalogue describes implementation responsibilities. [Logical and Physical Models in ORM](../../../development/logical-and-physical-models.md) explains the special case where persistence classes and records resemble logical objects. [Ontological Decomposition](../../../orientation/ontological-decomposition.md) explains how to choose the useful level of decomposition and why every LDM layer remains physicalized. The [Stakeholder Roles](./stakeholder-roles.md) catalogue explains who supplies the evidence from which the conceptual model is elicited.
+The [Logical Layers](./logical-layers.md) catalogue describes implementation responsibilities. [Logical and Physical Models in ORM](../../../development/logical-and-physical-models.md) explains the special case where persistence classes and records resemble logical objects. [Ontological Decomposition](../../../foundations/ontological-decomposition.md) explains how to choose the useful level of decomposition and why every LDM layer remains physicalized. The [Stakeholder Roles](./stakeholder-roles.md) catalogue explains who supplies the evidence from which the conceptual model is elicited.
 
 ## Related guidance
 
-The [Glossary](../glossary.md) provides short definitions of Conceptual, Logical and Physical. [Guidance for System Design Architects](../../../orientation/guidance-for-system-design-architects.md) uses the distinction when moving from stakeholders and system responsibilities to components and delivery boundaries. [Guidance for Developers](../../../orientation/guidance-for-developers.md) explains how physical code should preserve logical responsibility and map consumer representations. [Domains and Capabilities](./domains-and-capabilities.md) explains how coherent responsibilities are named before implementation shapes are chosen.
+The [Glossary](../glossary.md) provides short definitions of Conceptual, Logical and Physical. [Guidance for System Design Architects](../../../foundations/guidance-for-system-design-architects.md) uses the distinction when moving from stakeholders and system responsibilities to components and delivery boundaries. [Guidance for Developers](../../../foundations/guidance-for-developers.md) explains how physical code should preserve logical responsibility and map consumer representations. [Domains and Capabilities](./domains-and-capabilities.md) explains how coherent responsibilities are named before implementation shapes are chosen.

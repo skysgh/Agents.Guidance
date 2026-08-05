@@ -1,3 +1,5 @@
+[Up: Stakeholders](../readme.md)
+
 # Service Influencers
 
 Influencers are people, groups, organisations and obligations that shape a service without necessarily using or delivering it. They may impose duties, provide dependencies, represent interests, control resources or determine whether the service can be trusted and sustained.
@@ -17,6 +19,4 @@ The [Stakeholder Roles Catalogue](../../shared/reference/catalogues/stakeholder-
 - [Service Users](../users/readme.md)
 - [Affected People](../affected/readme.md)
 - [Deliverers](../deliverers/readme.md)
-- [Organisational Site Systems](../../delivery/systems/sites/readme.md)
-
-[Up: Stakeholder Guidance](../readme.md)
+- [Organisational Site Systems](../../deliverables/systems/sites/readme.md)

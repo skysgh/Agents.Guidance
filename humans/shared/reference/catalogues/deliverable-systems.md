@@ -1,10 +1,13 @@
+[Up](./readme.md)
+
 # Deliverable Systems
+
 
 A deliverable system is a system that must be produced, operated or used to make the intended service outcome possible. It has its own execution environment, boundary, dependencies, identity, lifecycle and failure behaviour.
 
 The team may deliver several systems as one product experience. That does not make them one system. Shared ownership, a shared repository or a shared release train does not remove the boundaries between their execution environments or responsibilities.
 
-The [Human System Guidance](../../../delivery/systems/readme.md) provides the corresponding human entry routes. It does not replace this catalogue or imply that every system perspective has equal implementation depth.
+The [System Perspectives](../../../deliverables/systems/readme.md) provides the corresponding human entry routes. It does not replace this catalogue or imply that every system perspective has equal implementation depth.
 
 A codebase can itself be a system when it has a distinct purpose, owner, lifecycle, boundary, dependencies and evidence. The codebase that defines an environment is therefore not merely a file beside the pipeline. It is a named delivery constituent that the pipeline executes or applies. The resulting environment is a separate execution context and is not the same thing as its definition code.
 
@@ -125,4 +128,4 @@ For each deliverable system, record:
 
 For the cross-system test context system, also record the neutral model, contributing projects, translators, generated representations, scenario identifiers, data classification, reset process and the rule that prevents production data from entering non-production environments.
 
-These systems are one part of the wider delivery picture. [Delivery Guidance](../../../delivery/readme.md) explains how they join with people, responsibilities, material and evidence to make an outcome usable and supportable. From here, [Deliverables](./deliverables.md) covers the wider things produced around the systems, while [External Dependencies](./external-dependencies.md) covers boundaries the systems rely on rather than contain.
+These systems are one part of the wider delivery picture. [Deliverables](../../../deliverables/readme.md) explains how they join with people, responsibilities, material and evidence to make an outcome usable and supportable. From here, [Deliverables](./deliverables.md) covers the wider things produced around the systems, while [External Dependencies](./external-dependencies.md) covers boundaries the systems rely on rather than contain.

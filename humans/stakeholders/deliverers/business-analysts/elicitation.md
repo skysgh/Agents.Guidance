@@ -1,3 +1,5 @@
+[Up](readme.md)
+
 # Elicitation
 
 Elicitation is the disciplined work of drawing out the knowledge needed to understand a service and its consequences. It is not asking someone to approve a screen, collecting a list of feature preferences or turning the loudest person's explanation into a requirement.
@@ -37,7 +39,7 @@ Include the people and connected systems that:
 - own a connected system, data source or external dependency; and
 - must provide evidence to an auditor, regulator, customer or other authority.
 
-Use the [Users to Consider](../../reference/catalogues/users.md) catalogue to check direct users, represented subjects, affected people, beneficiaries, applicants, providers, intermediaries, support users, operators, maintainers, assurance users and connected systems. Use the [System Roles](../../reference/catalogues/system-roles.md) catalogue to distinguish those real-world responsibilities from the access contexts the service must enforce. Use the [Stakeholder Roles](../../reference/catalogues/stakeholder-roles.md) catalogue to record each representative's purpose, knowledge, authority, inputs, outputs, consequences, boundaries and representation. One person may provide several perspectives, but do not assume one confident SME speaks for every affected group.
+Use the [Users to Consider](../../../shared/reference/catalogues/users.md) catalogue to check direct users, represented subjects, affected people, beneficiaries, applicants, providers, intermediaries, support users, operators, maintainers, assurance users and connected systems. Use the [System Roles](../../../shared/reference/catalogues/system-roles.md) catalogue to distinguish those real-world responsibilities from the access contexts the service must enforce. Use the [Stakeholder Roles](../../../shared/reference/catalogues/stakeholder-roles.md) catalogue to record each representative's purpose, knowledge, authority, inputs, outputs, consequences, boundaries and representation. One person may provide several perspectives, but do not assume one confident SME speaks for every affected group.
 
 The architect can help find gaps and integrate the resulting map. The architect is not a substitute for specialist SMEs in Operations, Maintenance, Monitoring, Change Control, Security, Privacy, Records, assurance, Support, Supplier or Delivery responsibilities. Ask those roles to provide or validate their own knowledge and evidence.
 
@@ -139,11 +141,11 @@ Before handing elicited material into product ordering or architecture, ask:
 
 - [Business Analyst Guidance](./readme.md)
 - [BUST Requirements](./bust-requirements.md)
-- [Stakeholder Roles](../../reference/catalogues/stakeholder-roles.md)
-- [Users to Consider](../../reference/catalogues/users.md)
-- [System Roles](../../reference/catalogues/system-roles.md)
+- [Stakeholder Roles](../../../shared/reference/catalogues/stakeholder-roles.md)
+- [Users to Consider](../../../shared/reference/catalogues/users.md)
+- [System Roles](../../../shared/reference/catalogues/system-roles.md)
 - [Guidance for Product Owners](../product-owners/readme.md)
-- [Conceptual, Logical and Physical Models](../../reference/catalogues/conceptual-logical-physical-models.md)
-- [Domains and Capabilities](../../reference/catalogues/domains-and-capabilities.md)
-- [Deliverable Systems](../../reference/catalogues/deliverable-systems.md)
-- [Deliverables](../../reference/catalogues/deliverables.md)
+- [Conceptual, Logical and Physical Models](../../../shared/reference/catalogues/conceptual-logical-physical-models.md)
+- [Domains and Capabilities](../../../shared/reference/catalogues/domains-and-capabilities.md)
+- [Deliverable Systems](../../../shared/reference/catalogues/deliverable-systems.md)
+- [Deliverables](../../../shared/reference/catalogues/deliverables.md)

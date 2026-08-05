@@ -1,3 +1,5 @@
+[Up](../readme.md)
+
 # After: EF Schema Development by Contracts and Bundles
 
 The team identifies recurring schema capabilities and gives them structural contracts. Examples might include:

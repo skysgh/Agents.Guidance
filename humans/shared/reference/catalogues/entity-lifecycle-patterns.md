@@ -1,4 +1,7 @@
+[Up](./readme.md)
+
 # Entity Lifecycle Patterns
+
 
 Enduring versus Transient is a foundational classification for logical data modelling. It helps the team decide what should retain identity and meaning across time, what represents a bounded arrangement, and how conceptual language should be translated into a logical model without losing either human recognition or durable responsibility.
 

@@ -1,3 +1,5 @@
+[Up](../readme.md)
+
 # Before: Magic Strings for Routes and Permissions
 
 A controller, authorisation attribute, policy registration and client call each contain strings such as:

@@ -1,4 +1,7 @@
+[Up](../readme.md)
+
 # Example Gallery
+
 
 These examples are for recognition. They show ordinary situations in which a local decision appears reasonable but creates a wider structural problem. Each case has two files:
 
@@ -50,4 +53,4 @@ Choose a case that feels familiar, then follow its improvement to see how the de
 - [Request submission capability through its full lifecycle](./17-request-submission-full-lifecycle/before.md) -> [improvement](./17-request-submission-full-lifecycle/after.md)
 - [SPA consumer system treated as presentation furniture](./18-spa-consumer-system/before.md) -> [improvement](./18-spa-consumer-system/after.md)
 
-The [YAGNI versus WGF](../orientation/design-before-build-and-wgf.md) paper explains the planning instinct behind the examples.
+The [YAGNI versus WGF](../foundations/design-before-build-and-wgf.md) paper explains the planning instinct behind the examples.

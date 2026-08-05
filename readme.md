@@ -8,9 +8,9 @@ A service is more than its code. It also includes users, data, dependencies, con
 
 There is no required reading order. A useful next question might be:
 
-- [Where can I find a short, story-led way into the guidance?](./humans/orientation/ways-into-guidance.md)
+- [Where can I find a short, story-led way into the guidance?](./humans/foundations/ways-into-guidance.md)
 - [How does the shared guidance fit together?](./humans/readme.md)
-- [How does delivery become a usable and supportable service?](./humans/delivery/readme.md)
+- [What belongs in a usable and supportable delivered outcome?](./humans/deliverables/readme.md)
 - [What problem or role feels closest to my work?](./humans/examples/readme.md)
 
 The [repository assessment](./.agent-work/assessments/repository-assessment-2026-08-02.md) records the current strengths and the serious gaps that still need dedicated guidance. It is an honest boundary around this repository, not a claim that the material alone makes a regulated system ready for production.
@@ -36,7 +36,7 @@ The guidance can be entered through the responsibility that is most useful at th
 - **Assurance**: connect security, privacy, legal, accessibility, resilience, recovery and audit obligations to accountable decisions and evidence.
 - **Operating**: treat support, monitoring, incidents, maintenance, migration and retirement as part of the service, not as work that begins after release.
 
-The [human orientation](./humans/orientation/readme.md), [delivery route](./humans/delivery/readme.md), [system routes](./humans/delivery/systems/readme.md), [stakeholder routes](./humans/stakeholders/readme.md), [examples](./humans/examples/readme.md) and [reference material](./humans/shared/reference/readme.md) provide the detailed paths.
+The [foundations](./humans/foundations/readme.md), [deliverables](./humans/deliverables/readme.md), [system perspectives](./humans/deliverables/systems/readme.md), [stakeholder responsibilities](./humans/stakeholders/readme.md), [examples](./humans/examples/readme.md) and [reference material](./humans/shared/reference/readme.md) provide the detailed paths.
 
 ## Structures for enduring value
 
@@ -46,7 +46,7 @@ The guidance keeps several distinctions visible because collapsing them creates 
 - a system boundary is not automatically a repository, project, deployment or team boundary;
 - conceptual, logical and physical models answer different questions;
 - delivery, service, integration, client and testing systems have different responsibilities;
-- catalogues describe shared concepts, checklists prompt evidence and delivery routes explain how the ideas meet real work;
+- catalogues describe shared concepts, checklists prompt evidence and subject material explains how the ideas meet real work;
 - a platform-composed or no-code solution is an implementation approach, not a separate kind of system.
 
 Repository assessments, audits, plans and handovers are kept under [.agent-work](./.agent-work/), separate from the published human and agent guidance.

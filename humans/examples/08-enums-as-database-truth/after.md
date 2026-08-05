@@ -1,3 +1,5 @@
+[Up](../readme.md)
+
 # After: Enums as Developer Shorthand for Reference Data
 
 The team separates the compiled shorthand from the persisted reference-data record.

@@ -1,3 +1,5 @@
+[Up: Stakeholders](../readme.md)
+
 # Service Users
 
 Users are people or groups who directly use a service, site, client application or operational interface to complete a purpose. Understanding users means understanding what they are trying to do, what information they need, what conditions they work under and what a successful outcome means to them.
@@ -18,5 +20,3 @@ The [Users to Consider Catalogue](../../shared/reference/catalogues/users.md) pr
 - [Influencers](../influencers/readme.md)
 - [Deliverers](../deliverers/readme.md)
 - [Sites](../../shared/reference/catalogues/sites.md)
-
-[Up: Stakeholder Guidance](../readme.md)

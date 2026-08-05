@@ -1,3 +1,5 @@
+[Up](../readme.md)
+
 # Enduring identity is separated from bounded membership
 
 The BA records that "student" has several meanings. It may be a person's enduring classification in one context, a current membership in another and a reporting label for anyone who held that membership during a period. The architect and Technical Analyst make the lifecycle and authority explicit before choosing storage.

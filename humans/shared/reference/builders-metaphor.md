@@ -1,4 +1,7 @@
+[Up](./readme.md)
+
 # Different Types of Builders
+
 
 Different buildings need different builders. A person who is excellent at pouring the structure of a new high-rise is not automatically the right person to maintain every occupied room. A person who can keep an occupied building safe and comfortable is not automatically the right person to design its foundations. Both kinds of skill matter, and a serious building needs more than one kind of builder.
 
@@ -71,6 +74,6 @@ These roles are all builders. Their strengths become most valuable when they are
 ## Related guidance
 
 - [The Building Metaphor](./building-metaphor.md)
-- [The Structure Before the Feature](../../orientation/the-structure-before-the-feature.md)
-- [What This Guidance Gives Each Stakeholder](../../orientation/what-this-guidance-gives.md)
+- [The Structure Before the Feature](../../foundations/the-structure-before-the-feature.md)
+- [What This Guidance Gives Each Stakeholder](../../foundations/what-this-guidance-gives.md)
 - [Developer Architecture Route](../../../agents/conventions/development/guidance-for-developers.md)

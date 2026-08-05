@@ -2,7 +2,7 @@
 
 Read this document when designing or changing a .NET server-side read contract, repository query, projection, filtering, paging, sorting, expansion or OData-style API surface.
 
-For the accessible explanation and examples, read [First Look at the Client Experience](../../../humans/delivery/systems/client/first-look.md) and [IQueryable guidance in the current-state examples](../../../humans/orientation/current-state.md).
+For the accessible explanation and examples, read [First Look at the Client Experience](../../../humans/deliverables/systems/client/first-look.md) and [IQueryable guidance in the current-state examples](../../../humans/foundations/current-state.md).
 
 ## Purpose
 

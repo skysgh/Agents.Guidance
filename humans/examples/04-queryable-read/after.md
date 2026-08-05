@@ -1,3 +1,5 @@
+[Up](../readme.md)
+
 # After: Queryable Read Rejected or Exposed Directly
 
 The team defines an intentional read contract and projection. The repository owns visibility and persistence policy. The application service composes the use-case query and maps to a DTO. The transport boundary applies allowed query operations, cost limits and protocol rules.

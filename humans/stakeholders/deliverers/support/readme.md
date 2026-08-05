@@ -1,10 +1,12 @@
-# Support Guidance
+[Up](../readme.md)
+
+# Support
 
 Support is the first point of contact for end users. Support helps people understand and use the service, investigates reported problems and moves issues to the responsible boundary. Service Providers and Operators supply Support with service knowledge, status and operational findings; Support does not become the technical owner merely because it receives the report. Support is a distinct responsibility from Operations, Testing and Maintenance. This route uses the existing support-manual, requirements and system-role guidance as its initial canonical material; substantive support guidance remains Phase 6 work.
 
 ## A useful way into the route
 
-[System Roles](../../reference/catalogues/system-roles.md) explains the purpose-specific access, privacy, audit and escalation boundaries of a Support role. [Transitional and Operational Requirements](../business-analysts/transitional-and-operational-requirements.md) brings support ownership, symptoms, escalation, manuals and evidence together. The [Deliverables](../../reference/catalogues/deliverables.md) catalogue distinguishes Support Manuals or Information from Operational and Maintenance material, while [Shared Requirements](../../shared/requirements.md) connects a reported problem to the requirement, capability, contract or operational condition involved. [Acceptance and Evidence](../product-owners/acceptance-and-evidence.md) helps when a report raises an acceptance, outcome or residual-risk question.
+[System Roles](../../../shared/reference/catalogues/system-roles.md) explains the purpose-specific access, privacy, audit and escalation boundaries of a Support role. [Transitional and Operational Requirements](../business-analysts/transitional-and-operational-requirements.md) brings support ownership, symptoms, escalation, manuals and evidence together. The [Deliverables](../../../shared/reference/catalogues/deliverables.md) catalogue distinguishes Support Manuals or Information from Operational and Maintenance material, while [Shared Requirements](../../../shared/requirements.md) connects a reported problem to the requirement, capability, contract or operational condition involved. [Acceptance and Evidence](../product-owners/acceptance-and-evidence.md) helps when a report raises an acceptance, outcome or residual-risk question.
 
 ## Support working guidance
 
@@ -32,11 +34,11 @@ Every escalation should carry enough information for the next tier to continue w
 
 ## Support deliverables
 
-Support owns or contributes to [Support Manuals or Information](../../reference/catalogues/deliverables.md), including known symptoms, user language, supported responses, permitted lookup and guided actions, escalation routes, communication templates, ownership and links to authoritative evidence. These are not a substitute for Operational Manuals or Information or Maintenance Manuals or Information.
+Support owns or contributes to [Support Manuals or Information](../../../shared/reference/catalogues/deliverables.md), including known symptoms, user language, supported responses, permitted lookup and guided actions, escalation routes, communication templates, ownership and links to authoritative evidence. These are not a substitute for Operational Manuals or Information or Maintenance Manuals or Information.
 
 ## Related routes
 
-- [Stakeholder Guidance](../readme.md)
+- [Stakeholders](../readme.md)
 - [Stakeholder Analysts](../business-analysts/readme.md)
 - [Product Owners](../product-owners/readme.md)
 - [Testers](../testers/readme.md)

@@ -1,3 +1,5 @@
+[Up](readme.md)
+
 # BUST Requirements
 
 BUST is a minimum reminder that a serious system has more than a business feature request. It asks the team to consider **Business, User, System and Transitional** requirements together. It is an engineering-facing mnemonic used alongside the IIBA body of knowledge and BABOK Guide, not a replacement for them.
@@ -40,7 +42,7 @@ System requirements state what the system must provide to support the business a
 
 Functional requirements describe what the system must do, remember, decide, communicate or prevent. They may become capabilities, Functions, state transitions, contracts, flows or integration behaviours.
 
-A functional requirement should make its subject and boundary clear. ÔÇ£The system shall support applicationsÔÇØ is too vague. A stronger statement identifies the relevant [Domain](../../reference/glossary.md#domain), actor or system, action, state, information, rule and result.
+A functional requirement should make its subject and boundary clear. ÔÇ£The system shall support applicationsÔÇØ is too vague. A stronger statement identifies the relevant [Domain](../../../shared/reference/glossary.md#domain), actor or system, action, state, information, rule and result.
 
 ### Quality system requirements
 
@@ -104,9 +106,9 @@ Before handing requirements into design, ask:
 
 - [Business Analyst Guidance](./readme.md)
 - [Guidance for Product Owners](../product-owners/readme.md)
-- [Stakeholder Roles](../../reference/catalogues/stakeholder-roles.md)
-- [Domains and Capabilities](../../reference/catalogues/domains-and-capabilities.md)
-- [Sites, Flows, Views and Components](../../reference/catalogues/sites-flows-views-components.md)
-- [Deliverable Systems](../../reference/catalogues/deliverable-systems.md)
-- [Deliverables](../../reference/catalogues/deliverables.md)
-- [Deliverables Checklist](../../reference/checklists/deliverables.md)
+- [Stakeholder Roles](../../../shared/reference/catalogues/stakeholder-roles.md)
+- [Domains and Capabilities](../../../shared/reference/catalogues/domains-and-capabilities.md)
+- [Sites, Flows, Views and Components](../../../shared/reference/catalogues/sites-flows-views-components.md)
+- [Deliverable Systems](../../../shared/reference/catalogues/deliverable-systems.md)
+- [Deliverables](../../../shared/reference/catalogues/deliverables.md)
+- [Deliverables Checklist](../../../shared/reference/checklists/deliverables.md)

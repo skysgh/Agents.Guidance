@@ -1,3 +1,5 @@
+[Up](../readme.md)
+
 # Before: Startup Wiring by Accumulation
 
 A host starts with a few explicit registrations. As modules grow, configuration objects, mappings, schema participants, cache providers and initialisers are added wherever a developer finds a convenient place.

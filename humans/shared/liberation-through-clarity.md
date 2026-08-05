@@ -1,4 +1,7 @@
+[Up](./readme.md)
+
 # Liberation Through Clarity
+
 
 Serious systems ask a lot of the people who build, operate and depend on them. They carry records, decisions, money, access, obligations and reputational risk. The work becomes lighter when each responsibility is understood, placed and protected before it is implemented.
 
@@ -108,10 +111,10 @@ The goal is not to freeze the system. It is to let each part change for a reason
 
 ## Related guidance
 
-- [What This Guidance Gives Each Stakeholder](../orientation/what-this-guidance-gives.md)
-- [Guidance for System Design Architects](../orientation/guidance-for-system-design-architects.md)
-- [Guidance for Tech Leads](../orientation/guidance-for-tech-leads.md)
-- [Guidance for Developers](../orientation/guidance-for-developers.md)
+- [What This Guidance Gives Each Stakeholder](../foundations/what-this-guidance-gives.md)
+- [Guidance for System Design Architects](../foundations/guidance-for-system-design-architects.md)
+- [Guidance for Tech Leads](../foundations/guidance-for-tech-leads.md)
+- [Guidance for Developers](../foundations/guidance-for-developers.md)
 - [Stakeholder Roles](./reference/catalogues/stakeholder-roles.md)
 - [Contracts and Formwork](../development/contracts.md)
 - [Deliverable Systems](./reference/catalogues/deliverable-systems.md)

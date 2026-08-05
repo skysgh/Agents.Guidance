@@ -1,3 +1,5 @@
+[Up](../readme.md)
+
 # A broad contract is replaced by responsible boundaries
 
 The team maps each existing operation to its real consumer, Domain, LDM, authority, data classification, lifecycle and failure behaviour. It does not split the interface merely by method count. It separates relationships that have different meanings.

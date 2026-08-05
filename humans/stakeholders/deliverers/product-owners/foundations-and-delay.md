@@ -1,3 +1,5 @@
+[Up](readme.md)
+
 # Foundations and Delay
 
 Foundations are work that makes an outcome meaningful, safe, testable, deliverable, operable or maintainable. They include boundaries, contracts, identity, authorisation, data protection, testing, delivery, monitoring, recovery, migration and the information needed by support, Operations and Maintenance.
@@ -55,6 +57,6 @@ The Product Owner may decide product scope and sequencing within their authority
 - [Product Purpose and Outcomes](./product-purpose-and-outcomes.md)
 - [Ordering and Sequencing](./ordering-and-sequencing.md)
 - [Scope and Deferral](./scope-and-deferral.md)
-- [Stakeholder Roles](../../reference/catalogues/stakeholder-roles.md)
-- [Technical Theft and Technical Debt](../../reference/glossary.md#technical-theft)
-- [Deliverables Checklist](../../reference/checklists/deliverables.md)
+- [Stakeholder Roles](../../../shared/reference/catalogues/stakeholder-roles.md)
+- [Technical Theft and Technical Debt](../../../shared/reference/glossary.md#technical-theft)
+- [Deliverables Checklist](../../../shared/reference/checklists/deliverables.md)

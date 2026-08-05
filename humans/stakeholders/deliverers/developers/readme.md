@@ -1,12 +1,14 @@
-# Developer Guidance
+[Up](../readme.md)
 
-Developers turn prepared capabilities, contracts and boundaries into dependable physical implementation. This route currently uses the established orientation and development pages as its canonical detailed guidance.
+# Developers
+
+Developers turn prepared capabilities, contracts and boundaries into dependable physical implementation. This route currently uses the established foundation and development pages as its canonical detailed guidance.
 
 When the work is the browser-side consumer system, the [Front-end Developer Guidance](./front-end.md) gives the distinct route through SPA responsibilities, client-side horizontal flows, component assemblies, accessibility, usability and browser security. It complements this general developer route; it does not replace service-side capability ownership or server-side enforcement.
 
 ## A useful way into the route
 
-[Guidance for Developers](../../orientation/guidance-for-developers.md) is the main route through capabilities, Domains, LDMs, layers, logical building blocks, contracts and evidence. [Shared Requirements](../../shared/requirements.md) gives the meaning and authority that implementation is trying to preserve, including the [specialist controls](../../shared/requirements.md#specialist-controls-enable-the-outcome-and-protect-it-when-needed) that may constrain implementation evidence. [Guidance for Tech Leads](../../orientation/guidance-for-tech-leads.md) explains how the implementation path and readiness decisions are established. When the work becomes concrete, [Contracts](../../development/contracts.md), [Vertical Slices](../../development/vertical-slices.md) and [Testing Conventions](../../../agents/conventions/development/testing.md) provide more focused guidance. The [Stakeholder Roles](../../reference/catalogues/stakeholder-roles.md) catalogue is useful when a local change raises a question about authority, representation or specialist knowledge. For domain, mapping or persistence changes involving identity, membership, appointment, assignment or history, [Entity Lifecycle Patterns](../../reference/catalogues/entity-lifecycle-patterns.md) gives the deeper explanation.
+[Guidance for Developers](../../../foundations/guidance-for-developers.md) is the main route through capabilities, Domains, LDMs, layers, logical building blocks, contracts and evidence. [Shared Requirements](../../../shared/requirements.md) gives the meaning and authority that implementation is trying to preserve, including the [specialist controls](../../../shared/requirements.md#specialist-controls-enable-the-outcome-and-protect-it-when-needed) that may constrain implementation evidence. [Guidance for Tech Leads](../../../foundations/guidance-for-tech-leads.md) explains how the implementation path and readiness decisions are established. When the work becomes concrete, [Contracts](../../../development/contracts.md), [Vertical Slices](../../../development/vertical-slices.md) and [Testing Conventions](../../../../agents/conventions/development/testing.md) provide more focused guidance. The [Stakeholder Roles](../../../shared/reference/catalogues/stakeholder-roles.md) catalogue is useful when a local change raises a question about authority, representation or specialist knowledge. For domain, mapping or persistence changes involving identity, membership, appointment, assignment or history, [Entity Lifecycle Patterns](../../../shared/reference/catalogues/entity-lifecycle-patterns.md) gives the deeper explanation.
 
 ## The developer's responsibility
 
@@ -18,9 +20,9 @@ Before making a transient arrangement a property of an enduring entity, check th
 
 ## Related routes
 
-- [Stakeholder Guidance](../readme.md)
+- [Stakeholders](../readme.md)
 - [Stakeholder Analysts](../business-analysts/readme.md)
 - [Product Owners](../product-owners/readme.md)
 - [Architects](../architects/readme.md)
 - [Technical Leads](../technical-leads/readme.md)
-- [Shared Requirements](../../shared/requirements.md)
+- [Shared Requirements](../../../shared/requirements.md)

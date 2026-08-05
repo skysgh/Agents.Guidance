@@ -1,4 +1,7 @@
+[Up](./readme.md)
+
 # Storage Types Catalogue
+
 
 Storage is a physical way to retain, retrieve or exchange information. A storage type is not automatically a domain model, and a product name is not automatically a design. The service first decides what information it must represent, what lifecycle it has, what relationships and queries are needed, and what consequences follow from loss, duplication, delay or exposure. It then chooses storage that can support those requirements.
 
@@ -46,4 +49,4 @@ These forms may contain copies of personal, confidential or regulated informatio
 
 Choose storage from the logical information and its required capabilities, not from fashion or the shortest first implementation. A request may use relational storage for authoritative state, document storage for a bounded aggregate representation, media storage for attachments, key-value storage for settings and a search index for discovery. That combination is coherent when the contracts, mappings, authority, consistency, failure, recovery, classification and lifecycle of each representation are explicit.
 
-The [External Dependencies](./external-dependencies.md) catalogue explains how storage crosses a service boundary. [Guidance for System Design Architects](../../../orientation/guidance-for-system-design-architects.md) explains how storage appears in the system dependency map. The [External Dependency Checklist](../checklists/external-dependencies.md) provides the review prompts.
+The [External Dependencies](./external-dependencies.md) catalogue explains how storage crosses a service boundary. [Guidance for System Design Architects](../../../foundations/guidance-for-system-design-architects.md) explains how storage appears in the system dependency map. The [External Dependency Checklist](../checklists/external-dependencies.md) provides the review prompts.

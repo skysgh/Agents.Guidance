@@ -1,5 +1,8 @@
+[Up](../readme.md)
+
 # Development compatibility route
 
-The canonical system entry now lives in [Service System Guidance](../delivery/systems/service/readme.md). The detailed pages in this folder remain staged during the system-boundary migration because some subjects are service-specific while contracts, flows, lifecycle and quality material may need shared ownership.
+
+The canonical system entry now lives in [Service System Guidance](../deliverables/systems/service/readme.md). The detailed pages in this folder remain staged during the system-boundary migration because some subjects are service-specific while contracts, flows, lifecycle and quality material may need shared ownership.
 
 The [Human Systems Boundary Migration Plan](../../.agent-work/plans/SYSTEMS-BOUNDARY-MIGRATION-PLAN.md) describes the classification and relocation work. Existing detailed links remain valid while each page is moved deliberately.

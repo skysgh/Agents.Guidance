@@ -24,7 +24,7 @@ The current work is intentionally local and has not been committed or pushed:
 - `engineering/humans/reference/catalogues/sdlc.md`
 - `engineering/readme.md`
 - `HANDOVER.md`
-- new directory: `engineering/humans/delivery/`
+- new directory: `engineering/humans/deliverables/`
 
 `.vscode/` is local editor state and must remain excluded from commits.
 
@@ -86,7 +86,7 @@ The catalogue boundary was reviewed with fresh eyes because early links risked d
   - quality perspectives;
   - regulatory obligations;
   - SDLC.
-- Those catalogue-to-delivery links use `../../delivery/readme.md` because catalogue pages are under `engineering/humans/reference/catalogues/`.
+- Those catalogue-to-delivery links use `../../deliverables/readme.md` because catalogue pages are under `engineering/humans/reference/catalogues/`.
 - Catalogue pages retain local onward links to neighbouring catalogues, checklists, development guidance and orientation pages.
 
 ## Writing Style

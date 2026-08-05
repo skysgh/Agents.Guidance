@@ -1,4 +1,7 @@
+[Up](./readme.md)
+
 # Software Development Lifecycle
+
 
 A software development lifecycle (SDLC) is the set of activities through which a service is understood, discussed, decided, defined, designed, developed, delivered, operated, maintained and eventually decommissioned. It is a lifecycle, not a mandatory project methodology and not a claim that work happens once in a straight line.
 
@@ -132,4 +135,4 @@ The [Deliverable Systems](./deliverable-systems.md) catalogue distinguishes the 
 
 ## Related guidance
 
-[Delivery Guidance](../../../delivery/readme.md) keeps the lifecycle connected to the wider delivered service and its continuing responsibilities. The orientation paper [Phases, Roles and Stakeholders](../../../orientation/phases-roles-and-stakeholders.md) introduces the distinction between time, responsibility and affected groups. [Guidance for System Design Architects](../../../orientation/guidance-for-system-design-architects.md), [Guidance for Tech Leads](../../../orientation/guidance-for-tech-leads.md) and [Guidance for Developers](../../../orientation/guidance-for-developers.md) show how the lifecycle concerns become architecture, delivery and code.
+[Deliverables](../../../deliverables/readme.md) keeps the lifecycle connected to the wider delivered service and its continuing responsibilities. The foundation paper [Phases, Roles and Stakeholders](../../../foundations/phases-roles-and-stakeholders.md) introduces the distinction between time, responsibility and affected groups. [Guidance for System Design Architects](../../../foundations/guidance-for-system-design-architects.md), [Guidance for Tech Leads](../../../foundations/guidance-for-tech-leads.md) and [Guidance for Developers](../../../foundations/guidance-for-developers.md) show how the lifecycle concerns become architecture, delivery and code.

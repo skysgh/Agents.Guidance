@@ -1,4 +1,7 @@
+[Up](./readme.md)
+
 # Stakeholder Roles
+
 
 A [stakeholder](../glossary.md#stakeholder) is a person, group, organisation or connected system that can affect the service, is affected by it, depends on its result, supplies knowledge or evidence, or has authority over an obligation the service must fulfil. A [role](../glossary.md#role-is-polysemous) is a responsibility perspective: the kind of knowledge, decision, work or evidence a participant contributes.
 
@@ -324,6 +327,6 @@ This is not a demand that every role attend every meeting. It is a way to find t
 
 ## Related guidance
 
-The distinction between phases, role families and affected stakeholders is introduced in [Phases, Roles and Stakeholders](../../../orientation/phases-roles-and-stakeholders.md). The route for a system design architect is explained in [Guidance for System Design Architects](../../../orientation/guidance-for-system-design-architects.md), while the technical-lead and developer routes show how the resulting structure becomes delivery and code.
+The distinction between phases, role families and affected stakeholders is introduced in [Phases, Roles and Stakeholders](../../../foundations/phases-roles-and-stakeholders.md). [System Design Architects](../../../foundations/guidance-for-system-design-architects.md) explains the architectural responsibility, while the technical-lead and developer material shows how the resulting structure becomes delivery and code.
 
 The lifecycle phases in [SDLC](./sdlc.md) provide the time-based frame in which these responsibilities recur. The [Qualities](./qualities.md) catalogue connects the quality of the system, its data and the experience people have when using it.

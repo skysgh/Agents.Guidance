@@ -36,7 +36,7 @@ Readers can use the assessment in different ways: a developer may follow the [en
 - Audit identified gaps and recommended treatment (H-03, M-01)
 
 ### 4. Legal/Regulatory Awareness (Good)
-- [Legal and Regulatory Context](../engineering/humans/orientation/legal-context.md) - Jurisdiction mapping, obligation framing
+- [Legal and Regulatory Context](../engineering/humans/foundations/legal-context.md) - Jurisdiction mapping, obligation framing
 - [Regulatory Obligations](../engineering/humans/reference/catalogues/regulatory-obligations.md) - Catalog of recurring domains (purpose, PII, tracking, records, retention, security, accessibility, fairness, safety, sector duties, financial, cross-border)
 - Acknowledges this is not legal advice; team must map actual sources
 - Data protection as first-order architectural concern

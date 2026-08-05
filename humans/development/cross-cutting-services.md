@@ -1,3 +1,5 @@
+[Up](readme.md)
+
 # Cross-Cutting Services
 
 A cross-cutting service is a shared capability that many parts of the building may need. In a physical building, power, lighting, heating, ventilation, water, access control, communications and maintenance support many rooms without becoming the purpose of every room.
@@ -167,6 +169,6 @@ Before adopting a cross-cutting service, record:
 - [Vertical Slices: Common Shafts](./vertical-slices.md)
 - [The Building Metaphor](../shared/reference/building-metaphor.md)
 - [System LDM Service Readiness Reference](../shared/reference/platform-services.md)
-- [Guidance for Developers](../orientation/guidance-for-developers.md)
-- [Guidance for Tech Leads](../orientation/guidance-for-tech-leads.md)
+- [Guidance for Developers](../foundations/guidance-for-developers.md)
+- [Guidance for Tech Leads](../foundations/guidance-for-tech-leads.md)
 - [Platform Service Inventory](../../agents/conventions/development/platform-services.md)

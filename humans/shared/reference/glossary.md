@@ -1,4 +1,6 @@
-# Guidance Glossary
+[Up](readme.md)
+
+# Glossary
 
 This glossary gives the plain meaning first. The technical label is included so people can recognise it in code and documentation. You do not need to memorise the labels to understand the ideas.
 
@@ -6,7 +8,7 @@ This glossary gives the plain meaning first. The technical label is included so 
 
 A request for the system to do something, such as add, edit, submit, approve, return or cancel. An action is not automatically the same as a state change.
 
-See [Client UX Palette](../../delivery/systems/client/ux-palette.md#actions-and-action-zones).
+See [Client UX Palette](../../deliverables/systems/client/ux-palette.md#actions-and-action-zones).
 
 ## Action Zone
 
@@ -26,7 +28,7 @@ The part of the service that turns a request into an application capability. It 
 
 A component that knows how to reach another capability or external system. It hides the details of the call from the visible experience. In technical language, it is a boundary connector.
 
-See [Client UX Palette](../../delivery/systems/client/ux-palette.md#the-relationship-map).
+See [Client UX Palette](../../deliverables/systems/client/ux-palette.md#the-relationship-map).
 
 ## Registry
 
@@ -100,7 +102,7 @@ See [Front-end Developer Guidance](../../stakeholders/deliverers/developers/fron
 
 A Pipeline Developer builds and maintains the delivery path that validates, packages, promotes, deploys, observes and recovers a service or its supporting systems. Their work may use declarative infrastructure languages such as Azure Bicep or ARM templates, AWS CloudFormation, typed infrastructure frameworks such as AWS CDK, and imperative orchestration through PowerShell, Bash or another bounded tool language.
 
-The language is not the responsibility. A short script may still hold production credentials or permission to change networks, identities, storage, DNS or deployment artifacts. Pipeline development therefore needs provenance, bounded authority, secret protection, repeatable execution, failure handling, rollback and evidence. See [Pipeline Development and Infrastructure as Code](../../delivery/systems/pipeline/development-language.md) and [Developer Families](./catalogues/stakeholder-roles.md#developer-families).
+The language is not the responsibility. A short script may still hold production credentials or permission to change networks, identities, storage, DNS or deployment artifacts. Pipeline development therefore needs provenance, bounded authority, secret protection, repeatable execution, failure handling, rollback and evidence. See [Pipeline Development and Infrastructure as Code](../../deliverables/systems/pipeline/development-language.md) and [Developer Families](./catalogues/stakeholder-roles.md#developer-families).
 
 ## Infrastructure as Code
 
@@ -118,7 +120,7 @@ See [Testing Evidence and Boundaries](../../stakeholders/deliverers/testers/evid
 
 A Backend for Frontend (BFF) is a service-side boundary shaped for the needs of one client or client family. It may aggregate, map, filter or coordinate calls to other service capabilities, but it does not become the authority for business meaning, authorisation or durable state merely because it serves the client.
 
-See [Testing System Guidance](../../delivery/systems/tests/readme.md#test-areas-and-suites) for the BFF testing area.
+See [Testing System Guidance](../../deliverables/systems/tests/readme.md#test-areas-and-suites) for the BFF testing area.
 
 ## Solution Architecture Document (SAD)
 
@@ -158,7 +160,7 @@ A common baseline for a managed item:
 
 It is a recognition aid, not a command to force every operation into generic CRUD.
 
-See [Common Flows](../../orientation/flows.md).
+See [Common Flows](../../foundations/flows.md).
 
 ## BREAST
 
@@ -203,11 +205,11 @@ Physical describes the representation and execution required to make the service
 
 ## Ontological
 
-Ontological concerns the kinds of things, identities, relationships, states, events, rules and responsibilities that a problem space needs the system to recognise as meaningful. It asks what is the same, what is different and what can happen. Ontological is a north-star abstraction, not a claim that one universal vocabulary or fixed primitive list fits every Domain. See [Ontological Decomposition](../../orientation/ontological-decomposition.md).
+Ontological concerns the kinds of things, identities, relationships, states, events, rules and responsibilities that a problem space needs the system to recognise as meaningful. It asks what is the same, what is different and what can happen. Ontological is a north-star abstraction, not a claim that one universal vocabulary or fixed primitive list fits every Domain. See [Ontological Decomposition](../../foundations/ontological-decomposition.md).
 
 ## Ontological primitives
 
-Ontological primitives are basic distinctions used to build or explain a model in a particular context, such as identity, thing, person, organisation, relationship, state, event, action, rule, authority, value, information or evidence. The useful set depends on purpose and the distinctions that must survive change. They are not an engineering requirement to reduce every domain to the 65 Natural Semantic Metalanguage primes. See [Ontological Decomposition](../../orientation/ontological-decomposition.md).
+Ontological primitives are basic distinctions used to build or explain a model in a particular context, such as identity, thing, person, organisation, relationship, state, event, action, rule, authority, value, information or evidence. The useful set depends on purpose and the distinctions that must survive change. They are not an engineering requirement to reduce every domain to the 65 Natural Semantic Metalanguage primes. See [Ontological Decomposition](../../foundations/ontological-decomposition.md).
 
 ## Enduring
 
@@ -302,7 +304,7 @@ These roles may be related, but they are not interchangeable. A person acting as
 
 **System** can mean different layers of a wider arrangement. There are two useful views, and they should not be confused.
 
-For the wider relationship between those layers, see [Systems Within Systems](../../orientation/systems-within-systems.md). That paper uses **polysystem** as a reminder that a digital system can participate in several wider systems of obligations, duties and capabilities at once.
+For the wider relationship between those layers, see [Systems Within Systems](../../foundations/systems-within-systems.md). That paper uses **polysystem** as a reminder that a digital system can participate in several wider systems of obligations, duties and capabilities at once.
 
 #### The organisational and service view
 
@@ -344,7 +346,7 @@ The boundaries are not always physical containers. They may be connected network
 
 A **service** is a capability with a contract and a responsible boundary. The word has related meanings at different layers and should be qualified when the distinction affects authority or lifecycle.
 
-- A **business service system** is the people, capabilities, processes, information and resources through which an organisation provides a service or performs an operating function. See [Systems Within Systems](../../orientation/systems-within-systems.md#the-organisational-and-service-view).
+- A **business service system** is the people, capabilities, processes, information and resources through which an organisation provides a service or performs an operating function. See [Systems Within Systems](../../foundations/systems-within-systems.md#the-organisational-and-service-view).
 - A **service capability** is an agreed ability provided to consumers and stakeholders, with a promise, owner, evidence, support, operation and route for change or retirement. See [Service Provider](./catalogues/stakeholder-roles.md#service-provider).
 - A **designed service** is a capability with a contract and boundary in the logical and delivery model. See [System LDM Services](../../development/services.md) and [Contracts](../../development/contracts.md).
 - A **web service** is a network-accessible software capability within a digital system or solution. It is one physical or technical representation, not automatically the whole business service system. See the [System polysemy](#system-is-polysemous) entry above.
@@ -359,7 +361,7 @@ A shared agreement about what a boundary provides, what it needs and what caller
 
 A component that manages movement between surfaces or steps. It sequences, transitions and gates a journey. It should coordinate the journey without absorbing every business rule.
 
-See [Client Implementation Vocabulary](../../delivery/systems/client/implementation-vocabulary.md).
+See [Client Implementation Vocabulary](../../deliverables/systems/client/implementation-vocabulary.md).
 
 ## Design completeness
 
@@ -377,7 +379,7 @@ A statement that something happened. The producer owns the fact. A consumer may 
 
 A repeated journey that coordinates capabilities, actions, decisions or state changes into an outcome. A flow gives the journey a recognisable shape. It is not a replacement for the capabilities beneath it.
 
-See [Common Flows](../../orientation/flows.md).
+See [Common Flows](../../foundations/flows.md).
 
 ## Domain-Driven Design (DDD)
 
@@ -427,13 +429,13 @@ An Event that records a meaningful fact in a Domain, such as a Request being sub
 
 Explanations written for people from different roles and levels of technical experience. Human guidance explains the problem and concept before the technical term.
 
-See [Human Guidance](./readme.md).
+See [Engineering for Humans](./readme.md).
 
 ## Lifecycle responsibility
 
 The responsibility for keeping a capability coherent as it is created, changed, operated and eventually retired. The first explanation should use ÔÇ£responsible boundaryÔÇØ rather than assuming that Owner or Steward is understood.
 
-See [Responsible Boundaries and Deferred Design](../../orientation/responsible-boundaries-and-deferred-design.md).
+See [Responsible Boundaries and Deferred Design](../../foundations/responsible-boundaries-and-deferred-design.md).
 
 ## Mapping
 
@@ -479,10 +481,10 @@ A deliberate move from one state to another. Submission, approval, publication, 
 
 The experience a person recognises, such as a page, form, list, tree, workspace, report or sequence. A View is not necessarily the boundary that owns every behaviour visible within it.
 
-See [First Look at the Client Experience](../../delivery/systems/client/first-look.md).
+See [First Look at the Client Experience](../../deliverables/systems/client/first-look.md).
 
 ## WGF: What Goes First?
 
 A planning reminder that asks what happens if a part is included, deferred or omitted, and which designed structure must remain so later construction can continue without guessing.
 
-See [YAGNI versus WGF](../../orientation/design-before-build-and-wgf.md).
+See [YAGNI versus WGF](../../foundations/design-before-build-and-wgf.md).

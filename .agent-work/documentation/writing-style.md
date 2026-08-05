@@ -6,6 +6,20 @@ This is the writing contract for human-facing delivery guidance.
 
 Human-facing guidance should help people understand a system and contribute to its design. It should be readable by non-specialists, junior developers, testers learning automation, business analysts, operations staff and people reading in a second language.
 
+## Subject-first titles
+
+Titles should name the subject, decision, responsibility or problem that the document explains. The repository is called Guidance, but that does not make **Guidance** useful in every title. Remove it when the remaining words already identify the subject, and retitle the document when a more direct subject name would be clearer.
+
+Prefer **Contracts**, **Delivery Systems** or **Responsibility Before Hierarchy** to **Contract Guidance**, **Guidance on Delivery Systems** or **Guidance Guidance**. Keep **guidance** in a title only when it distinguishes a genuine body of explanatory material from a catalogue, checklist, decision or other artefact.
+
+The same rule applies to navigation labels. A link should tell the reader what they will understand or decide, not merely identify the folder that contains the explanation.
+
+## Subject-first language
+
+Human-facing prose should talk about the subject and its consequences, not about the repository's files. Prefer **the explanation**, **the material**, **the concept**, **the responsibility**, **the system** or **the decision** to **this page**, **these pages**, **this folder** or **the files below**. Use **route** only when the subject is genuinely a path through a service or process. Do not use **page**, **folder** or **route** as a substitute for the subject being explained.
+
+Navigation may still use links, but the surrounding sentence should explain what the destination contributes. The reader should be able to understand the subject without learning how the repository is arranged.
+
 ## Concept before technical term
 
 Begin with the practical idea and its consequence. Introduce the technical term after the idea is understandable.
@@ -31,6 +45,12 @@ An introductory human page is not an instruction sheet. Its first responsibility
 Do not ask the reader to act merely because they reached an introduction. Avoid turning the opening into a gate with phrases such as "Start here", "Read this before continuing" or "Do not begin until". Explain why a destination may be useful and leave the reader free to follow it. A later decision, development or checklist page can ask for a specific action once the reader understands the reason for it.
 
 This gives the guidance a gentle progression: introduction creates understanding and desire; links provide routes to deeper meaning; examples make the benefit tangible; catalogues and checklists provide tools; and the responsible role or decision record asks for action when the situation calls for it. The reader is being brought along, not tested at the door.
+
+## Invitations instead of imperatives
+
+Offer a useful next step instead of ordering the reader through the material. Prefer **People working through an uncertain boundary may find the boundary explanation useful** or **The checklist can help a team compare its evidence** to **Read the boundary explanation** or **Use the checklist before continuing**.
+
+Imperatives are appropriate when the subject itself requires an action, such as preserving evidence, reviewing a security decision or recording an approval. They are not appropriate merely to control the reader's order through explanatory material.
 
 ## System design is an engineering discipline
 
@@ -125,13 +145,17 @@ The first version keeps the link inside the story and tells the reader why it is
 
 ### Give the reader a way out
 
-Deep guidance should not leave a reader dependent on the browser Back button or on remembering the path that led there. Use a consistent upward link at the end of each page:
+Deep guidance should not leave a reader dependent on the browser Back button or on remembering the path that led there. Use a consistent upward link as the first line of each page, above the subject heading:
 
 - a non-index page links to the `readme.md` in its immediate folder;
 - a folder `readme.md` links to the parent folder's `readme.md`; and
 - the repository root `readme.md` has no upward link.
 
-Use a useful label such as `[Up: Stakeholder Guidance](../../humans/shared/reference/readme.md)` or `[Up: Human Guidance](../../humans/readme.md)`. The link is navigation, not an instruction to read the parent first. Keep the page's local explanation complete and place the upward link after the related links or next-step material.
+Use a useful label such as `[Up: Stakeholder Guidance](../../humans/shared/reference/readme.md)` or `[Up: Human Guidance](../../humans/readme.md)`. The link is navigation, not an instruction to read the parent first. Put it before the H1 so that it remains recognisable as page navigation rather than part of the subject explanation. Keep the page's local explanation complete.
+
+### Keep subject pages short
+
+Keep a subject page to one clear idea or closely related group of ideas. Prefer fewer than 50 lines of Markdown for a normal subject page. Treat 100 lines as a hard maximum for a subject page, roughly equivalent to two printed pages of information. When the material needs more space, split it into smaller subject pages and link the parts together. A longer page is acceptable only when splitting it would make the subject less coherent.
 
 ## Building and High-rise teaching metaphor
 

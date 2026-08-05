@@ -2,7 +2,7 @@
 
 Apply these conventions whenever tests are created, changed, moved, reviewed or used to validate a change.
 
-For the accessible explanation of testing as shared evidence, read [What the Guidance Gives Each Stakeholder](../../../humans/orientation/what-this-guidance-gives.md), [Deliverable Systems](../../../humans/shared/reference/catalogues/deliverable-systems.md), [Deliverables](../../../humans/shared/reference/catalogues/deliverables.md) and the [Deliverables Checklist](../../../humans/shared/reference/checklists/deliverables.md).
+For the accessible explanation of testing as shared evidence, read [What the Guidance Gives Each Stakeholder](../../../humans/foundations/what-this-guidance-gives.md), [Deliverable Systems](../../../humans/shared/reference/catalogues/deliverable-systems.md), [Deliverables](../../../humans/shared/reference/catalogues/deliverables.md) and the [Deliverables Checklist](../../../humans/shared/reference/checklists/deliverables.md).
 
 ## Purpose
 

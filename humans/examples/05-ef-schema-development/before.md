@@ -1,3 +1,5 @@
+[Up](../readme.md)
+
 # Before: EF Schema Development by Repetition
 
 An entity has a title, description, image reference, status, timestamps and one or more navigations. The schema configuration is written as a long sequence of fluent calls:

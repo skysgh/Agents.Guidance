@@ -1,3 +1,5 @@
+[Up](readme.md)
+
 # Scope and Deferral
 
 Scope is the set of responsibilities, outcomes, boundaries and evidence included in a decision. It is not only the list of screens or tickets planned for a release.
@@ -70,7 +72,7 @@ A changed scope decision is not failure. Keeping the old decision after its assu
 - [Product Purpose and Outcomes](./product-purpose-and-outcomes.md)
 - [Ordering and Sequencing](./ordering-and-sequencing.md)
 - [Foundations and Delay](./foundations-and-delay.md)
-- [Users to Consider](../../reference/catalogues/users.md)
-- [System Roles](../../reference/catalogues/system-roles.md)
+- [Users to Consider](../../../shared/reference/catalogues/users.md)
+- [System Roles](../../../shared/reference/catalogues/system-roles.md)
 - [Transitional and Operational Requirements](../business-analysts/transitional-and-operational-requirements.md)
 - [Traceability and Evidence](../business-analysts/traceability-and-evidence.md)

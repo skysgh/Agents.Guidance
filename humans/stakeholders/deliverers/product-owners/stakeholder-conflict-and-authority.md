@@ -1,3 +1,5 @@
+[Up](readme.md)
+
 # Stakeholder Conflict and Authority
 
 Product decisions often bring together people with different needs, authority, knowledge, risks and consequences. The Product Owner helps make the decision possible and orders the resulting outcome. They do not automatically have authority to resolve every disagreement.
@@ -66,8 +68,8 @@ An unassigned decision is a delivery risk. It is not permission to convert an as
 - [Product Owner Guidance](./readme.md)
 - [Product Purpose and Outcomes](./product-purpose-and-outcomes.md)
 - [Ordering and Sequencing](./ordering-and-sequencing.md)
-- [Stakeholder Roles](../../reference/catalogues/stakeholder-roles.md)
-- [Users to Consider](../../reference/catalogues/users.md)
-- [System Roles](../../reference/catalogues/system-roles.md)
+- [Stakeholder Roles](../../../shared/reference/catalogues/stakeholder-roles.md)
+- [Users to Consider](../../../shared/reference/catalogues/users.md)
+- [System Roles](../../../shared/reference/catalogues/system-roles.md)
 - [Elicitation](../business-analysts/elicitation.md)
 - [Traceability and Evidence](../business-analysts/traceability-and-evidence.md)

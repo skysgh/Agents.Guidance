@@ -1,3 +1,5 @@
+[Up](readme.md)
+
 # Functional and Quality Requirements
 
 Functional and quality requirements describe what the system must provide and the conditions under which it must provide it. They are two views of the same intended outcome, not a list of visible features followed by optional technical polish.
@@ -6,7 +8,7 @@ A function that exposes information to the wrong person, loses evidence, cannot 
 
 ## Functional requirements
 
-A functional requirement states what a system, [capability](../../reference/glossary.md#capability) or connected participant must do, remember, decide, communicate or prevent. It should identify enough context that the team can place it in a responsible boundary and test its result.
+A functional requirement states what a system, [capability](../../../shared/reference/glossary.md#capability) or connected participant must do, remember, decide, communicate or prevent. It should identify enough context that the team can place it in a responsible boundary and test its result.
 
 A useful functional requirement makes clear:
 
@@ -29,11 +31,11 @@ The stronger statement still needs analysis. It raises questions about the Appli
 
 ## Capabilities and Functions
 
-A functional requirement may contribute to a [Capability](../../reference/catalogues/domains-and-capabilities.md), one or more Functions within that capability, a state transition, a use case, a flow or a contract.
+A functional requirement may contribute to a [Capability](../../../shared/reference/catalogues/domains-and-capabilities.md), one or more Functions within that capability, a state transition, a use case, a flow or a contract.
 
 Do not confuse:
 
-- a **[Capability](../../reference/catalogues/domains-and-capabilities.md)**, which is an owned ability within a [Domain](../../reference/glossary.md#domain);
+- a **[Capability](../../../shared/reference/catalogues/domains-and-capabilities.md)**, which is an owned ability within a [Domain](../../../shared/reference/glossary.md#domain);
 - a **Function**, which is a focused operation or responsibility within that capability;
 - a **flow**, which coordinates several capabilities into a journey; and
 - a **feature**, which may be a product description of a change without yet identifying its durable responsibility.
@@ -126,7 +128,7 @@ Work with architects and technical leads to identify:
 - lifecycle, transition and operational dependencies; and
 - evidence needed at each boundary.
 
-Read [Conceptual, Logical and Physical Models](../../reference/catalogues/conceptual-logical-physical-models.md) when the team is at risk of turning a screen, endpoint or persistence record into the whole design.
+Read [Conceptual, Logical and Physical Models](../../../shared/reference/catalogues/conceptual-logical-physical-models.md) when the team is at risk of turning a screen, endpoint or persistence record into the whole design.
 
 ## Requirement patterns to avoid
 
@@ -157,9 +159,9 @@ Before functional and quality requirements move into design or acceptance, ask:
 - [Business Analyst Guidance](./readme.md)
 - [Drivers, Stakeholders, Objectives and Outcomes](./drivers-stakeholders-objectives-outcomes.md)
 - [BUST Requirements](./bust-requirements.md)
-- [Domains and Capabilities](../../reference/catalogues/domains-and-capabilities.md)
-- [Quality Perspectives](../../reference/catalogues/qualities.md)
-- [Conceptual, Logical and Physical Models](../../reference/catalogues/conceptual-logical-physical-models.md)
-- [Guidance for System Design Architects](../../orientation/guidance-for-system-design-architects.md)
-- [Deliverable Systems](../../reference/catalogues/deliverable-systems.md)
-- [Deliverables](../../reference/catalogues/deliverables.md)
+- [Domains and Capabilities](../../../shared/reference/catalogues/domains-and-capabilities.md)
+- [Quality Perspectives](../../../shared/reference/catalogues/qualities.md)
+- [Conceptual, Logical and Physical Models](../../../shared/reference/catalogues/conceptual-logical-physical-models.md)
+- [Guidance for System Design Architects](../../../foundations/guidance-for-system-design-architects.md)
+- [Deliverable Systems](../../../shared/reference/catalogues/deliverable-systems.md)
+- [Deliverables](../../../shared/reference/catalogues/deliverables.md)

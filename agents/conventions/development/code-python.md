@@ -1,6 +1,6 @@
 # Python Code Conventions
 
-For the human explanation of bounded tooling, integration and production exceptions, read [Selecting a Language and Framework](../../../humans/orientation/language-and-framework-selection.md).
+For the human explanation of bounded tooling, integration and production exceptions, read [Selecting a Language and Framework](../../../humans/foundations/language-and-framework-selection.md).
 
 ## Scope
 

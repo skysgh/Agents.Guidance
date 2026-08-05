@@ -1,4 +1,7 @@
+[Up](./readme.md)
+
 # Security at Rest Checklist
+
 
 Use this checklist when information, secrets, credentials, keys, certificates, logs, media or derived copies are stored. Read [Data Protection](../../../../agents/conventions/foundations/data-protection.md), [External Dependencies](../catalogues/external-dependencies.md) and [Detailed Data Deletion Considerations](../../../development/detailed-data-deletion-considerations.md) first. The checklist is a design prompt, not a universal legal declaration.
 

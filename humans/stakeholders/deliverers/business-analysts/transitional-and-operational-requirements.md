@@ -1,3 +1,5 @@
+[Up](readme.md)
+
 # Transitional and Operational Requirements
 
 Transitional and operational requirements describe how a service becomes usable, remains dependable and eventually changes or retires. They are not optional project administration. They are requirements whenever the intended outcome depends on moving from the current arrangement or running the service over time.
@@ -144,9 +146,9 @@ Before transitional and operational requirements move into product ordering or a
 - [Business Analyst Guidance](./readme.md)
 - [BUST Requirements](./bust-requirements.md)
 - [Functional and Quality Requirements](./functional-and-quality-requirements.md)
-- [Deliverables](../../reference/catalogues/deliverables.md)
-- [Deliverables Checklist](../../reference/checklists/deliverables.md)
-- [Operations Conventions](../../../agents/conventions/development/operations.md)
-- [Data Deletion Guidance](../../development/data-deletion-guidance.md)
+- [Deliverables](../../../shared/reference/catalogues/deliverables.md)
+- [Deliverables Checklist](../../../shared/reference/checklists/deliverables.md)
+- [Operations Conventions](../../../../agents/conventions/development/operations.md)
+- [Data Deletion Guidance](../../../development/data-deletion-guidance.md)
 - [Guidance for Product Owners](../product-owners/readme.md)
-- [Guidance for System Design Architects](../../orientation/guidance-for-system-design-architects.md)
+- [Guidance for System Design Architects](../../../foundations/guidance-for-system-design-architects.md)

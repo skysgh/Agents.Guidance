@@ -1,4 +1,6 @@
-# Front-end Developer Guidance
+[Up](readme.md)
+
+# Front-end Development
 
 A service can have a correct API and still fail the person who needs to use it. The page may combine too many actions, hide the current state, lose work when a request is slow or fail when someone uses a keyboard, zoom or assistive technology. A front-end developer works where the service becomes a usable experience, so those failures are part of the system rather than decoration around it.
 
@@ -39,7 +41,7 @@ The SPA is not merely a set of screens attached to the service. It has its own:
 - security boundary: untrusted browser code and content must not become an authority for protected data or decisions; and
 - evidence: functional, integration, accessibility, usability, performance, security and recovery behaviour must be checked.
 
-The [Deliverable Systems](../../reference/catalogues/deliverable-systems.md) catalogue calls this the service consumer system. Its separation from the [service system](../../reference/catalogues/deliverable-systems.md#2-service-system) matters because a browser can lose memory, lose connectivity, run stale assets, be inspected by its user or execute an injected script in ways a server process cannot.
+The [Deliverable Systems](../../../shared/reference/catalogues/deliverable-systems.md) catalogue calls this the service consumer system. Its separation from the [service system](../../../shared/reference/catalogues/deliverable-systems.md#2-service-system) matters because a browser can lose memory, lose connectivity, run stale assets, be inspected by its user or execute an injected script in ways a server process cannot.
 
 ## Two sides of a horizontal flow
 
@@ -72,7 +74,7 @@ Useful component shapes include:
 
 These are responsibility descriptions, not a mandatory class hierarchy. A component may be reused when its meaning and contract remain sound. It should not be made generic merely because two screens look similar. Reuse that hides different permissions, states, error conditions or accessibility needs creates a harder system rather than a simpler one.
 
-The [Sites, Flows, Views and Components](../../reference/catalogues/sites-flows-views-components.md) catalogue gives the shared vocabulary. The [Common Flows](../../orientation/flows.md) guide explains how a visible journey can reveal presenters, players, actions, states, feedback and brokers beneath it.
+The [Sites, Flows, Views and Components](../../../shared/reference/catalogues/sites-flows-views-components.md) catalogue gives the shared vocabulary. The [Common Flows](../../../foundations/flows.md) guide explains how a visible journey can reveal presenters, players, actions, states, feedback and brokers beneath it.
 
 ## Accessibility and usability are part of the contract
 
@@ -113,7 +115,7 @@ For browser applications:
 - make third-party scripts, frames, fonts, analytics, source maps and client telemetry explicit trust and privacy decisions; and
 - test authentication expiry, logout, CSRF, XSS, clickjacking, unsafe redirects, stale assets and sensitive-data leakage.
 
-The [Frontend Security Conventions](../../../agents/conventions/development/frontend-security.md) and [Security in Transit Checklist](../../reference/checklists/security-in-transit.md) provide the detailed prompts. They support this explanation; they do not replace the service's own security authority or server-side enforcement.
+The [Frontend Security Conventions](../../../../agents/conventions/development/frontend-security.md) and [Security in Transit Checklist](../../../shared/reference/checklists/security-in-transit.md) provide the detailed prompts. They support this explanation; they do not replace the service's own security authority or server-side enforcement.
 
 ## Evidence and handoffs
 
@@ -139,12 +141,12 @@ When a requirement cannot be made accessible, usable, secure or understandable i
 ## Related guidance
 
 - [Developer Guidance](./readme.md)
-- [Stakeholder Guidance](../readme.md)
-- [Guidance for Developers](../../orientation/guidance-for-developers.md)
-- [Deliverable Systems](../../reference/catalogues/deliverable-systems.md)
-- [Sites, Flows, Views and Components](../../reference/catalogues/sites-flows-views-components.md)
-- [Common Flows](../../orientation/flows.md)
-- [Quality Perspectives](../../reference/catalogues/qualities.md)
-- [Accessibility Conventions](../../../agents/conventions/development/accessibility.md)
-- [Frontend Security Conventions](../../../agents/conventions/development/frontend-security.md)
-- [Security in Transit Checklist](../../reference/checklists/security-in-transit.md)
+- [Stakeholders](../readme.md)
+- [Guidance for Developers](../../../foundations/guidance-for-developers.md)
+- [Deliverable Systems](../../../shared/reference/catalogues/deliverable-systems.md)
+- [Sites, Flows, Views and Components](../../../shared/reference/catalogues/sites-flows-views-components.md)
+- [Common Flows](../../../foundations/flows.md)
+- [Quality Perspectives](../../../shared/reference/catalogues/qualities.md)
+- [Accessibility Conventions](../../../../agents/conventions/development/accessibility.md)
+- [Frontend Security Conventions](../../../../agents/conventions/development/frontend-security.md)
+- [Security in Transit Checklist](../../../shared/reference/checklists/security-in-transit.md)

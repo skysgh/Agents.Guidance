@@ -1,3 +1,5 @@
+[Up](readme.md)
+
 # Controlled Change and Lifecycle Maintenance
 
 Maintenance changes an occupied service while people, connected systems, operators and obligations already rely on it. The maintenance question is therefore not only whether a change works in isolation. It is whether the change preserves or deliberately manages the existing meaning, compatibility, data, operation, evidence and recovery that the service already owes.
@@ -64,7 +66,7 @@ A service is not retired merely because its deployment was stopped. Its domains,
 
 ## Maintenance deliverables
 
-The resulting [Maintenance Manuals or Information](../../reference/catalogues/deliverables.md) should make the occupied service understandable to a maintainer who did not build it. They should cover architecture decisions, contracts, dependencies, compatibility, migration, rollback, recovery, data protection, repair, deprecation, replacement and decommissioning.
+The resulting [Maintenance Manuals or Information](../../../shared/reference/catalogues/deliverables.md) should make the occupied service understandable to a maintainer who did not build it. They should cover architecture decisions, contracts, dependencies, compatibility, migration, rollback, recovery, data protection, repair, deprecation, replacement and decommissioning.
 
 These are distinct from:
 
@@ -74,11 +76,11 @@ These are distinct from:
 ## Related guidance
 
 - [Maintenance Guidance](./readme.md)
-- [SDLC: Maintenance and Decommissioning](../../reference/catalogues/sdlc.md)
-- [API Lifecycle](../../orientation/api-lifecycle.md)
-- [Dependency and Supply-Chain Conventions](../../../agents/conventions/development/dependencies.md)
-- [Deliverables](../../reference/catalogues/deliverables.md)
-- [External Dependencies](../../reference/catalogues/external-dependencies.md)
+- [SDLC: Maintenance and Decommissioning](../../../shared/reference/catalogues/sdlc.md)
+- [API Lifecycle](../../../foundations/api-lifecycle.md)
+- [Dependency and Supply-Chain Conventions](../../../../agents/conventions/development/dependencies.md)
+- [Deliverables](../../../shared/reference/catalogues/deliverables.md)
+- [External Dependencies](../../../shared/reference/catalogues/external-dependencies.md)
 - [Operations Guidance](../operators/readme.md)
 - [Testing Evidence and Boundaries](../testers/evidence-and-boundaries.md)
 - [Support Triage and Escalation](../support/triage-and-escalation.md)

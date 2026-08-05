@@ -1,3 +1,5 @@
+[Up](../readme.md)
+
 # After: Screen Request Becomes Storage Design
 
 The team treats the page request as conceptual evidence about a capability, not as the complete logical or physical model. The business analyst makes the provider's meaning, decisions and recognised states clear without being asked to design tables. Developers and architecture then define what the service must represent and do before choosing how to implement it.

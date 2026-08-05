@@ -1,26 +1,29 @@
-# Stakeholder Guidance
+[Up](../readme.md)
 
-This folder contains routes for people who contribute distinct knowledge, decisions, work or evidence to a serious system.
+# Stakeholders
 
-A route is not a job description and it does not make a role the owner of every subject it touches. Shared concepts remain in [Shared Human Guidance](../shared/readme.md). Each stakeholder route explains how that role enters the shared material, what it contributes, what it decides, what it produces, what it needs from other roles and where its responsibility ends.
 
-If the role vocabulary is new, [A Short Way Into the Guidance](../orientation/ways-into-guidance.md) starts with situations rather than titles. The routes below become useful once a reader recognises the responsibility or handoff they need to understand.
+This material describes the people who contribute distinct knowledge, decisions, work or evidence to a serious system.
 
-## Routes
+A responsibility is not a job description and it does not make a role the owner of every subject it touches. Shared concepts remain in [Shared Human Concerns](../shared/readme.md). Each stakeholder perspective explains how that role enters the shared material, what it contributes, what it decides, what it produces, what it needs from other roles and where its responsibility ends.
 
-- [Stakeholder Analysts (Business Analysts)](./business-analysts/readme.md): elicit meaning from all material stakeholder and user groups, identify representation and develop requirements from drivers through evidence.
-- [Sponsors](./sponsors/readme.md): protect the organisational commitment, funding, authority, whole-life accountability and escalation when delivery does not match the promise.
-- [Product Managers](./product-managers/readme.md): steward far-seeing product objectives within budget, schedule, organisational capacity, obligations and risk, and connect strategic direction to responsible investment.
-- [Product Owners](./product-owners/readme.md): convene complete product conversations, help the right people decide, order valuable testable outcomes and protect the foundations that lower avoidable risk.
-- [Service Providers](./service-providers/readme.md): remain accountable for the service promise, people, evidence, support, operation, maintenance and lifecycle.
-- [Architects](./architects/readme.md): integrate stakeholder, product and specialist input into coherent boundaries, dependencies and system structure.
-- [Technical Leads](./technical-leads/readme.md): turn architectural structure into an achievable implementation, readiness and evidence path.
-- [Developers](./developers/readme.md): implement prepared capabilities and contracts while raising ambiguity, unsafe assumptions and missing ownership.
-- [Front-end Developers](./developers/front-end.md): build the browser consumer system, its client-side flows and component assemblies, with accessibility, usability and browser security evidence.
-- [Testers](./testers/readme.md): turn requirements, contracts and quality claims into boundary and failure evidence.
-- [Support](./support/readme.md): help people use the service, investigate reported problems and escalate to the responsible boundary.
-- [Operators](./operators/readme.md): keep the delivered service available, observable, secure and recoverable.
-- [Maintainers](./maintainers/readme.md): preserve and change an occupied service without losing its meaning, contracts or evidence.
+If the role vocabulary is new, [Finding a Useful Starting Point](../foundations/ways-into-guidance.md) starts with situations rather than titles. The perspectives become useful once a reader recognises the responsibility or handoff they need to understand.
+
+## Stakeholder perspectives
+
+- [Stakeholder Analysts (Business Analysts)](./deliverers/business-analysts/readme.md): elicit meaning from all material stakeholder and user groups, identify representation and develop requirements from drivers through evidence.
+- [Sponsors](./deliverers/sponsors/readme.md): protect the organisational commitment, funding, authority, whole-life accountability and escalation when delivery does not match the promise.
+- [Product Managers](./deliverers/product-managers/readme.md): steward far-seeing product objectives within budget, schedule, organisational capacity, obligations and risk, and connect strategic direction to responsible investment.
+- [Product Owners](./deliverers/product-owners/readme.md): convene complete product conversations, help the right people decide, order valuable testable outcomes and protect the foundations that lower avoidable risk.
+- [Service Providers](./deliverers/service-providers/readme.md): remain accountable for the service promise, people, evidence, support, operation, maintenance and lifecycle.
+- [Architects](./deliverers/architects/readme.md): integrate stakeholder, product and specialist input into coherent boundaries, dependencies and system structure.
+- [Technical Leads](./deliverers/technical-leads/readme.md): turn architectural structure into an achievable implementation, readiness and evidence path.
+- [Developers](./deliverers/developers/readme.md): implement prepared capabilities and contracts while raising ambiguity, unsafe assumptions and missing ownership.
+- [Front-end Developers](./deliverers/developers/front-end.md): build the browser consumer system, its client-side flows and component assemblies, with accessibility, usability and browser security evidence.
+- [Testers](./deliverers/testers/readme.md): turn requirements, contracts and quality claims into boundary and failure evidence.
+- [Support](./deliverers/support/readme.md): help people use the service, investigate reported problems and escalate to the responsible boundary.
+- [Operators](./deliverers/operators/readme.md): keep the delivered service available, observable, secure and recoverable.
+- [Maintainers](./deliverers/maintainers/readme.md): preserve and change an occupied service without losing its meaning, contracts or evidence.
 
 ## Product and delivery responsibilities
 
@@ -32,7 +35,7 @@ Scrum has a Scrum Master accountability. Kanban does not require a Scrum Master;
 
 ## Shared handoffs
 
-The routes meet around shared artefacts:
+The perspectives meet around shared artefacts:
 
 - drivers, stakeholders, objectives and outcomes;
 - BUST and other requirement views;
@@ -43,15 +46,15 @@ The routes meet around shared artefacts:
 - deliverable systems and deliverables; and
 - tests, acceptance records and operational evidence.
 
-The purpose of the routes is to make those handoffs explicit. No role should have to reconstruct another role's contribution from tickets, screens or implementation details.
+The purpose of these perspectives is to make those handoffs explicit. No role should have to reconstruct another role's contribution from tickets, screens or implementation details.
 
 The [Stakeholder Roles Catalogue](../shared/reference/catalogues/stakeholder-roles.md) gives the fuller role boundaries, including Product Manager, Product Owner and Scrum Master or delivery facilitator.
 
-## Related guidance
+## Related material
 
-- [Shared Human Guidance](../shared/readme.md)
-- [Human Orientation](../orientation/readme.md)
+- [Shared Human Concerns](../shared/readme.md)
+- [Foundations](../foundations/readme.md)
 - [Stakeholder Roles Catalogue](../shared/reference/catalogues/stakeholder-roles.md)
 - [Users to Consider Catalogue](../shared/reference/catalogues/users.md)
 - [System Roles Catalogue](../shared/reference/catalogues/system-roles.md)
-- [What This Guidance Gives Each Stakeholder](../orientation/what-this-guidance-gives.md)
+- [What Each Stakeholder Can Find Here](../foundations/what-this-guidance-gives.md)

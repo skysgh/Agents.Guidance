@@ -1,4 +1,7 @@
+[Up](./readme.md)
+
 # Quality Perspectives
+
 
 Quality is not one property that can be added at the end of development. It is the degree to which a service, its information and its use achieve the outcomes that matter in their context.
 
@@ -175,7 +178,7 @@ A quality target without a context is usually too vague to test. ÔÇ£Fast,ÔÇ
 
 ## Related guidance
 
-- [Delivery Guidance](../../../delivery/readme.md) connects quality, evidence and responsibility to the wider delivered service.
+- [Deliverables](../../../deliverables/readme.md) connects quality, evidence and responsibility to the wider delivered service.
 The [Stakeholder Roles](./stakeholder-roles.md) catalogue identifies the people who provide quality expectations and evidence. [Software Development Lifecycle](./sdlc.md) places quality decisions and evidence across Discovery, Definition, Design, Development, Delivery, Operations, Maintenance and Decommissioning. [Conceptual, Logical and Physical Models](./conceptual-logical-physical-models.md) explains why a quality claim may be expressed differently by a consumer, logical domain model and physical implementation.
 
 The agent-facing [Standards](../../../../agents/conventions/development/design-standards.md) records the adopted ISO/IEC quality foundation and links to the standards themselves.

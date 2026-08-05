@@ -1,3 +1,5 @@
+[Up](../readme.md)
+
 # A BA exposes the authority before implementation
 
 The BA does not treat `Submitted` as settled because several people use the same word. They ask each participant what the status means, what they may do next, what evidence they need and which event changes their authority.

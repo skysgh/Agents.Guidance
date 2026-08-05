@@ -1,3 +1,5 @@
+[Up](./readme.md)
+
 # Constants and Shared Vocabulary
 
 A constant is a named piece of immutable meaning. It is useful when several parts of a system must refer to the same stable value, such as an LDM key, route segment, permission name or infrastructure category.

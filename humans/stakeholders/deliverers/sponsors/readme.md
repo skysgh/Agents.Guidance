@@ -1,4 +1,6 @@
-# Sponsor Guidance
+[Up](../readme.md)
+
+# Sponsors
 
 The status report says the service is on time and within budget. Then a user cannot complete an important request, the operator cannot tell whether a dependency is failing and the maintainer discovers that nobody can safely change the data model. The visible delivery is real, but it is not yet the service the organisation thought it was buying.
 
@@ -71,7 +73,7 @@ The Sponsor should expect the team to make relevant quality responsibilities exp
 - **Observability and supportability:** operators, support, monitoring, assurance and control functions receive the information and access they need to do their work.
 - **Parsimony and resource responsibility:** the design is no more complicated, expensive or resource-hungry than the responsibilities require, while retaining necessary foundations.
 
-These concerns connect to the [Quality Perspectives](../../reference/catalogues/qualities.md) catalogue. The Sponsor should require the relevant specialists to define the context and evidence. They should not pretend to be the specialist who supplies it.
+These concerns connect to the [Quality Perspectives](../../../shared/reference/catalogues/qualities.md) catalogue. The Sponsor should require the relevant specialists to define the context and evidence. They should not pretend to be the specialist who supplies it.
 
 ### Focused use, wherever it occurs
 
@@ -127,10 +129,10 @@ The Sponsor may then require clarification, additional evidence, a changed objec
 
 ## Related guidance
 
-- [Stakeholder Guidance](../readme.md)
+- [Stakeholders](../readme.md)
 - [Product Manager Guidance](../product-managers/readme.md)
 - [Product Owner Guidance](../product-owners/readme.md)
-- [Stakeholder Roles Catalogue](../../reference/catalogues/stakeholder-roles.md)
-- [Quality Perspectives](../../reference/catalogues/qualities.md)
-- [Shared Requirements](../../shared/requirements.md)
-- [Software Development Lifecycle](../../reference/catalogues/sdlc.md)
+- [Stakeholder Roles Catalogue](../../../shared/reference/catalogues/stakeholder-roles.md)
+- [Quality Perspectives](../../../shared/reference/catalogues/qualities.md)
+- [Shared Requirements](../../../shared/requirements.md)
+- [Software Development Lifecycle](../../../shared/reference/catalogues/sdlc.md)

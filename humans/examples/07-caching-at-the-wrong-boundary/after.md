@@ -1,3 +1,5 @@
+[Up](../readme.md)
+
 # After: Caching as a Registered Object Capability
 
 The platform defines an `ICachingObject<TValue>` contract for a cacheable capability. A caching object describes and owns the policy for its value:

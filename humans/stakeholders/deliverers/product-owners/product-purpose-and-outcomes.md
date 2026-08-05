@@ -1,3 +1,5 @@
+[Up](readme.md)
+
 # Product Purpose and Outcomes
 
 A product purpose explains the responsibility the product exists to support. An outcome describes what should become true for people, the organisation or connected systems. Product purpose is broader than a list of features and more durable than a release message.
@@ -50,7 +52,7 @@ Before ordering a substantial outcome, make its route visible:
 
 driver -> stakeholder or user need -> capability and Domain -> requirements -> contract and predicate -> deliverable systems -> evidence
 
-The route should identify the relevant [capability](../../reference/catalogues/domains-and-capabilities.md) and [Domain](../../reference/glossary.md#domain) before requirements, contracts and deliverables are ordered.
+The route should identify the relevant [capability](../../../shared/reference/catalogues/domains-and-capabilities.md) and [Domain](../../../shared/reference/glossary.md#domain) before requirements, contracts and deliverables are ordered.
 
 Each arrow should have an owner or source of authority. A Product Owner may order the outcome, but the Product Owner does not thereby own every concept, policy, system boundary or technical decision in the route.
 
@@ -79,9 +81,9 @@ A deliberate deferral can be responsible when its boundary, owner, trigger, risk
 ## Related guidance
 
 - [Product Owner Guidance](./readme.md)
-- [Stakeholder Roles](../../reference/catalogues/stakeholder-roles.md)
-- [Users to Consider](../../reference/catalogues/users.md)
-- [System Roles](../../reference/catalogues/system-roles.md)
+- [Stakeholder Roles](../../../shared/reference/catalogues/stakeholder-roles.md)
+- [Users to Consider](../../../shared/reference/catalogues/users.md)
+- [System Roles](../../../shared/reference/catalogues/system-roles.md)
 - [Drivers, Stakeholders, Objectives and Outcomes](../business-analysts/drivers-stakeholders-objectives-outcomes.md)
 - [Elicitation](../business-analysts/elicitation.md)
 - [Functional and Quality Requirements](../business-analysts/functional-and-quality-requirements.md)

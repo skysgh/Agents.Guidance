@@ -1,4 +1,7 @@
+[Up](./readme.md)
+
 # Logical Layers
+
 
 Logical layers distinguish kinds of implementation responsibility within an LDM. They are architectural concepts before they are projects or folders. They help people keep the consumer-facing representation, the application and domain responsibilities and the physical mechanisms that execute them from becoming one accidental model. They are not the same thing as the Conceptual, Logical and Physical model types.
 

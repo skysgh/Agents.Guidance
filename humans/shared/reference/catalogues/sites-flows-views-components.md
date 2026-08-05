@@ -1,6 +1,9 @@
+[Up](./readme.md)
+
 # Sites, Flows, Views and Components
 
-This document gives a deeper description of the internal shape of a site. It is not required reading before a team understands the site catalogue. It exists so that a later conversation about interface structure has a stable place to begin.
+
+This explanation gives a deeper description of the internal shape of a site. The site catalogue remains understandable without it; the additional detail becomes useful when a conversation turns to interface structure.
 
 A site is not a bag of pages. It is a curated way for a group to use system-managed information and capabilities in support of a responsibility. The site becomes understandable when its journeys, views and interface components remain connected to that responsibility.
 

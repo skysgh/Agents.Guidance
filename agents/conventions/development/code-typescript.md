@@ -2,7 +2,7 @@
 
 Apply these conventions when creating, reviewing, restructuring or refactoring code in a service client.
 
-For the human explanation of the browser boundary and language decision, read [Selecting a Language and Framework](../../../humans/orientation/language-and-framework-selection.md).
+For the human explanation of the browser boundary and language decision, read [Selecting a Language and Framework](../../../humans/foundations/language-and-framework-selection.md).
 
 ## Purpose
 

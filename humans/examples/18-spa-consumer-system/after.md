@@ -1,3 +1,5 @@
+[Up](../readme.md)
+
 # After: A Client System with a Service Boundary
 
 The team recognises two systems that participate in one experience:
@@ -5,7 +7,7 @@ The team recognises two systems that participate in one experience:
 - the **client system** owns browser execution, views, component assemblies, client-side state, consumer-side flow, feedback and the mapping of service results into understandable interaction; and
 - the **service system** owns business capabilities, authorisation, durable state, authoritative transitions, audit and external effects.
 
-The [Deliverable Systems](../../shared/reference/catalogues/deliverable-systems.md) catalogue gives the wider system relationship. The [Client System Guidance](../../delivery/systems/client/readme.md) follows the client boundary, while the [Service System Guidance](../../delivery/systems/service/readme.md) follows the server-side responsibility.
+The [Deliverable Systems](../../shared/reference/catalogues/deliverable-systems.md) catalogue gives the wider system relationship. The [Client System Guidance](../../deliverables/systems/client/readme.md) follows the client boundary, while the [Service System Guidance](../../deliverables/systems/service/readme.md) follows the server-side responsibility.
 
 ## The client flow
 
@@ -20,7 +22,7 @@ The client coordinates the human journey without becoming the authority for the 
 7. The client shows a pending state while the outcome is uncertain and gives the person a safe retry or return path.
 8. The service confirms the authoritative result before the client presents the request as submitted.
 
-The [Client UX Palette](../../delivery/systems/client/ux-palette.md) describes these assemblies. The [Common Flows](../../orientation/flows.md) describes the shared prepare-and-submit shape. The client can make the journey feel complete, but it cannot approve, authorise or invent a durable state transition.
+The [Client UX Palette](../../deliverables/systems/client/ux-palette.md) describes these assemblies. The [Common Flows](../../foundations/flows.md) describes the shared prepare-and-submit shape. The client can make the journey feel complete, but it cannot approve, authorise or invent a durable state transition.
 
 ## Component responsibility
 

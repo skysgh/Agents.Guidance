@@ -1,3 +1,5 @@
+[Up](readme.md)
+
 # Operational Readiness, Observability and Recovery
 
 Operations keeps the delivered service available, observable, secure and recoverable. The operator's first question is not only whether the process is running. It is whether the service is ready to provide its promised capabilities, whether its dependencies are safe to use and what controlled action is appropriate when a condition changes.
@@ -85,7 +87,7 @@ Recovery evidence should not disappear after service restoration. See [Incident 
 
 ## Operational deliverables
 
-The resulting [Operational Manuals or Information](../../reference/catalogues/deliverables.md) should include readiness definitions, health and diagnostic interpretation, deployment and configuration responsibilities, monitoring and alert response, routine actions, dependency failure, recovery, escalation and evidence retention. They are distinct from:
+The resulting [Operational Manuals or Information](../../../shared/reference/catalogues/deliverables.md) should include readiness definitions, health and diagnostic interpretation, deployment and configuration responsibilities, monitoring and alert response, routine actions, dependency failure, recovery, escalation and evidence retention. They are distinct from:
 
 - **Support Manuals or Information**, which help Support understand user reports and provide permitted assistance; and
 - **Maintenance Manuals or Information**, which help maintainers change, repair, upgrade, migrate, deprecate or retire the service.
@@ -95,11 +97,11 @@ Operational information must be versioned with the service and environment it de
 ## Related guidance
 
 - [Operations Guidance](./readme.md)
-- [Operations Conventions](../../../agents/conventions/development/operations.md)
-- [Deliverables](../../reference/catalogues/deliverables.md)
-- [Deliverable Systems](../../reference/catalogues/deliverable-systems.md)
-- [External Dependencies](../../reference/catalogues/external-dependencies.md)
-- [System LDM Service Readiness](../../reference/platform-services.md)
+- [Operations Conventions](../../../../agents/conventions/development/operations.md)
+- [Deliverables](../../../shared/reference/catalogues/deliverables.md)
+- [Deliverable Systems](../../../shared/reference/catalogues/deliverable-systems.md)
+- [External Dependencies](../../../shared/reference/catalogues/external-dependencies.md)
+- [System LDM Service Readiness](../../../shared/reference/platform-services.md)
 - [Testing Evidence and Boundaries](../testers/evidence-and-boundaries.md)
 - [Support Triage and Escalation](../support/triage-and-escalation.md)
 - [Maintenance Guidance](../maintainers/readme.md)

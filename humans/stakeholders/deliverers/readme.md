@@ -1,3 +1,5 @@
+[Up: Stakeholders](../readme.md)
+
 # Service Deliverers
 
 Deliverers are the people who contribute to defining, building, testing, operating, supporting, maintaining, sponsoring or providing a service. The word describes a responsibility across the service lifecycle, not a single job title and not only the construction phase.
@@ -24,9 +26,7 @@ These responsibilities meet around shared requirements, capabilities, contracts,
 
 ## Related guidance
 
-- [Stakeholder Guidance](../readme.md)
-- [Shared Human Guidance](../../shared/readme.md)
-- [Human Orientation](../../orientation/readme.md)
+- [Stakeholders](../readme.md)
+- [Shared Human Concerns](../../shared/readme.md)
+- [Foundations](../../foundations/readme.md)
 - [Deliverable Systems](../../shared/reference/catalogues/deliverable-systems.md)
-
-[Up: Stakeholder Guidance](../readme.md)

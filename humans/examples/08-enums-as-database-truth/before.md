@@ -1,3 +1,5 @@
+[Up](../readme.md)
+
 # Before: Enums Become Database Truth
 
 A developer needs a status, category or type field. An enum is familiar, concise and supported by the language and ORM, so it becomes the source of truth:

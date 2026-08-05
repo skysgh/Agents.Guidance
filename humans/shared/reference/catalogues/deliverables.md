@@ -1,4 +1,7 @@
+[Up](./readme.md)
+
 # Deliverables
+
 
 A deliverable is something that must exist, be configured, be registered, be migrated, be published or be maintained for the intended outcome to be available. A deliverable may be executable, data, content, infrastructure, evidence or an external registration.
 
@@ -112,4 +115,4 @@ The answer commonly exposes missing deliverables such as:
 - monitoring, backup and recovery evidence; and
 - supplier, licence, retention and exit arrangements.
 
-These items are part of a delivered outcome, not a second definition of the service. [Delivery Guidance](../../../delivery/readme.md) provides the wider explanation of how software, material, responsibility and evidence meet the people who depend on them. From this catalogue, [Deliverable Systems](./deliverable-systems.md) shows which distinct systems produce and use the items, [External Dependencies](./external-dependencies.md) shows the boundaries on which they rely and the [Deliverables Checklist](../checklists/deliverables.md) provides review prompts.
+These items are part of a delivered outcome, not a second definition of the service. [Deliverables](../../../deliverables/readme.md) provides the wider explanation of how software, material, responsibility and evidence meet the people who depend on them. From this catalogue, [Deliverable Systems](./deliverable-systems.md) shows which distinct systems produce and use the items, [External Dependencies](./external-dependencies.md) shows the boundaries on which they rely and the [Deliverables Checklist](../checklists/deliverables.md) provides review prompts.

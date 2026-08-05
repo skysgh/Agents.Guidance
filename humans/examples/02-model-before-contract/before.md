@@ -1,3 +1,5 @@
+[Up](../readme.md)
+
 # Before: Concrete Model Before Contract
 
 A developer creates a model with useful methods and properties. Services call the concrete model directly because it is available and easy to understand.

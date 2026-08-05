@@ -1,3 +1,5 @@
+[Up](../readme.md)
+
 # Product pressure removes the foundation
 
 A Product Owner is asked to release a new application journey before the reporting deadline. The visible work is a form, a submit button and a status page. The team agrees to defer the difficult parts: duplicate submission handling, an audit trail, accessibility review, support information, operational alerts, recovery behaviour and a migration plan for existing records.

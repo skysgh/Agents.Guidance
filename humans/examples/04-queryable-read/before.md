@@ -1,3 +1,5 @@
+[Up](../readme.md)
+
 # Before: Queryable Read Rejected or Exposed Directly
 
 A team needs a list that will eventually serve screens, exports and integrations. They reject `IQueryable` because exposing database entities would be unsafe, then add a fixed endpoint returning a collection.

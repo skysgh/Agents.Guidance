@@ -1,3 +1,5 @@
+[Up](readme.md)
+
 # Support Access and Guided Action
 
 Support often needs more information than an ordinary user can see, but that does not make Support a universal administrator. Support access exists to help a person with a defined case and must remain limited, purposeful, visible and reversible.
@@ -54,8 +56,8 @@ A Support console, case system, diagnostic view, export or communication channel
 
 - [Support Guidance](./readme.md)
 - [Support Triage and Escalation](./triage-and-escalation.md)
-- [Support Manuals or Information](../../reference/catalogues/deliverables.md)
-- [System Roles](../../reference/catalogues/system-roles.md)
-- [Data Protection](../../development/data-deletion-guidance.md)
+- [Support Manuals or Information](../../../shared/reference/catalogues/deliverables.md)
+- [System Roles](../../../shared/reference/catalogues/system-roles.md)
+- [Data Protection](../../../development/data-deletion-guidance.md)
 - [Operations Guidance](../operators/readme.md)
 - [Maintenance Guidance](../maintainers/readme.md)

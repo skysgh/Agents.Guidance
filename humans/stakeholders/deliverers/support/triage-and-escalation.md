@@ -1,3 +1,5 @@
+[Up](readme.md)
+
 # Support Triage and Escalation
 
 Support is the first human point of contact for end users. The first task is not to guess the technical cause. It is to understand the report well enough to help the person, protect their information and send the right evidence to the responsible boundary.
@@ -58,9 +60,9 @@ Support must not:
 ## Related guidance
 
 - [Support Guidance](./readme.md)
-- [Support Manuals or Information](../../reference/catalogues/deliverables.md)
-- [System Roles](../../reference/catalogues/system-roles.md)
+- [Support Manuals or Information](../../../shared/reference/catalogues/deliverables.md)
+- [System Roles](../../../shared/reference/catalogues/system-roles.md)
 - [Operations Guidance](../operators/readme.md)
 - [Maintenance Guidance](../maintainers/readme.md)
 - [Testing Guidance](../testers/readme.md)
-- [Shared Requirements](../../shared/requirements.md)
+- [Shared Requirements](../../../shared/requirements.md)

@@ -1,6 +1,6 @@
 # Platform Service Inventory
 
-Agents must use this inventory when planning a new capability, module, service, endpoint, persistence model or cross-cutting integration. The human explanation is [Guidance for Tech Leads](../../../humans/orientation/guidance-for-tech-leads.md), and the detailed human reference is [Platform Services Reference](../../../humans/shared/reference/platform-services.md).
+Agents must use this inventory when planning a new capability, module, service, endpoint, persistence model or cross-cutting integration. The human explanation is [Guidance for Tech Leads](../../../humans/foundations/guidance-for-tech-leads.md), and the detailed human reference is [Platform Services Reference](../../../humans/shared/reference/platform-services.md).
 
 ## Canonical sequence
 

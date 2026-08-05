@@ -1,3 +1,5 @@
+[Up](readme.md)
+
 # Service Accountability and Deliverables
 
 A Service Provider is accountable for providing an agreed service capability to its consumers and stakeholders. This is broader than owning a deployment or answering a support ticket. It includes ensuring that the service has the people, boundaries, information, controls and evidence needed across its life.
@@ -81,10 +83,10 @@ A service is not fully provided when it can be started. It is provided when the 
 ## Related guidance
 
 - [Service Provider Guidance](./readme.md)
-- [Deliverables](../../reference/catalogues/deliverables.md)
-- [Deliverable Systems](../../reference/catalogues/deliverable-systems.md)
+- [Deliverables](../../../shared/reference/catalogues/deliverables.md)
+- [Deliverable Systems](../../../shared/reference/catalogues/deliverable-systems.md)
 - [Support Guidance](../support/readme.md)
 - [Testing Guidance](../testers/readme.md)
 - [Operations Guidance](../operators/readme.md)
 - [Maintenance Guidance](../maintainers/readme.md)
-- [Shared Requirements](../../shared/requirements.md)
+- [Shared Requirements](../../../shared/requirements.md)

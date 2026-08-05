@@ -1,4 +1,7 @@
+[Up](./readme.md)
+
 # Logical Building Blocks
+
 
 A logical building block is a named unit of responsibility within an LDM and its layers. The term describes what a part must do before deciding whether the physical implementation is a class, record, module, function, provider binding or framework object.
 

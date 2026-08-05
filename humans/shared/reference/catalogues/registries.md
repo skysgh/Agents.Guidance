@@ -1,4 +1,7 @@
+[Up](./readme.md)
+
 # Registries
+
 
 A registry is an owned, governed collection of records that supports a decision, lookup, control, handoff or lifecycle. It is more than a list. Each entry needs a defined meaning, responsible maintainer, authority, evidence, status, review condition and treatment when it becomes stale.
 
@@ -95,7 +98,7 @@ The same physical product may host several registries or an inventory, but the r
 
 ## Related guidance
 
-- [Delivery Guidance](../../../delivery/readme.md) explains how registries support the wider delivered outcome and its continuing responsibilities.
+- [Deliverables](../../../deliverables/readme.md) explains how registries support the wider delivered outcome and its continuing responsibilities.
 - [Stakeholder Roles](./stakeholder-roles.md) explains who may maintain, consult or decide from a registry.
 - [Logical Building Blocks](./logical-building-blocks.md) explains the software building block called a registry.
 - [Deliverables](./deliverables.md) explains the wider deliverables that project registries help track.

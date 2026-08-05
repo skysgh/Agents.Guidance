@@ -1,4 +1,7 @@
+[Up](./readme.md)
+
 # Regulatory and Obligation Domains
+
 
 A service operates inside laws, regulations, sector rules, organisational policies, contracts and recognised standards. The names differ between countries, jurisdictions and industries. The underlying objectives often recur.
 
@@ -119,10 +122,10 @@ For example, accessibility may be a legal duty and a quality-in-use concern. Sec
 
 ## Related guidance
 
-- [Delivery Guidance](../../../delivery/readme.md) places obligations alongside the systems, material, responsibilities and evidence that make an outcome real.
-- [Legal and Regulatory Context](../../../orientation/legal-context.md) explains how to map jurisdictions and delivery context.
+- [Deliverables](../../../deliverables/readme.md) places obligations alongside the systems, material, responsibilities and evidence that make an outcome real.
+- [Legal and Regulatory Context](../../../foundations/legal-context.md) explains how to map jurisdictions and delivery context.
 - [Regulatory and Obligation Checklist](../checklists/regulatory-obligations.md) provides practical review prompts.
-- [Systems Within Systems](../../../orientation/systems-within-systems.md) shows how duties cross enterprise, legal, organisational and digital boundaries.
+- [Systems Within Systems](../../../foundations/systems-within-systems.md) shows how duties cross enterprise, legal, organisational and digital boundaries.
 - [Stakeholder Roles](./stakeholder-roles.md) explains who supplies knowledge, authority and evidence.
 - [Quality Perspectives](./qualities.md) explains the relationship between obligations, qualities and evidence.
 - [Data Deletion Guidance](../../../development/data-deletion-guidance.md) explains retention, deletion and anonymisation decisions in detail.

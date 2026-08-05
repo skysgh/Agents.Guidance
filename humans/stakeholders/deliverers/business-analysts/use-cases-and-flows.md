@@ -1,3 +1,5 @@
+[Up](readme.md)
+
 # Use Cases and Flows
 
 Use cases and flows help people understand how capabilities are used together to achieve an outcome. They are useful bridges between requirements and design, but they are not substitutes for Domains, capabilities, contracts, predicates or operational evidence.
@@ -103,7 +105,7 @@ For example, an application flow may coordinate:
 - an approval capability; and
 - a notification or payment capability.
 
-The flow may need ordering, correlation, status, retry and recovery. It should not move the evidence rules into the submission coordinator or make the notification system the owner of approval state. Use [Vertical Slices](../../development/vertical-slices.md) and [Horizontal Flows](../../../agents/conventions/capabilities/flows.md) for the engineering consequences.
+The flow may need ordering, correlation, status, retry and recovery. It should not move the evidence rules into the submission coordinator or make the notification system the owner of approval state. Use [Vertical Slices](../../../development/vertical-slices.md) and [Horizontal Flows](../../../../agents/conventions/capabilities/flows.md) for the engineering consequences.
 
 ## Quality and failure paths
 
@@ -142,9 +144,9 @@ Before a use case or flow moves into architecture, development or testing, ask:
 - [Business Analyst Guidance](./readme.md)
 - [Elicitation](./elicitation.md)
 - [Functional and Quality Requirements](./functional-and-quality-requirements.md)
-- [Domains and Capabilities](../../reference/catalogues/domains-and-capabilities.md)
-- [Sites, Flows, Views and Components](../../reference/catalogues/sites-flows-views-components.md)
-- [Vertical Slices](../../development/vertical-slices.md)
-- [Horizontal Flows](../../../agents/conventions/capabilities/flows.md)
-- [Guidance for System Design Architects](../../orientation/guidance-for-system-design-architects.md)
-- [Deliverable Systems](../../reference/catalogues/deliverable-systems.md)
+- [Domains and Capabilities](../../../shared/reference/catalogues/domains-and-capabilities.md)
+- [Sites, Flows, Views and Components](../../../shared/reference/catalogues/sites-flows-views-components.md)
+- [Vertical Slices](../../../development/vertical-slices.md)
+- [Horizontal Flows](../../../../agents/conventions/capabilities/flows.md)
+- [Guidance for System Design Architects](../../../foundations/guidance-for-system-design-architects.md)
+- [Deliverable Systems](../../../shared/reference/catalogues/deliverable-systems.md)

@@ -1,4 +1,7 @@
+[Up](./readme.md)
+
 # Incident Learning and Corrective Change
+
 
 An incident is evidence that the live service did not behave, remain available, remain secure or remain understandable as expected. Incident response restores or protects the service. Incident learning asks what the evidence changes about the service's meaning, design, policy, operation or lifecycle. Corrective change carries that decision into the relevant lifecycle work and verifies that the risk has actually reduced.
 
@@ -90,9 +93,9 @@ Incident learning is complete when the evidence supports the decision, the respo
 
 ## Related guidance
 
-- [Software Development Lifecycle](../../reference/catalogues/sdlc.md)
+- [Software Development Lifecycle](../../../shared/reference/catalogues/sdlc.md)
 - [Readiness, Observability and Recovery](./readiness-observability-and-recovery.md)
-- [Shared Requirements](../../shared/requirements.md)
-- [Deliverables](../../reference/catalogues/deliverables.md)
+- [Shared Requirements](../../../shared/requirements.md)
+- [Deliverables](../../../shared/reference/catalogues/deliverables.md)
 - [Testing Evidence and Boundaries](../testers/evidence-and-boundaries.md)
 - [Maintenance Guidance](../maintainers/readme.md)

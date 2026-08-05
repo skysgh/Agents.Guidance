@@ -1,4 +1,7 @@
-# Product Manager Guidance
+[Up](../readme.md)
+
+# Product Managers
+
 
 A Product Manager is a far-seeing steward of product objectives within considered context. They connect purpose, users, value, viability, strategic fit, investment and longer-term outcomes to the constraints that make those objectives real: budget, schedule, organisational capacity, obligations, dependencies, risk and the life of the service.
 
@@ -19,11 +22,11 @@ The distinction is not a rank order. A Product Owner can expose strategic incohe
 
 ## A useful way into the route
 
-[Liberation Through Clarity](../../shared/liberation-through-clarity.md) explains how good structure gives product people a stronger basis for influence, prioritisation and responsible commitment. [Stakeholder Roles](../../reference/catalogues/stakeholder-roles.md) describes the relationship between Product Manager, Product Owner, sponsor, business owner, analysts, architects and specialist authorities. [Sponsor Guidance](../sponsors/readme.md) explains the separate accountability for the organisational commitment, delivery variance and escalation.
+[Liberation Through Clarity](../../../shared/liberation-through-clarity.md) explains how good structure gives product people a stronger basis for influence, prioritisation and responsible commitment. [Stakeholder Roles](../../../shared/reference/catalogues/stakeholder-roles.md) describes the relationship between Product Manager, Product Owner, sponsor, business owner, analysts, architects and specialist authorities. [Sponsor Guidance](../sponsors/readme.md) explains the separate accountability for the organisational commitment, delivery variance and escalation.
 
-[Software Development Lifecycle](../../reference/catalogues/sdlc.md) provides the wider reasoning frame from discovery and discussion through decision, definition, design, development, delivery, operation and decommissioning. It helps the Product Manager see where strategic intent must become evidence rather than remaining a statement of ambition.
+[Software Development Lifecycle](../../../shared/reference/catalogues/sdlc.md) provides the wider reasoning frame from discovery and discussion through decision, definition, design, development, delivery, operation and decommissioning. It helps the Product Manager see where strategic intent must become evidence rather than remaining a statement of ambition.
 
-[Shared Requirements](../../shared/requirements.md) follows the chain from drivers and stakeholders through objectives, outcomes, requirements, capabilities, contracts, deliverables and acceptance. [What This Guidance Gives Each Stakeholder](../../orientation/what-this-guidance-gives.md) explains how product people meet the other perspectives without having to become the owner of every one.
+[Shared Requirements](../../../shared/requirements.md) follows the chain from drivers and stakeholders through objectives, outcomes, requirements, capabilities, contracts, deliverables and acceptance. [What This Guidance Gives Each Stakeholder](../../../foundations/what-this-guidance-gives.md) explains how product people meet the other perspectives without having to become the owner of every one.
 
 ## Objectives within constraints
 
@@ -78,11 +81,11 @@ The Product Manager does not resolve every question personally. They help preven
 
 Product direction often begins with what people can see: a screen, report, workflow, integration, message or promise. The Product Manager helps the team look beneath that surface far enough to understand the enduring responsibilities and relationships that the product must preserve.
 
-The [Conceptual, Logical and Physical Models](../../reference/catalogues/conceptual-logical-physical-models.md) catalogue explains the distinction. The conceptual view expresses what people recognise and need. The logical view decomposes the enduring things, relationships, states, rules, capabilities and authority that should remain meaningful as screens, teams, providers and storage change. The physical view represents that design through interfaces, code, mappings, persistence, infrastructure and deployment.
+The [Conceptual, Logical and Physical Models](../../../shared/reference/catalogues/conceptual-logical-physical-models.md) catalogue explains the distinction. The conceptual view expresses what people recognise and need. The logical view decomposes the enduring things, relationships, states, rules, capabilities and authority that should remain meaningful as screens, teams, providers and storage change. The physical view represents that design through interfaces, code, mappings, persistence, infrastructure and deployment.
 
 The Product Manager does not design classes or tables by proxy. They do help protect the time and attention needed for the team to discover the logical design, especially when a superficially quick screen-led solution would create higher future risk. This is product stewardship because logical clarity affects value, change cost, evidence, safety, operability and the organisation's ability to pursue future objectives.
 
-[Enduring versus Transient](../../reference/catalogues/entity-lifecycle-patterns.md) and [Example 16: Enduring Entities and Membership](../../examples/16-enduring-entities-and-membership/after.md) show why a visible current state may not be the same thing as the enduring entity, membership, assignment or event the organisation must preserve. These distinctions can change product value, reporting, history, privacy, migration and long-term cost.
+[Enduring versus Transient](../../../shared/reference/catalogues/entity-lifecycle-patterns.md) and [Example 16: Enduring Entities and Membership](../../../examples/16-enduring-entities-and-membership/after.md) show why a visible current state may not be the same thing as the enduring entity, membership, assignment or event the organisation must preserve. These distinctions can change product value, reporting, history, privacy, migration and long-term cost.
 
 ## Investment, sequencing and deferral
 
@@ -122,7 +125,7 @@ They do not automatically own:
 - delivery-team ordering within another person's delegated authority; or
 - the ongoing operation, support and maintenance of the service.
 
-The [Stakeholder Roles](../../reference/catalogues/stakeholder-roles.md) catalogue describes these boundaries. [Stakeholder Conflict and Authority](../product-owners/stakeholder-conflict-and-authority.md) explains how product decisions can preserve disagreement, residual risk and a return path when the Product Owner or Product Manager cannot decide alone.
+The [Stakeholder Roles](../../../shared/reference/catalogues/stakeholder-roles.md) catalogue describes these boundaries. [Stakeholder Conflict and Authority](../product-owners/stakeholder-conflict-and-authority.md) explains how product decisions can preserve disagreement, residual risk and a return path when the Product Owner or Product Manager cannot decide alone.
 
 A healthy handoff from Product Manager to Product Owner makes the objective, intended value, constraints, authority, decision horizon, known dependencies, evidence expectations and open questions visible. A healthy handoff from Product Owner into architecture and technical analysis makes the selected outcome and its meaning visible without pretending that all design detail is already complete.
 
@@ -139,21 +142,21 @@ Product success is not only adoption, revenue, delivery speed or the presence of
 - the organisation learning from incidents, testing, complaints and operational evidence; and
 - the service being able to change, migrate or retire without abandoning its obligations.
 
-The Product Manager does not need to measure every quality personally. They do need to ensure that the product's objectives leave room for the authorities and evidence that make the service dependable. [Quality Perspectives](../../reference/catalogues/qualities.md), [Deliverable Systems](../../reference/catalogues/deliverable-systems.md) and [Deliverables](../../reference/catalogues/deliverables.md) show how value extends beyond application code.
+The Product Manager does not need to measure every quality personally. They do need to ensure that the product's objectives leave room for the authorities and evidence that make the service dependable. [Quality Perspectives](../../../shared/reference/catalogues/qualities.md), [Deliverable Systems](../../../shared/reference/catalogues/deliverable-systems.md) and [Deliverables](../../../shared/reference/catalogues/deliverables.md) show how value extends beyond application code.
 
 ## Related guidance
 
 - [Product Owner Guidance](../product-owners/readme.md)
-- [Shared Requirements](../../shared/requirements.md)
-- [Stakeholder Roles](../../reference/catalogues/stakeholder-roles.md)
-- [Software Development Lifecycle](../../reference/catalogues/sdlc.md)
-- [Liberation Through Clarity](../../shared/liberation-through-clarity.md)
-- [What This Guidance Gives Each Stakeholder](../../orientation/what-this-guidance-gives.md)
-- [Conceptual, Logical and Physical Models](../../reference/catalogues/conceptual-logical-physical-models.md)
-- [Entity Lifecycle Patterns](../../reference/catalogues/entity-lifecycle-patterns.md)
-- [Quality Perspectives](../../reference/catalogues/qualities.md)
-- [Deliverable Systems](../../reference/catalogues/deliverable-systems.md)
-- [Deliverables](../../reference/catalogues/deliverables.md)
+- [Shared Requirements](../../../shared/requirements.md)
+- [Stakeholder Roles](../../../shared/reference/catalogues/stakeholder-roles.md)
+- [Software Development Lifecycle](../../../shared/reference/catalogues/sdlc.md)
+- [Liberation Through Clarity](../../../shared/liberation-through-clarity.md)
+- [What This Guidance Gives Each Stakeholder](../../../foundations/what-this-guidance-gives.md)
+- [Conceptual, Logical and Physical Models](../../../shared/reference/catalogues/conceptual-logical-physical-models.md)
+- [Entity Lifecycle Patterns](../../../shared/reference/catalogues/entity-lifecycle-patterns.md)
+- [Quality Perspectives](../../../shared/reference/catalogues/qualities.md)
+- [Deliverable Systems](../../../shared/reference/catalogues/deliverable-systems.md)
+- [Deliverables](../../../shared/reference/catalogues/deliverables.md)
 - [Product Purpose and Outcomes](../product-owners/product-purpose-and-outcomes.md)
 - [Ordering and Sequencing](../product-owners/ordering-and-sequencing.md)
 - [Acceptance and Evidence](../product-owners/acceptance-and-evidence.md)

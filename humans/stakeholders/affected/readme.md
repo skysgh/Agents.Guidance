@@ -1,3 +1,5 @@
+[Up: Stakeholders](../readme.md)
+
 # People Affected by Services
 
 Affected people experience consequences of a service without necessarily using it directly. A service may make a decision about them, hold information about them, change the conditions around them or require another person to act on their behalf.
@@ -18,5 +20,3 @@ The [Users to Consider Catalogue](../../shared/reference/catalogues/users.md) di
 - [Influencers](../influencers/readme.md)
 - [Deliverers](../deliverers/readme.md)
 - [Stakeholder Roles Catalogue](../../shared/reference/catalogues/stakeholder-roles.md)
-
-[Up: Stakeholder Guidance](../readme.md)

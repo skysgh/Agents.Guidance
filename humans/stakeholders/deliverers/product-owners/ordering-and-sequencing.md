@@ -1,3 +1,5 @@
+[Up](readme.md)
+
 # Ordering and Sequencing
 
 The Product Owner orders outcomes and the work needed to reach them. Ordering is not a ranking of visible features alone. It is the decision about which coherent, evidence-producing path should be taken next and what must be ready before that path is safe.
@@ -83,9 +85,9 @@ A temporary omission may be deliberate. It becomes irresponsible when its owner,
 - [Product Purpose and Outcomes](./product-purpose-and-outcomes.md)
 - [Foundations and Delay](./foundations-and-delay.md)
 - [Scope and Deferral](./scope-and-deferral.md)
-- [Stakeholder Roles](../../reference/catalogues/stakeholder-roles.md)
-- [System Roles](../../reference/catalogues/system-roles.md)
-- [Deliverable Systems](../../reference/catalogues/deliverable-systems.md)
-- [Deliverables](../../reference/catalogues/deliverables.md)
+- [Stakeholder Roles](../../../shared/reference/catalogues/stakeholder-roles.md)
+- [System Roles](../../../shared/reference/catalogues/system-roles.md)
+- [Deliverable Systems](../../../shared/reference/catalogues/deliverable-systems.md)
+- [Deliverables](../../../shared/reference/catalogues/deliverables.md)
 - [Transitional and Operational Requirements](../business-analysts/transitional-and-operational-requirements.md)
 - [Traceability and Evidence](../business-analysts/traceability-and-evidence.md)

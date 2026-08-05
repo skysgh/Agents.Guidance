@@ -1,6 +1,9 @@
+[Up](./readme.md)
+
 # Regulatory and Obligation Checklist
 
-Use this checklist with [Regulatory and Obligation Domains](../catalogues/regulatory-obligations.md) and [Legal and Regulatory Context](../../../orientation/legal-context.md). It helps a team record the actual sources, duties, capabilities and evidence for a service. It is not legal advice and it is not a universal compliance declaration.
+
+Use this checklist with [Regulatory and Obligation Domains](../catalogues/regulatory-obligations.md) and [Legal and Regulatory Context](../../../foundations/legal-context.md). It helps a team record the actual sources, duties, capabilities and evidence for a service. It is not legal advice and it is not a universal compliance declaration.
 
 Use the prompts that match the service's consequences. Record the answer, owner, evidence or deliberate non-applicability rather than treating an unchecked box as proof of compliance.
 
