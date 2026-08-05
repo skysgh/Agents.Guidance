@@ -2,7 +2,7 @@
 
 Apply these conventions to user interfaces, documents, notifications and interactive client features.
 
-For the accessible explanation of inclusive user experiences, read [People-Centred Documentation Style](../../../.agent-work/documentation/writing-style.md).
+For the accessible explanation of inclusive user experiences, read [People-Centred Documentation Style](../../../agents/.work/documentation/writing-style.md).
 
 ## Purpose
 

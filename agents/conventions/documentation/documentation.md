@@ -3,7 +3,7 @@
 
 Apply these conventions when creating, restructuring, reviewing or retiring documentation intended for stakeholders, operators or maintainers.
 
-For the people-facing writing contract, apply [People-Centred Documentation Style](../../../.agent-work/documentation/writing-style.md). It requires concept-first explanations, plain and translation-friendly language, consistent terminology, role-inclusive examples and a clear separation between accessible explanation and compact agent rules.
+For the people-facing writing contract, apply [People-Centred Documentation Style](../../../agents/.work/documentation/writing-style.md). It requires concept-first explanations, plain and translation-friendly language, consistent terminology, role-inclusive examples and a clear separation between accessible explanation and compact agent rules.
 
 
 ## Role Based First

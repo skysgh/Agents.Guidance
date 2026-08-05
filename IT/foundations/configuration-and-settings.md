@@ -53,5 +53,5 @@ Build priority can then be decided with WGF. A small first release may bind conf
 
 - [Startup and discovery](../../agents/conventions/foundations/startup.md)
 - [Data protection](../../agents/conventions/foundations/data-protection.md)
-- [People-Centred Documentation Style](../../.agent-work/documentation/writing-style.md)
+- [People-Centred Documentation Style](../../agents/.work/documentation/writing-style.md)
 - [YAGNI versus WGF](./design-before-build-and-wgf.md)

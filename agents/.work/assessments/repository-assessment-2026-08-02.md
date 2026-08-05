@@ -9,21 +9,21 @@
 
 This document is a boundary marker for the guidance, not a reading assignment. **Present** means the repository has a usable treatment. **Foundational** means the principle or concept exists but practical patterns or evidence are still limited. **Missing** means a serious-system need is known but does not yet have enough dedicated guidance here. The gaps point to the next engineering question; they do not make the existing domain, contract or lifecycle material unusable.
 
-Readers can use the assessment in different ways: a developer may follow the [engineering entry](../engineering/readme.md) into implementation guidance, an operator may use the [Operating perspective](../engineering/readme.md#operating), and a team assessing production readiness can treat the gap sections as questions requiring project-specific evidence rather than as claims that this repository answers them.
+Readers can use the assessment in different ways: a developer may follow the [engineering entry](../../../IT/readme.md) into implementation guidance, an operator may use the [Operating perspective](../../../IT/readme.md#operating), and a team assessing production readiness can treat the gap sections as questions requiring project-specific evidence rather than as claims that this repository answers them.
 
 ---
 
 ## SUBSTANTIVE STRENGTHS
 
 ### 1. Architectural Foundation (Excellent)
-- [Deliverable Systems](../engineering/humans/reference/catalogues/deliverable-systems.md) - Distinct systems concept (delivery, service, consumer, testing, cross-system-test-context)
-- [Logical Deployment Modules](../engineering/humans/reference/catalogues/ldms.md) - Clean logical deployment module boundary thinking
-- [LDM Layers](../engineering/humans/development/layers.md) - Layers, logical building blocks well-explained
-- [Contracts](../engineering/humans/development/contracts.md) - Contracts as boundary formwork
+- [Deliverable Systems](../../../IT/reference/catalogues/deliverable-systems.md) - Distinct systems concept (delivery, service, consumer, testing, cross-system-test-context)
+- [Logical Deployment Modules](../../../IT/reference/catalogues/ldms.md) - Clean logical deployment module boundary thinking
+- [LDM Layers](../../../IT/development/layers.md) - Layers, logical building blocks well-explained
+- [Contracts](../../../IT/development/contracts.md) - Contracts as boundary formwork
 - Conceptual/logical/physical model separation (ANSI/SPARC properly applied)
 
 ### 2. Example Gallery (Strong)
-- 17 before/after cases in [human examples](../engineering/humans/examples/)
+- 17 before/after cases in [human examples](../../../IT/examples/)
 - Concrete problems (screen-to-design drift, contract formwork, ambiguity in state, entity lifecycle)
 - Visible how decisions cascade when structure is missing
 - Real tracing of impact across teams/boundaries
@@ -36,19 +36,19 @@ Readers can use the assessment in different ways: a developer may follow the [en
 - Audit identified gaps and recommended treatment (H-03, M-01)
 
 ### 4. Legal/Regulatory Awareness (Good)
-- [Legal and Regulatory Context](../engineering/humans/foundations/legal-context.md) - Jurisdiction mapping, obligation framing
-- [Regulatory Obligations](../engineering/humans/reference/catalogues/regulatory-obligations.md) - Catalog of recurring domains (purpose, PII, tracking, records, retention, security, accessibility, fairness, safety, sector duties, financial, cross-border)
+- [Legal and Regulatory Context](../../../IT/foundations/legal-context.md) - Jurisdiction mapping, obligation framing
+- [Regulatory Obligations](../../../IT/reference/catalogues/regulatory-obligations.md) - Catalog of recurring domains (purpose, PII, tracking, records, retention, security, accessibility, fairness, safety, sector duties, financial, cross-border)
 - Acknowledges this is not legal advice; team must map actual sources
 - Data protection as first-order architectural concern
 
 ### 5. Development Guidance (Solid)
-- [Agent Principles](../engineering/agents/conventions/foundations/principles.md) - 7 core principles with ISO 25010 grounding
+- [Agent Principles](../../../agents/conventions/foundations/principles.md) - 7 core principles with ISO 25010 grounding
 - Principles touch evolvability, ontology, scale, dependencies, boundary technology, policy
 - Agent conventions for code/C#/Python/TS, projects, platform services, testing, operations, dependencies, accessibility, performance
 - Not overly prescriptive; gives intent first
 
 ### 6. Quality and Deliverables Thinking (Advanced)
-- [Deliverables](../engineering/humans/reference/catalogues/deliverables.md) - Data, content, addressing, certificates, discovery, operations, maintenance, evidence as deliverables
+- [Deliverables](../../../IT/reference/catalogues/deliverables.md) - Data, content, addressing, certificates, discovery, operations, maintenance, evidence as deliverables
 - Omission test: "What must exist outside code repo for real operator/consumer/recovery process?"
 - Distinguishes deliverable systems from deliverables from SDD/SAD/TDD
 - Cross-system test context as shareable, versioned, portable resource
@@ -65,7 +65,7 @@ Readers can use the assessment in different ways: a developer may follow the [en
 
 ### GAP 1: Operations Depth (Substantive)
 **Severity**: High for serious systems
-**Where**: [Operators](../engineering/humans/stakeholders/operators/), [Maintainers](../engineering/humans/stakeholders/maintainers/)
+**Where**: [Operators](../../../IT/stakeholders/operators/), [Maintainers](../../../IT/stakeholders/maintainers/)
 **What's There**:
 - Readiness, observability, recovery *concepts*
 - References to agent conventions (operations.md)
@@ -84,7 +84,7 @@ Readers can use the assessment in different ways: a developer may follow the [en
 
 ### GAP 2: Access Control & Authorization Patterns (Substantive)
 **Severity**: Critical for serious systems handling sensitive work
-**Where**: [Data protection conventions](../engineering/agents/conventions/foundations/data-protection.md) mention "Authorise every read and write at the owning boundary"
+**Where**: [Data protection conventions](../../../agents/conventions/foundations/data-protection.md) mention "Authorise every read and write at the owning boundary"
 **What's There**:
 - Principle that authorization should happen at service boundary
 - Data protection checklist touches classification and access
@@ -134,7 +134,7 @@ Readers can use the assessment in different ways: a developer may follow the [en
 
 ### GAP 5: Evidence & Verification (Substantive)
 **Severity**: High for compliance and serious systems
-**Where**: [Engineering checklists](../engineering/humans/reference/checklists/) have some good prompts, but no systematic evidence framework
+**Where**: [Engineering checklists](../../../IT/reference/checklists/) have some good prompts, but no systematic evidence framework
 **What's There**:
 - Checklists for deliverables, regulatory obligations, ldms, security-at-rest, security-in-transit
 - Principle that evidence must exist
@@ -151,7 +151,7 @@ Readers can use the assessment in different ways: a developer may follow the [en
 
 ### GAP 6: Cross-System Integration & Coordination (Substantive)
 **Severity**: Medium-High for services with multiple LDMs or external integrations
-**Where**: [Deliverable Systems](../engineering/humans/reference/catalogues/deliverable-systems.md) covers systems concept; missing operational coordination
+**Where**: [Deliverable Systems](../../../IT/reference/catalogues/deliverable-systems.md) covers systems concept; missing operational coordination
 **What's There**:
 - Distinct systems (delivery, service, consumer, testing, cross-system-test-context)
 - Contract concept; API lifecycle mentioned
@@ -170,7 +170,7 @@ Readers can use the assessment in different ways: a developer may follow the [en
 
 ### GAP 7: Performance Testing & Cost (Substantive)
 **Severity**: Medium for production systems
-**Where**: [Agent Principles](../engineering/agents/conventions/foundations/principles.md) has "Prepare for scale; spend as little as needed" principle
+**Where**: [Agent Principles](../../../agents/conventions/foundations/principles.md) has "Prepare for scale; spend as little as needed" principle
 **What's There**:
 - Principle with good rationale (measure, don't speculate)
 - References AWS/Azure cost-optimization pillars
@@ -186,7 +186,7 @@ Readers can use the assessment in different ways: a developer may follow the [en
 
 ### GAP 8: Database Schema & Migration Safety (Substantive)
 **Severity**: Medium-High for relational systems
-**Where**: [C# conventions](../engineering/agents/conventions/development/code-csharp.md) exist but miss schema guidance
+**Where**: [C# conventions](../../../agents/conventions/development/code-csharp.md) exist but miss schema guidance
 **What's There**: Some EF Core guidance in examples (schema development patterns shown in examples)
 **What's Missing**:
 - **Schema design conventions**: Naming, constraints, keys, relationshipsÔÇöhow to keep them maintainable?
@@ -214,7 +214,7 @@ Readers can use the assessment in different ways: a developer may follow the [en
 
 ### GAP 10: Navigation & Search (Polish ÔåÆ UX Impact)
 **Severity**: Low for engineering value; Medium for adoption
-**Where**: [Human examples](../engineering/humans/examples/readme.md) acknowledged in audit (M-02)
+**Where**: [Human examples](../../../IT/examples/readme.md) acknowledged in audit (M-02)
 **Audit findings**:
 - M-02: Examples organized by case number, not reader question (cross-indexing deferred)
 - M-03: Decision-record format not provided (deferred pending governance format decision)

@@ -4,7 +4,7 @@
 
 Run a hard-hat review of the complete human guidance after the initial implementation. The review is concerned with omissions, contradictions, weak boundaries, incomplete role routes, unsupported claims, broken navigation and missing evidence. It is not a general rewrite and it is not a popularity contest with other documentation. It asks whether the guidance is coherent, defensible and usable for serious systems.
 
-The audit method and completion criteria are recorded here. The completed audit evidence and continuing decisions are recorded in the [Human Guidance Audit Findings](HUMAN-GUIDANCE-AUDIT-FINDINGS.md), [Human Guidance Lifecycle Trace](HUMAN-GUIDANCE-AUDIT-LIFECYCLE-TRACE.md), [Role and Responsibility Coverage Matrix](HUMAN-GUIDANCE-AUDIT-COVERAGE-MATRIX.md) and [Documentation Register](../engineering/humans/maintenance/documentation-register.md).
+The audit method and completion criteria are recorded here. The completed audit evidence and continuing decisions are recorded in the [Human Guidance Audit Findings](HUMAN-GUIDANCE-AUDIT-FINDINGS.md), [Human Guidance Lifecycle Trace](HUMAN-GUIDANCE-AUDIT-LIFECYCLE-TRACE.md), [Role and Responsibility Coverage Matrix](HUMAN-GUIDANCE-AUDIT-COVERAGE-MATRIX.md) and [Documentation Register](../../../IT/maintenance/documentation-register.md).
 
 ## Current execution sequence
 
@@ -35,7 +35,7 @@ The sequence is deliberately inspect-before-improve. It prevents the existence o
 
 ### Work
 
-- Inventory all Markdown files under `engineering/humans/` and all root human-guidance governance files.
+- Inventory all Markdown files under `IT/` and all root human-guidance governance files.
 - Inventory all human routes, catalogues, checklists, examples, glossary headings and documentation-register entries.
 - Inventory relevant agent guidance and compare shared terms, principles, role names and routing assumptions.
 - Record file audience, authority, subject, status, owner if known, review date if known and incoming/outgoing navigation links.

@@ -25,7 +25,7 @@ The move is staged so that:
 The intended human route is:
 
 ```text
-engineering/humans/systems/
+IT/systems/
   readme.md
   client/
     readme.md
@@ -44,9 +44,9 @@ engineering/humans/systems/
 
 These folders describe human perspectives and system boundaries. They do not require one repository, project, deployment or team per folder. A real product may deliver several systems together, and one person or team may work across several perspectives.
 
-The existing [Deliverable Systems](engineering/humans/reference/catalogues/deliverable-systems.md) catalogue remains the authority for the relationship among Delivery, Service, Consumer and Testing systems. The new indexes explain how to enter the human guidance for those systems; they do not duplicate that catalogue.
+The existing [Deliverable Systems](../../../IT/reference/catalogues/deliverable-systems.md) catalogue remains the authority for the relationship among Delivery, Service, Consumer and Testing systems. The new indexes explain how to enter the human guidance for those systems; they do not duplicate that catalogue.
 
-The delivery system itself has important constituents: Pipeline Definition, Pipeline Execution and Environment Definition Systems. The [Deliverables](engineering/humans/reference/catalogues/deliverables.md) catalogue also records the codebases, resulting environment instances, runner support and baselines that connect those constituents. This is a correction to the earlier assumption that environment-definition code was merely one infrastructure file within the pipeline.
+The delivery system itself has important constituents: Pipeline Definition, Pipeline Execution and Environment Definition Systems. The [Deliverables](../../../IT/reference/catalogues/deliverables.md) catalogue also records the codebases, resulting environment instances, runner support and baselines that connect those constituents. This is a correction to the earlier assumption that environment-definition code was merely one infrastructure file within the pipeline.
 
 ## Ownership map
 
@@ -56,12 +56,12 @@ The client system includes browser or client execution, published assets, client
 
 | Current material | Target treatment | Decision |
 | --- | --- | --- |
-| `engineering/humans/palette/first-look.md` | `systems/client/first-look.md` | Move and retain as the narrative introduction to the client experience. |
-| `engineering/humans/palette/elements.md` | `systems/client/ux-palette.md` | Merge into the client UX catalogue rather than preserving an unqualified `elements` page. |
-| `engineering/humans/palette/relationships.md` | `systems/client/ux-palette.md` | Merge the relationship map and example into the same catalogue so definitions and relationships have one authority. |
-| `engineering/humans/palette/technical-terms.md` | `systems/client/implementation-vocabulary.md` plus glossary links | Keep code-specific correspondence out of the general glossary; add concise glossary definitions only for terms used across human guidance. |
-| `engineering/humans/palette/readme.md` | `systems/client/readme.md` | Replace the Palette index with a client-system entry that explains the boundary and routes to the first look and UX palette. |
-| `engineering/humans/reference/catalogues/sites-flows-views-components.md` | Existing catalogue, linked from client guidance | Keep as the broader shared catalogue for sites, flows, views and components. The client UX palette must complement it, not create a second conflicting definition. |
+| `IT/palette/first-look.md` | `systems/client/first-look.md` | Move and retain as the narrative introduction to the client experience. |
+| `IT/palette/elements.md` | `systems/client/ux-palette.md` | Merge into the client UX catalogue rather than preserving an unqualified `elements` page. |
+| `IT/palette/relationships.md` | `systems/client/ux-palette.md` | Merge the relationship map and example into the same catalogue so definitions and relationships have one authority. |
+| `IT/palette/technical-terms.md` | `systems/client/implementation-vocabulary.md` plus glossary links | Keep code-specific correspondence out of the general glossary; add concise glossary definitions only for terms used across human guidance. |
+| `IT/palette/readme.md` | `systems/client/readme.md` | Replace the Palette index with a client-system entry that explains the boundary and routes to the first look and UX palette. |
+| `IT/reference/catalogues/sites-flows-views-components.md` | Existing catalogue, linked from client guidance | Keep as the broader shared catalogue for sites, flows, views and components. The client UX palette must complement it, not create a second conflicting definition. |
 
 ### Service system
 

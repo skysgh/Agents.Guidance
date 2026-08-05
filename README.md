@@ -10,4 +10,4 @@ Custom engineering is an important way to shape a system, but it is not the only
 
 The [IT material](./IT/readme.md) explains how to do this. It connects product, analysis, architecture, implementation, testing, operations, support and maintenance without assuming that every problem needs a bespoke build. Start there for the concepts, choices, examples and practical routes through system delivery.
 
-Agents can use the more compact [agent conventions](./agents/readme.md) when they need precise rules and task-specific validation. The [repository records](./.agent-work/) contain assessments, plans and handovers that support ongoing maintenance.
+Agents can use the more compact [agent conventions](./agents/readme.md) when they need precise rules and task-specific validation. The [repository records](./agents/.work/) contain assessments, plans and handovers that support ongoing maintenance.

@@ -129,17 +129,17 @@ When the destination contains several subjects, link to the exact heading or pas
 
 For example:
 
-> A role can describe business responsibility, access context or system authorisation. The [Polysemy guidance for Role](../../IT/shared/reference/glossary.md#role-is-polysemous) separates these meanings before the example applies them.
+> A role can describe business responsibility, access context or system authorisation. The [Polysemy guidance for Role](../../../IT/shared/reference/glossary.md#role-is-polysemous) separates these meanings before the example applies them.
 
 An inline link is not a substitute for the local explanation. State enough here for the reader to understand the current point, then offer the link for readers who need a gentler introduction, a deeper explanation or the canonical definition. Keep the link close to the term or question it supports, and do not make readers hunt through a navigation list to recover the missing context.
 
 Prefer:
 
-> The [Logical Deployment Modules](../../IT/shared/reference/catalogues/ldms.md) catalogue explains the boundary, while the [Logical Deployment Modules development guidance](../../IT/development/ldms.md) explains what that boundary means for delivery.
+> The [Logical Deployment Modules](../../../IT/shared/reference/catalogues/ldms.md) catalogue explains the boundary, while the [Logical Deployment Modules development guidance](../../../IT/development/ldms.md) explains what that boundary means for delivery.
 
 Avoid:
 
-> [Logical Deployment Modules](../../IT/shared/reference/catalogues/ldms.md) is required reading before you may continue.
+> [Logical Deployment Modules](../../../IT/shared/reference/catalogues/ldms.md) is required reading before you may continue.
 
 The first version keeps the link inside the story and tells the reader why it is relevant. The second version sounds like a route for an automated agent and interrupts the explanation with an instruction. Navigation lists at the end of a document may still use direct links because their purpose is to help readers find related material.
 
@@ -151,7 +151,7 @@ Deep guidance should not leave a reader dependent on the browser Back button or 
 - a folder `readme.md` links to the parent folder's `readme.md`; and
 - the repository root `readme.md` has no upward link.
 
-Use a useful label such as `[Up: Stakeholder Guidance](../../IT/shared/reference/readme.md)` or `[Up: Reader Guidance](../../IT/readme.md)`. The link is navigation, not an instruction to read the parent first. Put it before the H1 so that it remains recognisable as page navigation rather than part of the subject explanation. Keep the page's local explanation complete.
+Use a useful label such as `[Up: Stakeholder Guidance](../../../IT/shared/reference/readme.md)` or `[Up: Reader Guidance](../../../IT/readme.md)`. The link is navigation, not an instruction to read the parent first. Put it before the H1 so that it remains recognisable as page navigation rather than part of the subject explanation. Keep the page's local explanation complete.
 
 ### Keep subject pages short
 
@@ -159,7 +159,7 @@ Keep a subject page to one clear idea or closely related group of ideas. Prefer 
 
 ## Building and High-rise teaching metaphor
 
-People have some experience of buildings, so the building picture can help explain software relationships and dependencies. The fuller explanation belongs in [The Building Metaphor](../../IT/shared/reference/building-metaphor.md). Use that explanation before introducing the metaphor in another people-facing document.
+People have some experience of buildings, so the building picture can help explain software relationships and dependencies. The fuller explanation belongs in [The Building Metaphor](../../../IT/shared/reference/building-metaphor.md). Use that explanation before introducing the metaphor in another people-facing document.
 
 Use the metaphor to explain relationships, not to decorate a document. Introduce the practical software idea first, use the building picture to make the relationship easier to see, and return to concrete software terms once the picture is understood.
 
@@ -224,6 +224,6 @@ Reader documents explain why and show examples. Agent documents state precise ac
 
 When a reader document introduces a technical rule, link to the precise agent or implementation guidance. When agent guidance uses a term that a people may not know, link to the accessible explanation.
 
-Use the [Guidance Glossary](../../IT/shared/reference/glossary.md) for recurring terms. Add a term when it has a specific meaning in this guidance and readers may reasonably interpret it in more than one way.
+Use the [Guidance Glossary](../../../IT/shared/reference/glossary.md) for recurring terms. Add a term when it has a specific meaning in this guidance and readers may reasonably interpret it in more than one way.
 
-[Up: Documentation Guidance](../../IT/shared/reference/readme.md)
+[Up: Documentation Guidance](../../../IT/shared/reference/readme.md)

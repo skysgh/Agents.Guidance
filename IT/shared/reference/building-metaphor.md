@@ -115,4 +115,4 @@ Questions about what should be designed first, what should be built now and what
 
 The practical question is not, "Are we building enterprise software?" It is, "Who relies on this service, for how long, and what happens if its assumptions are wrong?" Those answers should determine how much design, evidence and operational structure the service needs.
 
-Return to concrete software terms once the relationship is clear. The [People-Centred Documentation Style](../../../.agent-work/documentation/writing-style.md) explains how to introduce and use the metaphor in other people-facing documents.
+Return to concrete software terms once the relationship is clear. The [People-Centred Documentation Style](../../../agents/.work/documentation/writing-style.md) explains how to introduce and use the metaphor in other people-facing documents.

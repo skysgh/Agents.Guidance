@@ -8,7 +8,7 @@ Reference material provides explanations and language guidance to return to whil
 - [Guidance Glossary](./glossary.md)
 - [The Building Metaphor](./building-metaphor.md)
 - [Different Types of Builders](./builders-metaphor.md)
-- [People-Centred Documentation Style](../../../.agent-work/documentation/writing-style.md)
+- [People-Centred Documentation Style](../../../agents/.work/documentation/writing-style.md)
 - [System Perspectives](../../deliverables/systems/readme.md)
 - [Engineering Catalogues](./catalogues/readme.md)
 - [Engineering Checklists](./checklists/readme.md)

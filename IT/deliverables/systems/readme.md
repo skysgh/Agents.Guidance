@@ -25,7 +25,7 @@ The same person may contribute to several systems. Their contribution still chan
 
 ## Related guidance
 
-- [Systems Boundary Migration Plan](../../../.agent-work/plans/SYSTEMS-BOUNDARY-MIGRATION-PLAN.md)
+- [Systems Boundary Migration Plan](../../../agents/.work/plans/SYSTEMS-BOUNDARY-MIGRATION-PLAN.md)
 - [Deliverable Systems](../../shared/reference/catalogues/deliverable-systems.md)
 - [Deliverables](../../readme.md)
 - [Finding a Useful Starting Point](../../foundations/ways-into-guidance.md)

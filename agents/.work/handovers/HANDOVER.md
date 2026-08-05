@@ -13,18 +13,18 @@
 The current work is intentionally local and has not been committed or pushed:
 
 - `IMPLEMENTATION-PLAN.md`
-- `engineering/humans/maintenance/documentation-register.md`
-- `engineering/humans/readme.md`
-- `engineering/humans/reference/catalogues/deliverable-systems.md`
-- `engineering/humans/reference/catalogues/deliverables.md`
-- `engineering/humans/reference/catalogues/qualities.md`
-- `engineering/humans/reference/catalogues/readme.md`
-- `engineering/humans/reference/catalogues/registries.md`
-- `engineering/humans/reference/catalogues/regulatory-obligations.md`
-- `engineering/humans/reference/catalogues/sdlc.md`
+- `IT/maintenance/documentation-register.md`
+- `IT/readme.md`
+- `IT/reference/catalogues/deliverable-systems.md`
+- `IT/reference/catalogues/deliverables.md`
+- `IT/reference/catalogues/qualities.md`
+- `IT/reference/catalogues/readme.md`
+- `IT/reference/catalogues/registries.md`
+- `IT/reference/catalogues/regulatory-obligations.md`
+- `IT/reference/catalogues/sdlc.md`
 - `engineering/readme.md`
 - `HANDOVER.md`
-- new directory: `engineering/humans/deliverables/`
+- new directory: `IT/deliverables/`
 
 `.vscode/` is local editor state and must remain excluded from commits.
 
@@ -77,7 +77,7 @@ The user specifically asked for these subjects to remain distinct. Do not collap
 
 The catalogue boundary was reviewed with fresh eyes because early links risked dropping readers into dense reference lists. The following changes were made:
 
-- `engineering/humans/reference/catalogues/readme.md` now explains that catalogues are a shared reference layer inside the wider human route, not a separate world or mandatory journey.
+- `IT/reference/catalogues/readme.md` now explains that catalogues are a shared reference layer inside the wider human route, not a separate world or mandatory journey.
 - The catalogue index offers question-based entry points rather than a prescribed direction.
 - Main catalogue destinations link back to Delivery Guidance where useful:
   - deliverable systems;
@@ -86,7 +86,7 @@ The catalogue boundary was reviewed with fresh eyes because early links risked d
   - quality perspectives;
   - regulatory obligations;
   - SDLC.
-- Those catalogue-to-delivery links use `../../deliverables/readme.md` because catalogue pages are under `engineering/humans/reference/catalogues/`.
+- Those catalogue-to-delivery links use `../../deliverables/readme.md` because catalogue pages are under `IT/reference/catalogues/`.
 - Catalogue pages retain local onward links to neighbouring catalogues, checklists, development guidance and orientation pages.
 
 ## Writing Style

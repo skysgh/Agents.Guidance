@@ -243,4 +243,4 @@ When you meet an existing screen, request or journey, begin by finding the catal
 - [Portable horizontal flow rules](../../../../agents/conventions/capabilities/flows.md)
 - [Vertical slices](../../../../agents/conventions/capabilities/slices.md)
 - [Request flow example](../../../examples/10-request-bread-flow/before.md)
-- [People-Centred Documentation Style](../../../../.agent-work/documentation/writing-style.md)
+- [People-Centred Documentation Style](../../../../agents/.work/documentation/writing-style.md)

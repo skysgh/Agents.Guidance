@@ -41,7 +41,7 @@ This implementation cycle is complete when:
 
 This increment creates an explanatory delivery perspective without moving or duplicating the existing reference catalogues.
 
-- [x] Add `engineering/humans/deliverables/readme.md` as the narrative entry for system delivery.
+- [x] Add `IT/deliverables/readme.md` as the narrative entry for system delivery.
 - [x] Explain how delivery differs from development and how software becomes usable, operable, supportable and maintainable.
 - [x] Connect the delivery perspective to deliverable systems, deliverables, registries, lifecycle, stakeholder responsibilities, assurance and enduring-value structures.
 - [x] Link the perspective from the engineering and human entry pages and record the new route in the documentation register.

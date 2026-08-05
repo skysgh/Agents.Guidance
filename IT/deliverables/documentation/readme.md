@@ -16,7 +16,7 @@ Documentation is information deliberately prepared for a reader, decision or act
 
 Not every note needs to become a formal document. The useful question is whether a person or team needs the information to make a material decision, perform a recurring activity, understand a boundary or recover from a failure. The form should fit the reader, consequence, change rate and required evidence.
 
-The [Deliverables catalogue](../../shared/reference/catalogues/deliverables.md) describes documentation as part of the wider delivered outcome. The [People-Centred Documentation Style](../../../.agent-work/documentation/writing-style.md) explains how people-facing material should introduce meaning, terminology and consequences. The [Documentation Register](../../maintenance/documentation-register.md) records significant changes to this repository's material; it is not a substitute for a project's own documentation set.
+The [Deliverables catalogue](../../shared/reference/catalogues/deliverables.md) describes documentation as part of the wider delivered outcome. The [People-Centred Documentation Style](../../../agents/.work/documentation/writing-style.md) explains how people-facing material should introduce meaning, terminology and consequences. The [Documentation Register](../../maintenance/documentation-register.md) records significant changes to this repository's material; it is not a substitute for a project's own documentation set.
 
 ## How to develop it
 
@@ -52,7 +52,7 @@ This material introduces documentation as a delivery responsibility. The catalog
 
 - [Delivery](../readme.md)
 - [Deliverables](../../shared/reference/catalogues/deliverables.md)
-- [People-Centred Documentation Style](../../../.agent-work/documentation/writing-style.md)
+- [People-Centred Documentation Style](../../../agents/.work/documentation/writing-style.md)
 - [Engineering Checklists](../../shared/reference/checklists/readme.md)
 - [Documentation Register](../../maintenance/documentation-register.md)
 - [Documentation and Workflow Conventions](../../../agents/conventions/documentation/readme.md)
