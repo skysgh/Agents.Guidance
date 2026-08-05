@@ -3,7 +3,7 @@
 
 Apply these conventions when creating, restructuring, reviewing or retiring documentation intended for stakeholders, operators or maintainers.
 
-For the human-facing writing contract, apply [Human Documentation Writing Style](../../../humans/reference/writing-style.md). It requires concept-first explanations, plain and translation-friendly language, consistent terminology, role-inclusive examples and a clear separation between human explanation and compact agent rules.
+For the people-facing writing contract, apply [People-Centred Documentation Style](../../../.agent-work/documentation/writing-style.md). It requires concept-first explanations, plain and translation-friendly language, consistent terminology, role-inclusive examples and a clear separation between accessible explanation and compact agent rules.
 
 
 ## Role Based First
@@ -59,7 +59,7 @@ When referring to another local Markdown file, source file, configuration file, 
 
 Do not leave a file path as plain text when a relative link can be provided. Do not put a file reference only inside code backticks, such as `` `../foundations/principles.md` ``. Code formatting is appropriate for commands, symbols, keys and literal values, but it is not a substitute for a navigable document link.
 
-The link target must be relative to the document containing it, use the repository's actual path and preserve the correct filename casing. Link labels should describe the destination rather than repeat an opaque filename where a clearer human label is available.
+The link target must be relative to the document containing it, use the repository's actual path and preserve the correct filename casing. Link labels should describe the destination rather than repeat an opaque filename where a clearer reader label is available.
 
 External references should also use labelled Markdown links when they are intended for readers to follow. Keep raw URLs only where a machine-readable value or protocol syntax genuinely requires one.
 

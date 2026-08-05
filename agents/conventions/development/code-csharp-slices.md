@@ -1,1 +1,1 @@
-Read this compatibility document only when a task concerns C# slice organisation; the current slice guidance lives in [Vertical Slices](../capabilities/slices.md). For the human explanation, read [Vertical Slices: Common Shafts](../../../humans/development/vertical-slices.md).
+Read this compatibility document only when a task concerns C# slice organisation; the current slice guidance lives in [Vertical Slices](../capabilities/slices.md). For the accessible explanation, read [Vertical Slices: Common Shafts](../../../IT/development/vertical-slices.md).

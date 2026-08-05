@@ -10,4 +10,4 @@ For any Python code creation, modification, refactoring or review, read and foll
 
 - [Python](./code-python.md)
 
-For the human explanation of the language and framework decision, read [Selecting a Language and Framework](../../../humans/foundations/language-and-framework-selection.md).
+For the accessible explanation of the language and framework decision, read [Selecting a Language and Framework](../../../IT/foundations/language-and-framework-selection.md).

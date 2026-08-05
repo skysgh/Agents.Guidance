@@ -13,7 +13,7 @@ Each adopting repository should provide one binding document near its agent entr
     architecture-bindings.instructions.md
 ```
 
-The binding document should be loaded for code work and should link back to this repository's [agents.md](../../../agents.md). It should map, in a compact table or short sections:
+The binding document should be loaded for code work and should link back to this repository's [AGENTS.md](../../../AGENTS.md). It should map, in a compact table or short sections:
 
 - portable slice or flow;
 - local boundary and application contracts;

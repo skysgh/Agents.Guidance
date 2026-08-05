@@ -2,9 +2,9 @@
 
 Read this document only when a task coordinates multiple capabilities, actors, decisions or stateful steps into one outcome.
 
-For the human explanation of the View, Coordinator, Presenter, Player, Renderer, Action, State, Event and Broker relationships, read [Common Flows](../../../humans/foundations/flows.md). This document keeps the portable implementation rules and lifecycle constraints.
+For the accessible explanation of the View, Coordinator, Presenter, Player, Renderer, Action, State, Event and Broker relationships, read [Common Flows](../../../IT/foundations/flows.md). This document keeps the portable implementation rules and lifecycle constraints.
 
-When flow names are ambiguous across problem areas, read the human [Guidance Glossary](../../../humans/shared/reference/glossary.md) entry on polysemy, Domains, Capabilities and Functions before creating a new term.
+When flow names are ambiguous across problem areas, read the reader [Guidance Glossary](../../../IT/shared/reference/glossary.md) entry on polysemy, Domains, Capabilities and Functions before creating a new term.
 
 ## Purpose
 
@@ -85,7 +85,7 @@ Most teams should recognise the nearest catalogue shape and use it. Only add a n
 
 ## Technical details for agents and experienced implementers
 
-The following sections provide additional implementation detail. Human readers can stop after the catalogue and use the [human flow guide](../../../humans/foundations/flows.md) and [Request example](../../../humans/examples/10-request-bread-flow/before.md) instead.
+The following sections provide additional implementation detail. Readers can stop after the catalogue and use the [reader flow guide](../../../IT/foundations/flows.md) and [Request example](../../../IT/examples/10-request-bread-flow/before.md) instead.
 
 ## How to recognise a flow pattern
 

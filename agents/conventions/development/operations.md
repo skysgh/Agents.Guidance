@@ -2,7 +2,7 @@
 
 Apply these conventions to deployable services, workers, scheduled jobs and infrastructure integrations.
 
-For the accessible explanation of operations as the part of the building that keeps it safe after people move in, read [Human Guidance](../../../humans/readme.md), [Deliverable Systems](../../../humans/shared/reference/catalogues/deliverable-systems.md), [Deliverables](../../../humans/shared/reference/catalogues/deliverables.md), [Deliverables Checklist](../../../humans/shared/reference/checklists/deliverables.md), [External Dependencies](../../../humans/shared/reference/catalogues/external-dependencies.md), [Security at Rest Checklist](../../../humans/shared/reference/checklists/security-at-rest.md) and [Security in Transit Checklist](../../../humans/shared/reference/checklists/security-in-transit.md).
+For the accessible explanation of operations as the part of the building that keeps it safe after people move in, read [Reader Guidance](../../../IT/readme.md), [Deliverable Systems](../../../IT/shared/reference/catalogues/deliverable-systems.md), [Deliverables](../../../IT/shared/reference/catalogues/deliverables.md), [Deliverables Checklist](../../../IT/shared/reference/checklists/deliverables.md), [External Dependencies](../../../IT/shared/reference/catalogues/external-dependencies.md), [Security at Rest Checklist](../../../IT/shared/reference/checklists/security-at-rest.md) and [Security in Transit Checklist](../../../IT/shared/reference/checklists/security-in-transit.md).
 
 ## Purpose
 

@@ -2,7 +2,7 @@
 
 Read this document only when creating, restructuring or managing a Logical Deployment Module or its project boundaries.
 
-For the accessible explanation of the package boundary, read [Logical Deployment Modules](../../../humans/shared/reference/catalogues/ldms.md), [LDM Layers and Contents](../../../humans/development/layers.md) and [Guidance for System Design Architects](../../../humans/foundations/guidance-for-system-design-architects.md).
+For the accessible explanation of the package boundary, read [Logical Deployment Modules](../../../IT/shared/reference/catalogues/ldms.md), [LDM Layers and Contents](../../../IT/development/layers.md) and [Guidance for System Design Architects](../../../IT/foundations/guidance-for-system-design-architects.md).
 
 Systems are developed as a stack of discrete Logical Deployment Modules (LDMs), per stakeholder.
 

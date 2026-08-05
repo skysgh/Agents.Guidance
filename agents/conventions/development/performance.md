@@ -2,7 +2,7 @@
 
 Apply these conventions to production services, workers, data access, browser applications and resource-sensitive tooling.
 
-For the accessible explanation of performance as a system quality and delivery concern, read [Quality Perspectives](../../../humans/shared/reference/catalogues/qualities.md) and [Guidance for Tech Leads](../../../humans/foundations/guidance-for-tech-leads.md).
+For the accessible explanation of performance as a system quality and delivery concern, read [Quality Perspectives](../../../IT/shared/reference/catalogues/qualities.md) and [Guidance for Tech Leads](../../../IT/foundations/guidance-for-tech-leads.md).
 
 ## Define the target
 

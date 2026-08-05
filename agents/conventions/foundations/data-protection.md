@@ -2,7 +2,7 @@
 
 Apply these conventions wherever software collects, stores, transmits, displays, logs or deletes data.
 
-For the accessible explanation of protection, trust and stewardship, read [Human Guidance](../../../humans/readme.md), [Deliverable Systems](../../../humans/shared/reference/catalogues/deliverable-systems.md), [Deliverables](../../../humans/shared/reference/catalogues/deliverables.md), [Deliverables Checklist](../../../humans/shared/reference/checklists/deliverables.md), [Legal and Regulatory Context](../../../humans/foundations/legal-context.md), [Security at Rest Checklist](../../../humans/shared/reference/checklists/security-at-rest.md), [Security in Transit Checklist](../../../humans/shared/reference/checklists/security-in-transit.md) and [Regulatory and Obligation Domains](../../../humans/shared/reference/catalogues/regulatory-obligations.md).
+For the accessible explanation of protection, trust and stewardship, read [Reader Guidance](../../../IT/readme.md), [Deliverable Systems](../../../IT/shared/reference/catalogues/deliverable-systems.md), [Deliverables](../../../IT/shared/reference/catalogues/deliverables.md), [Deliverables Checklist](../../../IT/shared/reference/checklists/deliverables.md), [Legal and Regulatory Context](../../../IT/foundations/legal-context.md), [Security at Rest Checklist](../../../IT/shared/reference/checklists/security-at-rest.md), [Security in Transit Checklist](../../../IT/shared/reference/checklists/security-in-transit.md) and [Regulatory and Obligation Domains](../../../IT/shared/reference/catalogues/regulatory-obligations.md).
 
 ## Purpose
 

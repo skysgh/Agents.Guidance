@@ -2,7 +2,7 @@
 
 Apply these conventions to HTTP, event, RPC and other externally consumed contracts.
 
-For the human explanation of why published contracts need a managed life, read [API Lifecycle](../../../humans/foundations/api-lifecycle.md). This document states the precise portable rules.
+For the accessible explanation of why published contracts need a managed life, read [API Lifecycle](../../../IT/foundations/api-lifecycle.md). This document states the precise portable rules.
 
 ## Contract design
 

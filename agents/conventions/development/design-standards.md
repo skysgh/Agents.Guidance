@@ -2,7 +2,7 @@
 
 Read this document when designing or reviewing a system, data model, service, interface or user-facing capability. Use the standards that apply to the capability; do not load the entire catalogue for a narrow implementation change.
 
-For human-facing transport and browser security review prompts, read [Security in Transit Checklist](../../../humans/shared/reference/checklists/security-in-transit.md).
+For people-facing transport and browser security review prompts, read [Security in Transit Checklist](../../../IT/shared/reference/checklists/security-in-transit.md).
 
 ## Quality foundation
 
@@ -58,7 +58,7 @@ Use `Content-Type` and `Accept` to identify and negotiate representations such a
 
 Unicode
 
-Use as the character system for all human-readable information.
+Use as the character system for all user-readable information.
 
 UTF-8 ÔÇö RFC 3629
 
@@ -66,7 +66,7 @@ Use as the default encoding for source code, APIs, configuration, documents and 
 
 Unicode Normalisation
 
-Use a documented normalisation form where human-entered text is compared, searched or constrained for uniqueness. Visually identical Unicode strings are not necessarily binary-identical.
+Use a documented normalisation form where user-entered text is compared, searched or constrained for uniqueness. Visually identical Unicode strings are not necessarily binary-identical.
 
 JSON ÔÇö RFC 8259
 
@@ -78,7 +78,7 @@ Use to describe and validate JSON documents, configuration, API payloads, genera
 
 YAML 1.2
 
-Use for human-authored configuration where comments and a less syntactically dense format are valuable.
+Use for author-created configuration where comments and a less syntactically dense format are valuable.
 
 Do not use YAML as the normal machine-to-machine API format. Restrict accepted YAML features, because implicit typing, aliases and implementation differences can produce unexpected results.
 

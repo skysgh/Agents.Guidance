@@ -2,11 +2,11 @@
 
 This is the agent-facing entrance to the delivery guidance domain.
 
-The compact repository entry point is [agents.md](../agents.md). Agents should load the mandatory baseline conventions first, then load only the additional conventions relevant to the task.
+The compact repository entry point is [AGENTS.md](../AGENTS.md). Agents should load the mandatory baseline conventions first, then load only the additional conventions relevant to the task.
 
-## Human explanation
+## Accessible explanation
 
-For the accessible explanation, read [Human Guidance](../humans/readme.md). Use the [Guidance Glossary](../humans/shared/reference/glossary.md) when a term is unfamiliar.
+For the accessible explanation, read [Reader Guidance](../IT/readme.md). Use the [Guidance Glossary](../IT/shared/reference/glossary.md) when a term is unfamiliar.
 
 ## Convention groups
 
@@ -15,4 +15,4 @@ For the accessible explanation, read [Human Guidance](../humans/readme.md). Use 
 - [Development conventions](./conventions/development/readme.md)
 - [Documentation and workflow conventions](./conventions/documentation/readme.md)
 
-The agent layer defines intent, responsibilities, invariants, decision rules and validation requirements. Human documents explain why and show examples; these conventions state the precise rules.
+The agent layer defines intent, responsibilities, invariants, decision rules and validation requirements. Reader documents explain why and show examples; these conventions state the precise rules.

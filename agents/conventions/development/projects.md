@@ -2,7 +2,7 @@
 
 Read this document when creating, renaming, restructuring or configuring projects and their namespaces.
 
-For the accessible explanation of how project and deployment boundaries relate to responsibility, read [Logical Deployment Modules](../../../humans/shared/reference/catalogues/ldms.md), [LDM Layers and Contents](../../../humans/development/layers.md), [Deliverable Systems](../../../humans/shared/reference/catalogues/deliverable-systems.md), [Deliverables](../../../humans/shared/reference/catalogues/deliverables.md) and [Guidance for Developers](../../../humans/foundations/guidance-for-developers.md).
+For the accessible explanation of how project and deployment boundaries relate to responsibility, read [Logical Deployment Modules](../../../IT/shared/reference/catalogues/ldms.md), [LDM Layers and Contents](../../../IT/development/layers.md), [Deliverable Systems](../../../IT/shared/reference/catalogues/deliverable-systems.md), [Deliverables](../../../IT/shared/reference/catalogues/deliverables.md) and [Guidance for Developers](../../../IT/foundations/guidance-for-developers.md).
 
 Name each project so that its filename and default namespace identify its place within the system.
 

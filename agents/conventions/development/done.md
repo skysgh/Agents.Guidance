@@ -2,7 +2,7 @@
 
 Apply this checklist to every change, selecting only the validation steps relevant to the affected files and behaviour.
 
-For the accessible explanation of shared completion evidence, read [What the Guidance Gives Each Stakeholder](../../../humans/foundations/what-this-guidance-gives.md), [Deliverable Systems](../../../humans/shared/reference/catalogues/deliverable-systems.md), [Deliverables](../../../humans/shared/reference/catalogues/deliverables.md) and [Deliverables Checklist](../../../humans/shared/reference/checklists/deliverables.md).
+For the accessible explanation of shared completion evidence, read [What the Guidance Gives Each Stakeholder](../../../IT/foundations/what-this-guidance-gives.md), [Deliverable Systems](../../../IT/shared/reference/catalogues/deliverable-systems.md), [Deliverables](../../../IT/shared/reference/catalogues/deliverables.md) and [Deliverables Checklist](../../../IT/shared/reference/checklists/deliverables.md).
 
 ## Purpose
 

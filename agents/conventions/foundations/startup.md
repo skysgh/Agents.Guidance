@@ -2,7 +2,7 @@
 
 Read this document when adding or changing application startup, module initialisation, service registration, configuration binding, registries, schema discovery, settings, seed initialisation, middleware composition or startup diagnostics.
 
-For the accessible explanation of startup as the stage before a building opens, read [Human Guidance](../../../humans/readme.md).
+For the accessible explanation of startup as the stage before a building opens, read [Reader Guidance](../../../IT/readme.md).
 
 ## Purpose
 

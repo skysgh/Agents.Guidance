@@ -4,7 +4,7 @@ Read this document for every engineering task; apply these portable MUST rules b
 
 These are the portable consequences of the development principles. They are stronger than preferences and narrower than product-specific architecture. A repository may add stricter local constraints in its binding document, but it must not silently weaken these constraints.
 
-For the accessible explanation of why these constraints exist, read [Human Guidance](../../../humans/readme.md), [Deliverable Systems](../../../humans/shared/reference/catalogues/deliverable-systems.md) and [Deliverables](../../../humans/shared/reference/catalogues/deliverables.md).
+For the accessible explanation of why these constraints exist, read [Reader Guidance](../../../IT/readme.md), [Deliverable Systems](../../../IT/shared/reference/catalogues/deliverable-systems.md) and [Deliverables](../../../IT/shared/reference/catalogues/deliverables.md).
 
 ## Queryable access
 

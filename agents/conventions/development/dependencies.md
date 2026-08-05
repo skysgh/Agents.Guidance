@@ -2,7 +2,7 @@
 
 Apply these conventions when adding, updating or distributing third-party dependencies, tools or build actions.
 
-For the accessible explanation of dependencies as organisational commitments, read [The Current State](../../../humans/foundations/current-state.md), [Vendor Material and Engineering Competence](../../../humans/foundations/vendor-material-and-engineering-competence.md), [External Dependencies](../../../humans/shared/reference/catalogues/external-dependencies.md), [Deliverable Systems](../../../humans/shared/reference/catalogues/deliverable-systems.md), [Deliverables](../../../humans/shared/reference/catalogues/deliverables.md) and [Security in Transit Checklist](../../../humans/shared/reference/checklists/security-in-transit.md).
+For the accessible explanation of dependencies as organisational commitments, read [The Current State](../../../IT/foundations/current-state.md), [Vendor Material and Engineering Competence](../../../IT/foundations/vendor-material-and-engineering-competence.md), [External Dependencies](../../../IT/shared/reference/catalogues/external-dependencies.md), [Deliverable Systems](../../../IT/shared/reference/catalogues/deliverable-systems.md), [Deliverables](../../../IT/shared/reference/catalogues/deliverables.md) and [Security in Transit Checklist](../../../IT/shared/reference/checklists/security-in-transit.md).
 
 ## Purpose
 
@@ -33,6 +33,6 @@ Do not allow a vendor, procurement preference or sales-led architecture exercise
 
 An unfamiliar persistence model or framework requires capability evidence before adoption. For example, replacing an established relational and Entity Framework capability with Marten and event sourcing is a material organisational commitment. The decision must account for event design and versioning, replay and projections, correction, reporting, retention, migration, operations, training, incident response and long-term support. A shorter first implementation is not enough justification.
 
-See [Technology Registries](./registries.md) and the human explanation in [Vendor Material and Engineering Competence](../../../humans/foundations/vendor-material-and-engineering-competence.md).
+See [Technology Registries](./registries.md) and the accessible explanation in [Vendor Material and Engineering Competence](../../../IT/foundations/vendor-material-and-engineering-competence.md).
 
 A dependency is an operational commitment, not only an import statement.
