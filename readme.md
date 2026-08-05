@@ -1,4 +1,4 @@
-# Guidance for Dependable Services
+# Dependable Services
 
 Software helps people work, decide, connect and reach services. Its value is measured by the outcome it makes possible and by the care taken with the people, records and decisions that depend on it.
 
@@ -15,12 +15,11 @@ There is no required reading order. A useful next question might be:
 
 The [repository assessment](./.agent-work/assessments/repository-assessment-2026-08-02.md) records the current strengths and the serious gaps that still need dedicated guidance. It is an honest boundary around this repository, not a claim that the material alone makes a regulated system ready for production.
 
-## One body of guidance
+## Human-first entry point
 
-This repository is one connected body of delivery guidance expressed for two audiences:
+This repository is primarily written for people. The [human material](./humans/readme.md) explains meaning, consequences, roles, examples and routes through the work.
 
-- [Human Guidance](./humans/readme.md) explains meaning, consequences, roles, examples and routes through the work.
-- [Agent Guidance](./agents/readme.md) states compact conventions, invariants, decision rules and validation requirements.
+Agents should use the [agent conventions](./agents/readme.md) when they need a denser, more task-selective expression of the same engineering intent. It contains less explanation and is designed to consume fewer tokens during delivery work. When a convention is unclear or its reason matters, follow its link back to the human material.
 
 The two expressions should agree. Human pages explain why a rule matters and show how it appears in a real situation. Agent conventions make the rule easy to apply consistently during delivery work.
 

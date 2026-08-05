@@ -1,4 +1,4 @@
-# Agent Guidance
+# Agent Conventions
 
 This is the agent-facing entrance to the delivery guidance domain.
 
